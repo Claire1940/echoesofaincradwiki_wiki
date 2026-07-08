@@ -1,1 +1,530 @@
-{}
+{
+  "en": {
+    "creation": [
+      {
+        "slug": "echoes-of-aincrad-can-you-change-appearance",
+        "file": "echoes-of-aincrad-can-you-change-appearance"
+      },
+      {
+        "slug": "echoes-of-aincrad-can-you-play-as-a-girl",
+        "file": "echoes-of-aincrad-can-you-play-as-a-girl"
+      },
+      {
+        "slug": "echoes-of-aincrad-character-creation",
+        "file": "echoes-of-aincrad-character-creation"
+      },
+      {
+        "slug": "echoes-of-aincrad-custom-character",
+        "file": "echoes-of-aincrad-custom-character"
+      }
+    ],
+    "demo": [
+      {
+        "slug": "echoes-of-aincrad-demo-character-creation",
+        "file": "echoes-of-aincrad-demo-character-creation"
+      },
+      {
+        "slug": "echoes-of-aincrad-demo-crashing",
+        "file": "echoes-of-aincrad-demo-crashing"
+      },
+      {
+        "slug": "echoes-of-aincrad-demo-length",
+        "file": "echoes-of-aincrad-demo-length"
+      },
+      {
+        "slug": "echoes-of-aincrad-demo-ps5",
+        "file": "echoes-of-aincrad-demo-ps5"
+      },
+      {
+        "slug": "echoes-of-aincrad-demo-review",
+        "file": "echoes-of-aincrad-demo-review"
+      },
+      {
+        "slug": "echoes-of-aincrad-demo-secrets",
+        "file": "echoes-of-aincrad-demo-secrets"
+      },
+      {
+        "slug": "echoes-of-aincrad-demo-steam",
+        "file": "echoes-of-aincrad-demo-steam"
+      },
+      {
+        "slug": "echoes-of-aincrad-demo",
+        "file": "echoes-of-aincrad-demo"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "echoes-of-aincrad-gameplay",
+        "file": "echoes-of-aincrad-gameplay"
+      },
+      {
+        "slug": "echoes-of-aincrad-how-long-to-beat",
+        "file": "echoes-of-aincrad-how-long-to-beat"
+      },
+      {
+        "slug": "echoes-of-aincrad-how-many-floors",
+        "file": "echoes-of-aincrad-how-many-floors"
+      },
+      {
+        "slug": "echoes-of-aincrad-how-to-log-out",
+        "file": "echoes-of-aincrad-how-to-log-out"
+      },
+      {
+        "slug": "echoes-of-aincrad-how-to-save",
+        "file": "echoes-of-aincrad-how-to-save"
+      },
+      {
+        "slug": "echoes-of-aincrad-map",
+        "file": "echoes-of-aincrad-map"
+      },
+      {
+        "slug": "echoes-of-aincrad-open-world",
+        "file": "echoes-of-aincrad-open-world"
+      },
+      {
+        "slug": "echoes-of-aincrad-story",
+        "file": "echoes-of-aincrad-story"
+      }
+    ],
+    "multiplayer": [
+      {
+        "slug": "echoes-of-aincrad-coop",
+        "file": "echoes-of-aincrad-coop"
+      },
+      {
+        "slug": "echoes-of-aincrad-crossplay",
+        "file": "echoes-of-aincrad-crossplay"
+      },
+      {
+        "slug": "echoes-of-aincrad-is-multiplayer",
+        "file": "echoes-of-aincrad-is-multiplayer"
+      },
+      {
+        "slug": "echoes-of-aincrad-multiplayer",
+        "file": "echoes-of-aincrad-multiplayer"
+      },
+      {
+        "slug": "echoes-of-aincrad-no-multiplayer",
+        "file": "echoes-of-aincrad-no-multiplayer"
+      },
+      {
+        "slug": "echoes-of-aincrad-online",
+        "file": "echoes-of-aincrad-online"
+      },
+      {
+        "slug": "echoes-of-aincrad-pvp",
+        "file": "echoes-of-aincrad-pvp"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "echoes-of-aincrad-pc",
+        "file": "echoes-of-aincrad-pc"
+      },
+      {
+        "slug": "echoes-of-aincrad-ps5",
+        "file": "echoes-of-aincrad-ps5"
+      },
+      {
+        "slug": "echoes-of-aincrad-steam",
+        "file": "echoes-of-aincrad-steam"
+      },
+      {
+        "slug": "echoes-of-aincrad-switch-2",
+        "file": "echoes-of-aincrad-switch-2"
+      },
+      {
+        "slug": "echoes-of-aincrad-switch",
+        "file": "echoes-of-aincrad-switch"
+      },
+      {
+        "slug": "echoes-of-aincrad-system-requirements",
+        "file": "echoes-of-aincrad-system-requirements"
+      },
+      {
+        "slug": "echoes-of-aincrad-xbox",
+        "file": "echoes-of-aincrad-xbox"
+      }
+    ],
+    "release": [
+      {
+        "slug": "echoes-of-aincrad-demo-release-date",
+        "file": "echoes-of-aincrad-demo-release-date"
+      },
+      {
+        "slug": "echoes-of-aincrad-launch-date",
+        "file": "echoes-of-aincrad-launch-date"
+      },
+      {
+        "slug": "echoes-of-aincrad-release-date",
+        "file": "echoes-of-aincrad-release-date"
+      },
+      {
+        "slug": "echoes-of-aincrad-release-time",
+        "file": "echoes-of-aincrad-release-time"
+      },
+      {
+        "slug": "echoes-of-aincrad-when-does-it-come-out",
+        "file": "echoes-of-aincrad-when-does-it-come-out"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "echoes-of-aincrad-weapons",
+        "file": "echoes-of-aincrad-weapons"
+      }
+    ]
+  },
+  "es": {
+    "creation": [
+      {
+        "slug": "echoes-of-aincrad-can-you-change-appearance",
+        "file": "echoes-of-aincrad-can-you-change-appearance"
+      },
+      {
+        "slug": "echoes-of-aincrad-can-you-play-as-a-girl",
+        "file": "echoes-of-aincrad-can-you-play-as-a-girl"
+      },
+      {
+        "slug": "echoes-of-aincrad-character-creation",
+        "file": "echoes-of-aincrad-character-creation"
+      },
+      {
+        "slug": "echoes-of-aincrad-custom-character",
+        "file": "echoes-of-aincrad-custom-character"
+      }
+    ],
+    "demo": [
+      {
+        "slug": "echoes-of-aincrad-demo-character-creation",
+        "file": "echoes-of-aincrad-demo-character-creation"
+      },
+      {
+        "slug": "echoes-of-aincrad-demo-crashing",
+        "file": "echoes-of-aincrad-demo-crashing"
+      },
+      {
+        "slug": "echoes-of-aincrad-demo-length",
+        "file": "echoes-of-aincrad-demo-length"
+      },
+      {
+        "slug": "echoes-of-aincrad-demo-ps5",
+        "file": "echoes-of-aincrad-demo-ps5"
+      },
+      {
+        "slug": "echoes-of-aincrad-demo-review",
+        "file": "echoes-of-aincrad-demo-review"
+      },
+      {
+        "slug": "echoes-of-aincrad-demo-secrets",
+        "file": "echoes-of-aincrad-demo-secrets"
+      },
+      {
+        "slug": "echoes-of-aincrad-demo-steam",
+        "file": "echoes-of-aincrad-demo-steam"
+      },
+      {
+        "slug": "echoes-of-aincrad-demo",
+        "file": "echoes-of-aincrad-demo"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "echoes-of-aincrad-gameplay",
+        "file": "echoes-of-aincrad-gameplay"
+      },
+      {
+        "slug": "echoes-of-aincrad-how-long-to-beat",
+        "file": "echoes-of-aincrad-how-long-to-beat"
+      },
+      {
+        "slug": "echoes-of-aincrad-how-many-floors",
+        "file": "echoes-of-aincrad-how-many-floors"
+      },
+      {
+        "slug": "echoes-of-aincrad-how-to-log-out",
+        "file": "echoes-of-aincrad-how-to-log-out"
+      },
+      {
+        "slug": "echoes-of-aincrad-how-to-save",
+        "file": "echoes-of-aincrad-how-to-save"
+      },
+      {
+        "slug": "echoes-of-aincrad-map",
+        "file": "echoes-of-aincrad-map"
+      },
+      {
+        "slug": "echoes-of-aincrad-open-world",
+        "file": "echoes-of-aincrad-open-world"
+      },
+      {
+        "slug": "echoes-of-aincrad-story",
+        "file": "echoes-of-aincrad-story"
+      }
+    ],
+    "multiplayer": [
+      {
+        "slug": "echoes-of-aincrad-coop",
+        "file": "echoes-of-aincrad-coop"
+      },
+      {
+        "slug": "echoes-of-aincrad-crossplay",
+        "file": "echoes-of-aincrad-crossplay"
+      },
+      {
+        "slug": "echoes-of-aincrad-is-multiplayer",
+        "file": "echoes-of-aincrad-is-multiplayer"
+      },
+      {
+        "slug": "echoes-of-aincrad-multiplayer",
+        "file": "echoes-of-aincrad-multiplayer"
+      },
+      {
+        "slug": "echoes-of-aincrad-no-multiplayer",
+        "file": "echoes-of-aincrad-no-multiplayer"
+      },
+      {
+        "slug": "echoes-of-aincrad-online",
+        "file": "echoes-of-aincrad-online"
+      },
+      {
+        "slug": "echoes-of-aincrad-pvp",
+        "file": "echoes-of-aincrad-pvp"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "echoes-of-aincrad-pc",
+        "file": "echoes-of-aincrad-pc"
+      },
+      {
+        "slug": "echoes-of-aincrad-ps5",
+        "file": "echoes-of-aincrad-ps5"
+      },
+      {
+        "slug": "echoes-of-aincrad-steam",
+        "file": "echoes-of-aincrad-steam"
+      },
+      {
+        "slug": "echoes-of-aincrad-switch-2",
+        "file": "echoes-of-aincrad-switch-2"
+      },
+      {
+        "slug": "echoes-of-aincrad-switch",
+        "file": "echoes-of-aincrad-switch"
+      },
+      {
+        "slug": "echoes-of-aincrad-system-requirements",
+        "file": "echoes-of-aincrad-system-requirements"
+      },
+      {
+        "slug": "echoes-of-aincrad-xbox",
+        "file": "echoes-of-aincrad-xbox"
+      }
+    ],
+    "release": [
+      {
+        "slug": "echoes-of-aincrad-demo-release-date",
+        "file": "echoes-of-aincrad-demo-release-date"
+      },
+      {
+        "slug": "echoes-of-aincrad-launch-date",
+        "file": "echoes-of-aincrad-launch-date"
+      },
+      {
+        "slug": "echoes-of-aincrad-release-date",
+        "file": "echoes-of-aincrad-release-date"
+      },
+      {
+        "slug": "echoes-of-aincrad-release-time",
+        "file": "echoes-of-aincrad-release-time"
+      },
+      {
+        "slug": "echoes-of-aincrad-when-does-it-come-out",
+        "file": "echoes-of-aincrad-when-does-it-come-out"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "echoes-of-aincrad-weapons",
+        "file": "echoes-of-aincrad-weapons"
+      }
+    ]
+  },
+  "ja": {
+    "creation": [
+      {
+        "slug": "echoes-of-aincrad-can-you-change-appearance",
+        "file": "echoes-of-aincrad-can-you-change-appearance"
+      },
+      {
+        "slug": "echoes-of-aincrad-can-you-play-as-a-girl",
+        "file": "echoes-of-aincrad-can-you-play-as-a-girl"
+      },
+      {
+        "slug": "echoes-of-aincrad-character-creation",
+        "file": "echoes-of-aincrad-character-creation"
+      },
+      {
+        "slug": "echoes-of-aincrad-custom-character",
+        "file": "echoes-of-aincrad-custom-character"
+      }
+    ],
+    "demo": [
+      {
+        "slug": "echoes-of-aincrad-demo-character-creation",
+        "file": "echoes-of-aincrad-demo-character-creation"
+      },
+      {
+        "slug": "echoes-of-aincrad-demo-crashing",
+        "file": "echoes-of-aincrad-demo-crashing"
+      },
+      {
+        "slug": "echoes-of-aincrad-demo-length",
+        "file": "echoes-of-aincrad-demo-length"
+      },
+      {
+        "slug": "echoes-of-aincrad-demo-ps5",
+        "file": "echoes-of-aincrad-demo-ps5"
+      },
+      {
+        "slug": "echoes-of-aincrad-demo-review",
+        "file": "echoes-of-aincrad-demo-review"
+      },
+      {
+        "slug": "echoes-of-aincrad-demo-secrets",
+        "file": "echoes-of-aincrad-demo-secrets"
+      },
+      {
+        "slug": "echoes-of-aincrad-demo-steam",
+        "file": "echoes-of-aincrad-demo-steam"
+      },
+      {
+        "slug": "echoes-of-aincrad-demo",
+        "file": "echoes-of-aincrad-demo"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "echoes-of-aincrad-gameplay",
+        "file": "echoes-of-aincrad-gameplay"
+      },
+      {
+        "slug": "echoes-of-aincrad-how-long-to-beat",
+        "file": "echoes-of-aincrad-how-long-to-beat"
+      },
+      {
+        "slug": "echoes-of-aincrad-how-many-floors",
+        "file": "echoes-of-aincrad-how-many-floors"
+      },
+      {
+        "slug": "echoes-of-aincrad-how-to-log-out",
+        "file": "echoes-of-aincrad-how-to-log-out"
+      },
+      {
+        "slug": "echoes-of-aincrad-how-to-save",
+        "file": "echoes-of-aincrad-how-to-save"
+      },
+      {
+        "slug": "echoes-of-aincrad-map",
+        "file": "echoes-of-aincrad-map"
+      },
+      {
+        "slug": "echoes-of-aincrad-open-world",
+        "file": "echoes-of-aincrad-open-world"
+      },
+      {
+        "slug": "echoes-of-aincrad-story",
+        "file": "echoes-of-aincrad-story"
+      }
+    ],
+    "multiplayer": [
+      {
+        "slug": "echoes-of-aincrad-coop",
+        "file": "echoes-of-aincrad-coop"
+      },
+      {
+        "slug": "echoes-of-aincrad-crossplay",
+        "file": "echoes-of-aincrad-crossplay"
+      },
+      {
+        "slug": "echoes-of-aincrad-is-multiplayer",
+        "file": "echoes-of-aincrad-is-multiplayer"
+      },
+      {
+        "slug": "echoes-of-aincrad-multiplayer",
+        "file": "echoes-of-aincrad-multiplayer"
+      },
+      {
+        "slug": "echoes-of-aincrad-no-multiplayer",
+        "file": "echoes-of-aincrad-no-multiplayer"
+      },
+      {
+        "slug": "echoes-of-aincrad-online",
+        "file": "echoes-of-aincrad-online"
+      },
+      {
+        "slug": "echoes-of-aincrad-pvp",
+        "file": "echoes-of-aincrad-pvp"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "echoes-of-aincrad-pc",
+        "file": "echoes-of-aincrad-pc"
+      },
+      {
+        "slug": "echoes-of-aincrad-ps5",
+        "file": "echoes-of-aincrad-ps5"
+      },
+      {
+        "slug": "echoes-of-aincrad-steam",
+        "file": "echoes-of-aincrad-steam"
+      },
+      {
+        "slug": "echoes-of-aincrad-switch-2",
+        "file": "echoes-of-aincrad-switch-2"
+      },
+      {
+        "slug": "echoes-of-aincrad-switch",
+        "file": "echoes-of-aincrad-switch"
+      },
+      {
+        "slug": "echoes-of-aincrad-system-requirements",
+        "file": "echoes-of-aincrad-system-requirements"
+      },
+      {
+        "slug": "echoes-of-aincrad-xbox",
+        "file": "echoes-of-aincrad-xbox"
+      }
+    ],
+    "release": [
+      {
+        "slug": "echoes-of-aincrad-demo-release-date",
+        "file": "echoes-of-aincrad-demo-release-date"
+      },
+      {
+        "slug": "echoes-of-aincrad-launch-date",
+        "file": "echoes-of-aincrad-launch-date"
+      },
+      {
+        "slug": "echoes-of-aincrad-release-date",
+        "file": "echoes-of-aincrad-release-date"
+      },
+      {
+        "slug": "echoes-of-aincrad-release-time",
+        "file": "echoes-of-aincrad-release-time"
+      },
+      {
+        "slug": "echoes-of-aincrad-when-does-it-come-out",
+        "file": "echoes-of-aincrad-when-does-it-come-out"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "echoes-of-aincrad-weapons",
+        "file": "echoes-of-aincrad-weapons"
+      }
+    ]
+  }
+}

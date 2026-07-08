@@ -1,0 +1,175 @@
+import { Monitor, Cpu, HardDrive, Settings, Download, Shield, Swords, Zap, Trophy, HelpCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Requisitos del sistema de Echoes of Aincrad: Guía de configuración para PC",
+  description: "Consulta los requisitos oficiales del sistema de Echoes of Aincrad para PC. Conoce las especificaciones mínimas y recomendadas, el espacio de almacenamiento y consejos de rendimiento para 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fbbf24?text=PC+System+Requirements",
+  date: "2026-07-09",
+  author: "Equipo de la Wiki de Echoes of Aincrad",
+  keywords: "requisitos del sistema, echoes of aincrad, pc, especificaciones, almacenamiento"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Palabra clave principal**: Detalles completos sobre los **requisitos del sistema de echoes of aincrad** oficiales para el lanzamiento de julio de 2026.
+- **GPU mínima**: Se requiere una NVIDIA GeForce GTX 1660 o AMD Radeon RX 5600 XT para jugar a 1080p.
+- **Espacio de almacenamiento**: Asegúrate de tener al menos **80 GB de espacio disponible** en un SSD para tiempos de carga óptimos.
+- **Nota de plataformas**: El juego se lanza en **Steam, PS5 y Xbox Series X|S** el 10 de julio de 2026.
+- **Steam Deck**: El soporte oficial figura actualmente como no disponible para la ventana de lanzamiento inicial.
+</Callout>
+
+<Section icon={Cpu} title="Requisitos del sistema de Echoes of Aincrad: Especificaciones oficiales para PC">
+
+A medida que se acerca la fecha de lanzamiento del 10 de julio de 2026, Bandai Namco ha finalizado los **requisitos del sistema de echoes of aincrad** para los jugadores de PC. Este JRPG de acción presenta entornos de alta fidelidad del castillo flotante, Aincrad, y complejos sistemas de combate en tiempo real que exigen un hardware específico para mantener una tasa de fotogramas estable. Los jugadores deben asegurarse de que sus equipos puedan manejar los efectos de partículas de las habilidades de espada (Sword Skills) y las densas multitudes en el Pueblo de los Inicios.
+
+| Requisito | Especificaciones Mínimas (1080p/30FPS) | Especificaciones Recomendadas (1080p/60FPS) |
+| :--- | :--- | :--- |
+| **SO** | Windows 10/11 (64-bit) | Windows 11 (64-bit) |
+| **Procesador** | Intel Core i5-8400 / AMD Ryzen 5 2600 | Intel Core i7-10700K / AMD Ryzen 7 5800X |
+| **Memoria** | 12 GB de RAM | 16 GB de RAM |
+| **Gráficos** | NVIDIA GTX 1660 / AMD RX 5600 XT | NVIDIA RTX 3060 Ti / AMD RX 6700 XT |
+| **DirectX** | Versión 12 | Versión 12 |
+| **Almacenamiento** | 80 GB de espacio disponible (Se requiere SSD) | 80 GB de espacio disponible (SSD NVMe) |
+
+<Callout type="warning" title="Advertencia de Hardware">
+No se recomienda el uso de un disco duro tradicional (HDD). La transición fluida entre pisos y la carga rápida de los recursos de las habilidades de espada requieren la velocidad de un SSD para evitar tirones (stuttering) durante los enfrentamientos contra jefes.
+</Callout>
+
+Más allá del hardware básico, el juego utiliza características de DirectX 12 para iluminación y sombras avanzadas dentro de los pisos de las mazmorras. Si tu objetivo es una resolución 4K o ajustes ultra, los **requisitos del sistema de echoes of aincrad** aumentan significativamente, recomendando al menos una NVIDIA RTX 4070 o equivalente para mantener 60 fotogramas por segundo durante las intensas batallas de incursión (raid).
+
+</Section>
+
+<Section icon={Monitor} title="Niveles de rendimiento y soporte de resolución">
+
+Comprender cómo se traducen los **requisitos del sistema de echoes of aincrad** en tu experiencia de juego real es vital para la supervivencia, especialmente en el desafiante Modo de Juego de la Muerte (Death Game Mode). Una tasa de fotogramas baja puede provocar desvíos fallidos o esquivas tardías, lo que puede resultar en el borrado permanente de tus datos de guardado en ese modo específico.
+
+<CardGrid cols={3}>
+  <Card title="Nivel de Entrada (1080p)">
+    - **Estabilidad**: Objetivo de 30-45 FPS
+    - **Ajustes**: Preajuste Medio
+    - Ideal para la exploración casual y misiones estándar.
+  </Card>
+  <Card title="Alto Rendimiento (1440p)">
+    - **Estabilidad**: 60 FPS estables
+    - **Ajustes**: Preajuste Alto
+    - Ideal para incursiones competitivas de jefes y combates precisos.
+  </Card>
+  <Card title="Entusiasta (4K)">
+    - **Estabilidad**: Más de 60 FPS con DLSS/FSR
+    - **Ajustes**: Preajuste Ultra/Máximo
+    - La experiencia visual definitiva para los paisajes de Aincrad.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Consejo de Optimización">
+Si experimentas caídas de fotogramas en el Pueblo de los Inicios, intenta reducir el ajuste de \"Densidad de NPC\". Esto reduce la carga de la CPU sin afectar la calidad visual de los personajes principales ni de los entornos de combate.
+</Callout>
+
+El juego es compatible oficialmente con monitores ultra panorámicos (21:9) desde el lanzamiento, lo que proporciona un campo de visión más amplio que resulta especialmente útil para detectar trampas ambientales o enemigos que flanquean en mazmorras a gran escala. Sin embargo, los jugadores que utilicen configuraciones ultra panorámicas deben esperar un aumento del 10 al 15% en la demanda de la GPU en comparación con las resoluciones estándar de 16:9.
+
+| Característica | Estado de Soporte | Nota |
+| :--- | :--- | :--- |
+| **DLSS / FSR** | Soportado (Versión 3.0+) | Muy recomendado para jugar en 4K |
+| **Trazado de rayos** | Soportado (Solo reflejos) | Se puede activar en el menú de gráficos |
+| **Ultra panorámico** | Soporte completo | Compatible con relaciones de aspecto 21:9 y 32:9 |
+| **Steam Deck** | No soportado | La optimización para PC de mano está pendiente |
+
+</Section>
+
+<Section icon={HardDrive} title="Requisitos de almacenamiento y detalles de la predescarga">
+
+El tamaño total de instalación para los **requisitos del sistema de echoes of aincrad** es de aproximadamente 80 GB. Esto incluye todas las texturas de alta resolución, las bibliotecas completas de voces en japonés e inglés, y los recursos para los pisos del lanzamiento inicial. Los jugadores que adquieran la Ultimate Edition deben prever un espacio adicional de 5 GB para la aplicación del libro de arte digital y la banda sonora.
+
+| Plataforma | Disponibilidad de Predescarga | Hora de Lanzamiento |
+| :--- | :--- | :--- |
+| **Steam (PC)** | No disponible | 9/10 de julio (Depende de la región) |
+| **PlayStation 5** | 7 de julio (Medianoche local) | 10 de julio (Medianoche local) |
+| **Xbox Series X/S** | 6 de julio (Global) | 10 de julio (Medianoche local) |
+
+<Callout type="info" title="Información de Predescarga">
+Aunque Steam no ofrece predescarga para este título, la descarga se desbloqueará globalmente según tu zona horaria. Para los jugadores de EE. UU., esto suele ocurrir en la tarde del 9 de julio de 2026.
+</Callout>
+
+Gestionar tu almacenamiento de manera eficaz es crucial para futuras actualizaciones. Bandai Namco ha planeado varios DLC de expansión hasta finales de 2026, lo que probablemente aumentará el tamaño total del juego a más de 120 GB. Asegurarte de tener una unidad NVMe dedicada no solo cumplirá con los **requisitos del sistema de echoes of aincrad** actuales, sino que también preparará tu sistema para las próximas expansiones de pisos.
+
+</Section>
+
+<Section icon={Settings} title="Instalación y transferencia de datos guardados de la demo">
+
+Si participaste en el Steam Next Fest o jugaste a la demo de consola, puedes transferir tu progreso al juego completo. Esto te permite saltarte la fase inicial del tutorial y conservar tus niveles de armas y materiales recolectados. Sin embargo, tu sistema debe cumplir con los **requisitos del sistema de echoes of aincrad** para garantizar que el proceso de migración de datos guardados se complete sin errores ni corrupción.
+
+<Steps>
+  <Step num="1" title="Actualiza el cliente del juego">
+    Asegúrate de que la versión completa de Echoes of Aincrad esté actualizada con el último parche del día de lanzamiento. Esto es necesario para que aparezca la opción de \"Transferir progreso\".
+  </Step>
+  <Step num="2" title="Detectar datos de la demo">
+    Inicia el juego. El sistema escaneará automáticamente tu unidad local o el almacenamiento en la nube en busca de archivos de guardado de la demo.
+  </Step>
+  <Step num="3" title="Confirmar migración">
+    Selecciona la opción \"Transferir progreso\" cuando se te solicite. Ten en cuenta que todas las ranuras de guardado de la demo se transferirán a la versión completa.
+  </Step>
+  <Step num="4" title="Verificar personaje">
+    Carga tu partida desde la pantalla de título. Verifica que tu avatar, la competencia con las armas y tu saldo de Col sean correctos antes de continuar.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Restricción de Transferencia">
+Los datos guardados no se pueden transferir entre diferentes plataformas (por ejemplo, de PS5 a Steam). Además, los datos guardados de la demo no se pueden convertir en un archivo para el Modo de Juego de la Muerte; debes comenzar una nueva partida para ese desafío específico.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Lista de verificación de preparación para PC">
+
+Antes de que los servidores se activen el 10 de julio de 2026, utiliza esta lista de verificación para asegurarte de que tu PC esté completamente optimizado y cumpla con todos los **requisitos del sistema de echoes of aincrad**.
+
+<Checklist
+  id="pc-readiness"
+  title="Preparación para el Día de Lanzamiento:"
+  items={[
+    "Verifica que los controladores de la GPU estén actualizados a la última versión 'Game Ready'",
+    "Libera más de 80 GB de espacio en tu SSD principal",
+    "Desactiva las aplicaciones de grabación en segundo plano para maximizar el rendimiento de la CPU",
+    "Comprueba tu conexión a internet para la descarga del parche del día uno",
+    "Calibra tu mando o las asignaciones de teclas en los ajustes de la demo",
+    "Confirma que tu región de Steam coincida con la hora de lanzamiento local"
+  ]}
+/>
+
+<Callout type="success" title="Listo para el Lanzamiento">
+Si has marcado todos los elementos anteriores y tu hardware coincide con las especificaciones recomendadas, estás listo para experimentar Aincrad con la máxima fidelidad visual.
+</Callout>
+
+</Section>
+
+<Section icon={HelpCircle} title="Preguntas frecuentes">
+
+Dominar los **requisitos del sistema de echoes of aincrad** es solo el primer paso. Aquí tienes las preguntas más comunes sobre el rendimiento y la configuración en PC.
+
+<FAQ items={[
+  {
+    question: "¿Puedo jugar a Echoes of Aincrad en una computadora portátil?",
+    answer: "Sí, siempre que la portátil tenga una GPU dedicada equivalente a una GTX 1660 o superior. Las GPU de portátiles suelen calentarse más, así que asegúrate de que tu sistema de refrigeración sea adecuado para largas sesiones de JRPG."
+  },
+  {
+    question: "¿El juego es compatible con teclado y ratón?",
+    answer: "Sí, la versión de PC tiene soporte completo para teclado y ratón con teclas reasignables. Sin embargo, muchos jugadores encuentran que un mando es más intuitivo para el estilo de combate de un JRPG de acción."
+  },
+  {
+    question: "¿Qué pasa si mi PC está ligeramente por debajo de los requisitos mínimos?",
+    answer: "Es posible que el juego se inicie, pero es probable que experimentes caídas significativas de fotogramas en las salas de jefes y en las ciudades. Esto puede hacer que el Modo de Juego de la Muerte sea prácticamente imposible debido al retraso de entrada (input lag)."
+  },
+  {
+    question: "¿Hay alguna forma de mejorar los tiempos de carga en PC?",
+    answer: "Instalar el juego en un SSD M.2 NVMe es la mejor manera de cumplir con los requisitos del sistema de echoes of aincrad para la carga. Además, asegúrate de que tu memoria RAM funcione en modo de doble canal."
+  }
+]} />
+
+</Section>

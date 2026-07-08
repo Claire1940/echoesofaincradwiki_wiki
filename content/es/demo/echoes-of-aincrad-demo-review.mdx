@@ -1,0 +1,165 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Reseña de la Demo de Echoes of Aincrad: Impresiones de Juego y Análisis de Rendimiento",
+  description: "Una reseña detallada de la demo de Echoes of Aincrad. Descubre las mecánicas de combate, el sistema de compañeros, el rendimiento en PC con teclado/ratón y la optimización en consolas.",
+  category: "Reseña",
+  image: "https://placehold.co/800x400/1e293b/efaa31?text=Demo+Review+Impressions",
+  date: "2026-07-09",
+  author: "Equipo de la Wiki de Echoes of Aincrad",
+  keywords: "Echoes of Aincrad, reseña demo, Sword Art Online, JRPG, combate, rendimiento PC"
+}
+
+<Callout type="info" title="Resumen Rápido de la Reseña">
+- **Enfoque Principal**: La **reseña de la demo de Echoes of Aincrad** destaca una experiencia prometedora y sólida de un JRPG de Sword Art Online.
+- **Sistema de Combate**: Emplea una estructura tipo Soulslike más lenta y deliberada, con paradas (parries), gestión de estamina y defensa basada en escudos.
+- **Punto Destacado**: El sistema de compañeros es altamente estratégico y ofrece una utilidad táctica real durante las intensas batallas contra jefes.
+- **Estado Técnico**: Entornos visuales prometedores, pero lastrados por animaciones algo flotantes, desincronización de audio y controles de ratón en PC poco ágiles.
+- **Veredicto**: Una prueba obligatoria para los fans de SAO que buscan un protagonista que no sea Kirito, aunque se recomiendan algunos parches tras el lanzamiento.
+</Callout>
+
+<Section icon={Map} title="Reseña de la Demo de Echoes of Aincrad: Primeras Impresiones y Descripción General">
+
+El lanzamiento de la demo jugable ha brindado a los jugadores su primera experiencia práctica con este muy esperado JRPG de Sword Art Online. Alejándose del formato tradicional de jugar únicamente como Kirito, este título abraza la premisa meta de la franquicia al permitirte entrar en el mundo virtual como tu propio protagonista personalizado. A lo largo de las cinco misiones de la demo, los jugadores exploran la fase de prueba beta de Aincrad, probando las mecánicas centrales de combate, la sinergia con los compañeros y la progresión del equipo.
+
+Nuestra exhaustiva **reseña de la demo de Echoes of Aincrad** analiza si este JRPG de acción logra capturar con éxito la tensión de alto riesgo del castillo flotante, o si sus asperezas técnicas desafilan la hoja.
+
+**Puntos Destacados del Video:**
+- **Entorno Inmersivo de SAO**: Explora el impresionante primer piso de Aincrad durante la fase de prueba beta.
+- **Profundidad de Combate Soulslike**: Domina los ataques ligeros/pesados que consumen estamina, paradas precisas y devastadoras Habilidades de Espada.
+- **Compromisos Técnicos**: Analiza las diferencias entre el rendimiento en consolas y la optimización para teclado/ratón en PC.
+
+<YouTubeEmbed videoId="mzXw9n6oJrk" title="Reseña de la Demo de Echoes of Aincrad" />
+
+</Section>
+
+<Section icon={Swords} title="Mecánicas de Combate: Un Sorprendente Giro Soulslike">
+
+El combate en este título se desvía significativamente de los juegos de anime de estilo arcade y ritmo rápido, inclinándose en cambio hacia una experiencia Soulslike simplificada. Cada ataque ligero y pesado, esquiva y bloqueo consume estamina. Machacar botones sin control dejará rápidamente a tu personaje exhausto y vulnerable a los contraataques. Las paradas perfectas (perfect parries) resultan increíblemente satisfactorias de ejecutar, recompensando el juego defensivo preciso con breves momentos de aturdimiento del enemigo.
+
+| Mecánica de Combate | Entrada y Coste de Recursos | Función Táctica y Utilidad |
+| :--- | :--- | :--- |
+| **Ataques Normales** | Estamina (Baja) | Cadenas de combos estándar utilizadas para generar SP y presionar a los enemigos básicos. |
+| **Parada Perfecta** | Estamina (Media) | Niega el daño entrante y aturde a los oponentes, abriéndolos a ataques críticos. |
+| **Habilidades de Espada** | SP (Alto) | Habilidades específicas del arma de gran daño asignadas a tu rueda de acción. |
+| **Rodar para Esquivar** | Estamina (Media) | Genera breves frames de invencibilidad; cambia a un rodaje pesado con armas de dos manos. |
+
+El juego también cuenta con un sistema de maestría de armas donde el uso de un tipo de arma específico otorga EXP de Arma, lo que desbloquea gradualmente nuevas Habilidades de Espada. Si bien el ciclo principal es muy atractivo, la demo muestra algunas animaciones algo "flotantes" y cajas de colisión (hitboxes) inconsistentes, lo que significa que los ataques enemigos ocasionalmente fallan cuando visualmente parecen conectar.
+
+<Callout type="tip" title="Consejo de Gestión de Estamina">
+No agotes tu barra de estamina por completo. Reserva siempre suficiente estamina para una esquiva o un bloqueo con escudo, especialmente al luchar contra los agresivos monstruos del Piso 1.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="El Sistema de Compañeros: Valor Estratégico Real">
+
+Una de las características más destacadas en nuestra **reseña de la demo de Echoes of Aincrad** es el sistema de compañeros. A diferencia de muchos JRPG donde la IA de los acompañantes actúa como un peso muerto, tus compañeros en este juego proporcionan una utilidad táctica genuina. A través de la rueda de acción táctica, los jugadores pueden emitir comandos de comportamiento en tiempo real a su acompañante activo.
+
+<CardGrid cols={3}>
+  <Card title="Modo Switch">
+    Ordena a tu compañero que atraiga agresivamente el enfoque y el aggro del enemigo, dándote espacio para curarte o cargar ataques pesados.
+  </Card>
+  <Card title="Modo Libre">
+    Permite que tu compañero luche de forma independiente, centrándose en objetivos secundarios o ayudándote a despejar grandes grupos de enemigos.
+  </Card>
+  <Card title="Habilidades de Apoyo">
+    Activa habilidades especializadas del compañero, como hechizos de curación, mejoras defensivas o ataques elementales, directamente desde tu menú rápido.
+  </Card>
+</CardGrid>
+
+Durante el encuentro final con el jefe Kobold de la demo, coordinar estos modos es crucial para la supervivencia, ya que las peleas contra jefes tienen lugar en arenas cerradas donde la retirada es imposible.
+
+<Callout type="warning" title="Advertencia sobre las Charlas de los Compañeros">
+Los compañeros son muy habladores. Durante la exploración, comentan con frecuencia sobre cofres, enemigos y entornos, lo que puede resultar repetitivo en sesiones largas.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Análisis de Rendimiento y Plataformas: PC vs. Consola">
+
+Técnicamente, la demo es agridulce. Visualmente, los entornos exteriores de Aincrad son impresionantes y muy atmosféricos, utilizando un estilo artístico que recuerda a *Scarlet Nexus*. Sin embargo, las mazmorras interiores ocasionalmente sufren de una iluminación lavada y pequeñas apariciones repentinas de texturas (pop-in).
+
+| Plataforma | Perfil de Rendimiento | Problemas Técnicos Conocidos (Versión Demo) |
+| :--- | :--- | :--- |
+| **PlayStation 5 / Xbox** | Objetivo de 60 FPS estables | Caídas menores de frames en vegetación densa; retraso ocasional en la sincronización de audio durante escenas cinemáticas. |
+| **PC (Steam)** | Tasa de frames ilimitada | Pobre emulación de cámara con ratón/teclado; navegación por menús lenta; falta de un botón estándar para salir. |
+
+La versión de PC actualmente tiene problemas con la precisión de la entrada del ratón. El movimiento de la cámara emula la palanca de un controlador analógico en lugar de una entrada de ratón pura, lo que resulta en una sensación ligeramente lenta. Además, la interfaz está claramente diseñada para mandos, lo que hace que la gestión del inventario sea tediosa al usar un ratón.
+
+<Callout type="info" title="Configuración Recomendada">
+Para obtener la mejor experiencia en la versión actual de la demo, recomendamos encarecidamente jugar con un mando, incluso si ejecutas el juego en PC a través de Steam.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Paso a Paso: Cómo Descargar la Demo y Transferir Datos de Guardado">
+
+Si quieres experimentar el juego antes de su lanzamiento oficial el 10 de julio de 2026, puedes descargar la demo y transferir tu progreso a la versión completa. Sigue estos pasos para asegurar una transición fluida.
+
+<Steps>
+  <Step num="1" title="Descarga la Demo en tu Plataforma">
+    Busca el juego en la PlayStation Store, Xbox Store o Steam y descarga la versión de prueba gratuita.
+  </Step>
+  <Step num="2" title="Completa las Cinco Misiones de la Demo">
+    Juega el tutorial de apertura, explora la Ciudad de los Inicios y derrota al jefe Kobold al final de la mazmorra final.
+  </Step>
+  <Step num="3" title="Mantén a Salvo tus Datos de Guardado">
+    No borres la demo ni sus archivos de guardado local de tu consola o PC antes de iniciar la versión completa.
+  </Step>
+  <Step num="4" title="Inicia y Actualiza el Juego Completo">
+    Tras el lanzamiento del juego, instala la última actualización, inicia la versión completa en la misma plataforma y selecciona el aviso de 'Transferir Datos' cuando sea detectado.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación del Contenido de la Demo">
+
+Usa esta lista para asegurarte de haber experimentado todo lo que la demo jugable tiene para ofrecer antes de que se lance el juego completo.
+
+<Checklist
+  id="demo-achievements"
+  title="Hitos de Finalización de la Demo:"
+  items={[
+    "Completar las 5 misiones de la historia de la prueba beta",
+    "Alcanzar el nivel máximo de personaje permitido en la demo",
+    "Probar los 6 tipos de armas disponibles para encontrar tu estilo de juego preferido",
+    "Derrotar al Jefe Kobold del Piso 1 en la mazmorra final del tutorial",
+    "Desbloquear y equipar al menos tres Habilidades de Espada activas en tu rueda de acción"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+Nuestra sección de preguntas frecuentes aborda las dudas más comunes de los jugadores sobre la demo y las características de la versión completa.
+
+<FAQ items={[
+  {
+    question: "¿Sugiere la reseña de la demo de Echoes of Aincrad transferir los datos de guardado?",
+    answer: "Sí, se recomienda encarecidamente transferir tu progreso, ya que te ahorra unas tres horas de juego introductorio. Sin embargo, ten en cuenta que los archivos de guardado transferidos no pueden convertirse al modo de alto riesgo 'Death Game Mode'."
+  },
+  {
+    question: "¿Está disponible la creación de personajes en la versión demo?",
+    answer: "No, la creación de personajes está ausente en la demo. Los jugadores usan un avatar predefinido durante esta prueba, pero el lanzamiento completo contará con extensos controles deslizantes de personalización de personajes."
+  },
+  {
+    question: "¿Puedo jugar en multijugador o cooperativo en la demo?",
+    answer: "La demo es estrictamente para un solo jugador, centrándose por completo en la campaña principal del JRPG y en tus personajes compañeros controlados por la IA."
+  },
+  {
+    question: "¿Se solucionarán los errores técnicos de la demo para el lanzamiento completo?",
+    answer: "Bandai Namco ha reconocido los comentarios sobre las animaciones flotantes, los problemas de cámara y los problemas de sincronización de audio. Se espera que muchas de estas asperezas se solucionen en los parches del día del lanzamiento."
+  }
+]} />
+
+</Section>

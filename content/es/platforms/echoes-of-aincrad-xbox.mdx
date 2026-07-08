@@ -1,0 +1,156 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía de configuración y rendimiento de Echoes of Aincrad en Xbox Series X|S",
+  description: "Domina Echoes of Aincrad en Xbox Series X|S. Conoce las características de rendimiento, precargas, diferencias de ediciones y pasos esenciales de supervivencia.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Xbox+Series+X|S+Setup+Guide",
+  date: "2026-07-09",
+  author: "Equipo de la Wiki de Echoes of Aincrad"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Plataformas de Xbox**: Optimizado exclusivamente para **Xbox Series X|S** como un JRPG de generación actual.
+- **Fecha de lanzamiento**: Se lanza globalmente el **10 de julio de 2026**, con opciones de precarga disponibles.
+- **Características de Xbox**: Soporta **4K Ultra HD**, más de 60 fps y guardado en la nube.
+- **Modo Death Game**: Modo de muerte permanente de alto riesgo disponible inmediatamente en las **Ediciones Deluxe y Ultimate**.
+</Callout>
+
+<Section icon={Shield} title="Rendimiento y capacidades de Echoes of Aincrad en Xbox">
+
+Echoes of Aincrad está diseñado específicamente para el hardware de la generación actual, lo que significa que omite las consolas más antiguas para ofrecer una experiencia visual de alta fidelidad dentro de la prisión virtual de Sword Art Online. En Xbox Series X|S, el juego utiliza la arquitectura moderna de la consola para garantizar un combate de acción fluido y basado en reflejos durante los frenéticos encuentros con los jefes de piso. 
+
+Comprender cómo funciona el juego y cuándo puedes jugar es esencial antes de desenvainar tu espada. A continuación se presenta el desglose oficial de rendimiento y plataformas para el lanzamiento en Xbox.
+
+| Característica | Xbox Series X | Xbox Series S | Detalle |
+| :--- | :--- | :--- | :--- |
+| **Resolución objetivo** | **4K Ultra HD** | 1440p | Entornos digitales de alta fidelidad |
+| **Tasa de fotogramas objetivo** | **60 fps+** | 60 fps | Combate con espada fluido con múltiples armas |
+| **Soporte de precarga** | **Disponible** | **Disponible** | Comenzó el 6 de julio de 2026 a las 17:00 PDT |
+| **Guardado en la nube** | **Soportado** | **Soportado** | Copia de seguridad automática del progreso |
+| **Logros** | **Soportado** | **Soportado** | Seguimiento completo de Gamerscore |
+
+<Callout type="success" title="Horario de precarga">
+La precarga en Xbox está oficialmente disponible desde el 6 de julio de 2026 a las 17:00 PDT (7 de julio a las 9:00 JST / 2:00 CEST). ¡Asegúrate de descargar el juego con anticipación para saltar directamente a la fase beta en el lanzamiento!
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Comparación de ediciones de Xbox y bonificaciones de reserva">
+
+Elegir la edición adecuada de Echoes of Aincrad en la Tienda Xbox depende de qué tan rápido quieras enfrentarte a los desafíos de supervivencia de alto riesgo. Mientras que la Edición Estándar ofrece el juego base completo, las Ediciones Deluxe y Ultimate brindan acceso anticipado a las brutales mecánicas de muerte permanente.
+
+**Desglose de ediciones de la Tienda Xbox:**
+
+| Característica | Edición Estándar | Edición Deluxe | Edición Ultimate |
+| :--- | :--- | :--- | :--- |
+| **Juego base** | **Incluido** | **Incluido** | **Incluido** |
+| **Precio en la Tienda Xbox** | **$69.99** | **$89.99** | **$109.99** |
+| **Bonificación de reserva** | Paquete Proto-Elucidator | Paquete Proto-Elucidator | Paquete Proto-Elucidator |
+| **Pase de expansión DLC** | No incluido | **Incluido** (para el 31 de dic. de 2026) | **Incluido** (para el 31 de dic. de 2026) |
+| **Paquete de inicio** | No incluido | **Col y pociones** | **Col y pociones** |
+| **Desbloqueo de Death Game** | Solo post-juego | **Acceso inmediato** | **Acceso inmediato** |
+| **Libro de arte digital y BSO**| No incluido | No incluido | **Incluido** (libro de 640 páginas) |
+
+<CardGrid cols={3}>
+  <Card title="Edición Estándar">
+    - **Ideal para fans casuales de los JRPG**
+    - Precio estándar de $69.99
+    - Desbloquea el modo Death Game después de la historia
+  </Card>
+  <Card title="Edición Deluxe">
+    - **Ideal para fans dedicados de SAO**
+    - Modo Death Game de inmediato
+    - Incluye futuros DLC de expansión
+  </Card>
+  <Card title="Edición Ultimate">
+    - **El paquete completo**
+    - Incluye banda sonora de 141 pistas
+    - Conjunto de armadura Flutter exclusivo
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Paquete de armas Proto-Elucidator">
+Reservar cualquier edición en Xbox otorga el paquete de armas de la serie Proto-Elucidator, que proporciona seis tipo de armas, un escudo y planos a juego para darte una ventaja temprana.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Configuración paso a paso en Xbox y transferencia de progreso de la demo">
+
+Si jugaste a la versión demo gratuita en Xbox Series X|S, puedes transferir tu progreso a la versión comercial completa. Sigue estos pasos exactos para asegurarte de que tus datos de guardado se transfieran correctamente sin ninguna pérdida de progresión.
+
+<Steps>
+  <Step num="1" title="Mantén la demo instalada">
+    No elimines los archivos de guardado de la demo de Echoes of Aincrad del almacenamiento de tu Xbox antes de iniciar la transferencia. La versión completa necesita detectar la base de datos de guardado local.
+  </Step>
+  <Step num="2" title="Actualiza el juego completo">
+    Inicia la versión completa de Echoes of Aincrad en tu Xbox. Asegúrate de que tu consola esté conectada a la red y haya descargado el último parche del día uno.
+  </Step>
+  <Step num="3" title="Acepta los acuerdos">
+    Avanza por las pantallas de inicio iniciales y acepta los acuerdos de usuario. El juego escaneará automáticamente el almacenamiento de tu Xbox en busca de datos de la demo.
+  </Step>
+  <Step num="4" title="Confirma el aviso de importación">
+    Cuando aparezca el aviso "Transferir" (Carry over) en tu pantalla, mantén presionado el botón **Confirmar**. Una vez que se muestre el mensaje de éxito, selecciona **Cerrar** y elige **Iniciar juego** para cargar tu partida guardada transferida.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Restricción de guardado del modo Death Game">
+Los datos de guardado transferidos desde la demo de Xbox no se pueden convertir al modo Death Game. Si deseas jugar en el modo de muerte permanente, debes crear un nuevo archivo de guardado.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Lista de verificación de supervivencia para principiantes en Xbox">
+
+Sobrevivir en Aincrad requiere una comprensión sólida de los ciclos de recursos principales del juego. A diferencia de los JRPGs tradicionales, gestionar tu resistencia y la sinergia con tu compañero en el campo es tan importante como mejorar tus armas.
+
+Use esta lista de verificación para asegurarse de que su héroe personalizado esté preparado antes de dirigirse más allá de las zonas seguras.
+
+<Checklist
+  id="xbox-survival"
+  title="Lista de verificación de exploración de Aincrad:"
+  items={[
+    "Elige una clase de arma inicial como Espada y escudo para una defensa equilibrada.",
+    "Gasta los Puntos de crecimiento acumulados en la posada para mejorar tus estadísticas principales.",
+    "Activa los puntos de control de campo para revelar los detalles del mapa circundante y los atajos.",
+    "Equipa hasta tres habilidades de espada activas y gestiona tu indicador de PE con cuidado.",
+    "Utiliza el modo Switch durante el combate para que tu compañero atraiga la atención del enemigo."
+  ]}
+/>
+
+<Callout type="tip" title="Mejoras del herrero">
+No puedes cambiar tu equipamiento ni mejorar el equipo de tu compañero mientras exploras mazmorras. Regresa siempre al Pueblo de los Inicios para fusionar armas y alterar los EX-MODs en la herrería antes de comenzar una nueva misión.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas frecuentes de Echoes of Aincrad en Xbox">
+
+<FAQ items={[
+  {
+    question: "¿Está disponible Echoes of Aincrad en Xbox One?",
+    answer: "No. Echoes of Aincrad es exclusivo de la generación actual y solo está disponible en Xbox Series X|S, PlayStation 5 y PC a través de Steam."
+  },
+  {
+    question: "¿Puedo jugar en multijugador en Xbox Live?",
+    answer: "No. Echoes of Aincrad es un JRPG de acción completamente para un solo jugador. Los otros miembros del grupo que encuentras y con los que luchas son PNJ tácticos."
+  },
+  {
+    question: "¿Qué pasa si muero en el modo Death Game?",
+    answer: "Si tu personaje es derrotado en el modo Death Game, tus datos de guardado se eliminarán de forma permanente. Sin embargo, las salidas normales o la pérdida inesperada de energía no borrarán tu progreso."
+  },
+  {
+    question: "¿Soporta la versión de Xbox 60 fotogramas por segundo?",
+    answer: "Sí. Tanto Xbox Series X como Xbox Series S están optimizadas para ejecutar el juego a más de 60 fps para un combate fluido en tiempo real."
+  }
+]} />
+
+</Section>

@@ -1,1 +1,11 @@
-{}
+{
+  "nav": {
+    "release": "Release",
+    "demo": "Demo",
+    "guide": "Guide",
+    "platforms": "Platforms",
+    "creation": "Creation",
+    "multiplayer": "Multiplayer",
+    "weapons": "Weapons"
+  }
+}

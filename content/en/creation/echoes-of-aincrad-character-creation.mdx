@@ -1,0 +1,171 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Echoes of Aincrad Character Creation: Setup Guide & Partner Tactics",
+  description: "Master the Echoes of Aincrad character creation system. Learn how to customize your avatar, select starter weapons, and build early partner synergy.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Character+Creation+Guide",
+  date: "2026-07-09",
+  author: "echoes of aincrad Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary system**: The **echoes of aincrad character creation** suite unlocks right after completing the Sword Art Online Beta prologue [00首页信息-2.md].
+- **Avatar design**: Players design a customizable protagonist rather than playing solely as established SAO characters [00首页信息-2.md].
+- **Weapon selection**: Weapons act as your class system, defining your active Sword Skills and overall combat style [00首页信息-1.md].
+- **Partner synergy**: Pair your custom build with compatible companion AI to activate powerful Combination Skills [00首页信息-2.md].
+- **Progression loop**: Spend Growth Points at the Inn to scale weapon damage and boost your global Cardinal Rank [00首页信息-1.md].
+</Callout>
+
+<Section icon={Sparkles} title="Echoes of Aincrad Character Creation Overview">
+
+The **echoes of aincrad character creation** suite is the foundation of your journey through the floating castle [00首页信息.md, 00首页信息-2.md]. Unlike previous Sword Art Online titles that lock you into playing as Kirito, this JRPG prioritizes a personalized, self-insert adventure [00首页信息-2.md]. You design your own hero from scratch, selecting everything from physical traits to your initial combat loadout [00首页信息-1.md, 00首页信息-2.md].
+
+The creation suite officially opens at the conclusion of the game's Sword Art Online Beta prologue [00首页信息-2.md]. Once unlocked, your customized avatar serves as the mechanical core of your build, anchoring your gear progression, stat investments, and partner combinations [00首页信息-1.md].
+
+| Creation Stage | Customization Options | Practical Impact |
+| --- | --- | --- |
+| **Physical Appearance** | Presets, sliders, hair, skin tones | Visual identity in cutscenes/multiplayer [00首页信息-1.md, 00首页信息-2.md] |
+| **Starting Weapon** | Six distinct weapon categories | Determines early skill unlocks [00首页信息-1.md] |
+| **Stat Allocation** | Growth Points spent at the Inn | Direct scaling for weapon damage [00首页信息-1.md] |
+
+<Callout type="tip" title="Build Foundation">
+Your custom protagonist is a long-term canvas. All weapon masteries, active Sword Skills, and partner synergies scale directly around your created character's base attributes [00首页信息-1.md].
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Weapon Classes and Starter Attributes">
+
+In Echoes of Aincrad, weapons function as your class system [00首页信息-1.md]. Equipping a weapon type alters your basic attack animations, dodge behavior, and available Sword Skills [00首页信息-1.md]. Using a weapon in real-time combat awards Weapon Experience, which unlocks up to three equipable active skills [00首页信息-1.md].
+
+### Weapon Type Performance Comparison
+
+| Weapon Type | Shield Access | Mobility | Damage Style | Boss Performance |
+| --- | --- | --- | --- | --- |
+| **Sword & Shield** | Yes [00首页信息-1.md] | Balanced [00首页信息-1.md] | Offense & defense mix [00首页信息-1.md] | High [00首页信息-1.md] |
+| **Rapier** | Yes [00首页信息-1.md] | High [00首页信息-1.md] | Flowing chains & counters [00首页信息-1.md] | High [00首页信息-1.md] |
+| **Mace** | Yes [00首页信息-1.md] | Medium [00首页信息-1.md] | Heavy hits & stagger [00首页信息-1.md] | High [00首页信息-1.md] |
+| **Dagger** | No [00首页信息-1.md] | Very High [00首页信息-1.md] | Fast close-range pressure [00首页信息-1.md] | Medium [00首页信息-1.md] |
+| **Two-Handed Sword** | No [00首页信息-1.md] | Low-Medium [00首页信息-1.md] | Charged heavy strikes [00首页信息-1.md] | Medium-High [00首页信息-1.md] |
+| **Two-Handed Axe** | No [00首页信息-1.md] | Low [00首页信息-1.md] | Slower AoE sweeps [00首页信息-1.md] | Medium [00首页信息-1.md] |
+
+<CardGrid cols={3}>
+  <Card title="S-Tier: Sword & Shield">
+    The safest starting option [00首页信息-1.md]. Ideal for learning boss attack patterns and managing Stamina [00首页信息-1.md].
+  </Card>
+  <Card title="A-Tier: Rapier & Mace">
+    Excellent choices for fast counters or breaking enemy defenses to cause heavy stagger [00首页信息-1.md].
+  </Card>
+  <Card title="B-Tier: Heavy & Light Two-Handers">
+    High-risk playstyles that trade shield defense for raw damage. Best used once enemy tells are memorized [00首页信息-1.md].
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Dodge Mechanics Change">
+Note that equipping heavy two-handed weapons disables traditional quick-steps, changing your dodge mechanism into a slower evasion roll [00首页信息-1.md].
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Character Creation & Setup">
+
+Creating your character and setting up your initial build requires a deliberate approach to ensure you do not waste early-game resources. Use this step-by-step progression guide to optimize your setup [00首页信息-1.md].
+
+<Steps>
+  <Step num="1" title="Complete the Prologue">
+    Play through the mandatory Sword Art Online Beta phase to learn the fundamental movement, blocking, and attacking mechanics [00首页信息-2.md].
+  </Step>
+  <Step num="2" title="Access the Creation Suite">
+    Once the beta phase concludes, use the customization terminal to adjust your protagonist's physical features, hairstyle, and voice profile [00首页信息-2.md].
+  </Step>
+  <Step num="3" title="Select Your Starting Weapon">
+    Choose your initial weapon type. If you prefer high survivability, select the Sword and Shield to safely learn enemy parry timings [00首页信息-1.md].
+  </Step>
+  <Step num="4" title="Allocate Growth Points">
+    Head to your personal room at the town Inn. Spend your accumulated level-up Growth Points on attributes that directly scale your chosen weapon [00首页信息-1.md].
+  </Step>
+  <Step num="5" title="Forge Starter EX-MODs">
+    Visit the town Smithy to combine duplicate weapon types, unlocking custom EX-MOD modifiers like reduced Stamina usage [00首页信息-1.md].
+  </Step>
+</Steps>
+
+<Callout type="success" title="Inn Upgrades">
+You can reallocate your Growth Points and adjust your equipped weapon skills at any time by returning to your room at the local Inn [00首页信息-1.md, 00首页信息-2.md].
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Companion Alignment & Tactical Synergy">
+
+Your custom character does not fight alone. Before leaving town for any quest or dungeon run, you must select a companion character to accompany you [00首页信息-1.md, 00首页信息-2.md]. Aligning your protagonist's weapon class with your partner's tactical behavior is vital for surviving tough encounters [00首页信息-2.md].
+
+### Companion Cast & Combat Roles
+
+| Companion | Weapon Class | Combat Role | Best Synergy |
+| --- | --- | --- | --- |
+| **Iori** | Sword & Shield [00首页信息-2.md] | Defensive Tank [00首页信息-2.md] | High-damage, squishy builds [00首页信息-1.md, 00首页信息-2.md] |
+| **Wyzeman** | Mace & Shield [00首页信息-2.md] | Stagger & Buff Support [00首页信息-2.md] | Heavy charge-attack builds [00首页信息-1.md, 00首页信息-2.md] |
+| **Zash** | Two-Handed Sword [00首页信息-2.md] | Frontline Bruiser [00首页信息-2.md] | Fast, agile skirmisher builds [00首页信息-1.md, 00首页信息-2.md] |
+| **Argo** | Dagger [00首页信息-2.md] | Fast Debuffer [00首页信息-2.md] | Shield-reliant defensive builds [00首页信息-1.md, 00首页信息-2.md] |
+
+### Tactical Commands and Team Modes
+
+To maximize partner effectiveness in combat, you must actively toggle between tactical modes using the action wheel [00首页信息-2.md]:
+
+- **Switch Mode**: Commands your partner to draw immediate enemy aggression, giving your custom character breathing room to heal or charge heavy attacks [00首页信息-1.md, 00首页信息-2.md].
+- **Free Mode**: Instructs your partner to coordinate attacks on your target or split up to efficiently clear groups of minor enemies [00首页信息-1.md, 00首页信息-2.md].
+- **Combination Skills**: High-damage joint strikes unleashed once your team builds up enough combat momentum [00首页信息-2.md].
+
+<Callout type="info" title="Support Skills">
+Remember to preview and assign your partner's Support Skills (such as healing spells or attack power buffs) from your Inn room before starting difficult boss battles [00首页信息-1.md, 00首页信息-2.md].
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Character Progression Milestones">
+
+To ensure your custom protagonist remains powerful enough to face higher-floor bosses, track your development using this checklist [00首页信息-1.md].
+
+<Checklist
+  id="character-milestones"
+  title="Protagonist Progression Goals:"
+  items={[
+    "Complete the SAO Beta prologue to unlock custom avatar options [00首页信息-2.md].",
+    "Earn Weapon Experience to unlock and equip three active Sword Skills [00首页信息-1.md].",
+    "Allocate Growth Points at the Inn to maximize your primary weapon scaling [00首页信息-1.md].",
+    "Raise your global Cardinal Rank to unlock superior merchant inventories and Smithy blueprints [00首页信息-1.md].",
+    "Craft a custom weapon at the Smithy featuring at least one active EX-MOD modifier [00首页信息-1.md]."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do I unlock the echoes of aincrad character creation screen?",
+    answer: "The character creation suite unlocks automatically after you complete the introductory Sword Art Online Beta tutorial prologue."
+  },
+  {
+    question: "Can I change my character's appearance later in the game?",
+    answer: "Yes, you can customize your avatar's physical traits and swap your equipped weapons or Sword Skills by visiting your room at the Inn."
+  },
+  {
+    question: "Do my starting weapon choices lock me into a specific class?",
+    answer: "No, weapons act as fluid classes. You can swap your weapon type at any time between quests to completely change your playstyle."
+  },
+  {
+    question: "How do I upgrade my custom character's base attributes?",
+    answer: "Leveling up awards Growth Points. You must spend these points in your room at the Inn to increase stats like Strength, Dexterity, or Vitality."
+  }
+]} />
+
+</Section>

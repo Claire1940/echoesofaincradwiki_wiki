@@ -1,0 +1,206 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, UserPlus, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Echoes of Aincrad Online: Guía de inicio paso a paso y lista de niveles",
+  description: "Domina Echoes of Aincrad Online con nuestra guía sobre fechas de lanzamiento, listas de niveles de armas, mecánicas del Modo Juego de la Muerte y construcciones de personajes para el lanzamiento de 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fbbf24?text=Echoes+of+Aincrad+Online+Guide",
+  date: "2026-07-09",
+  author: "Equipo de la Wiki de Echoes of Aincrad",
+  keywords: "Echoes of Aincrad Online, guía de inicio, lista de niveles de armas, Juego de la Muerte, Aincrad"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Echoes of Aincrad Online** es un JRPG de acción para un solo jugador que se lanzará el 10 de julio de 2026 en PS5, Xbox Series X|S y PC.
+- **La elección de arma** actúa como tu sistema de clases; Espada y Escudo es la opción de nivel S altamente recomendada para principiantes.
+- **El Modo Juego de la Muerte** es una configuración opcional de alto riesgo donde la muerte del personaje resulta en la eliminación permanente de los datos de guardado.
+- **El progreso de la demo** se puede transferir al juego completo, pero no se puede convertir en un archivo de guardado del Modo Juego de la Muerte.
+- **El Rango Cardinal** rige la dificultad del mundo, el inventario de los mercaderes y la efectividad de los compañeros a medida que avanzas por el castillo flotante.
+</Callout>
+
+<Section icon={Map} title="Echoes of Aincrad Online: Fechas de lanzamiento y plataformas">
+
+Comprender la ventana de lanzamiento de **echoes of aincrad online** es crucial para los jugadores que buscan sumergirse de inmediato en la fase beta de la historia. Aunque la fecha oficial de lanzamiento global está fijada para el 10 de julio de 2026, los jugadores de PC en Steam podrían ver una hora de desbloqueo tan temprana como el 9 de julio de 2026, dependiendo de su zona horaria específica. Esta discrepancia se debe al despliegue global sincronizado en las tiendas digitales.
+
+| Categoría | Detalles | Plataforma/Notas |
+| :--- | :--- | :--- |
+| **Lanzamiento Oficial** | 10 de julio de 2026 | Fecha de Lanzamiento Global |
+| **Ficha de Steam** | 9 de julio de 2026 | Debido a las zonas horarias PDT/EDT |
+| **Plataformas Soportadas** | PS5, Xbox Series X|S, PC | Sin soporte para Switch en el lanzamiento |
+| **Predescarga en PS5** | 7-8 de julio de 2026 | Varía según la región (JP/Asia vs. EE. UU./UE) |
+| **Predescarga en Xbox** | 6-7 de julio de 2026 | Disponible temprano para reservas digitales |
+| **Predescarga en Steam** | No Disponible | Descarga directa al momento del lanzamiento |
+
+<Callout type="warning" title="Disponibilidad de Plataformas">
+Para el lanzamiento de 2026, Bandai Namco ha confirmado que el juego no estará disponible en Nintendo Switch ni en la rumoreada Switch 2. Los jugadores deben planear jugar en consolas de actual generación o en una PC que cumpla con los requisitos mínimos.
+</Callout>
+
+Para aquellos que buscan optimizar su inicio, el lanzamiento en consolas suele seguir un despliegue de \"medianoche local\". Por ejemplo, los jugadores en Japón (JST) o Corea (KST) obtendrán acceso varias horas antes que los de América del Norte o Europa. Si has reservado las ediciones Deluxe o Ultimate, asegúrate de tener activa la predescarga para evitar la congestión de los servidores el día del lanzamiento.
+
+</Section>
+
+<Section icon={Target} title="Progresión para principiantes: Las primeras horas en Aincrad">
+
+El inicio del juego en **echoes of aincrad online** se centra en establecer tu avatar personalizado y aprender el ciclo principal de exploración y gestión de recursos. A diferencia de los títulos anteriores de SAO donde jugabas principalmente como Kirito, esta entrega enfatiza tu viaje personal como un héroe único dentro del castillo flotante.
+
+<CardGrid cols={3}>
+  <Card title="Creación de Avatar">
+    - **Personalización Completa**: Ajusta el estilo de cabello, el tono de piel y el tipo de cuerpo.
+    - **Opciones de Plantilla**: Usa diseños preestablecidos para un inicio rápido.
+    - **Base a Largo Plazo**: Tu avatar sirve como base para todas las construcciones de armas.
+  </Card>
+  <Card title="Rango Cardinal">
+    - **Progresión del Mundo**: Los rangos más altos desbloquean mejores artículos de los mercaderes.
+    - **Dificultad Escalonada**: La fuerza de los monstruos aumenta con tu rango.
+    - **Mejoras de Compañeros**: Mejora la efectividad de la IA de tus aliados.
+  </Card>
+  <Card title="Exploración">
+    - **Puntos de Control**: Revelan rutas ocultas y cofres del tesoro.
+    - **Atajos**: Esenciales para evitar grupos de enemigos difíciles.
+    - **Zonas Seguras**: Recarga tus Cristales de Curación aquí.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Asignación de Puntos de Crecimiento">
+Subir de nivel te otorga Puntos de Crecimiento. En lugar de distribuir estos puntos de manera uniforme, concéntrate en Fuerza y Destreza si usas armas pesadas, o en Agilidad e Inteligencia para construcciones más rápidas basadas en habilidades. Puedes gastar estos puntos en cualquier Posada de la Ciudad de los Inicios.
+</Callout>
+
+Tu progresión se mide por tu Rango Cardinal. Este sistema imita al \"Sistema Cardinal\" de la historia original, actuando como el director del juego. A medida que tu rango aumente, la Herrería ofrecerá opciones avanzadas de forja, lo que te permitirá fabricar armas con efectos EX-MOD. Estos modificadores pueden proporcionar ventajas que cambian el juego, como un menor consumo de resistencia o un mayor daño de desequilibrio, los cuales son vitales para sobrevivir en los pisos más altos de Aincrad.
+
+</Section>
+
+<Section icon={Swords} title="Lista de niveles de armas: Las mejores clases para principiantes">
+
+En **echoes of aincrad online**, tu arma es tu clase. Hay seis tipos de armas principales disponibles en el lanzamiento, cada una con estilos de juego, habilidades de espada y capacidades defensivas distintas. Elegir el arma adecuada al principio determina cómo manejarás los encuentros con jefes y los combates contra grupos.
+
+| Nivel | Tipo de Arma | Rol | Acceso a Escudo | Movilidad |
+| :--- | :--- | :--- | :--- | :--- |
+| **S** | **Espada y Escudo** | Inicial Equilibrado | Sí | Equilibrada |
+| **A** | **Estooc (Rapier)** | Alcance Rápido/Cadenas | Sí | Alta |
+| **A** | **Maza** | Desequilibrio/Ruptura | Sí | Media |
+| **B** | **Espadón de Dos Manos** | Ataque Pesado Cargado | No | Baja |
+| **B** | **Daga** | Presión Rápida | No | Muy Alta |
+| **B** | **Hacha de Dos Manos** | Daño en Área | No | Baja |
+
+**Nivel S: Espada y Escudo**
+Esta es el arma del tutorial y posiblemente la más poderosa para jugar en solitario. Te permite bloquear ataques pesados mientras mantienes un flujo constante de habilidades de espada. La mecánica de \"Tajo de Inversión\" es la más fácil de realizar con este conjunto, proporcionando una ventana segura para contraatacar después de una guardia exitosa.
+
+**Nivel A: Estoc y Maza**
+El Estoc destaca por mantener la distancia mientras asesta estocadas de disparo rápido. Es la mejor opción para los jugadores que disfrutan de las tácticas de \"Modo Relevo\" con compañeros. La Maza, por el contrario, es la reina del desequilibrio. Si un jefe tiene una barra de defensa alta, la Maza puede romperla más rápido que cualquier otra arma, abriendo una ventana para Habilidades Combinadas masivas.
+
+<Callout type="success" title="Maestría de Armas">
+Ganas EXP de Arma al usar un tipo específico en combate. Esto desbloquea hasta tres habilidades de espada equipables. Incluso si prefieres un arma, se recomienda probar todos los tipos en la versión demo para ver qué flujo se adapta mejor a tu tiempo de reacción.
+</Callout>
+
+**Nivel B: Variantes de Dos Manos y Dagas**
+El Espadón de Dos Manos y el Hacha ofrecen el mayor daño bruto pero conllevan un riesgo significativo: no puedes usar escudo. Tu esquiva se convierte en una rodada más lenta, por lo que la posición y el tiempo de ejecución se vuelven críticos. Las dagas son extremadamente rápidas pero requieren que te mantengas a corta distancia, lo que puede ser suicida en mazmorras de alto nivel sin un tiempo de parry perfecto.
+
+</Section>
+
+<Section icon={UserPlus} title="Sinergia de compañeros y modos tácticos">
+
+Nunca tendrás que escalar Aincrad en solitario. **echoes of aincrad online** cuenta con un robusto sistema de compañeros donde seleccionas a un aliado para que te acompañe en las misiones. Estos compañeros no son simples bots de IA; tienen habilidades de apoyo y habilidades combinadas únicas que se pueden personalizar en la Posada.
+
+<Steps>
+  <Step num="1" title="Selecciona a tu Compañero">
+    Elige entre personajes como Iori (Espada y Escudo), Wyzeman (Mace), Zash (Espadón) o Argo (Daga) antes de adentrarte en una mazmorra.
+  </Step>
+  <Step num="2" title="Asigna Habilidades de Apoyo">
+    Configura habilidades activas en la rueda de acciones. Estas varían desde curaciones en área hasta mejoras defensivas que se activan cuando tu salud es baja.
+  </Step>
+  <Step num="3" title="Domina los Modos Tácticos">
+    Alterna entre el **Modo Relevo** (el compañero atrae la atención del enemigo) y el **Modo Libre** (enfocándose en el mismo objetivo) según la situación del combate.
+  </Step>
+  <Step num="4" title="Ejecuta Habilidades Combinadas">
+    Espera a que se llene el medidor de sinergia y luego desata un ataque dual que inflige un daño de desequilibrio masivo a los jefes.
+  </Step>
+</Steps>
+
+| Compañero | Arma | Ideal Para | Personalidad |
+| :--- | :--- | :--- | :--- |
+| **Iori** | Espada y Escudo | Soporte Equilibrado | Jugador Solitario Veterano |
+| **Wyzeman** | Maza y Escudo | Romper Defensa | Entusiasta del Lore |
+| **Zash** | Espadón 2M | DPS Pesado | Aliado Leal |
+| **Argo** | Daga | Presión Rápida | Informante |
+
+<Callout type="tip" title="Consejo Táctico">
+Usa el **Modo Relevo** cuando necesites usar un Cristal de Curación. Tu compañero avanzará a la línea del frente, atrayendo la atención del enemigo y dándote los 3 o 4 segundos necesarios para completar la animación de curación sin interrupciones.
+</Callout>
+
+El vínculo con tu compañero crece a medida que completan misiones juntos. Los niveles de vínculo más altos desbloquean habilidades de apoyo avanzadas que pueden anular estados alterados como la parálisis o el veneno, que se convierten en obstáculos frecuentes en los pisos superiores del castillo flotante.
+
+</Section>
+
+<Section icon={Shield} title="Modo Juego de la Muerte: Reglas de supervivencia">
+
+Para el desafío definitivo, **echoes of aincrad online** ofrece el Modo Juego de la Muerte. Este modo está diseñado para simular los riesgos de \"muerte permanente\" del incidente original de SAO. No es apto para cardíacos, ya que un solo error puede resultar en la pérdida de docenas de horas de progreso.
+
+<Checklist
+  id="death-mode-rules"
+  title="Reglas principales del Modo Juego de la Muerte:"
+  items={[
+    "La derrota en combate resulta en la eliminación permanente del archivo de guardado del personaje.",
+    "Se puede jugar en cualquier ajuste de dificultad (desde Fácil hasta Difícil).",
+    "Las salidas estándar, pérdidas de energía o cierres inesperados NO eliminan los datos de guardado.",
+    "Se desbloquea tras completar el juego por primera vez o mediante las ediciones Deluxe/Ultimate.",
+    "Los datos de guardado de la demo no se pueden convertir a este modo."
+  ]}
+/>
+
+<Callout type="warning" title="Advertencia de Alto Riesgo">
+In el Modo Juego de la Muerte, tu preparación en la Ciudad de los Inicios es más importante que tu habilidad de combate. Lleva siempre la cantidad máxima de Pociones de Curación y Pociones de PE. Si tu salud cae por debajo del 30%, usa el Modo Relevo de inmediato y retírate a una Zona Segura.
+</Callout>
+
+Aunque los riesgos son altos, las recompensas son puramente por prestigio y satisfacción personal. No hay mejoras de poder exclusivas vinculadas a este modo, lo que garantiza que los jugadores que prefieran una experiencia de JRPG estándar no se pierdan contenido esencial. Sin embargo, se espera que completar el juego en el Modo Juego de la Muerte sea el logro más raro de la temporada de videojuegos de 2026.
+
+</Section>
+
+<Section icon={Zap} title="Ediciones, reservas y contenido de DLC">
+
+Elegir la edición adecuada de **echoes of aincrad online** depende de cuánta ayuda desees para el juego temprano y de si planeas jugar las próximas expansiones. Todas las reservas incluyen la **Serie Proto-Elucidator**, que proporciona planos para fabricar poderosas armas de inicio para los seis tipos.
+
+| Característica | Estándar ($69.99) | Deluxe ($89.99) | Ultimate ($109.99) |
+| :--- | :--- | :--- | :--- |
+| **Juego Base** | Incluido | Incluido | Incluido |
+| **Pase de Expansión** | No | Incluido | Incluido |
+| **Paquete de Inicio** | No | 50k Col + Pociones | 50k Col + Pociones |
+| **Desbloqueo Anticipado del Modo Muerte** | No | Incluido | Incluido |
+| **Libro de Arte Digital/Banda Sonora** | No | No | Libro de arte de 640 páginas |
+| **Conjunto de Armadura Ultimate** | No | No | Botas/Túnicas de aleteo |
+
+<Callout type="tip" title="La Opción de Mejor Valor">
+La **Edición Deluxe** es la que ofrece el mejor valor para la mayoría de los jugadores. Incluye el Pase de DLC de Expansión (programado para finales de 2026) y el Desbloqueo Anticipado del Modo Juego de la Muerte, lo que te ahorra dinero en comparación con comprar el DLC por separado más adelante.
+</Callout>
+
+Se espera que el Pase de DLC de Expansión añada nuevos pisos a Aincrad y personajes compañeros adicionales. Si eres fanático del lore de la serie, el libro de arte digital de 640 páginas de la Edición Ultimate ofrece una visión profunda del diseño del castillo flotante y del video especial \"Unanswered//butterfly\".
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes de Echoes of Aincrad Online">
+
+<FAQ items={[
+  {
+    question: "¿Es Echoes of Aincrad Online un MMO?",
+    answer: "No, es un JRPG de acción para un solo jugador. Aunque simula un entorno de MMO con compañeros controlados por IA y una 'Ciudad de los Inicios', no cuenta con un componente multijugador en tiempo real."
+  },
+  {
+    question: "¿Puedo transferir mi partida guardada de la demo al juego completo?",
+    answer: "Sí, el progreso de la demo se transfiere a la versión completa en la misma plataforma. Sin embargo, no puedes usar una partida guardada de la demo para iniciar una partida en el Modo Juego de la Muerte; eso requiere un archivo de guardado completamente nuevo."
+  },
+  {
+    question: "¿Cuál es la mejor arma para jugadores en solitario?",
+    answer: "La Espada y Escudo se considera ampliamente la mejor opción para jugar en solitario debido a su equilibrio entre defensa, facilidad para realizar desvíos (parry) y habilidades de espada fiables."
+  },
+  {
+    question: "¿Cómo desbloqueo el Modo Juego de la Muerte?",
+    answer: "Lo desbloqueas al completar la historia principal una vez. Si adquiriste la Edición Deluxe o Ultimate, puedes acceder a él inmediatamente desde tu primera partida."
+  }
+]} />
+
+</Section>

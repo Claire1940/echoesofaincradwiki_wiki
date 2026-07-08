@@ -1,0 +1,165 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "echoes of aincrad no multiplayer: Explicación de la campaña JRPG para un jugador",
+  description: "Descubre por qué echoes of aincrad no tiene multijugador. Conoce los sistemas JRPG para un solo jugador, las mecánicas de compañeros y el desafiante Modo Juego de la Muerte (Death Game Mode).",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=No+Multiplayer+Guide",
+  date: "2026-07-09",
+  author: "Equipo de la Wiki de echoes of aincrad"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Configuración principal**: No hay soporte multijugador para **echoes of aincrad**, ya que el juego está diseñado como un JRPG puramente para un solo jugador.
+- **Bucle principal**: Los jugadores crean un avatar personalizado y exploran pisos con compañeros controlados por la IA.
+- **Compañeros de IA**: Utiliza comandos tácticos robustos, el Modo Switch (Cambio) y Habilidades de Combinación para simular la dinámica de un grupo de incursión.
+- **Alto riesgo**: El Modo Juego de la Muerte (Death Game Mode) opcional añade muerte permanente a tu archivo de guardado para un jugador.
+- **Plataformas**: Jugable en solitario en PlayStation 5, Xbox Series X|S y PC a través de Steam a partir del 10 de julio de 2026 [1].
+</Callout>
+
+<Section icon={Shield} title="Por qué Echoes of Aincrad es un JRPG para un solo jugador">
+
+Bandai Namco y la desarrolladora Game Studio Inc. han diseñado esta entrega como un JRPG de acción dedicado exclusivamente para un solo jugador [1]. Si buscas funciones cooperativas, descubrirás que **echoes of aincrad no tiene multijugador** (no multiplayer), ni salas de espera, emparejamiento en línea o arenas PvP [1]. 
+
+El juego se centra por completo en recrear la atmósfera aislante y de alto riesgo de la historia original del "Juego de la Muerte" de Sword Art Online [1]. En lugar de depender de jugadores reales, creas un protagonista personalizado y reclutas compañeros controlados por la IA para enfrentar los peligrosos pisos del castillo flotante [1].
+
+| Característica | Estado del multijugador | Método de implementación |
+| :--- | :--- | :--- |
+| **Incursiones cooperativas** | No disponible | Simulado mediante compañeros de IA de alto nivel |
+| **Duelos PvP** | No disponible | Centrado en encuentros con jefes PvE |
+| **Centros sociales** | No disponible | El Pueblo de los Inicios funciona como base en solitario |
+| **Juego sin conexión** | Totalmente compatible | Jugable sin una conexión activa a internet |
+
+<Callout type="warning" title="Sin funciones en línea">
+No compres Echoes of Aincrad esperando futuros parches multijugador. La progresión principal, el equilibrio del combate y las estructuras de los datos de guardado están diseñados estrictamente para una experiencia sin conexión para un solo jugador [1].
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Cómo los sistemas de compañeros reemplazan a los jugadores reales">
+
+Para compensar el diseño de **echoes of aincrad no tiene multijugador** (no multiplayer), los desarrolladores implementaron un sistema profundo de compañeros (Partner System) [1]. No tienes que luchar solo; en su lugar, seleccionas un compañero antes de salir de la Posada en el Pueblo de los Inicios [1].
+
+Estos compañeros cuentan con estilos de armas únicos, Habilidades de Apoyo y Habilidades de Combinación que imitan los roles de los jugadores humanos en un grupo de MMO tradicional [1].
+
+### Compañeros de IA disponibles
+
+<CardGrid cols={2}>
+  <Card title="Iori (Espada y escudo)">
+    - **Rol**: Tanque de primera línea equilibrado
+    - **Ideal para**: Principiantes que necesitan cobertura defensiva
+    - **Trasfondo**: Jugador solitario que te enseñó los conceptos básicos [1]
+  </Card>
+  <Card title="Wyzeman (Maza y escudo)">
+    - **Rol**: Rompedor de defensa y control de masas
+    - **Ideal para**: Aturdir a jefes pesados
+    - **Trasfondo**: Entusiasta de la historia del juego ansioso por completarlo [1]
+  </Card>
+  <Card title="Zash (Espadón de dos manos)">
+    - **Rol**: Atacante de gran daño físico
+    - **Ideal para**: Maximizar el DPS durante las ventanas de aturdimiento
+    - **Trasfondo**: Guerrero amigable que busca miembros para incursiones [1]
+  </Card>
+  <Card title="Argo (Daga)">
+    - **Rol**: Alta movilidad y ataques rápidos
+    - **Ideal para**: Acumulación rápida de estados alterados
+    - **Trasfondo**: Versátil traficante de información con buen ojo para el Col [1]
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Consejo de sinergia">
+Combina tu arma con el rol de tu compañero. Si usas un arma de gran daño pero baja defensa, como el Hacha de dos manos, lleva a Iori o Wyzeman para atraer la agresión de los enemigos [1].
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Comandos tácticos y Modo Switch">
+
+Sin jugadores reales con quienes coordinarte, debes gestionar a tu compañero mediante comandos tácticos en tiempo real [1]. Dominar estos ajustes es esencial para sobrevivir en mazmorras de alto nivel.
+
+| Modo táctico | Descripción del comportamiento | Mejor escenario de combate |
+| :--- | :--- | :--- |
+| **Modo Switch** | El compañero atrae la agresión del enemigo de inmediato | Recuperar resistencia, curarse o reposicionarse [1] |
+| **Modo Libre** | El compañero ataca libremente o se enfoca en tu objetivo | Eliminar enemigos débiles o infligir ráfagas de daño a un jefe aturdido [1] |
+
+### Desatar habilidades de combate
+Tu compañero es muy interactivo durante la batalla. Puedes activar sus habilidades usando la rueda de acción de acceso rápido:
+- **Habilidades de apoyo**: Ordena a tu compañero que use curaciones, mejoras de defensa o aumentos de ataque en momentos críticos [1].
+- **Habilidades de combinación**: Desata devastadores ataques duales una vez que hayas infligido suficiente daño continuo a tu objetivo [1].
+
+<Callout type="success" title="Estrategia de supervivencia">
+Usa el Modo Switch cuando tu salud sea baja. La IA provocará agresivamente al jefe, dándote tiempo suficiente para usar un Cristal de Curación de forma segura [1].
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Bucle de progresión en solitario paso a paso">
+
+Dado que **echoes of aincrad no tiene multijugador** (no multiplayer), tu progresión depende por completo de tu propia preparación, mejoras de equipo y configuraciones de personaje [1]. Sigue este bucle para conquistar los pisos de Aincrad de manera sistemática [1].
+
+<Steps>
+  <Step num="1" title="Personaliza tu avatar">
+    Crea tu protagonista original tras completar el tutorial de la beta. Elige tu arma inicial entre las seis clases disponibles [1].
+  </Step>
+  <Step num="2" title="Gestiona los Puntos de Crecimiento">
+    Gasta tus Puntos de Crecimiento en la Posada. Concéntrate en Fuerza y Destreza para el daño, o en Vitalidad y Resistencia para aumentar tu supervivencia [1].
+  </Step>
+  <Step num="3" title="Mejora el equipo en la Herrería">
+    Usa Col y materiales reunidos en las mazmorras para fabricar nuevas armas, mejorar estadísticas o fusionar equipo duplicado para desbloquear poderosos efectos EX-MOD [1].
+  </Step>
+  <Step num="4" title="Sube tu Rango Cardinal">
+    Completa misiones para aumentar tu Rango Cardinal. Esto desbloqueará mejores inventarios en las tiendas y mejorará los atributos básicos de tu compañero [1].
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Hitos en solitario y lista de verificación del Juego de la Muerte">
+
+Para experimentar por completo Echoes of Aincrad sin multijugador, los jugadores deben proponerse conquistar el desafío definitivo sin conexión: el **Modo Juego de la Muerte** (Death Game Mode) [1]. Este modo opcional introduce la muerte permanente, donde morir borra todo tu archivo de guardado [1].
+
+<Checklist
+  id="solo-milestones"
+  title="Objetivos definitivos en solitario:"
+  items={[
+    "Completa la campaña principal en dificultad Normal",
+    "Lera al máximo tus maestrías para al menos tres tipos de armas",
+    "Desbloquea el Modo Juego de la Muerte al superar la historia (o mediante el desbloqueo anticipado de las ediciones Deluxe/Ultimate)",
+    "Completa con éxito un piso en el Modo Juego de la Muerte sin perder tu archivo de guardado"
+  ]}
+/>
+
+<Callout type="warning" title="Advertencia de muerte permanente">
+Los datos de guardado transferidos desde la demo gratuita no se pueden convertir al Modo Juego de la Muerte. Debes iniciar un nuevo archivo de guardado para experimentar el desafío de la muerte permanente [1].
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "¿Hay algún plan para añadir multijugador a Echoes of Aincrad?",
+    answer: "No. Bandai Namco ha confirmado que Echoes of Aincrad está diseñado estrictamente como un JRPG de acción para un solo jugador. No hay planes para introducir cooperativo en línea ni PvP."
+  },
+  {
+    question: "¿Puedo jugar al juego completamente sin conexión?",
+    answer: "Sí. Dado que echoes of aincrad no tiene multijugador, todo el juego se puede jugar sin conexión y sin una conexión activa a internet en PS5, Xbox Series X|S y Steam."
+  },
+  {
+    question: "¿Cómo funcionan las batallas de incursión si el juego es para un solo jugador?",
+    answer: "Las batallas de incursión se simulan utilizando a tu compañero de IA elegido y a otros aliados NPC de la historia que luchan junto a ti automáticamente durante los enfrentamientos con jefes principales."
+  },
+  {
+    question: "¿Puedo compartir mi avatar personalizado con otros jugadores?",
+    answer: "No hay centros de intercambio dentro del juego ni salas de espera multijugador. Sin embargo, puedes tomar capturas de pantalla de tu héroe personalizado para compartirlas en plataformas comunitarias como Reddit o Discord."
+  }
+]} />
+
+</Section>

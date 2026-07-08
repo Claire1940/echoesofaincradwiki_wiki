@@ -1,0 +1,207 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Jugabilidad de Echoes of Aincrad: Guía de Combate, Armas y Compañeros",
+  description: "Domina la jugabilidad de Echoes of Aincrad con nuestra guía completa de combate. Aprende sobre los tiers de armas, mecánicas de parry, tácticas de compañeros y las reglas de supervivencia del modo juego de la muerte.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fbbf24?text=Echoes+of+Aincrad+Gameplay+Guide",
+  date: "2026-07-09",
+  author: "Equipo de la Wiki de Echoes of Aincrad"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Jugabilidad de Echoes of Aincrad**: Un JRPG de acción para un solo jugador que simula un MMO de juego de la muerte masivo donde juegas como tu propio avatar personalizable.
+- **Mecánicas de Combate**: Construido en torno a la gestión de resistencia (Stamina), habilidades de espada (Sword Skills) impulsadas por SP, ventanas de parry precisas y coordinación táctica con compañeros de IA.
+- **Sistema de Armas**: Cuenta con seis tipos de armas distintos que actúan como clases, cada uno con patrones de ataque, alcance y compatibilidad con escudos únicos.
+- **Modo Juego de la Muerte**: Un desafío opcional de muerte permanente de alto riesgo donde los datos de guardado del personaje se eliminan de forma permanente al ser derrotado.
+- **Progreso de la Demo**: Los jugadores pueden probar todos los tipos de armas a lo largo de cinco misiones beta, y los datos de guardado se transferirán al lanzamiento completo en 2026.
+</Callout>
+
+<Section icon={Swords} title="Jugabilidad de Echoes of Aincrad: Mecánicas de Combate Principales">
+
+La jugabilidad de Echoes of Aincrad ofrece una refrescante experiencia de JRPG para un solo jugador que simula la dinámica social y los altos riesgos de un VRMMO masivo. En lugar de ponerte en la piel del conocido protagonista de la serie, Kirito, diseñarás tu propio avatar personalizable para conquistar el castillo flotante. El sistema de combate en tiempo real es metódico, recompensando el posicionamiento preciso, la gestión de recursos y la coordinación cooperativa con el compañero de IA que elijas.
+
+**Puntos Destacados del Video:**
+- **Integración de Avatar Personalizado**: Experimenta Aincrad a través de tu propio personaje creado en paralelo a la historia principal del anime.
+- **Ritmo Metódico**: El combate enfatiza la gestión de la resistencia, romper las posturas de los enemigos y ejecutar contraataques perfectamente sincronizados.
+- **Sistema de Comando de Compañeros**: Dirige a tu compañero en tiempo real usando el Modo Switch o el Modo Libre para manipular el enfoque del enemigo.
+
+<YouTubeEmbed videoId="h-lqh2-5Ks0" title="Echoes of Aincrad - Explicación de las Mecánicas de Juego" />
+
+### Gestión de Recursos de Resistencia (Stamina) y SP
+
+El éxito en el frente de batalla requiere equilibrar dos recursos de combate principales: la Resistencia (Stamina) y el SP. Las acciones estándar como correr, esquivar y cubrirse con un escudo agotan tu barra de Resistencia. Desatar poderosas habilidades de espada (Sword Skills) específicas de cada arma consume SP. Comprometerse demasiado con ataques pesados te dejará completamente vulnerable, haciendo que presionar botones a lo loco sea un camino rápido hacia la derrota.
+
+### Opciones Defensivas y Contraataques
+
+Echoes of Aincrad se desmarca de los hack-and-slash estándar gracias a la profundidad de sus maniobras defensivas. Dependiendo de tu equipamiento activo, tienes acceso a tres herramientas defensivas principales:
+
+| Tipo de Defensa | Requisito de Activación | Mejor Utilizado Para | Recompensa Táctica |
+| :--- | :--- | :--- | :--- |
+| **Esquive Perfecto** | Sincronización precisa al rodar | Ataques pesados e imbloqueables de jefes | Otorga fotogramas de invencibilidad temporales |
+| **Bloqueo con Escudo** | Mantener pulsado el botón de bloqueo con escudo | Ataques físicos sostenidos | Minimiza el daño directo a la salud |
+| **Parry / Reversal** | Ventana de tiempo precisa al bloquear | Ataques estándar con armas enemigas | Rompe la postura del enemigo y activa un combo de compañero |
+
+</Section>
+
+<Section icon={Map} title="Tier List de Armas y Comparación de Estilos de Juego">
+
+Las armas dictan esencialmente tu clase y tu camino de progresión general en Echoes of Aincrad. Cada tipo de arma gana Experiencia de Arma única, desbloqueando habilidades de espada especializadas que se pueden personalizar en tu equipamiento activo.
+
+<CardGrid cols={3}>
+  <Card title="Tier S: Espada y Escudo">
+    - **Alta Supervivencia**: La opción más segura para aprender los patrones de ataque de los enemigos.
+    - **Estilo Equilibrado**: Permite transiciones rápidas entre bloquear y atacar.
+    - **Ideal para Principiantes**: Muy permisivo con ángulos de bloqueo generosos.
+  </Card>
+  <Card title="Tier A: Estoque y Maza">
+    - **Alta Movilidad (Estoque)**: Estocadas veloces, cadenas rápidas y contraataques.
+    - **Poder de Aturdimiento (Maza)**: Golpes contundentes pesados especializados en romper defensas.
+    - **Acceso a Escudo**: Ambas armas pueden equipar un escudo para mayor seguridad.
+  </Card>
+  <Card title="Tier B: Dos Manos y Daga">
+    - **Daño Cargado (Espadón/Hacha de 2M)**: Alcance masivo pero ataques lentos y arriesgados.
+    - **Presión Rápida (Daga)**: Ataques veloces a corta distancia con alta movilidad.
+    - **Sin Acceso a Escudo**: Requiere un dominio absoluto del tiempo de esquive.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Consejo para la Selección de Armas">
+Los principiantes deberían comenzar su viaje con la Espada y el Escudo para dominar los tiempos de parry antes de pasar a armas de alto riesgo y sin escudo como el Espadón a Dos Manos o la Daga.
+</Callout>
+
+### Atributos de Armas y Roles de Combate
+
+Para optimizar tu build, alinea tus Puntos de Crecimiento con los atributos de escalado principales de tu arma. La siguiente tabla compara las diferencias principales entre los seis tipos de armas:
+
+| Tipo de Arma | Rol de Combate | Acceso a Escudo | Calificación de Movilidad | Estilo de Daño Principal |
+| :--- | :--- | :--- | :--- | :--- |
+| **Espada y Escudo** | Combatiente Equilibrado | Sí | Media | Cortes y Golpes con Escudo |
+| **Estoque** | Contraatacante Veloz | Sí | Alta | Estocadas Perforantes y Cadenas |
+| **Maza** | Control de Masas y Ruptura | Sí | Media | Impacto Contundente Pesado y Aturdimiento |
+| **Daga** | DPS Rápido a Corta Distancia | No | Muy Alta | Cortes Rápidos y Habilidades de Lanzamiento |
+| **Espadón (Dos Manos)** | DPS Pesado Cargado | No | Baja | Tajo Cargado de Alto Daño |
+| **Hacha a Dos Manos** | Atacante de Área de Efecto | No | Baja | Golpes Pesados de Amplio Alcance |
+
+</Section>
+
+<Section icon={Target} title="Sinergia de Compañeros y Comandos Tácticos">
+
+No tienes que escalar los pisos de Aincrad en solitario. Echoes of Aincrad cuenta con un sólido sistema de Compañeros de IA donde tu aliado aporta un tipo de arma distinto, Habilidades de Apoyo y poderosas Habilidades Combinadas al campo de batalla.
+
+<Steps>
+  <Step num="1" title="Selecciona a tu Compañero">
+    Elige un compañero de IA en la Posada antes de emprender una misión. Combina su tipo de arma con el tuyo para crear una dinámica de grupo equilibrada.
+  </Step>
+  <Step num="2" title="Equipa Habilidades de Apoyo">
+    Asigna curaciones, mejoras de ataque o habilidades de control de masas a la rueda de acciones de tu compañero para mantenerte con vida durante las largas incursiones en las mazmorras.
+  </Step>
+  <Step num="3" title="Gestiona los Modos Tácticos">
+    Alterna entre el **Modo Switch** para que tu compañero atraiga el aggro, y el **Modo Libre** para concentrarse juntos en objetivos individuales.
+  </Step>
+  <Step num="4" title="Desata Habilidades Combinadas">
+    Llena tu medidor de combate asestando golpes, luego activa un ataque cinematográfico conjunto para infligir un daño masivo de salud y aturdimiento.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Advertencia para Batallas de Jefes">
+Una vez que entras en la sala de un jefe, la retirada es imposible. Asegúrate siempre de que tu compañero esté completamente equipado con objetos de curación y tácticas de apoyo adecuadas antes de cruzar el umbral.
+</Callout>
+
+### Perfiles de los Personajes Compañeros
+
+Cada compañero en Echoes of Aincrad tiene su propia personalidad, trasfondo y especialidad de arma:
+
+| Nombre del Compañero | Especialidad de Arma | Arquetipo de Combate | Mejor Sinergia Con |
+| :--- | :--- | :--- | :--- |
+| **Iori** | Espada y Escudo | Defensor Equilibrado | Builds de alto daño y frágiles (glass-cannon) |
+| **Wyzeman** | Maza y Escudo | Aturdimiento y Control | Armas físicas rápidas basadas en la precisión |
+| **Zash** | Espadón (Dos Manos) | Ofensiva Pesada | Jugadores defensivos o de apoyo |
+| **Argo** | Daga | Apoyo Rápido y Debuffs | Armas pesadas que requieren ventanas de distracción |
+
+</Section>
+
+<Section icon={Shield} title="Modo Juego de la Muerte: Reglas de Supervivencia de Alto Riesgo">
+
+Para los jugadores que buscan la experiencia definitiva de Sword Art Online, Echoes of Aincrad cuenta con un **Modo Juego de la Muerte** opcional. Este modo replica directamente las apuestas de vida o muerte de la premisa original del anime.
+
+```
++-------------------------------------------------------------+
+|             REGLAS DEL MODO JUEGO DE LA MUERTE              |
++-------------------------------------------------------------+
+|  [ Derrota del Jugador ] ----> [ Guardado Borrado ]         |
+|                                                             |
+|  [ Interrupciones Técnicas ] -> [ Datos de Guardado Seguros ]|
+|                                                             |
+|  [ Progreso de la Demo ] ----> [ No Convertible a este Modo]|
++-------------------------------------------------------------+
+```
+
+### Reglas de Supervivencia Principales
+
+- **Derrota Permanente**: Si la salud de tu personaje llega a cero en este modo, el archivo de guardado de tu personaje se borrará de forma permanente.
+- **Sin Reaparición**: No hay segundas oportunidades, objetos de resurrección ni retrocesos a puntos de control.
+- **Desconexiones Seguras**: Salir del juego normalmente, volver al menú principal o experimentar un corte de energía repentino no borrará tus datos de guardado. La penalización solo se activa tras una derrota real dentro del juego.
+- **Requisitos de Desbloqueo**: Los jugadores de la edición estándar desbloquean este modo tras completar la campaña de la historia principal. Los propietarios de las ediciones Deluxe y Ultimate reciben un **Desbloqueo Anticipado** para arriesgar su realidad desde la primera partida.
+
+</Section>
+
+<Section icon={Trophy} title="Exploración de la Demo y Lista de Verificación de Transferencia de Guardado">
+
+Antes del lanzamiento del juego completo, los jugadores pueden sumergirse en la demo oficial de Echoes of Aincrad para poner a prueba sus habilidades y asegurar una ventaja inicial.
+
+<Checklist
+  id="demo-goals"
+  title="Lista de Verificación del Progreso de la Demo:"
+  items={[
+    "Descarga la demo en PC (Steam), PS5 o Xbox Series X|S",
+    "Completa las 5 misiones disponibles de la historia en fase beta",
+    "Equipa y prueba los 6 tipos de armas para encontrar tu estilo de juego preferido",
+    "Acumula Col y materiales de artesanía en la Herrería",
+    "Asegúrate de que el archivo de guardado de la demo permanezca en el almacenamiento de tu sistema para la transferencia"
+  ]}
+/>
+
+<Callout type="success" title="Transferencia de Datos de Guardado Exitosa">
+Todos los espacios de guardado de la demo se transferirán a la versión comercial completa de Echoes of Aincrad, siempre que juegues en la misma plataforma y actualices el juego con el último parche del día de lanzamiento.
+</Callout>
+
+### Cómo Transferir los Datos de Guardado de la Demo
+
+1. **Conserva los Guardados de la Demo**: No elimines los archivos de guardado de la demo del almacenamiento de tu consola o PC.
+2. **Instala el Juego Completo**: Descarga e instala la versión completa de Echoes of Aincrad en la misma plataforma.
+3. **Aplica los Parches**: Asegúrate de que tu juego esté conectado a la red y actualizado a la última versión.
+4. **Acepta los Avisos**: Inicia el juego completo, lee los términos iniciales y selecciona **Transferir** cuando el sistema detecte tus datos de la demo.
+5. **Carga el Juego**: Mantén pulsado el botón de confirmación, cierra la pantalla de transferencia y selecciona **Iniciar Juego** en el menú principal.
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes de Echoes of Aincrad">
+
+<FAQ items={[
+  {
+    question: "¿Es Echoes of Aincrad un juego de Roblox o un MMO multijugador?",
+    answer: "No. Echoes of Aincrad es un JRPG de acción para un solo jugador desarrollado por Game Studio Inc. y publicado por Bandai Namco. Está diseñado para simular la atmósfera de un MMO multijugador dentro de una narrativa controlada para un solo jugador."
+  },
+  {
+    question: "¿Puedo transferir mi progreso de la demo al Modo Juego de la Muerte?",
+    answer: "No. Los datos de guardado transferidos desde la demo no se pueden convertir al Modo Juego de la Muerte. Si deseas jugar en este modo, debes comenzar un nuevo archivo de guardado tras desbloquear el modo."
+  },
+  {
+    question: "¿En qué plataformas está disponible Echoes of Aincrad?",
+    answer: "El juego se lanza oficialmente el 10 de julio de 2026 para PlayStation 5, Xbox Series X|S y PC a través de Steam. Actualmente no es compatible con Nintendo Switch."
+  },
+  {
+    question: "¿Cómo desbloqueo nuevas Habilidades de Espada en el juego?",
+    answer: "Las Habilidades de Espada se desbloquean equipando un tipo de arma específico y obteniendo Experiencia de Arma a través del combate en tiempo real. Puedes equipar hasta tres Habilidades de Espada activas en tu rueda de habilidades en cualquier momento."
+  }
+]} />
+
+</Section>

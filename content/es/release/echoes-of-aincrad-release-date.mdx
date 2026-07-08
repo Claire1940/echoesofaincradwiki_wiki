@@ -1,0 +1,165 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Fecha de lanzamiento de Echoes of Aincrad: Horarios globales y guía de precarga",
+  description: "Obtén la fecha de lanzamiento oficial de Echoes of Aincrad, los horarios de desbloqueo global para PC y consolas, fechas de precarga, requisitos del sistema y bonificaciones por reserva.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/efaa31?text=Release+Date+and+Preload+Guide",
+  date: "2026-07-09",
+  author: "Equipo de la Wiki de Echoes of Aincrad",
+  keywords: "Echoes of Aincrad, fecha de lanzamiento, precarga, guía de lanzamiento, bonos de reserva"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Fecha de lanzamiento oficial**: La fecha de lanzamiento global oficial para el nuevo JRPG para un solo jugador de Bandai Namco es el **10 de julio de 2026**.
+- **Desbloqueo anticipado en Steam**: La versión para PC en Steam se desbloquea oficialmente el **9 de julio de 2026** para zonas horarias occidentales específicas debido a la sincronización del lanzamiento global.
+- **Plataformas compatibles**: Jugable en **PlayStation 5, Xbox Series X|S y PC** a través de Steam. Nintendo Switch no es compatible.
+- **Disponibilidad de precarga**: Las precargas ya están disponibles en **PlayStation 5 y Xbox Series X|S**, pero Steam no admite la precarga.
+- **Bonificación por reserva**: Asegura el **Paquete de armas de la serie Proto-Elucidator** comprando anticipadamente cualquier edición digital antes del lanzamiento.
+</Callout>
+
+<Section icon={Map} title="Fecha de lanzamiento de Echoes of Aincrad y horarios regionales">
+
+Bandai Namco ha programado oficialmente el lanzamiento de *Echoes of Aincrad* para el **10 de julio de 2026** en consolas y PC. Sin embargo, dependiendo de tu plataforma preferida y tu zona horaria local, es posible que puedas adentrarte en el castillo flotante tan pronto como la noche del **9 de julio de 2026**.
+
+Las versiones de consola (PlayStation 5 y Xbox Series X|S) siguen una estructura de lanzamiento regional escalonado a la medianoche, mientras que la versión de Steam para PC utiliza un horario de desbloqueo global simultáneo.
+
+| Plataforma | Región | Fecha de desbloqueo local | Hora de desbloqueo local |
+| --- | --- | --- | --- |
+| **PlayStation 5** | Norteamérica (EDT) | 10 de julio de 2026 | 00:00 AM |
+| **PlayStation 5** | Europa (CEST) | 10 de julio de 2026 | 00:00 AM |
+| **PlayStation 5** | Japón (JST) | 9 de julio de 2026 | 00:00 AM |
+| **Xbox Series X\|S** | Norteamérica (PDT) | 9 de julio de 2026 | 09:00 PM |
+| **Xbox Series X\|S** | Europa (BST) | 10 de julio de 2026 | 00:00 AM |
+| **Steam (PC)** | Global (PDT) | 9 de julio de 2026 | 03:00 PM |
+| **Steam (PC)** | Global (EDT) | 9 de julio de 2026 | 06:00 PM |
+| **Steam (PC)** | Global (BST) | 9 de julio de 2026 | 11:00 PM |
+| **Steam (PC)** | Global (JST) | 10 de julio de 2026 | 07:00 AM |
+
+<Callout type="tip" title="Truco de la zona horaria en consolas">
+Los jugadores de Xbox pueden cambiar la configuración de ubicación de su consola a Nueva Zelanda para acceder potencialmente al juego varias horas antes, ya que las versiones de consola se lanzan a partir de la medianoche local en las zonas horarias más orientales.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Calendario de precarga y tamaños de descarga">
+
+Para asegurar que puedas comenzar a sobrevivir al Modo Juego de la Muerte en el segundo en que se abran los servidores, se recomienda encarecidamente la precarga. La precarga te permite descargar todos los archivos del juego con antelación, dejando solo un pequeño parche de descifrado para ejecutar en la hora del lanzamiento.
+
+El tamaño de descarga de *Echoes of Aincrad* es de aproximadamente **45 GB** en todas las plataformas. Asegúrate de tener al menos **55 GB** de espacio libre para acomodar el proceso de instalación.
+
+<CardGrid cols={3}>
+  <Card title="Precarga en PlayStation 5">
+    - **Estado**: Ya disponible
+    - **Fecha de inicio**: 8 de julio de 2026
+    - **Requisitos**: Reserva digital activa en la PlayStation Store.
+  </Card>
+  <Card title="Precarga en Xbox Series X|S">
+    - **Estado**: Ya disponible
+    - **Fecha de inicio**: 7 de julio de 2026
+    - **Requisitos**: Edición reservada o preinstalación a través de la aplicación móvil de Xbox.
+  </Card>
+  <Card title="Precarga en Steam (PC)">
+    - **Estado**: No disponible
+    - **Fecha de inicio**: N/A
+    - **Detalles**: Los usuarios de Steam deberán descargar el juego en el momento exacto del desbloqueo el 9 de julio.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Advertencia de descarga en Steam">
+Dado que Steam no admite la precarga para este título, asegúrate de que tu conexión a Internet sea estable el 9 de julio para gestionar la descarga de 45 GB lo más rápido posible cuando el cliente se desbloquee.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cómo transferir los datos de guardado de la demo">
+
+Si jugaste a la demo oficial de *Echoes of Aincrad* durante el Steam Next Fest o la descargaste en consolas, tu progresión se puede transferir directamente a la versión completa. Esto incluye tu avatar personalizado, habilidades desbloqueadas y objetos recolectados en las cinco misiones beta disponibles. Sigue estos pasos para completar la transferencia:
+
+<Steps>
+  <Step num="1" title="Actualiza el cliente">
+    Antes de comenzar, asegúrate de que tanto el archivo de guardado de la demo esté todavía en el almacenamiento de tu sistema como de que el juego completo esté actualizado con el último parche del primer día.
+  </Step>
+  <Step num="2" title="Inicia y acepta los términos">
+    Abre la versión completa de *Echoes of Aincrad*. Procede a través de las selecciones iniciales de idioma y acepta los acuerdos de usuario.
+  </Step>
+  <Step num="3" title="Activa el aviso">
+    El juego escaneará automáticamente el almacenamiento de tu sistema en busca de datos existentes de la demo. Cuando aparezca el aviso "¿Transferir datos de guardado?", selecciona **Sí**.
+  </Step>
+  <Step num="4" title="Confirma y carga">
+    Mantén presionado **Confirmar** en la pantalla de transferencia. Una vez completado, selecciona **Iniciar juego** en el menú principal y carga tu ranura de guardado transferida.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Limitación del Modo Juego de la Muerte">
+Los archivos de guardado transferidos de la demo no se pueden convertir al Modo Juego de la Muerte. Si quieres jugar con reglas de muerte permanente, debes comenzar un nuevo archivo de guardado desde el menú principal.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Ediciones, bonificaciones por reserva y precios">
+
+*Echoes of Aincrad* está disponible en tres ediciones digitales. Todas las reservas, independientemente de la edición elegida, otorgan el exclusivo **Paquete de armas de la serie Proto-Elucidator**, que otorga a los jugadores una ventaja significativa en el combate al principio del juego.
+
+| Característica / Inclusión | Edición Estándar ($69.99) | Edición Deluxe ($89.99) | Edición Ultimate ($109.99) |
+| --- | --- | --- | --- |
+| **Juego base** | Incluido | Incluido | Incluido |
+| **Paquete Proto-Elucidator** | Solo reserva | Solo reserva | Solo reserva |
+| **Pase de expansión DLC** | No incluido | Incluido | Incluido |
+| **Paquete de inicio (50k Col)** | No incluido | Incluido | Incluido |
+| **Desbloqueo anticipado del Juego de la Muerte** | No incluido | Incluido | Incluido |
+| **Libro de arte digital y BSO** | No incluido | No incluido | Incluido |
+| **Botas y túnicas de aleteo** | No incluido | No incluido | Incluido |
+
+<Callout type="success" title="Detalles de la bonificación por reserva">
+El Paquete de armas de la serie Proto-Elucidator proporciona planos y armas para los seis tipos de armas (Espada, Daga, Estoque, Maza, Hacha de dos manos y Espada de dos manos) además de un escudo personalizado.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Lista de verificación de supervivencia para el día del lanzamiento">
+
+Antes de entrar en Aincrad y arriesgar tu vida virtual, asegúrate de que tu equipo y tu plan de juego estén completamente preparados. Utiliza esta lista de verificación para optimizar tu experiencia el día del lanzamiento:
+
+<Checklist
+  id="launch-checklist"
+  title="Preparativos para el día del lanzamiento:"
+  items={[
+    "Verifica al menos 55 GB de espacio libre en el SSD de tu consola o PC.",
+    "Instala los últimos controladores de gráficos (Nvidia/AMD) optimizados para los lanzamientos de julio de 2026.",
+    "Completa las primeras 5 misiones de la demo para asegurar tus recompensas de transferencia si aún no lo has hecho.",
+    "Decide tu tipo de arma inicial (Espada y Escudo se recomienda para principiantes).",
+    "Planifica la sinergia con tu compañero (Iori es excelente para la defensa al principio del juego)."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la fecha exacta de lanzamiento de Echoes of Aincrad?",
+    answer: "La fecha oficial de lanzamiento global es el 10 de julio de 2026. Sin embargo, los jugadores de PC en Steam en regiones occidentales pueden acceder al juego el 9 de julio de 2026 debido a la sincronización del lanzamiento global simultáneo."
+  },
+  {
+    question: "¿Llegará Echoes of Aincrad a Nintendo Switch?",
+    answer: "No. Bandai Namco solo ha anunciado el juego para PlayStation 5, Xbox Series X|S y PC a través de Steam. Actualmente no hay planes para una versión de Nintendo Switch."
+  },
+  {
+    question: "¿Puedo precargar el juego en Steam?",
+    answer: "No, el soporte de precarga solo está disponible para PlayStation 5 y Xbox Series X|S. Los usuarios de Steam tendrán que descargar el cliente completo cuando el juego se desbloquee el 9 de julio de 2026."
+  },
+  {
+    question: "¿Qué es el desbloqueo anticipado del Modo Juego de la Muerte?",
+    answer: "Normalmente, el modo de muerte permanente de alto riesgo se desbloquea después de completar la historia principal. La compra de la Edición Deluxe o Ultimate otorga acceso inmediato a este modo desde tu primera partida."
+  }
+]} />
+
+</Section>

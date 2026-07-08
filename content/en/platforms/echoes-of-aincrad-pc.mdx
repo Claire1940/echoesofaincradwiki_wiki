@@ -1,0 +1,202 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Echoes of Aincrad PC: System Requirements & Steam Setup Guide",
+  description: "Get ready for Echoes of Aincrad PC. Check minimum and recommended system specs, Steam release times, preload availability, and Steam Deck compatibility.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Echoes+of+Aincrad+PC+Guide",
+  date: "2026-07-09",
+  author: "echoes of aincrad Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Focus**: Complete optimization and setup details for **echoes of aincrad pc** on Steam.
+- **Official Release**: Scheduled globally on July 10, 2026, with regional Steam unlocks on July 9, 2026.
+- **Steam Deck Status**: Official support is currently unavailable at launch.
+- **Preload Policy**: Preload is available for console editions but remains unavailable for Steam users.
+- **Best Weapon**: Start with Sword and Shield for the safest learning curve during early progression.
+</Callout>
+
+<Section icon={Map} title="Echoes of Aincrad PC Release Date & Steam Unlock Times">
+
+The highly anticipated Sword Art Online JRPG, developed by Game Studio Inc. and published by Bandai Namco, officially launches on July 10, 2026. However, PC players accessing the game via Steam will experience different unlock times depending on their geographic region. Due to timezone differences, the Steam store page lists the release date as July 9, 2026, for several western territories.
+
+| Region | Local Time Zone | Steam Unlock Time | Calendar Date |
+| :--- | :--- | :--- | :--- |
+| **Pacific Time** | PDT | 15:00 (3:00 PM) | July 9, 2026 |
+| **Eastern Time** | EDT | 18:00 (6:00 PM) | July 9, 2026 |
+| **British Time** | BST | 23:00 (11:00 PM) | July 9, 2026 |
+| **China Standard Time** | CST | 06:00 (6:00 AM) | July 10, 2026 |
+| **Japan Standard Time** | JST | 07:00 (7:00 AM) | July 10, 2026 |
+
+<Callout type="warning" title="Steam Preload Notice">
+While PlayStation 5 and Xbox Series X|S players can preload the game starting July 7 or 8, preload support is completely unavailable for the Steam PC version. PC players must download the full game client when the global release times unlock on Steam.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Echoes of Aincrad PC System Requirements">
+
+To run the game smoothly and navigate the floating castle of Aincrad without performance drops, your PC must meet specific hardware standards. The real-time action combat relies heavily on precise timing, making stable frame rates essential.
+
+| Hardware Component | Minimum Requirements (1080p / 30 FPS) | Recommended Requirements (1080p / 60 FPS) |
+| :--- | :--- | :--- |
+| **Operating System** | Windows 10 (64-bit) | Windows 10 / 11 (64-bit) |
+| **Processor (CPU)** | Intel Core i5-6600 or AMD Ryzen 5 1400 | Intel Core i7-8700 or AMD Ryzen 5 3600 |
+| **Memory (RAM)** | 8 GB RAM | 16 GB RAM |
+| **Graphics Card (GPU)** | NVIDIA GeForce GTX 1060 or AMD Radeon RX 580 | NVIDIA GeForce RTX 2060 or AMD Radeon RX 5700 XT |
+| **DirectX Version** | Version 12 | Version 12 |
+| **Storage Space** | 50 GB available space (SSD recommended) | 50 GB available space (SSD required) |
+
+<Callout type="tip" title="Performance Optimization">
+For the best combat experience on **echoes of aincrad pc**, install the game on a Solid State Drive (SSD). Dynamic loading of assets during seamless floor transitions can cause stuttering on traditional Hard Disk Drives (HDDs).
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="PC Class Setup: Weapon Selection Guide">
+
+In Echoes of Aincrad, your weapon choice defines your combat class. There are six distinct weapon types available, each offering unique Sword Skills, mobility levels, and defensive options. Review the weapon classes below to plan your starting build.
+
+<CardGrid cols={3}>
+  <Card title="Sword and Shield (S-Tier)">
+    - **Shield Access**: Yes
+    - **Mobility**: Balanced
+    - **Style**: Offense & Defense mix
+    - **Pros**: Safest beginner weapon; highly forgiving for learning boss patterns.
+  </Card>
+  <Card title="Rapier (A-Tier)">
+    - **Shield Access**: Yes
+    - **Mobility**: High
+    - **Style**: Fluid chains & counters
+    - **Pros**: Long reach, rapid attacks, and defensive safety with a shield equipped.
+  </Card>
+  <Card title="Mace (A-Tier)">
+    - **Shield Access**: Yes
+    - **Mobility**: Medium
+    - **Style**: Stagger & Shield Break
+    - **Pros**: Excellent for knocking down enemies and breaking guard stances.
+  </Card>
+</CardGrid>
+
+<CardGrid cols={3}>
+  <Card title="Dagger (B-Tier)">
+    - **Shield Access**: No
+    - **Mobility**: Very High
+    - **Style**: Fast close-range hits
+    - **Pros**: High speed and projectile options, but lacks defensive blocking.
+  </Card>
+  <Card title="Two-Handed Sword (B-Tier)">
+    - **Shield Access**: No
+    - **Mobility**: Low to Medium
+    - **Style**: Charged heavy attacks
+    - **Pros**: Massive damage output, but trades dodge steps for a slower roll.
+  </Card>
+  <Card title="Two-Handed Axe (B-Tier)">
+    - **Shield Access**: No
+    - **Mobility**: Low
+    - **Style**: Slow area-of-effect swings
+    - **Pros**: High raw power and sweep attacks; requires strict stamina management.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Weapon Progression">
+Using a specific weapon type during quests awards Weapon Experience, which unlocks advanced Sword Skills. You can equip up to three active Sword Skills at any time.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="PC Demo & Save Data Transfer Steps">
+
+Players who tested their builds in the Steam Next Fest PC demo can carry their progress directly into the full release on Steam. Follow these steps to ensure a successful save transfer.
+
+<Steps>
+  <Step num="1" title="Keep Demo Saves Intact">
+    Do not delete the demo client or local save files from your PC before completing the transfer process.
+  </Step>
+  <Step num="2" title="Update the Full Game">
+    Launch Steam, purchase the full version, and ensure the game is fully updated to the latest release build.
+  </Step>
+  <Step num="3" title="Initialize the Game">
+    Start the game on PC. Agree to the initial terms of service and network agreements.
+  </Step>
+  <Step num="4" title="Trigger the Import Prompt">
+    When the system detects your demo save data, select "Carry over" from the screen prompt.
+  </Step>
+  <Step num="5" title="Hold to Confirm">
+    Press and hold the confirmation button on screen. Once the transfer is complete, load your save file from the main menu.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Death Game Mode Limitation">
+Save data carried over from the PC demo cannot be converted into Death Game Mode. If you want to play with permadeath rules, you must start a fresh save file.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Steam Launch Goals & PC Checklists">
+
+Prepare your character and system for a smooth launch day. Use this checklist to track your optimization and early-game progression milestones.
+
+<Checklist
+  id="pc-launch-goals"
+  title="PC Launch Day Checklist:"
+  items={[
+    "Verify graphics card drivers are updated to the latest 2026 releases",
+    "Confirm game installation path is on an SSD with 50 GB free space",
+    "Complete the five demo transfer missions to secure early-game gear",
+    "Reach the Town of Beginnings and unlock the Blacksmith for weapon upgrades",
+    "Spend your first earned Growth Points at the Inn to boost weapon scaling stats"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Steam Edition Comparison">
+
+Before purchasing the game on PC, compare the available Steam editions to determine which package fits your playstyle and budget.
+
+| Feature / Inclusion | Standard Edition ($69.99) | Deluxe Edition ($89.99) | Ultimate Edition ($109.99) |
+| :--- | :--- | :--- | :--- |
+| **Base Game** | Included | Included | Included |
+| **Pre-Order Bonus** | Proto-Elucidator Pack | Proto-Elucidator Pack | Proto-Elucidator Pack |
+| **Expansion DLC Pass** | Not included | Included (by Dec 31, 2026) | Included (by Dec 31, 2026) |
+| **Death Game Early Unlock** | Not included | Included | Included |
+| **Starter Pack Items** | Not included | 50k Col, Potions, Crystals | 50k Col, Potions, Crystals |
+| **Digital Artbook & OST** | Not included | Not included | Included (640-page book, 141 tracks) |
+| **Flutter Armor Set** | Not included | Not included | Included (Boots & Robes) |
+
+<Callout type="success" title="Pre-Order Value">
+All PC pre-orders on Steam include the Proto-Elucidator Series Weapon Pack, which provides six weapon skins, a shield skin, and crafting blueprints to forge additional copies at the Smithy.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Echoes of Aincrad PC FAQ">
+
+<FAQ items={[
+  {
+    question: "Is echoes of aincrad pc compatible with the Steam Deck?",
+    answer: "No, the game is officially unsupported on Steam Deck at launch. PC players should plan to play on a desktop or laptop running Windows 10 or 11."
+  },
+  {
+    question: "How do I allocate Growth Points on PC?",
+    answer: "After leveling up, return to your room at the Inn in the Town of Beginnings. You can spend Growth Points to raise stats like Strength, Dexterity, Agility, Intelligence, Vitality, Endurance, or Mind."
+  },
+  {
+    question: "Can I transfer my demo progress from PS5 to PC?",
+    answer: "No. Save data transfer only works within the same platform ecosystem. Demo saves on PlayStation 5 can only transfer to the full PS5 version, and Steam demo saves can only transfer to the full Steam PC version."
+  },
+  {
+    question: "What is the penalty for dying in Death Game Mode?",
+    answer: "In Death Game Mode, if your character dies, the save file is permanently deleted. This mode can be played at any difficulty level and is unlocked after clearing the main story, or immediately if you own the Deluxe or Ultimate Edition."
+  }
+]} />
+
+</Section>

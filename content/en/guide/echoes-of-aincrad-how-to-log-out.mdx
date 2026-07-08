@@ -1,0 +1,130 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, BookOpen } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Echoes of Aincrad: How to Log Out and Save Progress",
+  description: "Learn how to manage your game session, save your data, and understand the logout mechanics in Echoes of Aincrad for a smooth experience.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/2563eb/fff?text=Logout+Guide",
+  date: "2026-07-09",
+  author: "echoes of aincrad Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Echoes of Aincrad** follows a specific structure for session management and saving progress.
+- Players should always use the **in-game menu** to exit to the title screen to ensure data integrity.
+- **Death Game Mode** features unique save restrictions, making proper logout habits essential.
+- **Demo save data** can be transferred, but requires careful handling during the initial launch.
+- Always verify your **save status** before closing the application on consoles or PC.
+</Callout>
+
+<Section icon={Map} title="Understanding Session Management">
+
+Navigating the floating castle of Aincrad requires a clear understanding of how the game handles your progress. Unlike traditional titles where you might find a "Log Out" button in a menu, *Echoes of Aincrad* utilizes an integrated save system tied to your character's state and mission completion.
+
+**Video Highlights:**
+- Navigation of the main menu interface.
+- Proper procedures for returning to the title screen.
+- Distinguishing between mission checkpoints and manual saves.
+
+<YouTubeEmbed videoId="h-lqh2-5Ks0" title="Echoes of Aincrad Gameplay Mechanics" />
+
+To ensure your progress is recorded correctly, you must rely on the game's internal save triggers. The game automatically saves at key intervals, such as after completing a quest, visiting a shop, or returning to the Town of Beginnings.
+
+| Action | Save Trigger | Reliability |
+| :--- | :--- | :--- |
+| Finishing a Quest | Automatic | High |
+| Returning to Town | Automatic | High |
+| Manual Menu Exit | Manual Trigger | Highest |
+| Sudden App Closure | None | Low |
+
+<Callout type="tip" title="Pro Tip">
+Always return to the Title Screen via the settings menu before closing the game application. This forces a final synchronization of your character's stats and inventory data.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Managing Death Game Mode Saves">
+
+Death Game Mode introduces a high-stakes environment where the game's save logic changes significantly. Because this mode is designed to simulate the tension of the original anime, the penalty for failure is severe.
+
+| Feature | Standard Mode | Death Game Mode |
+| :--- | :--- | :--- |
+| Save Deletion | Never | Upon Defeat |
+| Exit Safety | High | High |
+| Progress Carryover | Supported | Restricted |
+
+<Callout type="warning" title="Important Warning">
+If you are playing in Death Game Mode, avoid force-closing the application during active combat. While the game does not delete data for normal exits, interrupted sessions during high-stakes encounters may lead to unexpected state resets.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Logout and Save Procedure">
+
+Follow these steps to ensure your progress is safely stored before you stop playing. This sequence is valid for PlayStation 5, Xbox Series X|S, and Steam.
+
+<Steps>
+  <Step num="1" title="Reach a Safety Area">
+    Ensure your character is currently in a safe zone, such as the Town of Beginnings or a designated checkpoint.
+  </Step>
+  <Step num="2" title="Access the Main Menu">
+    Press the menu button on your controller or keyboard to open the character status and system interface.
+  </Step>
+  <Step num="3" title="Select Return to Title">
+    Navigate to the System tab and select "Return to Title Screen." This confirms that all current data is written to the drive.
+  </Step>
+  <Step num="4" title="Confirm Exit">
+    Once at the title screen, you can safely close the game application on your respective console or PC platform.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Demo and Full Game Progression">
+
+If you are transitioning from the demo version to the full release, your save management becomes even more critical. Demo data does not automatically convert into Death Game Mode, so be sure to manage your slots accordingly.
+
+<CardGrid cols={2}>
+  <Card title="Demo Transfer">
+    - Requires latest game update.
+    - Must be on the same platform.
+    - Transfers mission progress.
+  </Card>
+  <Card title="Full Game Rules">
+    - Supports multiple save slots.
+    - Death Game Mode is optional.
+    - Syncs with cloud saves.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Data Integrity">
+Transferring your demo save is a one-time process. Once you load your demo data into the full version, it becomes a standard save file, allowing for normal saving and loading behavior.
+</Callout>
+
+</Section>
+
+<Section icon={BookOpen} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Is there a dedicated 'Log Out' button in Echoes of Aincrad?",
+    answer: "No, the game uses a 'Return to Title' function within the System menu, which acts as the safe way to log out and save your current progress."
+  },
+  {
+    question: "Will I lose my progress if the game crashes?",
+    answer: "The game features robust auto-save triggers at checkpoints and quest completions. While crashes are rare, the system is designed to minimize data loss by saving frequently."
+  },
+  {
+    question: "Can I save my game during a boss fight?",
+    answer: "You cannot save manually during a boss encounter. Once a boss fight begins, you are locked into the encounter until you win or are defeated."
+  }
+]} />
+
+</Section>

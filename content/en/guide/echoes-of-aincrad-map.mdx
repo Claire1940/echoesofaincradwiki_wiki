@@ -1,0 +1,177 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "echoes of aincrad map: Floor Navigation & Exploration Guide",
+  description: "Master the echoes of aincrad map with our guide to checkpoints, floor navigation, hidden treasure locations, and survival tips for the Town of Beginnings.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Map+Exploration+Guide",
+  date: "2026-07-09",
+  author: "echoes of aincrad Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary keyword**: Understanding the **echoes of aincrad map** is essential for navigating the floating castle and finding checkpoints.
+- **Key mechanic**: Activate **Checkpoints** to reveal surrounding points of interest, treasure chests, and hidden routes.
+- **Best strategy**: Use the **Town of Beginnings** as your primary hub to restock and upgrade gear before exploring new floors.
+- **Critical tip**: In **Death Game Mode**, map knowledge is your greatest asset to avoid high-level traps that can erase your save.
+- **Top choice**: Start with the **Sword and Shield** weapon type to maintain high defense while scouting unknown territories.
+</Callout>
+
+<Section icon={Map} title="Navigating the Floating Castle: Map Systems Explained">
+
+The **echoes of aincrad map** functions as more than just a visual guide; it is a survival tool integrated into the Cardinal System. Unlike traditional RPGs where the entire map is visible from the start, Echoes of Aincrad requires players to actively scout environments to reveal terrain, enemy density, and resource nodes. Your journey begins in the lower tiers of the floating castle, where visibility is high, but as you ascend, environmental hazards and complex verticality will challenge your navigation skills.
+
+The interface is divided into the Mini-Map and the Full Map. The Mini-Map provides real-time proximity data, highlighting nearby enemies and immediate obstacles. The Full Map, accessible through the main menu, allows you to plan long-distance travel, identify Teleport Gates, and track your progress across different floors. Understanding how these layers interact is the first step to mastering the exploration loop of this Action JRPG.
+
+<Callout type="tip" title="Pro Exploration Tip">
+You can customize your map filters to highlight specific resources or NPC types. If you are farming for smithing materials, set your filter to "Resource Nodes" to see active spawn points on explored sections of the map.
+</Callout>
+
+| Map Feature | Icon Description | Functionality |
+| :--- | :--- | :--- |
+| **Teleport Gate** | Glowing Blue Arch | Fast travel between cleared floors and the main hub. |
+| **Checkpoints** | Floating Digital Diamond | Reveals local map data and marks nearby treasure. |
+| **Safety Area** | Green Shield | Zones where monsters cannot spawn; restores HP over time. |
+| **Quest Marker** | Gold Exclamation | Indicates the location of your current active objective. |
+| **Merchant** | Brown Pouch | Identifies NPCs who buy loot or sell consumables. |
+
+</Section>
+
+<Section icon={Target} title="The Town of Beginnings: Your Strategic Hub">
+
+Every successful expedition on the **echoes of aincrad map** starts at the Town of Beginnings. This sprawling urban center serves as the game's primary social and mechanical hub. Here, you will find the essential services required to maintain your gear and manage your party. Because Echoes of Aincrad features a "no-retreat" rule for boss fights, your preparation within this town determines whether you survive the floor's final encounter.
+
+The town is divided into several districts, each offering unique benefits. The Central Plaza is where you will find the Quest Board and general merchants, while the Blacksmith Alley is the only place to perform EX-MOD infusions on your weapons. Knowing the layout of the town saves time and ensures you never head into a dungeon under-geared.
+
+| District | Primary Purpose | Key NPCs |
+| :--- | :--- | :--- |
+| **Central Plaza** | Mission Acquisition | Quest Board, Argo the Info Broker |
+| **Blacksmith Alley** | Gear Upgrades | Agil's Smithy, Material Exchange |
+| **The Inn** | Management | Player Room, Growth Point Terminal |
+| **Market Street** | Consumables | Potion Alchemist, Food Vendor |
+| **Teleport Plaza** | Floor Travel | Gatekeeper, Multiplayer Portal |
+
+<Callout type="info" title="Partner Logistics">
+You can adjust your partner's weapon and skill loadout at the Terminal inside your room at the Inn. Always sync your partner's capabilities with the specific floor layout you intend to visit.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="How to Reveal the Map: Step-by-Step Exploration">
+
+Revealing the **echoes of aincrad map** is a methodical process that rewards thoroughness. Each new floor or dungeon starts as a "Fog of War" zone. To clear this fog, you must locate and interact with physical nodes within the environment. This system prevents players from simply rushing to the boss, as missing checkpoints often means missing the shortcuts needed to return quickly after a defeat.
+
+Follow these steps to efficiently map out a new floor:
+
+<Steps>
+  <Step num="1" title="Locate the Floor Entrance">
+    Upon entering a new floor via the Teleport Gate, immediately check your mini-map for the nearest Safety Area. This serves as your "respawn" point if you are forced to retreat.
+  </Step>
+  <Step num="2" title="Identify Checkpoint Beacons">
+    Search the environment for floating blue diamonds. Interacting with these beacons clears the fog in a large radius and marks all treasure chests and hidden paths on your map.
+  </Step>
+  <Step num="3" title="Clear Field Obstacles">
+    Many routes are blocked by sealed doors or environmental barriers. Look for switches or specific enemy groups that hold the "Zone Key" to unlock these shortcuts.
+  </Step>
+  <Step num="4" title="Activate the Boss Room Gate">
+    Once you reach the end of the floor's main path, you must interact with the Boss Room Gate. This registers the location on your map, allowing you to return to town for final preparations.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Danger Zone Warning">
+In certain high-level areas, the Cardinal System may "jam" your map, rendering the mini-map useless until a specific elite monster is defeated. Always carry a "Mapping Crystal" for these situations.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Resource Distribution and Material Farming">
+
+To upgrade your weapons at the Smithy, you must gather materials found throughout the **echoes of aincrad map**. Different floors provide different tiers of ores, crystals, and biological components. The difficulty of the floor directly correlates with the rarity of the materials available. For example, Floor 1 is rich in Iron Ore and basic Herbs, whereas higher floors contain Mystic Crystals required for high-level Sword Skills.
+
+The map icons for resource nodes will change color based on their rarity. Common nodes are white, while rare nodes glow gold. If you are using a partner like Argo, she can occasionally "ping" the map to reveal hidden resource caches that are not normally visible through standard checkpoints.
+
+| Material Tier | Map Location Examples | Common Uses | Rarity |
+| :--- | :--- | :--- | :--- |
+| **Basic Ore** | Floor 1-5 Grasslands | Initial weapon crafting | Common |
+| **Refined Steel** | Cavern Dungeons | Weapon parameter upgrades | Uncommon |
+| **Mystic Crystal** | Ancient Ruins | Sword Skill unlocking | Rare |
+| **Dragon Scale** | High-Floor Peaks | EX-MOD infusions | Legendary |
+| **Healing Herb** | Forest Safety Areas | Potion crafting | Common |
+
+<Callout type="success" title="Farming Efficiency">
+Materials respawn after a set amount of time or upon re-entering the floor from the Town of Beginnings. Use the Teleport Gate to reset nodes if you are targeting a specific upgrade.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Survival in Death Game Mode: Mapping the Risks">
+
+For players brave enough to enter **Death Game Mode**, the **echoes of aincrad map** becomes a literal lifeline. In this mode, character death results in the permanent erasure of your save data. Navigation is no longer just about finding loot; it is about identifying the safest possible route to the next checkpoint. You cannot afford to stumble into a "Monster House" or a high-level elite zone by accident.
+
+In Death Game Mode, the map highlights "Danger Levels" for different sections of the floor. Areas marked in red indicate that the average monster level is significantly higher than your current Cardinal Rank. Avoiding these zones until you have spent your Growth Points at the Inn is the key to long-term survival.
+
+<CardGrid cols={2}>
+  <Card title="High-Risk Navigation">
+    - **Avoid Red Zones**: Never enter high-level areas without a full stock of Healing Crystals.
+    - **Use Switch Mode**: Let your partner scout narrow corridors to avoid being ambushed.
+  </Card>
+  <Card title="Strategic Retreats">
+    - **Identify Safety Areas**: Always know the distance to the nearest Green Zone.
+    - **No Boss Rushing**: Map 100% of the floor to find all shortcuts before the boss fight.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Save Data Security">
+While Death Game Mode deletes data upon in-game defeat, your progress is safe if you exit the game through the menu or experience a power loss. The Cardinal System only punishes tactical failure, not technical issues.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Exploration Milestones and Checklist">
+
+Completing the exploration of the **echoes of aincrad map** grants significant rewards, including permanent stat boosts and rare titles. Use this checklist to ensure you have fully mastered the navigation of the current floor before moving on to the next tier of Aincrad.
+
+<Checklist
+  id="map-completion"
+  title="Floor Exploration Checklist:"
+  items={[
+    "Activate all Checkpoint Beacons on the current floor",
+    "Unlock at least two Teleport Gate shortcuts",
+    "Find and open the floor's Hidden Treasure Chest",
+    "Defeat the Field Elite monster to reveal the full map",
+    "Restock all consumables at the Town of Beginnings",
+    "Spend all accumulated Growth Points at the Inn terminal"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Target} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do I reveal the entire echoes of aincrad map for a floor?",
+    answer: "You must find and interact with all Checkpoint Beacons scattered across the floor. Additionally, defeating the local Field Elite monster will often clear any remaining Fog of War."
+  },
+  {
+    question: "Can I fast travel from anywhere on the map?",
+    answer: "No, fast travel is only possible from Teleport Gates or by using a rare Teleport Crystal consumable. You must reach a Gate physically before you can use it to return to town."
+  },
+  {
+    question: "Do treasure chest icons stay on the map after I open them?",
+    answer: "Once a treasure chest is opened, its icon will turn grey on the map. Most chests do not respawn, so a grey icon indicates that the reward has already been claimed."
+  },
+  {
+    question: "What should I do if my map gets 'jammed' in a dungeon?",
+    answer: "This is usually caused by a nearby jamming device or a specific enemy type. Locate the source of the interference (highlighted by a static pulse on the UI) and destroy it to restore map functionality."
+  }
+]} />
+
+</Section>

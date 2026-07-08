@@ -1,0 +1,176 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Settings, Monitor, Cpu, AlertTriangle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Cierres inesperados de la demo de Echoes of Aincrad: Guía de soluciones y configuración",
+  description: "Resuelve los cierres de la demo de Echoes of Aincrad en PC, PS5 y Xbox. Aprende a optimizar ajustes, verificar archivos y asegurar la estabilidad de la transferencia de datos.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Demo+Crashing+Fixes",
+  date: "2026-07-09",
+  author: "Equipo de la Wiki de Echoes of Aincrad",
+  keywords: "Echoes of Aincrad, demo, cierre inesperado, solución, guía, PC, PS5, Xbox"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Solución Inicial**: Aborda los **cierres de la demo de Echoes of Aincrad** verificando los archivos del juego en Steam o reinstalando en consolas.
+- **Comprobación de Hardware**: Asegúrate de que tu PC cumpla con los requisitos mínimos, especialmente en lo que respecta a DirectX 12 y almacenamiento SSD.
+- **Datos de Guardado**: El progreso de la demo se transfiere al juego completo, pero los datos corruptos pueden provocar fallos en el inicio.
+- **Actualización de Controladores**: Actualiza los controladores de NVIDIA o AMD a las versiones más recientes de julio de 2026 para un rendimiento óptimo en JRPGs.
+- **Problemas de Superposición**: Desactiva las superposiciones de Steam, Discord y GeForce Experience para evitar congelamientos a mitad de la partida.
+</Callout>
+
+<Section icon={Monitor} title="Requisitos Técnicos y Compatibilidad">
+
+El lanzamiento de la demo de Echoes of Aincrad ha permitido a los jugadores experimentar la fase beta de la historia en PlayStation 5, Xbox Series X|S y PC. Sin embargo, muchos usuarios han informado problemas con los **cierres de la demo de Echoes of Aincrad** durante la pantalla de carga inicial o después del menú de creación de personajes. La mayoría de estos obstáculos técnicos se deben a la incompatibilidad de hardware o a software del sistema desactualizado.
+
+| Requisito | Especificación Mínima | Especificación Recomendada |
+| :--- | :--- | :--- |
+| **SO** | Windows 10/11 (64-bit) | Windows 11 (64-bit) |
+| **Procesador** | Intel Core i5-8400 / AMD Ryzen 5 2600 | Intel Core i7-10700 / AMD Ryzen 7 3700X |
+| **Memoria** | 12 GB RAM | 16 GB RAM |
+| **Gráficos** | GTX 1060 (6GB) / RX 580 (8GB) | RTX 3060 / RX 6700 XT |
+| **DirectX** | Versión 12 | Versión 12 |
+| **Almacenamiento** | 40 GB de espacio disponible (SSD) | 40 GB de espacio disponible (NVMe SSD) |
+
+<Callout type="warning" title="SSD Obligatorio">
+Ejecutar la demo en una unidad de disco duro tradicional (HDD) es una causa frecuente de los **cierres de la demo de Echoes of Aincrad** durante las transiciones de piso. El juego utiliza la transmisión de activos a alta velocidad para los entornos del castillo flotante, lo que requiere un SSD para mayor estabilidad.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="Solución de Problemas Paso a Paso para PC">
+
+Si experimentas un cierre al escritorio (CTD) sin un mensaje de error, el primer paso es validar la integridad de los archivos locales del juego. Este proceso identifica activos corruptos que pueden haber sido dañados durante el proceso de descarga en Steam.
+
+<Steps>
+  <Step num="1" title="Verificar Archivos del Juego en Steam">
+    Abre tu biblioteca de Steam, haz clic derecho en Echoes of Aincrad Demo y selecciona Propiedades. Ve a la pestaña de Archivos Instalados y haz clic en "Verificar integridad de los archivos de la demo". Esto reemplazará cualquier DLL faltante o textura corrupta.
+  </Step>
+  <Step num="2" title="Actualizar Controladores Gráficos">
+    Descarga los controladores más recientes de los sitios oficiales de NVIDIA o AMD. Las actualizaciones de julio de 2026 incluyen optimizaciones específicas para el motor JRPG más reciente de Bandai Namco, lo que reduce significativamente los tirones por compilación de sombreadores.
+  </Step>
+  <Step num="3" title="Limpiar Caché de Sombreadores">
+    Navega al panel de control de tu GPU y limpia el caché de sombreadores. Para los usuarios de NVIDIA, esto se encuentra en "Controlar la configuración 3D". Esto obliga al juego a reconstruir el caché, solucionando a menudo los cierres que ocurren durante la cinemática de apertura.
+  </Step>
+  <Step num="4" title="Configurar Ajustes de Energía">
+    Establece tu Plan de Energía de Windows en "Alto Rendimiento". Esto evita que la CPU baje su frecuencia durante secuencias de combate intensas, lo que puede provocar un bloqueo a nivel de sistema.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Privilegios de Administrador">
+Haz clic derecho en el ejecutable del juego en la carpeta de Steam y selecciona "Ejecutar como administrador". Esto asegura que el juego tenga los permisos necesarios para escribir datos de guardado y acceder a los recursos del sistema sin interferencias.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Conflictos de Software y Optimización de Superposición">
+
+Las aplicaciones en segundo plano y las superposiciones de terceros son famosas por causar los **cierres de la demo de Echoes of Aincrad** durante los viajes rápidos o encuentros con jefes. Estas herramientas a menudo entran en conflicto con la canalización de renderizado del juego, especialmente cuando se utilizan funciones de DirectX 12.
+
+<CardGrid cols={3}>
+  <Card title="Desactivar Superposiciones">
+    - **Superposición de Steam**: Desactivar en las propiedades del juego.
+    - **Discord**: Apagar la superposición dentro del juego.
+    - **Herramientas de GPU**: Cerrar MSI Afterburner o Precision X1.
+  </Card>
+  <Card title="Excepciones de Antivirus">
+    - **Añadir Carpeta**: Añadir la carpeta de la demo a las exclusiones.
+    - **Firewall**: Asegurarse de que el ejecutable esté permitido.
+    - **Escaneo en Tiempo Real**: Desactivar durante el primer inicio.
+  </Card>
+  <Card title="Modos de Pantalla">
+    - **Ventana sin Bordes**: Usar para multitarea.
+    - **Pantalla Completa**: Recomendado para máxima estabilidad.
+    - **V-Sync**: Desactivar si experimentas retraso de entrada (input lag).
+  </Card>
+</CardGrid>
+
+| Tipo de Aplicación | Conflicto Potencial | Acción Recomendada |
+| :--- | :--- | :--- |
+| **Software de Grabación** | OBS / ShadowPlay | Desactivar codificación por hardware durante la demo |
+| **Software RGB** | iCUE / Razer Synapse | Cerrar proceso en el Administrador de Tareas antes de iniciar |
+| **Comunicación** | TeamSpeak / Discord | Desactivar aceleración por hardware en los ajustes de la app |
+
+<Callout type="info" title="Estado de Steam Deck">
+La documentación oficial indica que Echoes of Aincrad no es compatible actualmente con Steam Deck en su lanzamiento. Intentar ejecutar la demo en Proton puede provocar cierres inmediatos hasta que se lance un parche de compatibilidad.
+</Callout>
+
+</Section>
+
+<Section icon={AlertTriangle} title="Estabilidad de Datos de Guardado y Transferencia">
+
+La demo permite a los jugadores transferir su progreso a la versión completa de Echoes of Aincrad. Sin embargo, si la demo se cierra durante una operación de guardado, el archivo resultante puede corromperse, impidiendo que tanto la demo como el juego completo se inicien correctamente.
+
+| Problema de Guardado | Síntoma | Resolución |
+| :--- | :--- | :--- |
+| **Ranura Corrupta** | Carga infinita en "Iniciar Juego" | Borrar guardado local y sincronizar desde la nube |
+| **Error de Transferencia** | El juego completo no detecta datos de la demo | Actualizar el juego completo a la versión más reciente de julio de 2026 |
+| **Permiso Denegado** | Mensaje de "Error al guardar" en el juego | Desactivar el Acceso Controlado a Carpetas de Windows |
+
+<Steps>
+  <Step num="1" title="Respaldar Guardados Locales">
+    Localiza tu carpeta de guardado en %LocalAppData%/BandaiNamco/EchoesOfAincrad/Saved. Copia esta carpeta a una ubicación segura antes de intentar cualquier transferencia de archivos.
+  </Step>
+  <Step num="2" title="Verificar Coincidencia de Versión">
+    Asegúrate de que tu demo y el juego completo tengan la misma versión regional (ej. Norteamérica). Las transferencias de guardado entre regiones no son compatibles y resultarán en un cierre.
+  </Step>
+  <Step num="3" title="Comprobación de Sincronización en la Nube">
+    Confirma que la sincronización de Steam Cloud o PlayStation Plus se haya completado antes de cambiar de dispositivo. Las sincronizaciones incompletas son una causa principal de los **cierres de la demo de Echoes of Aincrad** durante la pantalla de "Comprobando datos de guardado".
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Limitación del Modo Juego de la Muerte">
+Los datos de guardado transferidos desde la demo no se pueden cambiar al Modo Juego de la Muerte (Death Game Mode). Si tienes la intención de jugar el desafío de una sola vida, debes comenzar un nuevo archivo de guardado en lugar de usar datos transferidos.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación de Estabilidad y Preparación Final">
+
+Antes de volver a sumergirte en el castillo flotante de Aincrad, usa esta lista de verificación para asegurarte de que tu sistema esté totalmente optimizado para la demo. Seguir estos pasos minimizará el riesgo de que la **demo de Echoes of Aincrad se cierre** durante misiones críticas de la historia.
+
+<Checklist
+  id="stability-goals"
+  title="Lista de Verificación Previa al Lanzamiento:"
+  items={[
+    "Verificar archivos del juego a través de Steam o reinstalar en consola",
+    "Actualizar los controladores de la GPU a la versión de julio de 2026",
+    "Desactivar todas las superposiciones de fondo no esenciales",
+    "Asegurarse de tener al menos un 10% de espacio libre en el SSD para el archivo de paginación",
+    "Establecer los ajustes de energía de Windows en modo de Alto Rendimiento"
+  ]}
+/>
+
+<Callout type="success" title="Listo para Jugar">
+Una vez completada la lista, inicia el juego en modo de Pantalla Completa. Si sigues teniendo problemas, considera bajar la "Calidad de Efectos" y la "Distancia de Sombras" en el menú de gráficos para reducir la presión sobre la VRAM.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Por qué la demo de Echoes of Aincrad se cierra al iniciar?",
+    answer: "La mayoría de los cierres al inicio son causados por controladores gráficos desactualizados o componentes de DirectX 12 faltantes. Asegúrate de que Windows esté actualizado y verifica los archivos del juego a través de Steam."
+  },
+  {
+    question: "¿Puedo solucionar los cierres de la demo en PS5 o Xbox?",
+    answer: "En consolas, la mejor solución es desinstalar la demo, limpiar el caché del sistema apagando y desconectando la consola, y luego realizar una instalación limpia en el SSD interno."
+  },
+  {
+    question: "¿Estarán seguros mis datos de guardado si la demo se cierra?",
+    answer: "Si el cierre ocurre durante la animación del icono de guardado, los datos podrían corromperse. Se recomienda habilitar los Guardados en la Nube para permitir la recuperación de datos."
+  },
+  {
+    question: "¿La demo es compatible con Steam Deck?",
+    answer: "Actualmente, Echoes of Aincrad figura como no compatible con Steam Deck. Ejecutarla puede causar que la demo se cierre frecuentemente debido a problemas de compatibilidad con Proton."
+  }
+]} />
+
+</Section>

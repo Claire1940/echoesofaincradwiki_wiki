@@ -1,0 +1,160 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Multijugador de Echoes of Aincrad: Cooperativo en Línea y Mecánicas para un Jugador",
+  description: "¿Es Echoes of Aincrad multijugador? Descubre detalles oficiales sobre el cooperativo en línea, funciones para un jugador y mecánicas de compañeros de IA en el JRPG de SAO de 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Multiplayer+and+Partners",
+  date: "2026-07-09",
+  author: "Equipo de la Wiki de Echoes of Aincrad",
+  keywords: "Echoes of Aincrad multijugador, cooperativo online, compañeros IA, SAO JRPG 2026"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Estado del multijugador de Echoes of Aincrad**: Bandai Namco ha lanzado oficialmente el juego como un **JRPG puramente para un solo jugador**, sin multijugador en línea desde el primer día.
+- **Sistema de Compañeros de IA**: El cooperativo en línea es reemplazado por una **mecánica de compañeros de IA** táctica en tiempo real, con clases de armas únicas y modos tácticos.
+- **Potencial Multijugador Futuro**: Los desarrolladores han declarado que considerarían añadir modos multijugador o expansiones de pisos tras el lanzamiento si la demanda de la comunidad y las ventas son sólidas.
+- **Reglas del Juego de la Muerte**: El modo de muerte permanente de alto riesgo está diseñado estrictamente para la supervivencia en solitario, donde las órdenes a los compañeros dictan el éxito o la eliminación del personaje.
+</Callout>
+
+<Section icon={Shield} title="¿Es Echoes of Aincrad Multijugador? Estado del Lanzamiento Oficial">
+
+Muchos jugadores que se sumergen en el mundo virtual de Aincrad esperan una experiencia MMORPG completa que coincida con la historia del anime original. Sin embargo, las funciones **multijugador de Echoes of Aincrad** no están disponibles en el lanzamiento, ya que el juego está estructurado como un **JRPG de acción dedicado para un solo jugador**.
+
+En lugar de agruparte con jugadores del mundo real, tu viaje a través del castillo flotante es un esfuerzo en solitario altamente personalizado. Diseñas a tu protagonista, eliges tu estilo de arma y confías en un sistema de compañeros offline para despejar pisos y sobrevivir al juego de la muerte.
+
+| Función | Estado de Soporte | Tipo de Sistema |
+| :--- | :--- | :--- |
+| **Cooperativo en Línea** | No Disponible | Ninguno |
+| **Pantalla Dividida Local** | No Disponible | Ninguno |
+| **Duelos PvP** | No Disponible | Ninguno |
+| **Cooperativo con Compañero IA** | **Totalmente Compatible** | IA Táctica en Tiempo Real |
+| **Juego Multiplataforma** | No Aplicable | Solo un Jugador |
+
+<Callout type="warning" title="Malentendidos sobre el Multijugador">
+No confundas Echoes of Aincrad con los juegos comunitarios basados en Roblox. Este es un JRPG premium centrado en el modo offline, desarrollado por Game Studio Inc. y publicado por Bandai Namco. No existen códigos de sala activos ni servidores de emparejamiento en línea.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Cómo el Sistema de Compañeros de IA Reemplaza al Cooperativo en Línea">
+
+Para simular la dinámica social de un MMO vibrante, los desarrolladores implementaron un robusto sistema de compañeros de IA. En lugar de jugar solo, seleccionas a un compañero dedicado antes de salir de la Ciudad de los Inicios para enfrentar misiones y mazmorras.
+
+Estos compañeros actúan como tus compañeros de equipo "cooperativos". Cada acompañante presenta un arquetipo de arma distinto, un conjunto único de Habilidades de Soporte y Habilidades de Combinación cinematográficas que pueden cambiar el rumbo de la batalla.
+
+<CardGrid cols={3}>
+  <Card title="Iori (Espada y Escudo)">
+    - **Rol**: Soporte Inicial Equilibrado
+    - **Habilidad**: Genera un campo circular brillante que te cura con el tiempo.
+    - **Ideal para**: Principiantes que están aprendiendo los patrones de ataque enemigos.
+  </Card>
+  <Card title="Wyzeman (Maza y Escudo)">
+    - **Rol**: Tanque y Rompedor de Defensa
+    - **Habilidad**: Absorbe la amenaza enemiga y aturde a objetivos pesados.
+    - **Ideal para**: Jugadores con construcciones ligeras de alto daño.
+  </Card>
+  <Card title="Argo (Daga)">
+    - **Rol**: Utilidad de Alta Movilidad
+    - **Habilidad**: Debilita las defensas enemigas y expone rutas ocultas en el mapa.
+    - **Ideal para**: Acelerar las incursiones de recolección de recursos.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Bono de Sinergia">
+Puedes personalizar el equipo y las estadísticas de tu compañero desde tu habitación en la posada local. Ajustar sus parámetros para complementar las debilidades de tu arma es clave para sobrevivir a los encuentros de alta dificultad.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Comandos Tácticos en Tiempo Real y Mecánicas de Cambio (Switch)">
+
+Incluso sin un jugador humano real a tu lado, puedes coordinar maniobras tácticas complejas durante el combate en tiempo real. El juego presenta dos modos tácticos distintos y una mecánica insignia que imita el flujo de combate en equipo del anime.
+
+<Steps>
+  <Step num="1" title="Selecciona tu Modo Táctico">
+    Alterna entre el **Modo Cambio (Switch)** para dividir la atención de un enemigo agresivo, o el **Modo Libre** para concentrar vuestro daño combinado en un solo objetivo.
+  </Step>
+  <Step num="2" title="Activa Habilidades de Soporte">
+    Abre la rueda de acción de acceso rápido en batalla para ordenar manualmente a tu compañero que ejecute curaciones, mejoras defensivas o hechizos de control de masas.
+  </Step>
+  <Step num="3" title="Ejecuta un Cambio Perfecto">
+    Sincroniza tu esquiva o parada perfectamente para aturdir al enemigo, luego ejecuta un **Tajo de Inversión** para intercambiar posiciones con tu compañero y desatar un contraataque devastador.
+  </Step>
+  <Step num="4" title="Desata Habilidades de Combinación">
+    Una vez que vuestro medidor de combate conjunto esté lleno, activa tu Habilidad de Combinación equipada para activar un asalto dual de alto daño y muy cinematográfico.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Ventaja en Combate">
+Usar la mecánica de Cambio no es solo vistoso; pausa temporalmente tu consumo de Resistencia (Stamina), permitiéndote recuperar recursos mientras tu compañero toma la línea del frente.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="¿Se Añadirá Multijugador en una Futura Actualización?">
+
+Aunque la versión de lanzamiento del juego es estrictamente para un solo jugador, la puerta no está completamente cerrada a futuras integraciones multijugador.
+
+Según las sesiones oficiales de preguntas y respuestas de los desarrolladores, Game Studio Inc. y Bandai Namco están abiertos a desarrollar funciones en línea bajo condiciones específicas.
+
+| Actualización Potencial | Criterios de Implementación | Cronograma Estimado |
+| :--- | :--- | :--- |
+| **Incursiones de Piso Online** | Altas ventas globales y demanda comunitaria | DLC posterior a diciembre de 2026 |
+| **Misiones Cooperativas para 2** | Estudios de viabilidad técnica | Por determinar |
+| **Datos Fantasma Asíncronos** | Parche de optimización del sistema estándar | Otoño de 2026 |
+
+Si quieres que el **multijugador de Echoes of Aincrad** se convierta en realidad, asegúrate de expresar tus comentarios en las comunidades oficiales de Discord y Reddit.
+
+<Callout type="info" title="Enfoque Actual">
+Los desarrolladores están priorizando actualmente el lanzamiento del Pase de DLC de Expansión (programado para antes del 31 de diciembre de 2026), que se centra en añadir nuevos pisos, armas y expansiones de la historia.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Supervivencia en Solitario: Preparándose para el Juego de la Muerte">
+
+Debido a que no puedes confiar en amigos en línea para que te ayuden en las peleas difíciles contra jefes, dominar la autosuficiencia es obligatorio, especialmente si juegas en el modo de muerte permanente de alto riesgo. Usa esta lista para asegurar que tu personaje en solitario esté siempre preparado.
+
+<Checklist
+  id="solo-survival-checklist"
+  title="Lista de Preparación Previa a la Misión:"
+  items={[
+    "Mejora tu arma principal y escudo en la Herrería antes de comenzar una nueva misión de piso.",
+    "Asigna todos los Puntos de Crecimiento obtenidos a estadísticas que escalen directamente con tu arma activa.",
+    "Repón tu bolsa con Pociones de Curación Superior y Pociones de SP Superior en la Ciudad de los Inicios.",
+    "Configura el comportamiento táctico de tu compañero para que coincida con las mecánicas del próximo jefe.",
+    "Desbloquea los puntos de control cercanos en el mapa para asegurar zonas de retirada rápida y seguridad."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Tiene Echoes of Aincrad multijugador en línea o cooperativo?",
+    answer: "No, Echoes of Aincrad es un JRPG de acción para un solo jugador en su lanzamiento. Cuenta con un sistema de compañeros de IA offline para asistirte en el combate en lugar de jugadores reales."
+  },
+  {
+    question: "¿Puedo jugar con mis amigos en PS5, Xbox o Steam?",
+    answer: "No hay funciones de juego cruzado ni cooperativo en línea disponibles, lo que significa que no puedes unirte a amigos en ninguna plataforma."
+  },
+  {
+    question: "¿Añadirán los desarrolladores el multijugador a Echoes of Aincrad más adelante?",
+    answer: "Bandai Namco declaró en una sesión de preguntas y respuestas que considerarían añadir modos multijugador o incursiones de piso adicionales si el juego se vende bien y los jugadores lo solicitan encarecidamente."
+  },
+  {
+    question: "¿Cómo ordeno a mi compañero en el combate?",
+    answer: "Puedes usar la rueda de acción para activar sus Habilidades de Soporte, alternar comportamientos tácticos entre el Modo Cambio y el Modo Libre, o iniciar Habilidades de Combinación conjuntas."
+  }
+]} />
+
+</Section>

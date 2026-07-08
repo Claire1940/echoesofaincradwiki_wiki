@@ -1,0 +1,177 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mapa de echoes of aincrad: Guía de exploración y navegación de pisos",
+  description: "Domina el mapa de echoes of aincrad con nuestra guía de puntos de control, navegación de pisos, ubicaciones de tesoros ocultos y consejos de supervivencia para el Pueblo de los Inicios.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Map+Exploration+Guide",
+  date: "2026-07-09",
+  author: "Equipo de la Wiki de echoes of aincrad"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Palabra clave principal**: Entender el **mapa de echoes of aincrad** es esencial para navegar por el castillo flotante y encontrar puntos de control.
+- **Mecánica clave**: Activa los **Puntos de Control** (Checkpoints) para revelar los puntos de interés circundantes, cofres del tesoro y rutas ocultas.
+- **Mejor estrategia**: Utiliza el **Pueblo de los Inicios** como tu nexo principal para reabastecerte y mejorar tu equipamiento antes de explorar nuevos pisos.
+- **Consejo crítico**: En el **Modo Juego de la Muerte** (Death Game Mode), el conocimiento del mapa es tu mayor activo para evitar trampas de alto nivel que pueden borrar tu partida guardada.
+- **La mejor opción**: Comienza con el tipo de arma **Espada y Escudo** para mantener una defensa alta mientras exploras territorios desconocidos.
+</Callout>
+
+<Section icon={Map} title="Navegando por el Castillo Flotante: Explicación de los sistemas de mapas">
+
+El **mapa de echoes of aincrad** funciona como algo más que una simple guía visual; es una herramienta de supervivencia integrada en el Sistema Cardinal. A diferencia de los RPG tradicionales donde todo el mapa es visible desde el principio, Echoes of Aincrad requiere que los jugadores exploren activamente los entornos para revelar el terreno, la densidad de enemigos y los nodos de recursos. Tu viaje comienza en los niveles inferiores del castillo flotante, donde la visibilidad es alta, pero a medida que asciendas, los peligros ambientales y la compleja verticalidad pondrán a prueba tus habilidades de navegación.
+
+La interfaz se divide en el Minimapa y el Mapa Completo. El Minimapa proporciona datos de proximidad en tiempo real, destacando a los enemigos cercanos y los obstáculos inmediatos. El Mapa Completo, accesible a través del menú principal, te permite planificar viajes de larga distancia, identificar Puertas de Teletransporte y realizar un seguimiento de tu progreso en los diferentes pisos. Comprender cómo interactúan estas capas es el primer paso para dominar el ciclo de exploración de este JRPG de acción.
+
+<Callout type="tip" title="Consejo profesional de exploración">
+Puedes personalizar los filtros de tu mapa para resaltar recursos específicos o tipos de NPC. Si estás recolectando materiales de herrería, configura tu filtro en \"Nodos de recursos\" para ver los puntos de aparición activos en las secciones exploradas del mapa.
+</Callout>
+
+| Característica del mapa | Descripción del icono | Funcionalidad |
+| :--- | :--- | :--- |
+| **Puerta de Teletransporte** | Arco azul brillante | Viaje rápido entre pisos completados y el nexo principal. |
+| **Puntos de Control** | Diamante digital flotante | Revela datos del mapa local y marca tesoros cercanos. |
+| **Zona Segura** | Escudo verde | Zonas donde los monstruos no pueden aparecer; restaura PS con el tiempo. |
+| **Marcador de Misión** | Exclamación dorada | Indica la ubicación de tu objetivo activo actual. |
+| **Comerciante** | Bolsa marrón | Identifica a los NPCs que compran botín o venden consumibles. |
+
+</Section>
+
+<Section icon={Target} title="El Pueblo de los Inicios: Tu nexo estratégico">
+
+Cada expedición exitosa en el **mapa de echoes of aincrad** comienza en el Pueblo de los Inicios. Este extenso centro urbano sirve como el principal nexo social y mecánico del juego. Aquí encontrarás los servicios esenciales necesarios para mantener tu equipamiento y gestionar tu grupo. Debido a que Echoes of Aincrad cuenta con una regla de \"no retirada\" para las batallas contra jefes, tu preparación dentro de este pueblo determinará si sobrevives al encuentro final del piso.
+
+El pueblo está dividido en varios distritos, cada uno de los cuales ofrece beneficios únicos. La Plaza Central es donde encontrarás el Tablón de Anuncios y comerciantes generales, mientras que el Callejón del Herrero es el único lugar para realizar infusiones EX-MOD en tus armas. Conocer la distribución del pueblo te ahorrará tiempo y garantizará que nunca entres a una mazmorra mal equipado.
+
+| Distrito | Propósito principal | NPCs clave |
+| :--- | :--- | :--- |
+| **Plaza Central** | Adquisición de misiones | Tablón de anuncios, Argo la Traficante de Información |
+| **Callejón del Herrero** | Mejoras de equipo | Herrería de Agil, Intercambio de materiales |
+| **La Posada** | Gestión | Habitación del jugador, Terminal de Puntos de Crecimiento |
+| **Calle del Mercado** | Consumibles | Alquimista de pociones, Vendedor de comida |
+| **Plaza de Teletransporte** | Viaje entre pisos | Guardián de la puerta, Portal multijugador |
+
+<Callout type="info" title="Logística de compañeros">
+Puedes ajustar el equipamiento de armas y habilidades de tu compañero en la Terminal dentro de tu habitación en la Posada. Sincroniza siempre las capacidades de tu compañero con la distribución específica del piso que planeas visitar.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Cómo revelar el mapa: Exploración paso a paso">
+
+Revelar el **mapa de echoes of aincrad** es un proceso metódico que recompensa la minuciosidad. Cada nuevo piso o mazmorra comienza como una zona con \"Niebla de guerra\". Para despejar esta niebla, debes localizar e interactuar con nodos físicos dentro del entorno. Este sistema evita que los jugadores simplemente corran hacia el jefe, ya que perderse los puntos de control a menudo significa perderse los atajos necesarios para regresar rápidamente después de una derrota.
+
+Sigue estos pasos para mapear de manera eficiente un nuevo piso:
+
+<Steps>
+  <Step num="1" title="Localiza la entrada del piso">
+    Al ingresar a un nuevo piso a través de la Puerta de Teletransporte, verifica inmediatamente tu minimapa para encontrar la Zona Segura más cercana. Esta servirá como tu punto de reaparición si te ves obligado a retirarte.
+  </Step>
+  <Step num="2" title="Identifica las balizas de puntos de control">
+    Busca en el entorno diamantes azules flotantes. Interactuar con estas balizas despeja la niebla en un gran radio y marca todos los cofres del tesoro y caminos ocultos en tu mapa.
+  </Step>
+  <Step num="3" title="Despeja los obstáculos del terreno">
+    Muchas rutas están bloqueadas por puertas selladas o barreras ambientales. Busca interruptores o grupos específicos de enemigos que tengan la \"Llave de zona\" para desbloquear estos atajos.
+  </Step>
+  <Step num="4" title="Activa la puerta de la sala del jefe">
+    Una vez que llegues al final del camino principal del piso, debes interactuar con la Puerta de la Sala del Jefe. Esto registrará la ubicación en tu mapa, lo que te permitirá regresar al pueblo para los preparativos finales.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Advertencia de zona de peligro">
+En ciertas áreas de alto nivel, el Sistema Cardinal puede \"interferir\" tu mapa, dejando el minimapa inservible hasta que derrotes a un monstruo de élite específico. Lleva siempre un \"Cristal de mapeo\" para estas situaciones.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Distribución de recursos y recolección de materiales">
+
+Para mejorar tus armas en la Herrería, debes recolectar materiales que se encuentran por todo el **mapa de echoes of aincrad**. Los diferentes pisos proporcionan diferentes niveles de minerales, cristales y componentes biológicos. La dificultad del piso se correlaciona directamente con la rareza de los materiales disponibles. Por ejemplo, el Piso 1 es rico en mineral de hierro y hierbas básicas, mientras que los pisos superiores contienen cristales místicos necesarios para habilidades de espada de alto nivel.
+
+Los iconos del mapa para los nodos de recursos cambiarán de color según su rareza. Los nodos comunes son blancos, mientras que los nodos raros brillan en dorado. Si viajas con una compañera como Argo, ella ocasionalmente puede lanzar un \"pulso\" al mapa para revelar depósitos de recursos ocultos que normalmente no son visibles a través de los puntos de control estándar.
+
+| Nivel de material | Ejemplos de ubicación en el mapa | Usos comunes | Rareza |
+| :--- | :--- | :--- | :--- |
+| **Mineral básico** | Praderas de los pisos 1 a 5 | Creación inicial de armas | Común |
+| **Acero refinado** | Mazmorras de cavernas | Mejoras de parámetros de armas | Poco común |
+| **Cristal místico** | Ruinas antiguas | Desbloqueo de habilidades de espada | Raro |
+| **Escama de dragón** | Cumbres de pisos superiores | Infusiones EX-MOD | Legendario |
+| **Hierba curativa** | Zonas seguras del bosque | Elaboración de pociones | Común |
+
+<Callout type="success" title="Eficiencia en la recolección">
+Los materiales reaparecen después de un tiempo determinado o al volver a ingresar al piso desde el Pueblo de los Inicios. Utiliza la Puerta de Teletransporte para reiniciar los nodos si estás buscando una mejora específica.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Supervivencia en el Modo Juego de la Muerte: Mapeando los riesgos">
+
+Para los jugadores lo suficientemente valientes como para ingresar al **Modo Juego de la Muerte** (Death Game Mode), el **mapa de echoes of aincrad** se convierte en un salvavidas literal. En este modo, la muerte del personaje resulta en el borrado permanente de tus datos de guardado. La navegación ya no se trata solo de encontrar botín; se trata de identificar la ruta más segura posible hacia el siguiente punto de control. No puedes permitirte tropezar con una \"Guarida de monstruos\" o una zona de élite de alto nivel por accidente.
+
+En el Modo Juego de la Muerte, el mapa destaca los \"Niveles de peligro\" para diferentes secciones del piso. Las áreas marcadas en rojo indican que el nivel promedio de los monstruos es significativamente más alto que tu Rango Cardinal actual. Evitar estas zonas hasta que hayas gastado tus Puntos de Crecimiento en la Posada es la clave para la supervivencia a largo plazo.
+
+<CardGrid cols={2}>
+  <Card title="Navegación de alto riesgo">
+    - **Evita las zonas rojas**: Nunca entres en áreas de alto nivel sin un inventario lleno de cristales de curación.
+    - **Usa el modo de relevo (Switch)**: Deja que tu compañero explore pasillos estrechos para evitar emboscadas.
+  </Card>
+  <Card title="Retiradas estratégicas">
+    - **Identifica zonas seguras**: Conoce siempre la distancia a la zona verde más cercana.
+    - **No te apresures al jefe**: Mapea el 100% del piso para encontrar todos los atajos antes de la batalla contra el jefe.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Seguridad de los datos de guardado">
+Aunque el Modo Juego de la Muerte borra los datos tras una derrota en el juego, tu progreso estará a salvo si sales del juego a través del menú o si experimentas un corte de energía. El Sistema Cardinal solo castiga el fracaso táctico, no los problemas técnicos.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Hitos de exploración y lista de verificación">
+
+Completar la exploración del **mapa de echoes of aincrad** otorga recompensas significativas, que incluyen aumentos permanentes de estadísticas y títulos raros. Utiliza esta lista de verificación para asegurarte de haber dominado por completo la navegación del piso actual antes de pasar al siguiente nivel de Aincrad.
+
+<Checklist
+  id="map-completion"
+  title="Lista de verificación de exploración de pisos:"
+  items={[
+    "Activa todas las balizas de puntos de control en el piso actual",
+    "Desbloquea al menos dos atajos de puertas de teletransporte",
+    "Encuentra y abre el cofre del tesoro oculto del piso",
+    "Derrota al monstruo de élite del mapa para revelar el mapa completo",
+    "Reabastece todos los consumibles en el Pueblo de los Inicios",
+    "Gasta todos los puntos de crecimiento acumulados en la terminal de la posada"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Target} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo revelo todo el mapa de echoes of aincrad de un piso?",
+    answer: "Debes encontrar e interactuar con todas las balizas de puntos de control repartidas por el piso. Además, derrotar al monstruo de élite local a menudo despejará cualquier niebla de guerra restante."
+  },
+  {
+    question: "¿Puedo realizar un viaje rápido desde cualquier lugar del mapa?",
+    answer: "No, el viaje rápido solo es posible desde las Puertas de Teletransporte o usando un consumible raro de Cristal de Teletransporte. Debes llegar físicamente a una puerta antes de poder usarla para regresar al pueblo."
+  },
+  {
+    question: "¿Los iconos de los cofres del tesoro permanecen en el mapa después de abrirlos?",
+    answer: "Una vez que se abre un cofre del tesoro, su icono se volverá gris en el mapa. La mayoría de los cofres no vuelven a aparecer, por lo que un icono gris indica que la recompensa ya ha sido reclamada."
+  },
+  {
+    question: "¿Qué debo hacer si mi mapa se 'interfiere' en una mazmorra?",
+    answer: "Esto suele ser causado por un dispositivo inhibidor cercano o un tipo de enemigo específico. Localiza la fuente de la interferencia (destacada por un pulso estático en la interfaz de usuario) y destrúyela para restaurar la funcionalidad del mapa."
+  }
+]} />
+
+</Section>

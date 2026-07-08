@@ -10,7 +10,15 @@
       "twitterDescription": "Echoes of Aincrad Wiki covers release date, demo, builds, weapons, characters, Death Game Mode, and PC requirements for the SAO action JRPG."
     }
   },
-  "nav": {},
+  "nav": {
+    "release": "Release",
+    "demo": "Demo",
+    "guide": "Guide",
+    "platforms": "Platforms",
+    "creation": "Creation",
+    "multiplayer": "Multiplayer",
+    "weapons": "Weapons"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -649,5 +657,146 @@
     "copyright": "© 2026 Echoes of Aincrad Wiki. Not affiliated with Bandai Namco Entertainment or the developers of Echoes of Aincrad.",
     "disclaimer": "Unofficial fan-made resource website."
   },
-  "pages": {}
+  "pages": {
+    "release": {
+      "title": "Echoes of Aincrad Release",
+      "description": "Track the Echoes of Aincrad release date, global launch times, platform availability, editions, and preload schedule for the SAO action JRPG.",
+      "metaTitle": "Echoes of Aincrad Release - Launch Date, Platforms & Editions",
+      "metaDescription": "Get the official Echoes of Aincrad release date, global launch times, supported platforms, editions, and preload info for the SAO action JRPG.",
+      "categoryLabel": "RELEASE",
+      "whatIs": "What is the Echoes of Aincrad release?",
+      "whatIsDescription": "Echoes of Aincrad is a single-player SAO action JRPG launching globally on July 10, 2026 for PS5, Xbox Series X|S, and Steam. This section covers the official release date, regional unlock times, available editions, and preload windows so you know exactly when and where to start playing.",
+      "why": "Why check the release guide?",
+      "whySteps": {
+        "step1Title": "Confirmed launch date",
+        "step1Description": "Lock in the July 10, 2026 global release and regional unlock times so you can start playing the moment the game goes live.",
+        "step2Title": "Platform availability",
+        "step2Description": "See which platforms support Echoes of Aincrad, including PS5, Xbox Series X|S, and Steam, and pick the right one for your setup.",
+        "step3Title": "Editions and preload",
+        "step3Description": "Compare editions and preload schedules to secure bonuses and install the game ahead of launch."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Release Articles"
+    },
+    "demo": {
+      "title": "Echoes of Aincrad Demo",
+      "description": "Download the Echoes of Aincrad demo, learn trial content limits, save data transfer steps, and supported platforms before the full launch.",
+      "metaTitle": "Echoes of Aincrad Demo - Download, Save Transfer & Trial Guide",
+      "metaDescription": "Play the Echoes of Aincrad demo on PS5, Xbox, and Steam. Learn trial content, demo length, save data transfer, and what carries into the full game.",
+      "categoryLabel": "DEMO",
+      "whatIs": "What is the Echoes of Aincrad demo?",
+      "whatIsDescription": "The Echoes of Aincrad demo is a free playable trial that lets you experience the opening of the SAO action JRPG before launch. It is available on PS5, Xbox Series X|S, and Steam, and supports save data transfer so progress made in the demo can carry over to the full game.",
+      "why": "Why play the demo?",
+      "whySteps": {
+        "step1Title": "Try before launch",
+        "step1Description": "Experience the opening floors, combat, and Sword Skills firsthand to decide if the full game fits your taste.",
+        "step2Title": "Carry over progress",
+        "step2Description": "Transfer your demo save data into the full release so you keep levels, items, and story progress from day one.",
+        "step3Title": "Plan your build",
+        "step3Description": "Test weapon types and partner synergy early so you can hit the ground running when the full game unlocks."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Demo Articles"
+    },
+    "guide": {
+      "title": "Echoes of Aincrad Guide",
+      "description": "Master Echoes of Aincrad with guides on gameplay, floors, map exploration, story progression, save systems, and how long to beat the SAO JRPG.",
+      "metaTitle": "Echoes of Aincrad Guide - Walkthrough, Floors, Map & Story",
+      "metaDescription": "Complete Echoes of Aincrad walkthrough covering gameplay, Aincrad floors, map exploration, story, save systems, and how long to beat the SAO JRPG.",
+      "categoryLabel": "GUIDE",
+      "whatIs": "What is the Echoes of Aincrad guide?",
+      "whatIsDescription": "The Echoes of Aincrad guide covers core gameplay systems, Aincrad floor progression, map exploration, story beats, and essential mechanics like saving and logging out. It helps you navigate the floating castle, clear quests, and survive the Death Game Mode.",
+      "why": "Why use the guide?",
+      "whySteps": {
+        "step1Title": "Floor progression",
+        "step1Description": "Learn how Aincrad's floors work, how many there are, and the best route to climb efficiently.",
+        "step2Title": "Map and exploration",
+        "step2Description": "Find towns, dungeons, and hidden points of interest across each floor without backtracking.",
+        "step3Title": "Core systems",
+        "step3Description": "Understand saving, logging out, and other essential mechanics so you never lose progress."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Guide Articles"
+    },
+    "platforms": {
+      "title": "Echoes of Aincrad Platforms",
+      "description": "Check Echoes of Aincrad platform support for PS5, Xbox Series X|S, Steam, PC requirements, Steam Deck status, and console performance.",
+      "metaTitle": "Echoes of Aincrad Platforms - PS5, Xbox, Steam & PC Requirements",
+      "metaDescription": "See which platforms support Echoes of Aincrad, including PS5, Xbox Series X|S, Steam, PC system requirements, and Steam Deck compatibility.",
+      "categoryLabel": "PLATFORMS",
+      "whatIs": "What platforms is Echoes of Aincrad on?",
+      "whatIsDescription": "Echoes of Aincrad is available on PS5, Xbox Series X|S, and Steam (PC). This section details platform support, PC system requirements, Steam Deck status, and console performance so you can choose the best way to play the SAO action JRPG.",
+      "why": "Why check platform info?",
+      "whySteps": {
+        "step1Title": "Pick your platform",
+        "step1Description": "Compare PS5, Xbox Series X|S, and Steam versions to choose the platform that fits your hardware and habits.",
+        "step2Title": "PC requirements",
+        "step2Description": "Verify minimum and recommended PC specs so the game runs smoothly on your rig.",
+        "step3Title": "Handheld status",
+        "step3Description": "Check Steam Deck and Switch compatibility before planning portable play sessions."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Platform Articles"
+    },
+    "creation": {
+      "title": "Echoes of Aincrad Character Creation",
+      "description": "Build your hero in Echoes of Aincrad with character creation options, appearance customization, gender choice, and how to change looks later.",
+      "metaTitle": "Echoes of Aincrad Character Creation - Custom Hero & Appearance",
+      "metaDescription": "Learn Echoes of Aincrad character creation: custom hero options, appearance customization, playing as a girl, and changing your look later in the SAO JRPG.",
+      "categoryLabel": "CREATION",
+      "whatIs": "What is Echoes of Aincrad character creation?",
+      "whatIsDescription": "Echoes of Aincrad lets you create your own hero with customizable appearance, gender, and starting look. This section covers every creation option, whether you can play as a girl, and how to change your appearance after the story begins.",
+      "why": "Why plan your character?",
+      "whySteps": {
+        "step1Title": "Custom hero",
+        "step1Description": "Design a protagonist that fits your vision with appearance, gender, and style options at the start.",
+        "step2Title": "Appearance control",
+        "step2Description": "Know exactly which features you can tweak and whether you can change them later.",
+        "step3Title": "Roleplay fit",
+        "step3Description": "Match your hero's look to your build and playstyle for a more immersive Aincrad run."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Creation Articles"
+    },
+    "multiplayer": {
+      "title": "Echoes of Aincrad Multiplayer",
+      "description": "Find out if Echoes of Aincrad has multiplayer, co-op, online, crossplay, or PvP, and how the single-player SAO JRPG handles online features.",
+      "metaTitle": "Echoes of Aincrad Multiplayer - Co-op, Online, Crossplay & PvP",
+      "metaDescription": "Does Echoes of Aincrad have multiplayer? Learn about co-op, online modes, crossplay, and PvP support in the single-player SAO action JRPG.",
+      "categoryLabel": "MULTIPLAYER",
+      "whatIs": "Is Echoes of Aincrad multiplayer?",
+      "whatIsDescription": "Echoes of Aincrad is a single-player SAO action JRPG, so it does not feature full multiplayer, co-op, or PvP modes. This section clarifies what online features exist, whether crossplay is supported, and how partner characters fill the party role within the solo campaign.",
+      "why": "Why check multiplayer info?",
+      "whySteps": {
+        "step1Title": "Single-player focus",
+        "step1Description": "Confirm that Echoes of Aincrad is built as a solo JRPG experience so you know what to expect before buying.",
+        "step2Title": "Online features",
+        "step2Description": "Understand which online functions are available and how they affect your playthrough.",
+        "step3Title": "Partner system",
+        "step3Description": "Learn how AI partner characters fill the party role in place of human co-op teammates."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Multiplayer Articles"
+    },
+    "weapons": {
+      "title": "Echoes of Aincrad Weapons",
+      "description": "Master every weapon type in Echoes of Aincrad, including Sword Skills, upgrade paths, and the best weapons for each build in the SAO JRPG.",
+      "metaTitle": "Echoes of Aincrad Weapons - Weapon Types, Skills & Upgrades",
+      "metaDescription": "Explore all Echoes of Aincrad weapon types, Sword Skills, upgrade paths, and the best weapons for each build in the SAO action JRPG.",
+      "categoryLabel": "WEAPONS",
+      "whatIs": "What are Echoes of Aincrad weapons?",
+      "whatIsDescription": "Echoes of Aincrad features multiple weapon types, each with its own Sword Skills, attack patterns, and upgrade paths. This section breaks down every weapon category so you can choose the right arsenal for your build and master Aincrad's combat.",
+      "why": "Why study the weapons?",
+      "whySteps": {
+        "step1Title": "Weapon types",
+        "step1Description": "Compare every weapon type's moveset and Sword Skills to find the one that matches your playstyle.",
+        "step2Title": "Upgrade paths",
+        "step2Description": "Know which weapons to invest in and how to upgrade them efficiently as you climb Aincrad.",
+        "step3Title": "Build synergy",
+        "step3Description": "Pair the right weapon with your stats and partner for maximum damage in boss fights."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Weapon Articles"
+    }
+  }
 }

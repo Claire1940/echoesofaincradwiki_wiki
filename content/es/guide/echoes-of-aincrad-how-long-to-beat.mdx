@@ -1,0 +1,172 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Echoes of Aincrad: ¿Cuánto tarda en completarse? Campaña completa y horas de endgame",
+  description: "Descubre cuánto tiempo toma completar Echoes of Aincrad. Compara los tiempos de juego para la historia principal, el 100% de completado y el brutal Modo Juego de la Muerte.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=How+Long+To+Beat",
+  date: "2026-07-09",
+  author: "Equipo de la Wiki de Echoes of Aincrad",
+  keywords: "Echoes of Aincrad, duración, guía, tiempo de juego, modo juego de la muerte"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Campaña Principal**: Espera alrededor de **25 a 35 horas** para completar la historia principal de Echoes of Aincrad.
+- **Partida de Completista**: Lograr el 100% de completado despejando todas las misiones secundarias, dominando los seis tipos de armas y encontrando todos los cofres ocultos toma más de **60 horas**.
+- **Modo Juego de la Muerte**: El desafío de supervivencia con muerte permanente puede extender fácilmente tu tiempo de juego a más de **80 horas** debido al ritmo altamente cauteloso requerido para sobrevivir.
+- **Progreso de la Demo**: Jugar la demo proporciona aproximadamente de **3 a 5 horas** de juego a través de 5 misiones, las cuales se transfieren directamente al juego completo.
+</Callout>
+
+<Section icon={Map} title="Echoes of Aincrad: ¿Cuánto tarda en completarse? Estimaciones de tiempo">
+
+Estimar cuánto se tarda en completar **Echoes of Aincrad** depende en gran medida de tu estilo de juego, tu eficiencia en combate y qué tan profundo te sumerjas en el contenido secundario. Desarrollado por Game Studio Inc. y publicado por Bandai Namco, este JRPG de acción para un solo jugador ofrece un viaje sustancial a través del castillo flotante de Aincrad.
+
+A continuación se muestra una descripción general de las horas estimadas requeridas para completar varios segmentos del juego:
+
+| Categoría de Estilo de Juego | Inversión de Tiempo Promedio | Áreas de Enfoque Clave |
+| :--- | :--- | :--- |
+| **Solo Campaña Principal** | 25 - 35 Horas | Misiones de la historia, combates críticos contra jefes, nivelación básica |
+| **Historia + Misiones Secundarias** | 40 - 50 Horas | Historias secundarias de personajes, mazmorras opcionales, misiones de facción |
+| **100% Completista** | 60 - 80 Horas | Maximizar las 6 armas, encontrar todos los cofres, completar el endgame |
+| **Modo Juego de la Muerte** | 80+ Horas (Muy Variable) | Partida con muerte permanente, farmeo lento y metódico por seguridad |
+| **Versión Demo** | 3 - 5 Horas | 5 misiones de la fase beta, probar todos los tipos de armas |
+
+<Callout type="tip" title="Consejo de Ritmo">
+Debido a que las salas de los jefes bloquean tu retirada una vez que entras, apresurarte en la historia principal sin mejorar tu equipo o gastar tus Puntos de Crecimiento en la Posada aumentará significativamente tu número de muertes y el tiempo total de juego.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Progresión de Armas y Sumideros de Tiempo de Combate">
+
+Tu elección de arma actúa como tu clase en Echoes of Aincrad, y dominarlas es una parte central del ciclo de juego. Dado que hay seis tipos de armas distintos, tu velocidad de progresión variará según cuántos estilos decidas desarrollar.
+
+Para ayudarte a elegir la mejor arma inicial para una partida fluida y eficiente, considera este desglose de armas enfocado en principiantes:
+
+<CardGrid cols={3}>
+  <Card title="Espada y Escudo (Tier S)">
+    - **Curva de aprendizaje más segura**
+    - Alta capacidad defensiva
+    - Ofensiva y defensiva equilibradas
+  </Card>
+  <Card title="Estoque y Maza (Tier A)">
+    - **Estoque**: Alta movilidad y contraataques
+    - **Maza**: Excelente para aturdir y romper defensas
+    - Ambas permiten el uso de escudo
+  </Card>
+  <Card title="Armas a Dos Manos (Tier B)">
+    - **Espadón y Hacha**: Daño masivo
+    - Sin acceso a escudo y animaciones más lentas
+    - Alto riesgo, alta recompensa
+  </Card>
+</CardGrid>
+
+Mejorar tu equipo en la Herrería y gestionar tus estadísticas es crucial. Así es como la progresión de armas impacta en tu tiempo total de juego:
+
+| Sistema de Progresión | Impacto en el Tiempo | Cómo Optimizar |
+| :--- | :--- | :--- |
+| **Farmeo de EXP de Arma** | Moderado (5-10 horas) | Céntrate en un tipo de arma principal durante la campaña. |
+| **Artesanía EX-MOD** | Alto (10+ horas) | Combina armas del mismo tipo en la Herrería para obtener rasgos especiales. |
+| **Escalado de Rango Cardinal** | Constante | Subir tu rango aumenta la dificultad de los monstruos y la calidad del botín. |
+
+<Callout type="warning" title="Advertencia de Mejora">
+Cada vez que tu Rango Cardinal aumenta, la dificultad de los monstruos escala. No saltes directamente a la siguiente misión principal sin gastar primero tus Puntos de Crecimiento en Vitalidad, Fuerza o Destreza.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía Paso a Paso para una Progresión Eficiente">
+
+Si quieres completar el juego de manera eficiente sin quedarte atascado en encuentros difíciles con jefes, sigue esta ruta de progresión estructurada.
+
+<Steps>
+  <Step num="1" title="Completa la Demo y Transfiere los Datos de Guardado">
+    Comienza jugando la demo en la [Tienda de Steam](https://store.steampowered.com/app/2244210/Echoes_of_Aincrad/) o en consola. Cubre la fase beta y 5 misiones. Transfiere tu progreso al juego completo para saltarte el farmeo introductorio.
+  </Step>
+  <Step num="2" title="Céntrate en un Arma Principal Temprano">
+    Elige un arma confiable como la Espada y Escudo o el Estoque. Enfoca tus Puntos de Crecimiento en estadísticas que escalen directamente el daño de tu arma en lugar de dispersar los puntos demasiado.
+  </Step>
+  <Step num="3" title="Activa Todos los Puntos de Control del Mapa">
+    Al explorar nuevos pisos, prioriza encontrar los puntos de control. Revelan puntos de interés cercanos, atajos ocultos y cofres del tesoro que contienen valiosos materiales de artesanía.
+  </Step>
+  <Step num="4" title="Optimiza la Sinergia con tu Compañero">
+    Elige un compañero que complemente tu estilo de juego. Usa a Iori o Wyzeman para apoyo defensivo con escudo, o a Zash y Argo para daño puro. Utiliza el Modo Switch para desviar la atención del enemigo cuando tu salud sea baja.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Bono de Sinergia">
+Asignar Habilidades de Combinación poderosas a tu rueda de acción te permite desatar ataques conjuntos masivos con tu compañero, reduciendo significativamente los tiempos de combate contra jefes.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Modo Juego de la Muerte: El Extensor de Tiempo Definitivo">
+
+Para los jugadores veteranos, el **Modo Juego de la Muerte** opcional introduce un verdadero desafío de supervivencia al estilo SAO. En este modo, caer en batalla elimina permanentemente los datos de guardado de tu personaje.
+
+Mientras que los propietarios de las ediciones Deluxe y Ultimate pueden desbloquear este modo inmediatamente desde el primer día, los jugadores de la edición estándar deben completar la historia principal una vez para acceder a él.
+
+| Característica | Modo Estándar | Modo Juego de la Muerte |
+| :--- | :--- | :--- |
+| **Penalización por Derrota** | Reaparecer en el último punto de control | **Los datos de guardado se borran permanentemente** |
+| **Ritmo de Juego** | Rápido, agresivo | Muy cauteloso, defensivo, gran dependencia de escudos |
+| **Tiempo de Juego Promedio** | 30 horas | **80+ horas** (debido al exceso de nivelación necesario) |
+| **Transferencia de Demo** | Compatible | No compatible (requiere un nuevo archivo de guardado) |
+
+<Callout type="warning" title="Regla de Muerte Permanente">
+Tus datos de guardado están seguros si sales del juego normalmente o experimentas un corte de energía. El activador de eliminación solo se activa tras una derrota genuina dentro del juego.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación para el 100% Completista">
+
+Si tu objetivo es dominar por completo el castillo flotante de Aincrad, utiliza esta lista para seguir tus objetivos de completista:
+
+<Checklist
+  id="completionist-goals"
+  title="Camino al 100% de Completado:"
+  items={[
+    "Completar todos los capítulos de la historia principal y derrotar al jefe del último piso",
+    "Maximizar la EXP de arma y desbloquear todas las Habilidades de Espada para los 6 tipos de armas",
+    "Localizar y abrir cada cofre del tesoro oculto en todos los mapas de los pisos",
+    "Desbloquear y completar todas las misiones secundarias de compañeros específicos de personajes",
+    "Forjar un arma de nivel máximo con combinaciones óptimas de EX-MOD en la Herrería",
+    "Completar con éxito una partida completa en el Modo Juego de la Muerte"
+  ]}
+/>
+
+<Callout type="info" title="Contenido de Endgame">
+La optimización del endgame gira en torno a recorrer mazmorras de alto nivel para farmear materiales para la fusión de armas EX-MOD, lo que puede añadir fácilmente docenas de horas a tu archivo de guardado post-juego.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuánto se tarda en completar la historia principal de Echoes of Aincrad?",
+    answer: "La historia principal toma aproximadamente de 25 a 35 horas si te concentras principalmente en las misiones principales y realizas una cantidad moderada de contenido secundario para mantener tu nivel escalado adecuadamente."
+  },
+  {
+    question: "¿Se transfiere el progreso de la demo al juego completo?",
+    answer: "Sí, puedes transferir tus datos de guardado de la demo al juego completo en la misma plataforma. Esto te permite saltarte las primeras 3 a 5 horas de la campaña."
+  },
+  {
+    question: "¿Cuánto tiempo toma completar el juego al 100%?",
+    answer: "Una partida de completista toma entre 60 y 80 horas. Esto incluye maximizar los seis tipos de armas, encontrar todos los coleccionables y completar todas las misiones secundarias de los personajes."
+  },
+  {
+    question: "¿Puedo usar mi archivo de guardado de la demo para comenzar el Modo Juego de la Muerte?",
+    answer: "No. Los datos de guardado transferidos de la demo no se pueden convertir al Modo Juego de la Muerte. Debes comenzar un nuevo archivo de guardado para jugar con las reglas de muerte permanente."
+  }
+]} />
+
+</Section>

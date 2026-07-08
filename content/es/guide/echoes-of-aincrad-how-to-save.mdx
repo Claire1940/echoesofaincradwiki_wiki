@@ -1,0 +1,181 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "echoes of aincrad cómo guardar: Guía paso a paso y transferencia de guardado",
+  description: "Aprende cómo guardar el progreso en Echoes of Aincrad, transferir datos de la demo y gestionar archivos de guardado en el arriesgado Modo Juego de la Muerte en esta guía de 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=How+to+Save+Progress",
+  date: "2026-07-09",
+  author: "Equipo de la Wiki de Echoes of Aincrad",
+  keywords: "echoes of aincrad, guardar partida, transferencia de demo, modo juego de la muerte, guía"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **echoes of aincrad cómo guardar**: Utiliza las **Áreas de Seguridad** y la **Posada del Pueblo de los Inicios** para guardados manuales; los auto-guardados ocurren durante las transiciones.
+- **Transferencia de la Demo**: El progreso de la demo de 5 misiones se transfiere al juego completo en la **misma plataforma** después de actualizar.
+- **Modo Juego de la Muerte**: Este modo opcional incluye la **eliminación permanente del guardado** si el personaje es derrotado en el juego.
+- **Sincronización de Plataformas**: Los datos de guardado están bloqueados por plataforma entre las versiones de PS5, Xbox Series X|S y Steam.
+- **Mejor Práctica**: Regresa siempre a la **Posada** para gastar tus Puntos de Crecimiento y realizar un guardado manual antes de enfrentamientos importantes con jefes.
+</Callout>
+
+<Section icon={Shield} title="echoes of aincrad cómo guardar: Mecánicas principales">
+
+Comprender **cómo guardar en Echoes of Aincrad** es el primer paso para sobrevivir al paisaje digital de Aincrad. En este JRPG de 2026, el progreso se registra mediante una combinación de auto-guardados frecuentes y puntos de control manuales situados en zonas seguras designadas. A diferencia de títulos anteriores de SAO, el sistema de guardado está diseñado para evitar el "save scumming" durante las peleas contra jefes, especialmente cuando se juega en dificultades altas o en los modos de supervivencia especializados.
+
+<CardGrid cols={3}>
+  <Card title="Sistema de Auto-guardado">
+    - **Activadores**: Transiciones de mapa, finalización de misiones y obtención de botín raro.
+    - **Icono**: Busca la espada digital azul brillante en la esquina.
+    - **Ideal para**: Protección en sesiones casuales.
+  </Card>
+  <Card title="Guardado Manual">
+    - **Ubicación**: Se encuentra en la **Posada** del Pueblo de los Inicios o en Áreas de Seguridad.
+    - **Función**: Crea un punto de restauración permanente y actualiza la nube.
+    - **Ideal para**: Antes de cerrar el juego.
+  </Card>
+  <Card title="Áreas de Seguridad">
+    - **Acceso**: Se encuentran antes de las salas de jefes y a mitad de los laberintos de piso.
+    - **Bonus**: Repone **Cristales de Curación** y restaura la Estamina.
+    - **Ideal para**: Preparación previa al jefe.
+  </Card>
+</CardGrid>
+
+| Método de Guardado | Frecuencia | Ubicación | Integridad de Datos |
+| :--- | :--- | :--- | :--- |
+| **Auto-guardado** | Alta | Transiciones de campo | Variable |
+| **Manual en Posada** | Definida por el usuario | Pueblo de los Inicios | **Máxima** |
+| **Área de Seguridad** | Una por visita | Puntos de control en mazmorras | Alta |
+| **Fin de Misión** | Automático | Al terminar la misión | Alta |
+
+<Callout type="tip" title="Consejo Profesional">
+Visita siempre tu habitación en la Posada antes de terminar una sesión de juego. No solo proporciona un guardado manual, sino que también es el único lugar donde puedes gastar **Puntos de Crecimiento** para aumentar permanentemente tus estadísticas como Fuerza y Agilidad.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía de transferencia de datos de guardado de la Demo">
+
+Si participaste en la demo previa al lanzamiento, puedes llevar tu progreso a la versión completa del 10 de julio de 2026. La demo te permite jugar cinco misiones y probar los seis tipos de armas. Transferir estos datos garantiza que no tengas que repetir las fases del tutorial y puedas saltar directamente a los pisos de nivel medio de Aincrad.
+
+<Steps>
+  <Step num="1" title="Asegurar la consistencia de plataforma">
+    La transferencia de datos de guardado solo funciona dentro del mismo ecosistema. Por ejemplo, los datos de la demo de Steam no pueden moverse a una versión completa de PS5. Asegúrate de que la demo siga instalada o que sus datos de guardado estén presentes en tu almacenamiento local/nube.
+  </Step>
+  <Step num="2" title="Actualizar la versión completa">
+    Antes de iniciar el juego, busca el **parche del Día Uno**. El aviso de "Transferir progreso" solo aparecerá si el juego completo está actualizado a la última versión para coincidir con la arquitectura de datos de la demo.
+  </Step>
+  <Step num="3" title="Activar el aviso">
+    Inicia el juego completo. Tras aceptar los acuerdos de usuario iniciales, aparecerá un mensaje: "¿Se han detectado datos de guardado de la demo. Transferir progreso?". Selecciona **Sí** y mantén presionado el botón de **Confirmar**.
+  </Step>
+  <Step num="4" title="Verificar ranuras de datos">
+    Se importarán todas las ranuras de guardado de la demo. Ve a "Iniciar Juego" y selecciona tu archivo transferido. La personalización de tu avatar, la experiencia con armas y los objetos básicos estarán exactamente como los dejaste.
+  </Step>
+</Steps>
+
+| Objeto Transferible | Estado | Notas |
+| :--- | :--- | :--- |
+| **Apariencia del Avatar** | **Sí** | Se puede volver a editar más tarde en la Posada |
+| **Maestría de Armas** | **Sí** | Todo el EXP de los 6 tipos de armas se transfiere |
+| **Objetos del Inventario** | **Parcial** | Los consumibles se transfieren; algunos objetos de evento no |
+| **Progreso de Historia** | **Sí** | Salta las primeras cinco misiones de la historia |
+| **Col (Moneda)** | **Sí** | Se conserva todo el Col ganado |
+
+<Callout type="warning" title="Aviso de Limitación">
+Los datos de guardado transferidos de la demo **no pueden** convertirse en un archivo del Modo Juego de la Muerte. Si deseas jugar el modo de muerte permanente, debes comenzar un nuevo archivo de guardado, incluso si tienes progreso en la demo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Modo Juego de la Muerte: Reglas de eliminación de guardado">
+
+El **Modo Juego de la Muerte** es el desafío definitivo en *Echoes of Aincrad*, simulando los altos riesgos del anime original de SAO. En este modo, la forma de guardar no cambia, pero las consecuencias del fracaso son absolutas. Este modo está disponible tras completar el juego una vez, o de inmediato para los propietarios de las **Ediciones Deluxe y Ultimate**.
+
+| Característica | Modo Normal | Modo Juego de la Muerte |
+| :--- | :--- | :--- |
+| **Consecuencia de derrota** | Volver al último punto de control | **Guardado del personaje borrado** |
+| **Auto-guardado** | Activado | Activado |
+| **Guardado Manual** | Activado | Activado |
+| **Desbloqueo Temprano** | No | Sí (Deluxe/Ultimate) |
+| **Ranuras de Guardado** | Múltiples | Ranura única solamente |
+
+**Cómo funciona el borrado de guardado:**
+Si tus Puntos de Vida llegan a cero en el Modo Juego de la Muerte, el juego activa inmediatamente una secuencia de "Game Over". Durante esta secuencia, el juego realiza un auto-guardado final que marca al personaje como "Fallecido", borrando efectivamente los datos jugables. Serás devuelto a la pantalla de título y esa ranura de guardado específica se reseteará a vacío.
+
+<Callout type="success" title="Salidas Seguras">
+Tus datos de guardado están **seguros** si sales del juego normalmente a través del menú, o si experimentas una interrupción técnica como un corte de energía o un cierre inesperado. El sistema de borrado solo se activa tras un evento de **derrota en el juego**.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Gestión de archivos de guardado y plataformas">
+
+Con el lanzamiento de *Echoes of Aincrad* en PS5, Xbox Series X|S y Steam, la gestión de tus archivos en diferentes hardwares requiere conocimientos específicos del sistema de nube de cada plataforma.
+
+**Detalles de guardado específicos por plataforma:**
+- **PlayStation 5**: Utiliza el almacenamiento en la nube de PS Plus. Asegúrate de que el "Auto-Sincronizado" esté activado en los ajustes del sistema para evitar la pérdida de datos si cambias de consola.
+- **Xbox Series X|S**: Utiliza el sistema Xbox Smart Delivery y Cloud Save. Los guardados se sincronizan automáticamente siempre que estés conectado a Xbox Live.
+- **Steam (PC)**: Soporta **Steam Cloud**. Esto es particularmente útil para los jugadores que se mueven entre un PC de escritorio y una **Steam Deck** (aunque el soporte oficial para Deck aún está pendiente de optimización).
+
+| Plataforma | Servicio en la Nube | Respaldo Manual | Cross-Save |
+| :--- | :--- | :--- | :--- |
+| **PS5** | PS Plus | USB (Solo datos de guardado) | No |
+| **Xbox** | Xbox Live | No soportado | No |
+| **Steam** | Steam Cloud | Carpeta Local | No |
+
+<Callout type="info" title="Nota sobre Cross-Platform">
+Actualmente **no hay progresión cruzada** entre PlayStation, Xbox y PC. Si comienzas tu viaje en PS5, no podrás cargar ese guardado en la versión de Steam.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de verificación de mejores prácticas para guardar">
+
+Para asegurarte de no perder nunca horas de progreso en el castillo flotante, sigue esta lista de verificación diaria.
+
+<Checklist
+  id="save-safety-checklist-es"
+  title="Pasos de seguridad para el progreso:"
+  items={[
+    "Guardado manual en la Posada antes de cada incursión importante contra un Jefe de Piso.",
+    "Verificar que el icono de auto-guardado aparezca tras cada misión completada con éxito.",
+    "Comprobar el estado de sincronización en la nube si juegas en varios dispositivos (PC/Steam Deck).",
+    "Hacer una copia de seguridad local de los archivos de guardado en PC antes de intentar el Modo Juego de la Muerte.",
+    "Gastar todos los Puntos de Crecimiento en la Posada para asegurar que el progreso de estadísticas sea un 'guardado permanente'."
+  ]}
+/>
+
+<Callout type="tip" title="Consejo sobre Puntos de Crecimiento">
+Los Puntos de Crecimiento solo se asignan a tu personaje cuando confirmas el aumento de estadísticas en la Posada. Si ganas puntos en el campo pero el juego se cierra antes de visitar una Posada, esos puntos no gastados podrían perderse dependiendo del último activador de auto-guardado.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ: Preguntas comunes sobre el guardado">
+
+<FAQ items={[
+  {
+    question: "¿Cómo guardo mi progreso en Echoes of Aincrad?",
+    answer: "El progreso se guarda automáticamente durante las transiciones y al completar misiones. Para guardados manuales, debes visitar una Posada en una ciudad (como el Pueblo de los Inicios) o interactuar con un terminal de Área de Seguridad en una mazmorra."
+  },
+  {
+    question: "¿Se transfiere el progreso de la demo al juego completo?",
+    answer: "Sí, el progreso de la demo se transfiere si juegas la versión completa en la misma plataforma. Se te pedirá que importes tus datos la primera vez que inicies la versión completa."
+  },
+  {
+    question: "¿Se borrará mi partida si muero en el modo de juego normal?",
+    answer: "No. En el modo de juego estándar, morir simplemente te devuelve a tu último punto de control o Área de Seguridad. El borrado de guardado solo ocurre en el Modo Juego de la Muerte opcional."
+  },
+  {
+    question: "¿Puedo usar mi guardado de la demo para una partida en Modo Juego de la Muerte?",
+    answer: "No. El Modo Juego de la Muerte requiere un archivo de guardado nuevo. No puedes convertir un guardado estándar existente (incluyendo transferencias de demo) en un archivo del Modo Juego de la Muerte."
+  }
+]} />
+
+</Section>

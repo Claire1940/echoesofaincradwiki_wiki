@@ -1,0 +1,163 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Demo de Echoes of Aincrad en Steam: Guía de descarga, progreso y transferencia de guardado",
+  description: "Aprende cómo acceder a la demo de Echoes of Aincrad en Steam, probar estilos de armas, completar misiones de la beta y transferir tus datos de guardado a la versión final de 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Steam+Demo+and+Save+Transfer",
+  date: "2026-07-09",
+  author: "Equipo de la Wiki de Echoes of Aincrad"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Objetivo principal**: Descarga la versión **demo de Echoes of Aincrad en Steam** para experimentar cinco misiones beta completas antes del lanzamiento global.
+- **Transferencia de guardado**: Pasa todo tu progreso directamente al juego completo en la misma plataforma una vez actualizado.
+- **Prueba de armas**: Usa la demo gratuita para probar los seis estilos de armas principales y encontrar tu clase preferida.
+- **Advertencia del juego de la muerte**: Los datos guardados de la demo transferidos no se pueden convertir al desafiante Modo de Juego de la Muerte (Death Game Mode).
+</Callout>
+
+<Section icon={Map} title="Cómo acceder a la demo de Echoes of Aincrad en Steam">
+
+La versión **demo de Echoes of Aincrad en Steam** ofrece a los jugadores una gran ventaja inicial en el muy esperado JRPG de acción de Bandai Namco [1]. Lanzada como parte del Steam Next Fest, esta prueba gratuita te permite experimentar la fase beta crítica de la historia antes del lanzamiento del juego completo el 10 de julio de 2026 [1, 2]. 
+
+Para descargar la prueba, dirígete directamente a la página oficial de [Steam Store](https://store.steampowered.com/app/2244210/Echoes_of_Aincrad/) y haz clic en el botón "Descargar demo" [1]. La demo también está disponible en PlayStation 5 y Xbox Series X|S, pero tu progreso guardado solo se transferirá dentro del ecosistema de la misma plataforma [2].
+
+| Plataforma | Enlace de la tienda | Estado de precarga | Disponibilidad de la demo |
+|---|---|---|---|
+| **Steam (PC)** | [Steam Store](https://store.steampowered.com/app/2244210/Echoes_of_Aincrad/) | No disponible para el juego completo | Disponible ahora [1] |
+| **PlayStation 5** | PlayStation Store | Disponible | Disponible ahora [1] |
+| **Xbox Series X|S** | Xbox Store | Disponible | Disponible ahora [1] |
+
+<Callout type="tip" title="Advertencia de bloqueo de plataforma">
+Descarga siempre la demo en la plataforma donde planeas comprar el juego completo. La transferencia de guardado multiplataforma no es compatible, lo que significa que el progreso de la demo de Steam no se puede mover a PS5 o Xbox Series X|S [2].
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Contenido de la demo y prueba de armas">
+
+La demo de Steam es mucho más que una simple prueba técnica. Cuenta con cinco misiones de historia completas ambientadas durante la fase beta inicial de Sword Art Online [2]. Esto te brinda un entorno seguro para aprender el combate en tiempo real del juego, dominar los sistemas de resistencia (stamina) y SP, y probar cada clase de arma antes de comprometerte con una configuración permanente [2].
+
+<CardGrid cols={3}>
+  <Card title="Nivel S: Espada y escudo">
+    - **Alta defensa**
+    - Estilo inicial equilibrado
+    - El más accesible para principiantes [2]
+  </Card>
+  <Card title="Nivel A: Estoque y maza">
+    - **Estoque**: Alcance rápido y contraataques [2]
+    - **Maza**: Aturde y rompe la guardia [2]
+    - Excelentes opciones secundarias [2]
+  </Card>
+  <Card title="Nivel B: DPS pesado y ligero">
+    - **Daga**: Combate cuerpo a cuerpo a alta velocidad [2]
+    - **A dos manos**: Daño cargado masivo [2]
+    - Juego de alto riesgo y gran recompensa [2]
+  </Card>
+</CardGrid>
+
+| Tipo de arma | Acceso a escudo | Estilo de daño | Nivel de movilidad |
+|---|---|---|---|
+| **Espada y escudo** | Sí | Corte físico equilibrado | Medio [2] |
+| **Estoque** | Sí | Estocadas rápidas y contraataques | Alto [2] |
+| **Maza** | Sí | Contundente pesado, rompe guardia | Medio [2] |
+| **Daga** | No | Presión rápida a corta distancia | Muy alto [2] |
+| **Espada a dos manos** | No | Daño pesado cargado | Bajo [2] |
+| **Hacha a dos manos** | No | Ataques de área más lentos | Bajo [2] |
+
+<Callout type="warning" title="Gestión de la resistencia (Stamina)">
+A diferencia de los MMO tradicionales, atacar, esquivar y defenderse en Aincrad consume resistencia. No uses tus habilidades de espada (Sword Skills) consecutivamente de inmediato; usa ataques normales para generar SP y desata las habilidades solo cuando el enemigo esté aturdido [2].
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía paso a paso para la transferencia de datos guardados">
+
+Cuando se desbloquee la versión completa de Echoes of Aincrad, podrás importar tus archivos de guardado de la demo sin problemas. Sigue esta secuencia precisa para transferir tu progreso y evitar la pérdida accidental de datos [2].
+
+<Steps>
+  <Step num="1" title="Actualiza el juego completo">
+    Asegúrate de que la versión completa de Echoes of Aincrad esté completamente descargada y actualizada con el último parche antes de iniciarla [2].
+  </Step>
+  <Step num="2" title="Detectar datos guardados de la demo">
+    Inicia el juego completo en Steam. El sistema escaneará automáticamente tus directorios locales en busca de archivos de guardado de la demo existentes [2].
+  </Step>
+  <Step num="3" title="Acepta el aviso de transferencia">
+    Cuando aparezca el aviso en pantalla, selecciona "Transferir" (Carry over). Mantén presionado el botón de confirmación en la pantalla de confirmación [2].
+  </Step>
+  <Step num="4" title="Carga y juega">
+    Una vez que aparezca el mensaje de transferencia exitosa, selecciona "Cerrar", dirígete a la pantalla de título principal, elige "Iniciar juego" (Game Start) y selecciona tu ranura de guardado transferida [2].
+  </Step>
+</Steps>
+
+<Callout type="success" title="Mantén instalada tu demo">
+Para evitar la corrupción de archivos, no elimines el cliente de la demo ni sus carpetas de guardado local de tu PC hasta que hayas cargado con éxito tu personaje en la versión comercial completa [2].
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Restricciones de la demo y compatibilidad con el Modo de Juego de la Muerte">
+
+Aunque la versión **demo de Echoes of Aincrad en Steam** proporciona una excelente ventaja inicial, presenta limitaciones específicas con respecto al contenido final del juego, las funciones multijugador y el legendario Modo de Juego de la Muerte (Death Game Mode) [2]. 
+
+El Modo de Juego de la Muerte es el desafío definitivo de muerte permanente del juego, donde una sola derrota borra para siempre el archivo de guardado de tu personaje [2]. Debido a esta regla de alto riesgo, Bandai Namco ha implementado restricciones estrictas de compatibilidad para las partidas guardadas transferidas [2].
+
+| Función | Transferencia de demo estándar | Edición Deluxe/Ultimate |
+|---|---|---|
+| **Progresión de la historia** | Se transfiere por completo [2] | Se transfiere por completo [2] |
+| **Inventario de objetos** | Se transfiere por completo [2] | Incluye bonificaciones del paquete de inicio [2] |
+| **Acceso al Modo de Juego de la Muerte** | Solo después de completar la historia principal [2] | Desbloqueado al instante desde el primer día [2] |
+| **Conversión de muerte permanente** | **No compatible** para partidas guardadas de la demo [2] | Compatible solo en ranuras de guardado nuevas [2] |
+
+<Callout type="warning" title="Restricción de muerte permanente">
+No puedes convertir un archivo de guardado transferido de la demo al Modo de Juego de la Muerte. Si deseas experimentar el desafío de una sola vida al estilo SAO, debes comenzar un archivo de guardado completamente nuevo [2].
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de verificación de finalización de la demo">
+
+Antes de que se desbloquee el juego completo, asegúrate de haber completado todos los hitos esenciales en la demo para maximizar tus ventajas iniciales [2].
+
+<Checklist
+  id="demo-milestones"
+  title="Objetivos previos al lanzamiento:"
+  items={[
+    "Completar las 5 misiones de historia de la beta disponibles",
+    "Probar los 6 tipos de armas para elegir tu clase inicial",
+    "Alcanzar el nivel máximo permitido en la demo",
+    "Acumular Col y materiales de fabricación para mejoras inmediatas",
+    "Desbloquear y probar las habilidades de apoyo de compañeros con Iori y Wyzeman"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Dónde puedo descargar la versión demo de Echoes of Aincrad en Steam?",
+    answer: "Puedes descargar la demo directamente desde la página oficial de la tienda de Steam. Aparece como una prueba gratuita en el lado derecho de la página de la tienda."
+  },
+  {
+    question: "¿Se transfiere mi progreso de la demo de Steam al juego completo?",
+    answer: "Sí, todo el progreso de la historia, los objetos y los niveles de los personajes se transferirán al juego completo, siempre que juegues la versión completa en Steam usando la misma cuenta."
+  },
+  {
+    question: "¿Puedo transferir mi partida guardada de la demo de Steam a una PS5 o Xbox Series X|S?",
+    answer: "No. Las transferencias de partidas guardadas solo funcionan dentro de la misma plataforma. Las partidas guardadas de Steam no se pueden transferir a consolas PlayStation o Xbox."
+  },
+  {
+    question: "¿Puedo jugar al Modo de Juego de la Muerte usando mi archivo de guardado de la demo?",
+    answer: "No. Las partidas guardadas de la demo no se pueden convertir al Modo de Juego de la Muerte. Para jugar con reglas de muerte permanente, debes crear un nuevo archivo de guardado."
+  }
+]} />
+
+</Section>

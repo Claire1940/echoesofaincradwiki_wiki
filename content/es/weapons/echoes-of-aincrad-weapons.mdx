@@ -1,0 +1,171 @@
+import { Swords, Shield, Target, Sparkles, Trophy, Map } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Armas de Echoes of Aincrad: Tier List de 2026 y Guía de Builds",
+  description: "Domina las seis armas de Echoes of Aincrad. Compara el daño, el acceso a escudos y las Habilidades de Espada para elegir la mejor build de arma para tu aventura en SAO.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/efaa31?text=Weapons+Tier+List+and+Builds",
+  date: "2026-07-09",
+  author: "Equipo de Wiki de Echoes of Aincrad",
+  keywords: "Echoes of Aincrad, armas, tier list, builds, habilidades de espada, SAO"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Sistema de Armas Principal**: En Echoes of Aincrad, las **armas de Echoes of Aincrad** actúan como tu clase. No hay clases mágicas; tu arma equipada dicta todo tu conjunto de movimientos de combate, estadísticas y Habilidades de Espada (Sword Skills).
+- **Acceso a Escudos**: Solo tres tipos de armas pueden equipar un escudo: **Espada y Escudo**, **Estoicismo (Rapier)** y **Maza**.
+- **Progresión de Armas**: Lucha con un tipo de arma para ganar **Exp de Arma**, lo que desbloquea hasta tres **Habilidades de Espada** activas para equipar en cualquier Posada.
+- **La Mejor Opción para Principiantes**: La **Espada y Escudo** ofrece el punto de entrada más seguro y equilibrado para aprender los patrones de ataque de los enemigos.
+- **Recompensa de Reserva**: Reservar cualquier edición digital otorga el **Paquete de Armas de la Serie Proto-Elucidator**, que te da planos para el juego temprano de los seis tipos de armas.
+</Callout>
+
+<Section icon={Swords} title="Resumen de Armas de Echoes of Aincrad">
+
+A diferencia de los JRPGs tradicionales, *Sword Art Online: Echoes of Aincrad* presenta un sistema de progresión sin clases donde tu arma activa determina tu rol, movilidad y opciones de habilidades. No hay magia en el castillo flotante de Aincrad; el combate es completamente físico, dependiendo del ritmo de los ataques cuerpo a cuerpo, la gestión de la resistencia (stamina) y las poderosas Habilidades de Espada.
+
+A medida que derrotas monstruos usando un tipo de arma específico, acumulas Exp de Arma, desbloqueando habilidades activas especializadas. Puedes equipar hasta tres Habilidades de Espada a la vez, lo que te permite personalizar tu conjunto de habilidades activas. Ten en cuenta que los cambios de arma están restringidos durante la exploración activa; solo puedes cambiar tu equipo equipado en la Posada dentro del Pueblo de los Inicios.
+
+| Clase de Arma | Compatible con Escudo | Enfoque Principal de Combate | Dificultad de Estilo de Juego |
+| :--- | :--- | :--- | :--- |
+| **Espada y Escudo** | Sí | Ofensiva equilibrada, alta defensa, combos versátiles | Baja (Ideal para principiantes) |
+| **Rapier (Estoicismo)** | Sí | Estocadas de alta velocidad, contraataques, gran alcance | Media a Alta |
+| **Maza** | Sí | Romper defensas, alto aturdimiento, agotamiento de resistencia | Media |
+| **Daga** | No | Atacar y correr (hit-and-run), alta velocidad de ataque, hojas arrojadizas | Media |
+| **Espada de Dos Manos** | No | Daño pesado cargado, presión lenta a un solo objetivo | Alta |
+| **Hacha de Dos Manos** | No | Giros más lentos, gran daño de área de efecto (AoE) | Alta |
+
+<Callout type="tip" title="Restricción de Cambio de Arma">
+Planifica siempre tu build y configura el arma activa de tu compañero en tu habitación de la Posada antes de embarcarte en una misión. Una vez que pones un pie en las mazmorras de Aincrad, tu equipamiento queda bloqueado hasta que regreses al pueblo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Tier List de Armas y Clasificaciones">
+
+Seleccionar la mejor herramienta para sobrevivir depende de tu comodidad con el ritmo de los enemigos, las esquivas y la gestión de la resistencia. A continuación, se muestra nuestra tier list oficial que clasifica los seis tipos de armas según la seguridad para principiantes, las opciones defensivas y la utilidad durante los encuentros de jefes de alto riesgo [00首页信息-1.md].
+
+<CardGrid cols={3}>
+  <Card title="Tier S: Espada y Escudo">
+    - **Seguridad Inigualable**: La mejor opción absoluta para aprender las mecánicas de ataque de los jefes [00首页信息-1.md].
+    - **Ofensiva Flexible**: Desequipa el escudo en cualquier momento para pasar a un estilo ofensivo más rápido y de alto riesgo.
+    - **Alta Utilidad**: Excelente rendimiento general tanto en juego solitario como con compañero.
+  </Card>
+  <Card title="Tier A: Rapier y Maza">
+    - **Rapier**: Combina estocadas de gran alcance con defensa de escudo y mecánicas de contraataque de alta habilidad.
+    - **Maza**: Se especializa en romper las guardias enemigas y agotar las barras de impacto para derribar a los jefes.
+    - **Riesgo Equilibrado**: Ambas armas ofrecen compatibilidad con escudo para mitigar errores.
+  </Card>
+  <Card title="Tier B: Daga, Espada 2M, Hacha 2M">
+    - **Alto Riesgo**: Ninguna de estas armas se puede emparejar con un escudo, lo que requiere un posicionamiento y esquivas perfectas.
+    - **Daga**: Presión rápida de atacar y correr con opciones de hojas arrojadizas, pero bajo daño por golpe individual.
+    - **Espada y Hacha 2M**: Potencial de daño masivo, pero las animaciones lentas te dejan muy vulnerable a los contraataques.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Advertencia del Modo Juego de la Muerte">
+Si estás jugando en el **Modo Juego de la Muerte** (Death Game Mode), donde una sola derrota borra permanentemente los datos de guardado de tu personaje, te recomendamos encarecidamente que te limites a armas compatibles con escudo como la Espada y Escudo o la Maza [00首页信息-2.md]. La imposibilidad de bloquear con armas de dos manos aumenta drásticamente el riesgo de un Game Over repentino.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Análisis Detallado de Clases de Armas">
+
+### 1. Espada y Escudo (Tier S)
+El arma inicial equilibrada definitiva [00首页信息-1.md]. Es el arma por defecto que sostienes durante el tutorial del juego y la fase beta. Te permite bloquear el daño entrante para preservar tu barra de salud, o soltar el escudo por completo para aumentar tu velocidad de movimiento y de ataque. Es muy permisiva y se adapta a cualquier sinergia de compañero [00首页信息-1.md, 00首页信息-2.md].
+
+### 2. Rapier (Tier A)
+Un arma de alta habilidad y gran recompensa que destaca en ataques de estocada rápidos y contraataques. Cuenta con un alcance frontal excepcional, lo que te permite atacar a los enemigos desde una distancia relativamente segura. Debido a que es compatible con escudo, ofrece una combinación increíble de cadenas ofensivas rápidas y recuperación defensiva instantánea.
+
+### 3. Maza (Tier A)
+Un arma de utilidad esencial para romper objetivos fuertemente acorazados y bloquear jefes. La Maza inflige un daño de postura masivo, apuntando a la barra de resistencia del enemigo en lugar de solo a su salud. Agotar este indicador derriba al enemigo, abriéndolo a Habilidades de Combinación de alto daño de tu parte y de tu compañero.
+
+### 4. Daga (Tier B)
+Diseñada para estilos de juego ágiles y rápidos. Las dagas golpean rápidamente pero infligen poco daño individual por golpe. Su mecánica única es la capacidad de lanzar hojas espectrales a través de Habilidades de Espada específicas, lo que te brinda una opción confiable de ataque a distancia para desgastar a los enemigos de manera segura. Sin embargo, la falta de un escudo hace que el posicionamiento sea crítico.
+
+### 5. Espada de Dos Manos (Tier B)
+El principal atacante pesado para un solo objetivo. Equipada con animaciones lentas pero devastadoras, esta arma te permite cargar tus ataques para desatar ráfagas de daño masivo. Al empuñar esta espada gigante, tu paso de esquiva estándar se reemplaza por una rodada pesada, que consume más resistencia y requiere un timing preciso.
+
+### 6. Hacha de Dos Manos (Tier B)
+Diseñada para limpiar oleadas de monstruos. El Hacha de Dos Manos descarta todas las herramientas defensivas a cambio de ataques de área de efecto (AoE) amplios y de gran ángulo. Aunque es muy efectiva para limpiar grupos de monstruos más pequeños en las mazmorras, sus largas ventanas de recuperación de ataque la hacen muy peligrosa de usar contra jefes rápidos.
+
+| Tipo de Arma | Ventaja Principal | Inconveniente Principal | Mejor Compañero |
+| :--- | :--- | :--- | :--- |
+| **Espada y Escudo** | Equilibrada, muy permisiva | Menor daño de ráfaga | Argo (Presión rápida con Daga) [00首页信息-2.md] |
+| **Rapier** | Alta velocidad de ataque, contraataques | Requiere un timing preciso | Wyzeman (Control de masas con Maza) [00首页信息-2.md] |
+| **Maza** | Aturdimiento de élite, rompe guardias | Recuperación de ataque más lenta | Zash (Seguimiento de daño pesado con 2M) [00首页信息-2.md] |
+| **Daga** | Lanzamientos a distancia, alta movilidad | Corto alcance cuerpo a cuerpo, sin escudo | Iori (Tanque basado en escudo) [00首页信息-2.md] |
+| **Espada 2M** | Ráfaga cargada a un solo objetivo | La rodada pesada reemplaza la esquiva | Iori (Mantiene la atención del jefe) [00首页信息-2.md] |
+| **Hacha 2M** | Excelentes barridos AoE | Tiempos de recuperación extremadamente largos | Wyzeman (Agrupa a los enemigos) [00首页信息-2.md] |
+
+<Callout type="success" title="Consejo de Sinergia de Compañeros">
+Cuando uses armas pesadas y de ataque lento como la Espada de Dos Manos o el Hacha de Dos Manos, lleva a un compañero defensivo como Iori o Wyzeman [00首页信息-2.md]. Configúralos en **Modo de Relevo** (Switch Mode) para que atraigan la atención del enemigo, dándote el espacio necesario para cargar tus ataques más pesados [00首页信息-2.md].
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cómo Mejorar Armas en la Herrería">
+
+Para mantener tu arma competitiva a medida que aumenta tu Rango Cardinal, debes mejorar tu equipo regularmente en la Herrería ubicada en el Pueblo de los Inicios. La mejora requiere una mezcla de Col (oro), materiales de artesanía que se encuentran en las mazmorras y armas duplicadas.
+
+<Steps>
+  <Step num="1" title="Reunir Materiales Básicos">
+    Explora las mazmorras a fondo y activa los puntos de control para marcar los depósitos de recursos y los cofres del tesoro en tu mapa [00首页信息-1.md]. Recoge minerales, botines de monstruos y Col.
+  </Step>
+  <Step num="2" title="Visitar al Herrero">
+    Regresa al Pueblo de los Inicios y dirígete a la Herrería [00首页信息-1.md]. Selecciona el menú de creación para forjar una nueva arma a partir de una receta, o el menú de mejora para potenciar las estadísticas base de tu arma actual [00首页信息-1.md].
+  </Step>
+  <Step num="3" title="Fusionar Armas Duplicadas para obtener EX-MODs">
+    Combina dos armas exactamente del mismo tipo para unir sus rasgos pasivos únicos. Este proceso te permite acumular hasta cuatro **efectos EX-MOD** en una sola arma.
+  </Step>
+  <Step num="4" title="Optimizar Pasivas EX-MOD">
+    Concéntrate en desbloquear EX-MODs que complementen tu estilo de juego, como la reducción del consumo de resistencia para armas pesadas, o una mayor tasa de golpes críticos para armas rápidas como el Rapier [00首页信息-1.md].
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Sparkles} title="Objetivos de Progresión de Armas">
+
+Para asegurarte de que tu personaje esté completamente preparado para los desafíos de los pisos superiores de Aincrad, utiliza esta lista de verificación para guiar tu progresión [00首页信息-1.md, 00首页信息-2.md].
+
+<Checklist
+  id="weapon-progression-goals"
+  title="Hitos de Armas y Builds:"
+  items={[
+    "Prueba los seis tipos de armas durante la demo o las misiones del juego temprano para encontrar tu estilo de juego preferido [00首页信息-1.md].",
+    "Gana suficiente Exp de Arma para desbloquear y equipar tres Habilidades de Espada activas para tu arma principal.",
+    "Adquiere los planos de la Proto-Elucidator si reservaste el juego.",
+    "Fusiona armas duplicadas en la Herrería para construir un arma con cuatro ranuras de pasivas EX-MOD activas.",
+    "Alcanza un Rango Cardinal alto para desbloquear recetas de creación de nivel superior con el herrero [00首页信息-1.md]."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Map} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo desbloqueo más Habilidades de Espada para mi arma?",
+    answer: "Las Habilidades de Espada se desbloquean ganando Exp de Arma. Para ganar Exp de Arma, simplemente necesitas equipar ese tipo de arma específico y derrotar enemigos durante las misiones y las incursiones en las mazmorras."
+  },
+  {
+    question: "¿Puedo usar magia o hechizos en Echoes of Aincrad?",
+    answer: "No, la magia no existe en el mundo de Aincrad. El combate es completamente físico y está definido por tu elección de armas cuerpo a cuerpo, mejoras de equipo y Habilidades de Espada."
+  },
+  {
+    question: "¿Hay alguna penalización por cambiar mi tipo de arma?",
+    answer: "No hay penalización, pero tu Exp de Arma se registra individualmente para cada tipo de arma. Si cambias de una Espada completamente mejorada a una Daga de nivel 1, deberás subir de nivel tu dominio de la Daga desde cero para desbloquear sus Habilidades de Espada."
+  },
+  {
+    question: "¿Qué son los EX-MODs y cómo los consigo?",
+    answer: "Los EX-MODs son bonificaciones pasivas especiales en las armas, como la reducción de los costes de resistencia o el aumento del daño de ataque. Puedes combinar tipos de armas idénticos en la Herrería para acumular y transferir hasta cuatro EX-MODs a tu arma favorita."
+  }
+]} />
+
+</Section>

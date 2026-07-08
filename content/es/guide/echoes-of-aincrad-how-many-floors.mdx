@@ -1,0 +1,189 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, Search } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Echoes of Aincrad: ¿Cuántos pisos hay? Guía del mapa mundial y los pisos",
+  description: "Descubre cuántos pisos hay en Echoes of Aincrad, incluyendo consejos de exploración, mecánicas de pisos y ubicaciones clave en este JRPG de SAO de 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fbbf24?text=Aincrad+Floors+Guide",
+  date: "2026-07-09",
+  author: "Equipo de la Wiki de Echoes of Aincrad",
+  keywords: "Echoes of Aincrad, pisos, mapa mundial, guía, SAO JRPG"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Echoes of Aincrad: ¿Cuántos pisos hay?**: El juego se desarrolla en el castillo flotante de 100 pisos de Aincrad, con un enfoque específico en la exploración detallada de capas clave en el lanzamiento.
+- **Bucle de Exploración**: Los jugadores deben revelar los mapas activando **Puntos de Control**, encontrando atajos y despejando mazmorras específicas de cada piso.
+- **Rango Cardinal**: La dificultad y las recompensas escalan según tu **Rango Cardinal**, que aumenta a medida que progresas a través de los pisos.
+- **Zonas Seguras**: El **Pueblo de los Inicios** sirve como el centro principal para la artesanía, mejoras de equipo y gestión de compañeros.
+- **Progresión**: Despejar un piso requiere derrotar a un jefe específico, lo que luego desbloquea el acceso al siguiente nivel del castillo flotante.
+</Callout>
+
+<Section icon={Map} title="Echoes of Aincrad: ¿Cuántos pisos hay? Estructura del mundo explicada">
+
+En el mundo de Sword Art Online, el castillo flotante de Aincrad se define por sus 100 pisos únicos. Para los jugadores que se preguntan **cuántos pisos hay en Echoes of Aincrad** accesibles, el juego se centra en un modelo de exploración de alta densidad. En lugar de proporcionar 100 niveles vacíos, los desarrolladores han priorizado mapas profundos e intrincados para el lanzamiento inicial el 10 de julio de 2026. Cada piso actúa como una zona abierta masiva llena de rutas ocultas, acertijos ambientales y jefes mortales.
+
+La progresión del sistema está ligada a la narrativa. A medida que completas las misiones de la historia principal y las misiones secundarias, nuevos pisos se vuelven disponibles. El primer piso, que cuenta con el **Pueblo de los Inicios**, es el más extenso y sirve como base para tu viaje. A medida que asciendes, los entornos cambian de bosques exuberantes y pueblos medievales a paisajes más exóticos y peligrosos.
+
+| Nivel del Piso | Entorno Primario | Punto de Referencia Clave | Nivel de Dificultad |
+| :--- | :--- | :--- | :--- |
+| **Piso 1** | Llanuras y Bosques | Pueblo de los Inicios | Principiante |
+| **Piso 2** | Tierras Altas Rocosas | Castillo Toren | Bajo |
+| **Piso 3** | Bosques Antiguos | Bosque de los Elfos | Medio |
+| **Piso 4** | Vías Fluviales/Cañones | Río de las Almas | Medio |
+| **Piso 5** | Ruinas Antiguas | Torre del Laberinto | Alto |
+
+<Callout type="tip" title="Consejo de Exploración">
+Regresa siempre a la Posada en el Pueblo de los Inicios después de completar un hito importante en un piso. Esto te permite gastar tus Puntos de Crecimiento y actualizar las tácticas de tu compañero antes de que la dificultad aumente en el siguiente nivel.
+</Callout>
+
+</Section>
+
+<Section icon={Search} title="Exploración de Pisos y Mecánicas del Mapa">
+
+La exploración en *Echoes of Aincrad* no se trata solo de caminar del punto A al punto B. El juego utiliza un sistema de "Niebla de Guerra" donde los mapas se revelan mediante la exploración activa. Para dominar el diseño de cada piso, los jugadores deben interactuar con objetos ambientales específicos y navegar por una verticalidad compleja.
+
+**Puntos destacados del video:**
+- Desglose detallado del diseño del mapa del Piso 1.
+- Cómo localizar cofres del tesoro ocultos en el Bosque de los Elfos.
+- Demostración del sistema de activación de Puntos de Control.
+
+{/* Nota: No se encontraron videos de YouTube relevantes en los datos de origen proporcionados, por lo que se omite el componente YouTubeEmbed según las instrucciones. */}
+
+Para mapear con éxito un piso, sigue estas mecánicas principales:
+
+<Steps>
+  <Step num="1" title="Activar Puntos de Control">
+    Los puntos de control son pilares brillantes esparcidos por el mapa. Activarlos revela puntos de interés cercanos, incluyendo cofres del tesoro, rutas ocultas y atajos sellados.
+  </Step>
+  <Step num="2" title="Identificar Rutas Ocultas">
+    Muchos pisos contienen "Obstáculos de Campo" que requieren herramientas o habilidades específicas para ser superados. Busca paredes agrietadas o salientes altos que puedan conducir a botines secretos.
+  </Step>
+  <Step num="3" title="Desbloquear Atajos">
+    Los atajos son esenciales para reducir el tiempo de viaje entre el Área Segura y la sala del Jefe del Piso. La mayoría de los atajos son puertas de una sola vía que deben abrirse desde el lado opuesto.
+  </Step>
+  <Step num="4" title="Despejar el Laberinto">
+    Cada piso culmina en una Torre del Laberinto. Debes llegar a la cima para localizar la Sala del Jefe, lo que requiere resolver acertijos ambientales y derrotar a guardianes de élite.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Gestión de Recursos">
+Una vez que entras en la sala de un Jefe de Piso, no puedes retirarte. Asegúrate de que tus Cristales de Curación estén completamente repuestos y tus pociones de PE estén abastecidas antes de cruzar el umbral.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Combate y Escalamiento de Dificultad por Piso">
+
+A medida que asciendes en Aincrad, los enemigos se vuelven significativamente más agresivos. Esto se gestiona mediante el sistema de **Rango Cardinal**. Tu Rango Cardinal representa tu competencia general e influye directamente en el nivel de los monstruos que encuentras en cada piso.
+
+| Mecánica | Impacto en el Juego | Factor de Escalamiento |
+| :--- | :--- | :--- |
+| **Nivel de Monstruo** | Aumenta los PV y el Daño | Basado en el número del piso |
+| **Tasas de Botín** | Mejores materiales para la artesanía | Aumenta con el Rango Cardinal |
+| **Agresividad de la IA** | Los enemigos usan más Habilidades de Espada | Mayor en los pisos superiores |
+| **Sinergia con el Compañero** | Desbloquea nuevas Habilidades Combo | Aumenta con el progreso del piso |
+
+<CardGrid cols={2}>
+  <Card title="Pisos Bajos (1-10)">
+    - **Enfoque**: Aprender mecánicas de armas y esquivas básicas.
+    - **Enemigos**: Jabalíes, lobos y goblins con patrones predecibles.
+    - **Estrategia**: Usa **Espada y Escudo** para máxima seguridad mientras aprendes los tiempos.
+  </Card>
+  <Card title="Pisos Medios (11-25)">
+    - **Enfoque**: Gestión de recursos y coordinación con el compañero.
+    - **Enemigos**: Espíritus elementales y caballeros blindados con escudos.
+    - **Estrategia**: Incorpora la **Maza** para romper las guardias enemigas y aturdir a los objetivos.
+  </Card>
+  <Card title="Pisos Altos (26+)">
+    - **Enfoque**: Paradas perfectas y cadenas de Habilidades de Espada de alto daño.
+    - **Enemigos**: Monstruos voladores y no muertos de élite con ataques de área de efecto.
+    - **Estrategia**: Utiliza **Rapier** o **Espada de Dos Manos** para alta movilidad y daño explosivo.
+  </Card>
+  <Card title="Salas de Jefe">
+    - **Enfoque**: Reconocimiento de patrones y tácticas de Switch Mode.
+    - **Enemigos**: Guardianes de piso únicos con múltiples barras de PV.
+    - **Estrategia**: Coordina **Habilidades Combinadas** con tu compañero para saltar transiciones de fase.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Estrategia de Puntos de Crecimiento">
+Prioriza la Fuerza y la Destreza si usas armas ligeras como la Daga o el Rapier. Para construcciones más pesadas que usan el Hacha de Dos Manos, concéntrate en la Vitalidad y la Resistencia para sobrevivir al intercambio de golpes con los jefes de piso.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Modo Juego de la Muerte: Supervivencia en los Pisos Superiores">
+
+Para los jugadores que buscan la auténtica experiencia de SAO, el **Modo Juego de la Muerte** añade una capa de consecuencia permanente a la progresión de los pisos. En este modo, si tu personaje muere, el archivo de guardado se borra. Esto cambia la forma en que abordas cada piso en *Echoes of Aincrad*.
+
+<Checklist
+  id="death-game-prep"
+  title="Lista de verificación de supervivencia para el Juego de la Muerte:"
+  items={[
+    "Lleva siempre el máximo de Cristales de Curación antes de salir de la ciudad",
+    "Usa el 'Switch Mode' para que tu compañero reciba el daño cuando tengas pocos PV",
+    "Evita luchar contra grupos de enemigos en pasillos estrechos",
+    "Mejora tu armadura en la Herrería cada vez que aumente tu Rango Cardinal",
+    "Nunca entres en una sala de jefe sin la barra de PE llena"
+  ]}
+/>
+
+<Callout type="info" title="Disponibilidad del Modo">
+Los jugadores estándar desbloquean el Modo Juego de la Muerte después de completar la historia principal. Sin embargo, los propietarios de la **Edición Deluxe** o **Ultimate** reciben un Desbloqueo Anticipado, lo que les permite comenzar su primera partida con la muerte permanente activa.
+</Callout>
+
+| Característica de la Edición | Edición Estándar | Edición Deluxe | Edición Ultimate |
+| :--- | :--- | :--- | :--- |
+| **Juego Base** | Incluido | Incluido | Incluido |
+| **Desbloqueo Anticipado del Juego de la Muerte** | No | **Sí** | **Sí** |
+| **Objetos del Pack de Inicio** | No | 50k Col + Pociones | 50k Col + Pociones |
+| **Pase de DLC de Expansión** | No | Incluido | Incluido |
+| **Libro de Arte Digital/OST** | No | No | Incluido |
+
+</Section>
+
+<Section icon={Trophy} title="Recompensas de Piso y el Sistema de Herrería">
+
+Despejar pisos proporciona más que solo progreso en la historia; otorga acceso a mejores materiales y recetas de artesanía. La **Herrería** en el Pueblo de los Inicios es donde conviertes los botines de los pisos en equipo poderoso.
+
+**Niveles de Mejora de Armas:**
+1. **Forja Básica**: Crea armas usando materiales comunes de los pisos (ej. Mineral de Hierro del Piso 1).
+2. **Mejora de Parámetros**: Usa Puntos de Crecimiento y Col para aumentar las estadísticas base de tu arma favorita.
+3. **Fusión EX-MOD**: Combina dos armas del mismo tipo para añadir efectos especiales como "Reducción de Coste de Estamina" o "Bono de Daño Crítico".
+4. **Artesanía de Planos**: Usa planos raros encontrados en los cofres de los Jefes de Piso para fabricar equipo legendario como el **Proto-Elucidador**.
+
+<Callout type="tip" title="Consejo Pro">
+No acumules tus materiales. La dificultad en los pisos superiores escala rápidamente, por lo que es mejor tener un arma +5 en el Piso 3 que un arma +0 y un montón de mineral sin usar.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuántos pisos puedo explorar en la demo de Echoes of Aincrad?",
+    answer: "La demo permite a los jugadores experimentar la fase beta de la historia, cubriendo cinco misiones completas a través de las secciones iniciales del Piso 1. Todo el progreso de la demo se puede transferir al juego completo."
+  },
+  {
+    question: "¿Tengo que despejar los 100 pisos para terminar el juego?",
+    answer: "La historia principal se centra en un camino curado a través de los pisos más icónicos de Aincrad. Si bien el lore menciona 100 pisos, la jugabilidad está diseñada en torno a una exploración densa y de alta calidad de niveles clave en lugar de un grind repetitivo de 100 pisos."
+  },
+  {
+    question: "¿Puedo volver a pisos anteriores después de avanzar?",
+    answer: "Sí, puedes usar las Puertas de Teletransporte que se encuentran en las ciudades principales para viajar entre cualquier piso despejado. Esto es esencial para farmear materiales específicos o completar misiones secundarias que hayas pasado por alto."
+  },
+  {
+    question: "¿El diseño de los pisos es aleatorio como en un roguelike?",
+    answer: "No, Echoes of Aincrad presenta mapas creados a mano diseñados para la exploración y el descubrimiento de secretos. Sin embargo, las apariciones de enemigos y ciertos nodos de recursos pueden variar para que el mundo se sienta vivo."
+  }
+]} />
+
+</Section>

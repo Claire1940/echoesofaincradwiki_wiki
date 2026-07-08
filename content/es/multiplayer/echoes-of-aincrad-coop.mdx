@@ -1,0 +1,150 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Cooperativo de Echoes of Aincrad: Estado del Multijugador y Mecánicas de Equipo",
+  description: "Explora el estado del multijugador de Echoes of Aincrad. Conoce el sistema de compañeros cooperativos Switch, tácticas de acompañantes controlados por IA y futuros planes online.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/2563eb/fff?text=Coop+and+Multiplayer+Guide",
+  date: "2026-07-09",
+  author: "Equipo de la Wiki de Echoes of Aincrad"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Estado principal**: Echoes of Aincrad está diseñado principalmente como un **JRPG de acción para un solo jugador** en su lanzamiento.
+- **Cooperativo Switch**: El juego cuenta con un sólido **sistema de compañeros de IA** conocido como la mecánica cooperativa Switch.
+- **Perspectivas online**: Bandai Namco ha expresado su disposición a considerar **futuros DLC de cooperativo online** si se cumplen los objetivos de ventas.
+- **Dinámicas de combate**: El éxito depende de alternar el enfoque, combinar tipos de armas y sincronizar las Habilidades de Combinación con tu compañero.
+</Callout>
+
+<Section icon={Swords} title="Cooperativo de Echoes of Aincrad: Estado de Lanzamiento y Realidad Multijugador">
+
+En su lanzamiento, Echoes of Aincrad es un JRPG de acción dedicado para un solo jugador. A pesar del legado "Online" de la franquicia Sword Art Online, el desarrollador Game Studio Inc. ha centrado sus recursos en ofrecer una experiencia de supervivencia offline muy pulida en la que controlas a un protagonista totalmente personalizable. 
+
+En lugar de jugar con otros jugadores humanos a través de la red, te enfrentarás a los peligrosos pisos de Aincrad junto a un compañero controlado por IA. Este diseño se conoce oficialmente como el **sistema cooperativo Switch**, el cual imita las dinámicas tácticas de relevos (tag-team) vistas en la serie de anime original.
+
+| Característica | Estado de Lanzamiento | Detalles |
+| :--- | :--- | :--- |
+| **Multijugador Online** | **No Disponible** | Sin lobby online nativo ni emparejamiento de red en el lanzamiento. |
+| **Cooperativo Local (Sofá)** | **No Disponible** | El juego no admite pantalla dividida ni juego con mando compartido. |
+| **Sistema Cooperativo Switch** | **Totalmente Compatible** | Sistema avanzado de compañero de IA con comandos en tiempo real. |
+| **Futuros Planes Online** | **Condicional** | Los desarrolladores declararon que podrían añadir cooperativo online si se solicita tras el lanzamiento. |
+
+<Callout type="warning" title="Malentendidos sobre el Multijugador">
+Muchos jugadores confunden *Echoes of Aincrad* con otros títulos de SAO centrados en el multijugador como *Fractured Daydream*. Este juego es un JRPG de acción independiente centrado en la supervivencia, las builds personales y la sinergia con el compañero de IA.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Dominando el Sistema Cooperativo Switch de IA">
+
+Aunque no puedes hacer cola con amigos del mundo real, las mecánicas de compañeros impulsadas por IA son muy sofisticadas. No luchas solo; eliges a un compañero dedicado antes de salir a las misiones, gestionando su equipo, armas y patrones de comportamiento.
+
+### Modos Tácticos Explicados
+
+Puedes ordenar a tu compañero en tiempo real utilizando la rueda de acción táctica. Elegir el modo adecuado dicta cómo tu equipo gestiona la agresión (aggro), divide a los grupos de enemigos y sobrevive en las salas de jefes.
+
+<CardGrid cols={2}>
+  <Card title="Modo Switch (Control de Aggro)">
+    - **Atrae la atención del enemigo** lejos del personaje del jugador.
+    - Proporciona un respiro crucial para curarse o cargar ataques pesados.
+    - Se utiliza mejor cuando tu resistencia se agota o durante las fases de furia de los jefes.
+  </Card>
+  <Card title="Modo Libre (Asalto Enfocado)">
+    - **Coordina ataques** en un solo objetivo para maximizar el aturdimiento (stagger).
+    - Ayuda automáticamente a limpiar grupos de enemigos más pequeños de manera eficiente.
+    - Se utiliza mejor al intentar romper las defensas enemigas o derrotar rápidamente a los jefes.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Bonificación de Sinergia">
+Empareja siempre tu arma con un compañero complementario. Si usas un arma de gran daño y sin escudo como la Espada de Dos Manos, lleva a un compañero con Maza o Escudo (como Wyzeman) para atraer el aggro y absorber los golpes entrantes.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Elenco de Compañeros y Especializaciones de Combate">
+
+Cada compañero en Echoes of Aincrad cuenta con una clase de arma única, capacidades defensivas y Habilidades de Apoyo exclusivas. Elegir a tu compañero es el paso de preparación previo a la misión más importante.
+
+| Compañero | Tipo de Arma | Rol Principal | Mejor Sinergia |
+| :--- | :--- | :--- | :--- |
+| **Iori** | Espada y Escudo | Soporte Equilibrado | Excelente para aprender mecánicas y un juego seguro y defensivo. |
+| **Wyzeman** | Maza y Escudo | Defensa y Aturdimiento | Excelente para romper armaduras pesadas y derribar jefes. |
+| **Zash** | Espada de Dos Manos | Ofensiva Pesada | Ideal para limpiar grupos densos de enemigos con pura fuerza física. |
+| **Argo** | Daga | DPS Rápido y Debuffs | Perfecto para jugadores de ritmo rápido que aprovechan la acumulación rápida de estados. |
+
+### Habilidades de Apoyo y Combinación
+Durante el combate, puedes activar manualmente las **Habilidades de Apoyo** de tu compañero a través de la rueda de acción para recibir curaciones, mejoras de ataque o escudos protectores. Además, infligir daño constante acumula un medidor de equipo, lo que te permite desatar devastadoras **Habilidades de Combinación**: ataques cinematográficos conjuntos que infligen un daño de aturdimiento masivo y pueden cambiar el rumbo de los encuentros difíciles con los jefes.
+
+</Section>
+
+<Section icon={Sparkles} title="Cómo Optimizar la Sinergia de Equipo">
+
+Para que tu compañero de IA se sienta como un verdadero aliado cooperativo, debes invertir activamente en su progresión. No escalan automáticamente para mantenerse al nivel de tu personaje; requieren mejoras manuales.
+
+<Steps>
+  <Step num="1" title="Equipar Equipo Adecuado">
+    Visita la Herrería en el Pueblo de los Inicios para fabricar y mejorar armas específicamente para tu compañero. Mantener el nivel de su arma a la par con la tuya es vital para mantener el rendimiento de daño.
+  </Step>
+  <Step num="2" title="Gestionar Puntos de Crecimiento">
+    Cuando tu Rango Cardinal aumente, revisa las estadísticas de tu compañero en la Posada. Asigna puntos a los atributos que escalen directamente su tipo de arma (por ejemplo, Fuerza para Zash, Destreza para Argo).
+  </Step>
+  <Step num="3" title="Equipar EX-MODs Complementarios">
+    Aplica efectos de EX-MOD al equipo de tu compañero. Darles modificadores de recuperación de resistencia o ventajas de regeneración de salud asegura que permanezcan activos y vivos durante las exploraciones prolongadas de mazmorras.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Consejo de Supervivencia">
+En entornos de alto riesgo como el Modo Juego de la Muerte, la supervivencia de tu compañero afecta directamente a la tuya. Si tu compañero cae, pierdes el acceso a los comandos Switch, soportes de curación y Habilidades de Combinación, duplicando la presión sobre tu personaje.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Futuro DLC Cooperativo: Lo Que Sabemos">
+
+Aunque Echoes of Aincrad es estrictamente para un solo jugador en su lanzamiento de julio de 2026, hay esperanza para los entusiastas del multijugador. Bandai Namco ha discutido abiertamente la posibilidad de introducir actualizaciones posteriores al lanzamiento.
+
+### Lista de Verificación de la Hoja de Ruta Condicional
+
+El equipo de desarrollo ha esbozado las condiciones necesarias para ampliar el alcance del juego después del lanzamiento:
+
+<Checklist
+  id="coop-roadmap"
+  title="Posibles Hitos Post-Lanzamiento:"
+  items={[
+    "Recopilar comentarios de la comunidad solicitando funciones de lobby online",
+    "Lanzar el DLC de expansión planeado de los Pisos 3 y 4 a finales de 2026",
+    "Evaluar la estabilidad del netcode de red para posibles lobbies de incursión de 2 jugadores"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Map} title="Preguntas Frecuentes sobre el Cooperativo de Echoes of Aincrad">
+
+<FAQ items={[
+  {
+    question: "¿Hay cooperativo online en Echoes of Aincrad en el lanzamiento?",
+    answer: "No, no hay cooperativo online ni emparejamiento multijugador en el lanzamiento. El juego está diseñado como un JRPG de acción para un solo jugador centrado en la progresión en solitario junto a un compañero de IA."
+  },
+  {
+    question: "¿Qué es el sistema cooperativo Switch?",
+    answer: "El sistema cooperativo Switch es una mecánica de combate en el juego que te permite dar comandos en tiempo real a tu compañero de IA, alternar el enfoque del aggro y realizar Habilidades de Combinación conjuntas."
+  },
+  {
+    question: "¿Puedo personalizar el equipo y las estadísticas de mi compañero?",
+    answer: "Sí. Puedes gestionar las mejoras de armas, armaduras, EX-MODs y puntos de atributos de tu compañero desde tu habitación en la Posada para optimizar su efectividad en combate."
+  },
+  {
+    question: "¿Se añadirá el multijugador o el cooperativo online más adelante?",
+    answer: "Bandai Namco ha declarado que considerarán añadir cooperativo online y pisos adicionales en futuros DLC si el juego se vende bien y la comunidad lo solicita encarecidamente."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,175 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Settings, Monitor, Cpu, AlertTriangle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Echoes of Aincrad Demo Crashing: Fixes & Setup Guide",
+  description: "Resolve Echoes of Aincrad demo crashing on PC, PS5, and Xbox. Learn how to optimize settings, verify game files, and ensure save data transfer stability.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Demo+Crashing+Fixes",
+  date: "2026-07-09",
+  author: "echoes of aincrad Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Initial Fix**: Address **echoes of aincrad demo crashing** by verifying Steam game files or reinstalling on consoles.
+- **Hardware Check**: Ensure your PC meets the minimum requirements, specifically regarding DirectX 12 and SSD storage.
+- **Save Data**: Demo progress carries over to the full game, but corrupted save data can lead to launch failures.
+- **Driver Updates**: Update NVIDIA or AMD drivers to the latest July 2026 versions for optimal JRPG performance.
+- **Overlay Issues**: Disable Steam, Discord, and GeForce Experience overlays to prevent mid-game freezes.
+</Callout>
+
+<Section icon={Monitor} title="Technical Requirements and Compatibility">
+
+The release of the Echoes of Aincrad demo has allowed players to experience the beta phase of the story across PlayStation 5, Xbox Series X|S, and PC. However, many users have reported issues with the **echoes of aincrad demo crashing** during the initial loading screen or after the character creation menu. Most of these technical hurdles stem from hardware incompatibility or outdated system software.
+
+| Requirement | Minimum Specification | Recommended Specification |
+| :--- | :--- | :--- |
+| **OS** | Windows 10/11 (64-bit) | Windows 11 (64-bit) |
+| **Processor** | Intel Core i5-8400 / AMD Ryzen 5 2600 | Intel Core i7-10700 / AMD Ryzen 7 3700X |
+| **Memory** | 12 GB RAM | 16 GB RAM |
+| **Graphics** | GTX 1060 (6GB) / RX 580 (8GB) | RTX 3060 / RX 6700 XT |
+| **DirectX** | Version 12 | Version 12 |
+| **Storage** | 40 GB available space (SSD) | 40 GB available space (NVMe SSD) |
+
+<Callout type="warning" title="SSD Mandatory">
+Running the demo on a traditional Hard Disk Drive (HDD) is a frequent cause of the **echoes of aincrad demo crashing** during floor transitions. The game utilizes high-speed asset streaming for the floating castle environments, which requires an SSD for stability.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="Step-by-Step Troubleshooting for PC">
+
+If you are experiencing a crash-to-desktop (CTD) without an error message, the first step is to validate the integrity of the local game files. This process identifies corrupted assets that may have been damaged during the download process on Steam.
+
+<Steps>
+  <Step num="1" title="Verify Steam Game Files">
+    Open your Steam Library, right-click on Echoes of Aincrad Demo, and select Properties. Navigate to the Installed Files tab and click "Verify integrity of demo files." This will replace any missing DLLs or corrupted textures.
+  </Step>
+  <Step num="2" title="Update Graphics Drivers">
+    Download the latest drivers from the official NVIDIA or AMD websites. The July 2026 updates include specific optimizations for Bandai Namco's latest JRPG engine, which significantly reduces shader compilation stutters.
+  </Step>
+  <Step num="3" title="Clear Shader Cache">
+    Navigate to your GPU control panel and clear the shader cache. For NVIDIA users, this is found under Manage 3D Settings. This forces the game to rebuild the cache, often fixing crashes that occur during the opening cinematic.
+  </Step>
+  <Step num="4" title="Configure Power Settings">
+    Set your Windows Power Plan to "High Performance." This prevents the CPU from downclocking during intensive combat sequences, which can trigger a system-level freeze.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Admin Privileges">
+Right-click the game's executable in the Steam folder and select "Run as Administrator." This ensures the game has the necessary permissions to write save data and access system resources without interference.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Software Conflicts and Overlay Optimization">
+
+Background applications and third-party overlays are notorious for causing the **echoes of aincrad demo crashing** during fast-travel or boss encounters. These tools often conflict with the game's rendering pipeline, especially when using DirectX 12 features.
+
+<CardGrid cols={3}>
+  <Card title="Disable Overlays">
+    - **Steam Overlay**: Disable in game properties.
+    - **Discord**: Turn off the in-game overlay.
+    - **GPU Tools**: Exit MSI Afterburner or Precision X1.
+  </Card>
+  <Card title="Antivirus Exceptions">
+    - **Add Folder**: Add the demo folder to exclusions.
+    - **Firewall**: Ensure the executable is allowed.
+    - **Real-time Scan**: Disable during the first launch.
+  </Card>
+  <Card title="Display Modes">
+    - **Windowed Borderless**: Use for multitasking.
+    - **Fullscreen**: Recommended for maximum stability.
+    - **V-Sync**: Toggle off if experiencing input lag.
+  </Card>
+</CardGrid>
+
+| Application Type | Potential Conflict | Recommended Action |
+| :--- | :--- | :--- |
+| **Recording Software** | OBS / ShadowPlay | Disable hardware encoding during demo play |
+| **RGB Software** | iCUE / Razer Synapse | Close process in Task Manager before launching |
+| **Communication** | TeamSpeak / Discord | Disable hardware acceleration in app settings |
+
+<Callout type="info" title="Steam Deck Status">
+Official documentation indicates that Echoes of Aincrad is currently unsupported on Steam Deck at launch. Attempting to run the demo on Proton may lead to immediate crashes until a compatibility patch is released.
+</Callout>
+
+</Section>
+
+<Section icon={AlertTriangle} title="Save Data and Transfer Stability">
+
+The demo allows players to carry over their progress to the full version of Echoes of Aincrad. However, if the demo crashes during a save operation, the resulting file may become corrupted, preventing both the demo and the full game from launching correctly.
+
+| Save Issue | Symptom | Resolution |
+| :--- | :--- | :--- |
+| **Corrupted Slot** | Infinite loading on "Game Start" | Delete local save and sync from Cloud |
+| **Transfer Error** | Full game fails to detect demo data | Update full game to latest July 2026 version |
+| **Permission Denied** | Save failed message in-game | Disable Windows Controlled Folder Access |
+
+<Steps>
+  <Step num="1" title="Backup Local Saves">
+    Locate your save folder in %LocalAppData%/BandaiNamco/EchoesOfAincrad/Saved. Copy this folder to a safe location before attempting any file transfers.
+  </Step>
+  <Step num="2" title="Verify Version Match">
+    Ensure your demo and full game are on the same regional version (e.g., North America). Cross-region save transfers are not supported and will result in a crash.
+  </Step>
+  <Step num="3" title="Cloud Sync Check">
+    Confirm that Steam Cloud or PlayStation Plus sync is complete before switching devices. Incomplete syncs are a primary cause of the **echoes of aincrad demo crashing** during the "Checking Save Data" screen.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Death Game Mode Limitation">
+Save data carried over from the demo cannot be switched to Death Game Mode. If you intend to play the one-life challenge, you must start a fresh save file rather than using transferred data.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Stability Checklist and Final Preparation">
+
+Before diving back into the floating castle of Aincrad, use this checklist to ensure your system is fully optimized for the demo. Following these steps will minimize the risk of the **echoes of aincrad demo crashing** during critical story missions.
+
+<Checklist
+  id="stability-goals"
+  title="Pre-Launch Checklist:"
+  items={[
+    "Verify game files through Steam or reinstall on console",
+    "Update GPU drivers to the July 2026 release",
+    "Disable all non-essential background overlays",
+    "Ensure at least 10% of your SSD space is free for pagefiling",
+    "Set Windows power settings to High Performance mode"
+  ]}
+/>
+
+<Callout type="success" title="Ready to Play">
+Once the checklist is complete, launch the game in Fullscreen mode. If you still encounter issues, consider lowering the "Effects Quality" and "Shadow Distance" in the graphics menu to reduce VRAM pressure.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Why does the Echoes of Aincrad demo crash on startup?",
+    answer: "Most startup crashes are caused by outdated graphics drivers or missing DirectX 12 components. Ensure your Windows is updated and verify your game files through Steam."
+  },
+  {
+    question: "Can I fix the demo crashing on PS5 or Xbox?",
+    answer: "On consoles, the best fix is to uninstall the demo, clear the system cache by power cycling the console, and then perform a fresh installation on the internal SSD."
+  },
+  {
+    question: "Will my save data be safe if the demo crashes?",
+    answer: "If the crash occurs during a save icon animation, the data might be corrupted. It is recommended to enable Cloud Saves to allow for data recovery."
+  },
+  {
+    question: "Does the demo support Steam Deck?",
+    answer: "Currently, Echoes of Aincrad is listed as unsupported for Steam Deck. Running it may cause the demo to crash frequently due to Proton compatibility issues."
+  }
+]} />
+
+</Section>

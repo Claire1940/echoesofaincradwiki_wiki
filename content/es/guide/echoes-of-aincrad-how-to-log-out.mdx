@@ -1,0 +1,130 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, BookOpen } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Echoes of Aincrad: Cómo cerrar sesión y guardar el progreso",
+  description: "Aprende a gestionar tu sesión de juego, guardar tus datos y entender las mecánicas de cierre de sesión en Echoes of Aincrad para una experiencia fluida.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/2563eb/fff?text=Logout+Guide",
+  date: "2026-07-09",
+  author: "Equipo de la Wiki de Echoes of Aincrad"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Echoes of Aincrad** sigue una estructura específica para la gestión de sesiones y el guardado del progreso.
+- Los jugadores siempre deben usar el **menú del juego** para salir a la pantalla de título y garantizar la integridad de los datos.
+- El **Modo Juego de la Muerte** presenta restricciones de guardado únicas, lo que hace esenciales los hábitos correctos de cierre de sesión.
+- Los **datos de guardado de la demo** se pueden transferir, pero requieren un manejo cuidadoso durante el lanzamiento inicial.
+- Verifica siempre tu **estado de guardado** antes de cerrar la aplicación en consolas o PC.
+</Callout>
+
+<Section icon={Map} title="Entendiendo la gestión de sesiones">
+
+Navegar por el castillo flotante de Aincrad requiere una comprensión clara de cómo el juego gestiona tu progreso. A diferencia de los títulos tradicionales donde podrías encontrar un botón de "Cerrar sesión" en un menú, *Echoes of Aincrad* utiliza un sistema de guardado integrado vinculado al estado de tu personaje y al progreso de las misiones.
+
+**Puntos destacados del video:**
+- Navegación por la interfaz del menú principal.
+- Procedimientos adecuados para volver a la pantalla de título.
+- Distinción entre puntos de control de misión y guardados manuales.
+
+<YouTubeEmbed videoId="h-lqh2-5Ks0" title="Mecánicas de juego de Echoes of Aincrad" />
+
+Para asegurarte de que tu progreso se registre correctamente, debes confiar en los activadores de guardado internos del juego. El juego guarda automáticamente a intervalos clave, como después de completar una misión, visitar una tienda o regresar al Pueblo de los Inicios.
+
+| Acción | Activador de guardado | Fiabilidad |
+| :--- | :--- | :--- |
+| Completar una misión | Automático | Alta |
+| Regresar al pueblo | Automático | Alta |
+| Salida manual del menú | Activador manual | La más alta |
+| Cierre repentino de la aplicación | Ninguno | Baja |
+
+<Callout type="tip" title="Consejo profesional">
+Regresa siempre a la pantalla de título a través del menú de ajustes antes de cerrar la aplicación del juego. Esto fuerza una sincronización final de las estadísticas de tu personaje y los datos del inventario.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Gestión de guardados en el Modo Juego de la Muerte">
+
+El Modo Juego de la Muerte introduce un entorno de alto riesgo donde la lógica de guardado del juego cambia significativamente. Debido a que este modo está diseñado para simular la tensión del anime original, la penalización por fracaso es severa.
+
+| Característica | Modo estándar | Modo Juego de la Muerte |
+| :--- | :--- | :--- |
+| Eliminación de guardado | Nunca | Al ser derrotado |
+| Seguridad de salida | Alta | Alta |
+| Transferencia de progreso | Compatible | Restringida |
+
+<Callout type="warning" title="Advertencia importante">
+Si estás jugando en el Modo Juego de la Muerte, evita forzar el cierre de la aplicación durante el combate activo. Aunque el juego no elimina datos por salidas normales, las sesiones interrumpidas durante encuentros de alto riesgo pueden provocar reinicios inesperados del estado.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Procedimiento paso a paso para cerrar sesión y guardar">
+
+Sigue estos pasos para asegurarte de que tu progreso se guarde de forma segura antes de dejar de jugar. Esta secuencia es válida para PlayStation 5, Xbox Series X|S y Steam.
+
+<Steps>
+  <Step num="1" title="Llega a una zona segura">
+    Asegúrate de que tu personaje se encuentre actualmente en una zona segura, como el Pueblo de los Inicios o un punto de control designado.
+  </Step>
+  <Step num="2" title="Accede al menú principal">
+    Presiona el botón de menú en tu mando o teclado para abrir el estado del personaje y la interfaz del sistema.
+  </Step>
+  <Step num="3" title="Selecciona Volver al título">
+    Navega hasta la pestaña Sistema y selecciona "Volver a la pantalla de título". Esto confirma que todos los datos actuales se escriban en la unidad de almacenamiento.
+  </Step>
+  <Step num="4" title="Confirma la salida">
+    Una vez en la pantalla de título, puedes cerrar de forma segura la aplicación del juego en tu respectiva consola o plataforma de PC.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Progreso de la demo y del juego completo">
+
+Si estás en transición de la versión de demostración al lanzamiento completo, la gestión de tus datos de guardado se vuelve aún más crítica. Los datos de la demo no se convierten automáticamente al Modo Juego de la Muerte, así que asegúrate de gestionar tus ranuras en consecuencia.
+
+<CardGrid cols={2}>
+  <Card title="Transferencia de la demo">
+    - Requiere la última actualización del juego.
+    - Debe realizarse en la misma plataforma.
+    - Transfiere el progreso de las misiones.
+  </Card>
+  <Card title="Reglas del juego completo">
+    - Admite múltiples ranuras de guardado.
+    - El Modo Juego de la Muerte es opcional.
+    - Se sincroniza con los guardados en la nube.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Integridad de los datos">
+La transferencia de tu partida guardada de la demo es un proceso de una sola vez. Una vez que cargas los datos de la demo en la versión completa, se convierte en un archivo de guardado estándar, lo que permite un comportamiento normal de guardado y carga.
+</Callout>
+
+</Section>
+
+<Section icon={BookOpen} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Hay un botón dedicado para 'Cerrar sesión' en Echoes of Aincrad?",
+    answer: "No, el juego utiliza una función de 'Volver al título' dentro del menú Sistema, que actúa como la forma segura de cerrar sesión y guardar tu progreso actual."
+  },
+  {
+    question: "¿Perderé mi progreso si el juego se cierra inesperadamente?",
+    answer: "El juego cuenta con sólidos activadores de guardado automático en los puntos de control y al completar misiones. Aunque los fallos son poco comunes, el sistema está diseñado para minimizar la pérdida de datos guardando con frecuencia."
+  },
+  {
+    question: "¿Puedo guardar mi partida durante una batalla contra un jefe?",
+    answer: "No puedes guardar manualmente durante un encuentro con un jefe. Una vez que comienza la batalla contra un jefe, quedas bloqueado en el encuentro hasta que ganes o seas derrotado."
+  }
+]} />
+
+</Section>

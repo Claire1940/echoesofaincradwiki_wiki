@@ -1,0 +1,207 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Echoes of Aincrad Gameplay: Combat, Weapons, and Partner Guide",
+  description: "Master Echoes of Aincrad gameplay with our comprehensive combat guide. Learn weapon tiers, parry mechanics, partner tactics, and death mode survival rules.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fbbf24?text=Echoes+of+Aincrad+Gameplay+Guide",
+  date: "2026-07-09",
+  author: "echoes of aincrad Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Echoes of Aincrad Gameplay**: A single-player action JRPG simulating a massive death game MMO where you play as your own customizable avatar.
+- **Combat Mechanics**: Built around Stamina management, SP-driven Sword Skills, tight parry frames, and tactical AI partner coordination.
+- **Weapon System**: Features six distinct weapon types acting as classes, each with unique attack patterns, reach, and shield compatibility.
+- **Death Game Mode**: An optional high-stakes permadeath challenge where character save data is permanently deleted upon defeat.
+- **Demo Progress**: Players can test all weapon types across five beta missions, with save data carrying over to the full 2026 launch.
+</Callout>
+
+<Section icon={Swords} title="Echoes of Aincrad Gameplay: Core Combat Mechanics">
+
+Echoes of Aincrad gameplay delivers a refreshing single-player JRPG experience that simulates the social dynamics and high stakes of a massive VRMMO. Instead of stepping into the shoes of established series protagonist Kirito, you design your own customizable avatar to conquer the floating castle. The real-time combat system is methodical, rewarding precise positioning, resource management, and cooperative coordination with your chosen AI partner.
+
+**Video Highlights:**
+- **Custom Avatar Integration**: Experience Aincrad through your own created character parallel to the main anime lore.
+- **Methodical Pace**: Combat emphasizes stamina management, breaking enemy stances, and executing perfectly timed counters.
+- **Partner Command System**: Direct your partner in real time using Switch Mode or Free Mode to manipulate enemy focus.
+
+<YouTubeEmbed videoId="h-lqh2-5Ks0" title="Echoes of Aincrad - Gameplay Mechanics Explained" />
+
+### Stamina and SP Resource Management
+
+Success on the frontlines requires balancing two primary combat resources: Stamina and SP. Standard actions such as sprinting, dodging, and guarding with a shield drain your Stamina bar. Unleashing powerful weapon-specific Sword Skills consumes SP. Over-committing to heavy attacks will leave you completely vulnerable, making button-mashing a quick path to defeat.
+
+### Defensive Options and Counterattacks
+
+Echoes of Aincrad separates itself from standard hack-and-slash games with its depth of defensive maneuvers. Depending on your equipped loadout, you have access to three primary defensive tools:
+
+| Defense Type | Input Requirement | Best Used For | Tactical Reward |
+| :--- | :--- | :--- | :--- |
+| **Perfect Dodge** | Precise timing on dodge roll | Unblockable heavy boss attacks | Grants temporary invincibility frames |
+| **Shield Guard** | Hold block button with shield | Sustained physical strikes | Minimizes direct health damage |
+| **Parry / Reversal** | Tight timing window on block | Standard enemy weapon swings | Breaks enemy stance and triggers partner combo |
+
+</Section>
+
+<Section icon={Map} title="Weapons Tier List and Playstyle Comparison">
+
+Weapons essentially dictate your class and overall progression path in Echoes of Aincrad. Every weapon type earns unique Weapon Experience, unlocking specialized Sword Skills that can be customized in your active loadout. 
+
+<CardGrid cols={3}>
+  <Card title="S-Tier: Sword & Shield">
+    - **High Survivability**: Safest option for learning enemy attack patterns.
+    - **Balanced Style**: Allows quick transitions between blocking and striking.
+    - **Beginner Friendly**: Highly forgiving with generous block angles.
+  </Card>
+  <Card title="A-Tier: Rapier & Mace">
+    - **High Mobility (Rapier)**: Fast thrusts, rapid chains, and counters.
+    - **Stagger Power (Mace)**: Specialized defense-breaking heavy blunt strikes.
+    - **Shield Access**: Both weapons can still equip a shield for safety.
+  </Card>
+  <Card title="B-Tier: Two-Handed & Dagger">
+    - **Charged Damage (2H Sword/Axe)**: Massive reach but slow, risky swings.
+    - **Fast Pressure (Dagger)**: Quick close-range strikes with high mobility.
+    - **No Shield Access**: Requires absolute mastery of dodge timing.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Weapon Selection Tip">
+Beginners should start their journey with the Sword and Shield to master parry timings before transitioning to high-risk, shieldless weapons like the Two-Handed Sword or Dagger.
+</Callout>
+
+### Weapon Attributes and Combat Roles
+
+To optimize your build, align your Growth Points with your weapon's primary scaling attributes. The table below compares the core differences between all six weapon types:
+
+| Weapon Type | Combat Role | Shield Access | Mobility Rating | Primary Damage Style |
+| :--- | :--- | :--- | :--- | :--- |
+| **Sword and Shield** | Balanced Frontliner | Yes | Medium | Slashing & Shield Strikes |
+| **Rapier** | Rapid Counter-Striker | Yes | High | Piercing Thrusts & Chains |
+| **Mace** | Crowd Control & Breaker | Yes | Medium | Heavy Blunt Impact & Stun |
+| **Dagger** | Fast Close-Range DPS | No | Very High | Rapid Slashing & Throwing Skills |
+| **Two-Handed Sword** | Charged Heavy DPS | No | Low | High-Damage Charged Cleaves |
+| **Two-Handed Axe** | Area-of-Effect Cleaver | No | Low | Wide-Sweeping Heavy Strikes |
+
+</Section>
+
+<Section icon={Target} title="Partner Synergy and Tactical Commands">
+
+You do not have to climb the floors of Aincrad alone. Echoes of Aincrad features a robust AI Partner system where your companion brings a distinct weapon type, Support Skills, and powerful Combination Skills to the battlefield.
+
+<Steps>
+  <Step num="1" title="Select Your Partner">
+    Choose an AI companion at the Inn before embarking on a quest. Match their weapon type with yours to create a balanced party dynamic.
+  </Step>
+  <Step num="2" title="Equip Support Skills">
+    Assign healing, attack buffs, or crowd-control abilities to your partner's action wheel to keep you sustained during long dungeon runs.
+  </Step>
+  <Step num="3" title="Manage Tactical Modes">
+    Toggle between **Switch Mode** to let your partner draw aggro, and **Free Mode** to focus down single targets together.
+  </Step>
+  <Step num="4" title="Unleash Combination Skills">
+    Build your combat meter by landing strikes, then trigger a joint cinematic attack to deal massive stagger and health damage.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Boss Battle Warning">
+Once you step into a boss chamber, retreat is impossible. Always ensure your partner is fully equipped with healing items and matching support tactics before crossing the threshold.
+</Callout>
+
+### Companion Character Profiles
+
+Each partner in Echoes of Aincrad has their own unique personality, background, and weapon specialty:
+
+| Partner Name | Weapon Specialty | Combat Archetype | Best Synergy With |
+| :--- | :--- | :--- | :--- |
+| **Iori** | Sword & Shield | Balanced Defender | High-damage, glass-cannon builds |
+| **Wyzeman** | Mace & Shield | Stagger & Crowd Control | Fast, precision-based physical weapons |
+| **Zash** | Two-Handed Sword | Heavy Offense | Defensive or support-oriented players |
+| **Argo** | Dagger | Fast Support & Debuffs | Heavy weapons requiring distraction windows |
+
+</Section>
+
+<Section icon={Shield} title="Death Game Mode: High-Stakes Survival Rules">
+
+For players seeking the ultimate Sword Art Online experience, Echoes of Aincrad features an optional **Death Game Mode**. This mode directly replicates the life-or-death stakes of the anime's original premise.
+
+```
++-------------------------------------------------------------+
+|                     DEATH GAME MODE RULES                   |
++-------------------------------------------------------------+
+|  [ Player Defeat ] --------> [ Character Save Erased ]       |
+|                                                             |
+|  [ Technical Interrupts ] -> [ Save Data Safe & Intact ]     |
+|                                                             |
+|  [ Demo Progress ] --------> [ Cannot Convert to Death Mode] |
++-------------------------------------------------------------+
+```
+
+### Core Survival Rules
+
+- **Permanent Defeat**: If your character's health drops to zero in this mode, your character save file is permanently deleted.
+- **No Respawning**: There are no second chances, revival items, or checkpoint rollbacks.
+- **Safe Disconnects**: Exiting the game normally, returning to the main menu, or experiencing a sudden power outage will not delete your save data. The penalty only triggers upon actual in-game defeat.
+- **Unlock Requirements**: Standard edition players unlock this mode after completing the main story campaign. Deluxe and Ultimate Edition owners receive an **Early Unlock** to risk their reality from the very first playthrough.
+
+</Section>
+
+<Section icon={Trophy} title="Demo Exploration and Save Transfer Checklist">
+
+Before the full game launches, players can dive into the official Echoes of Aincrad Demo to test their skills and secure a head start. 
+
+<Checklist
+  id="demo-goals"
+  title="Demo Progression Checklist:"
+  items={[
+    "Download the demo on PC (Steam), PS5, or Xbox Series X|S",
+    "Complete all 5 available beta-phase story missions",
+    "Equip and test all 6 weapon types to find your preferred playstyle",
+    "Accumulate Col and crafting materials at the Smithy",
+    "Ensure your demo save file remains on your system storage for transfer"
+  ]}
+/>
+
+<Callout type="success" title="Save Data Transfer Success">
+All demo save slots will carry over to the full retail release of Echoes of Aincrad, provided you play on the same platform and update the game to the latest launch-day patch.
+</Callout>
+
+### How to Transfer Demo Save Data
+
+1. **Keep Demo Saves**: Do not delete your demo save files from your console or PC storage.
+2. **Install Full Game**: Download and install the full version of Echoes of Aincrad on the same platform.
+3. **Apply Patches**: Ensure your game is connected to the network and updated to the latest version.
+4. **Accept Prompts**: Launch the full game, read the initial terms, and select **Carry over** when the system detects your demo data.
+5. **Load Game**: Hold down the confirm button, close the transfer screen, and select **Game Start** from the main menu.
+
+</Section>
+
+<Section icon={Sparkles} title="Echoes of Aincrad FAQ">
+
+<FAQ items={[
+  {
+    question: "Is Echoes of Aincrad a Roblox game or a multiplayer MMO?",
+    answer: "No. Echoes of Aincrad is a single-player action JRPG developed by Game Studio Inc. and published by Bandai Namco. It is designed to simulate the atmosphere of a multiplayer MMO within a controlled single-player narrative."
+  },
+  {
+    question: "Can I transfer my demo progress into Death Game Mode?",
+    answer: "No. Save data transferred from the demo cannot be converted into Death Game Mode. If you wish to play in Death Game Mode, you must start a fresh save file after unlocking the mode."
+  },
+  {
+    question: "What platforms is Echoes of Aincrad available on?",
+    answer: "The game officially launches on July 10, 2026, for PlayStation 5, Xbox Series X|S, and PC via Steam. It is not currently supported on the Nintendo Switch."
+  },
+  {
+    question: "How do I unlock new Sword Skills in the game?",
+    answer: "Sword Skills are unlocked by equipping a specific weapon type and earning Weapon Experience through real-time combat. You can equip up to three active Sword Skills on your skill wheel at any time."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,172 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Creación de Personajes en Echoes of Aincrad: Guía de Configuración y Tácticas de Compañeros",
+  description: "Domina el sistema de creación de personajes de Echoes of Aincrad. Aprende a personalizar tu avatar, seleccionar armas iniciales y crear una sinergia temprana con tus compañeros.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Character+Creation+Guide",
+  date: "2026-07-09",
+  author: "Equipo de la Wiki de Echoes of Aincrad",
+  keywords: "Echoes of Aincrad, creación de personajes, guía, armas, compañeros"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Sistema principal**: La suite de **creación de personajes de Echoes of Aincrad** se desbloquea justo después de completar el prólogo de la Beta de Sword Art Online [00首页信息-2.md].
+- **Diseño de avatar**: Los jugadores diseñan un protagonista personalizable en lugar de jugar únicamente como personajes establecidos de SAO [00首页信息-2.md].
+- **Selección de armas**: Las armas actúan como tu sistema de clases, definiendo tus Habilidades de Espada activas y tu estilo de combate general [00首页信息-1.md].
+- **Sinergia con compañeros**: Combina tu configuración personalizada con una IA de compañero compatible para activar poderosas Habilidades de Combinación [00首页信息-2.md].
+- **Bucle de progresión**: Gasta Puntos de Crecimiento en la Posada para aumentar el daño de las armas y mejorar tu Rango Cardinal global [00首页信息-1.md].
+</Callout>
+
+<Section icon={Sparkles} title="Resumen de la Creación de Personajes en Echoes of Aincrad">
+
+La suite de **creación de personajes de Echoes of Aincrad** es la base de tu viaje a través del castillo flotante [00首页信息.md, 00首页信息-2.md]. A diferencia de títulos anteriores de Sword Art Online que te obligaban a jugar como Kirito, este JRPG prioriza una aventura personalizada de inserción propia [00首页信息-2.md]. Diseñas a tu propio héroe desde cero, seleccionando todo, desde los rasgos físicos hasta tu equipamiento de combate inicial [00首页信息-1.md, 00首页信息-2.md].
+
+La suite de creación se abre oficialmente al concluir el prólogo de la Beta de Sword Art Online del juego [00首页信息-2.md]. Una vez desbloqueado, tu avatar personalizado sirve como el núcleo mecánico de tu build, anclando el progreso de tu equipo, las inversiones en estadísticas y las combinaciones con compañeros [00首页信息-1.md].
+
+| Etapa de Creación | Opciones de Personalización | Impacto Práctico |
+| --- | --- | --- |
+| **Apariencia Física** | Ajustes preestablecidos, controles deslizantes, cabello, tonos de piel | Identidad visual en cinemáticas/multijugador [00首页信息-1.md, 00首页信息-2.md] |
+| **Arma Inicial** | Seis categorías de armas distintas | Determina los desbloqueos de habilidades tempranas [00首页信息-1.md] |
+| **Asignación de Estadísticas** | Puntos de Crecimiento gastados en la Posada | Escalamiento directo para el daño del arma [00首页信息-1.md] |
+
+<Callout type="tip" title="Base de la Build">
+Tu protagonista personalizado es un lienzo a largo plazo. Todas las maestrías de armas, Habilidades de Espada activas y sinergias con compañeros escalan directamente en torno a los atributos base de tu personaje creado [00首页信息-1.md].
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Clases de Armas y Atributos Iniciales">
+
+En Echoes of Aincrad, las armas funcionan como tu sistema de clases [00首页信息-1.md]. Equipar un tipo de arma altera tus animaciones de ataque básico, el comportamiento de esquiva y las Habilidades de Espada disponibles [00首页信息-1.md]. Usar un arma en combate en tiempo real otorga Experiencia de Arma, que desbloquea hasta tres habilidades activas equipables [00首页信息-1.md].
+
+### Comparación de Rendimiento por Tipo de Arma
+
+| Tipo de Arma | Acceso a Escudo | Movilidad | Estilo de Daño | Rendimiento contra Jefes |
+| --- | --- | --- | --- | --- |
+| **Espada y Escudo** | Sí [00首页信息-1.md] | Equilibrada [00首页信息-1.md] | Mezcla de ofensiva y defensiva [00首页信息-1.md] | Alto [00首页信息-1.md] |
+| **Estoques** | Sí [00首页信息-1.md] | Alta [00首页信息-1.md] | Cadenas fluidas y contraataques [00首页信息-1.md] | Alto [00首页信息-1.md] |
+| **Maza** | Sí [00首页信息-1.md] | Media [00首页信息-1.md] | Golpes pesados y aturdimiento [00首页信息-1.md] | Alto [00首页信息-1.md] |
+| **Daga** | No [00首页信息-1.md] | Muy Alta [00首页信息-1.md] | Presión rápida a corta distancia [00首页信息-1.md] | Medio [00首页信息-1.md] |
+| **Espada a Dos Manos** | No [00首页信息-1.md] | Baja-Media [00首页信息-1.md] | Golpes pesados cargados [00首页信息-1.md] | Medio-Alto [00首页信息-1.md] |
+| **Hacha a Dos Manos** | No [00首页信息-1.md] | Baja [00首页信息-1.md] | Barridos de área más lentos [00首页信息-1.md] | Medio [00首页信息-1.md] |
+
+<CardGrid cols={3}>
+  <Card title="Rango S: Espada y Escudo">
+    La opción inicial más segura [00首页信息-1.md]. Ideal para aprender los patrones de ataque de los jefes y gestionar el Aguante [00首页信息-1.md].
+  </Card>
+  <Card title="Rango A: Estoque y Maza">
+    Excelentes opciones para contraataques rápidos o para romper las defensas enemigas y causar un gran aturdimiento [00首页信息-1.md].
+  </Card>
+  <Card title="Rango B: Armas Pesadas y Ligeras a Dos Manos">
+    Estilos de juego de alto riesgo que intercambian la defensa del escudo por daño puro. Es mejor usarlos una vez que se memorizan las señales del enemigo [00首页信息-1.md].
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Cambio en la Mecánica de Esquiva">
+Ten en cuenta que equipar armas pesadas a dos manos desactiva los pasos rápidos tradicionales, cambiando tu mecanismo de esquiva a un rodamiento de evasión más lento [00首页信息-1.md].
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Creación y Configuración de Personajes Paso a Paso">
+
+Crear tu personaje y configurar tu build inicial requiere un enfoque deliberado para asegurar que no desperdicies recursos al principio del juego. Utiliza esta guía de progresión paso a paso para optimizar tu configuración [00首页信息-1.md].
+
+<Steps>
+  <Step num="1" title="Completa el Prólogo">
+    Juega la fase obligatoria de la Beta de Sword Art Online para aprender las mecánicas fundamentales de movimiento, bloqueo y ataque [00首页信息-2.md].
+  </Step>
+  <Step num="2" title="Accede a la Suite de Creación">
+    Una vez que concluya la fase beta, usa el terminal de personalización para ajustar los rasgos físicos, el peinado y el perfil de voz de tu protagonista [00首页信息-2.md].
+  </Step>
+  <Step num="3" title="Selecciona tu Arma Inicial">
+    Elige tu tipo de arma inicial. Si prefieres una alta supervivencia, selecciona la Espada y el Escudo para aprender con seguridad los tiempos de parry de los enemigos [00首页信息-1.md].
+  </Step>
+  <Step num="4" title="Asigna Puntos de Crecimiento">
+    Dirígete a tu habitación personal en la Posada de la ciudad. Gasta tus Puntos de Crecimiento acumulados al subir de nivel en atributos que escalen directamente con tu arma elegida [00首页信息-1.md].
+  </Step>
+  <Step num="5" title="Forja EX-MODs Iniciales">
+    Visita la Herrería de la ciudad para combinar tipos de armas duplicadas, desbloqueando modificadores EX-MOD personalizados como el uso reducido de Aguante [00首页信息-1.md].
+  </Step>
+</Steps>
+
+<Callout type="success" title="Mejoras en la Posada">
+Puedes reasignar tus Puntos de Crecimiento y ajustar tus habilidades de arma equipadas en cualquier momento regresando a tu habitación en la Posada local [00首页信息-1.md, 00首页信息-2.md].
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Alineación de Compañeros y Sinergia Táctica">
+
+Tu personaje personalizado no lucha solo. Antes de salir de la ciudad para cualquier misión o mazmorra, debes seleccionar un personaje compañero para que te acompañe [00首页信息-1.md, 00首页信息-2.md]. Alinear la clase de arma de tu protagonista con el comportamiento táctico de tu compañero es vital para sobrevivir a encuentros difíciles [00首页信息-2.md].
+
+### Elenco de Compañeros y Roles de Combate
+
+| Compañero | Clase de Arma | Rol de Combate | Mejor Sinergia |
+| --- | --- | --- | --- |
+| **Iori** | Espada y Escudo [00首页信息-2.md] | Tanque Defensivo [00首页信息-2.md] | Builds frágiles de alto daño [00首页信息-1.md, 00首页信息-2.md] |
+| **Wyzeman** | Maza y Escudo [00首页信息-2.md] | Soporte de Aturdimiento y Mejoras [00首页信息-2.md] | Builds de ataques cargados pesados [00首页信息-1.md, 00首页信息-2.md] |
+| **Zash** | Espada a Dos Manos [00首页信息-2.md] | Luchador de Primera Línea [00首页信息-2.md] | Builds de hostigadores rápidos y ágiles [00首页信息-1.md, 00首页信息-2.md] |
+| **Argo** | Daga [00首页信息-2.md] | Debilitador Rápido [00首页信息-2.md] | Builds defensivas dependientes del escudo [00首页信息-1.md, 00首页信息-2.md] |
+
+### Comandos Tácticos y Modos de Equipo
+
+Para maximizar la efectividad del compañero en combate, debes alternar activamente entre los modos tácticos usando la rueda de acciones [00首页信息-2.md]:
+
+- **Modo Cambio (Switch)**: Ordena a tu compañero que atraiga la agresión enemiga inmediata, dándole a tu personaje personalizado espacio para sanar o cargar ataques pesados [00首页信息-1.md, 00首页信息-2.md].
+- **Modo Libre**: Instruye a tu compañero para que coordine ataques sobre tu objetivo o se separe para limpiar eficientemente grupos de enemigos menores [00首页信息-1.md, 00首页信息-2.md].
+- **Habilidades de Combinación**: Golpes conjuntos de alto daño desatados una vez que tu equipo acumula suficiente impulso de combate [00首页信息-2.md].
+
+<Callout type="info" title="Habilidades de Soporte">
+Recuerda previsualizar y asignar las Habilidades de Soporte de tu compañero (como hechizos de curación o mejoras de poder de ataque) desde tu habitación en la Posada antes de comenzar batallas difíciles contra jefes [00首页信息-1.md, 00首页信息-2.md].
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Hitos de Progresión del Personaje">
+
+Para asegurar que tu protagonista personalizado siga siendo lo suficientemente poderoso como para enfrentar a los jefes de los pisos superiores, sigue tu desarrollo usando esta lista de verificación [00首页信息-1.md].
+
+<Checklist
+  id="character-milestones"
+  title="Objetivos de Progresión del Protagonista:"
+  items={[
+    "Completa el prólogo de la Beta de SAO para desbloquear las opciones de avatar personalizadas [00首页信息-2.md].",
+    "Gana Experiencia de Arma para desbloquear y equipar tres Habilidades de Espada activas [00首页信息-1.md].",
+    "Asigna Puntos de Crecimiento en la Posada para maximizar el escalamiento de tu arma principal [00首页信息-1.md].",
+    "Sube tu Rango Cardinal global para desbloquear inventarios de mercaderes superiores y planos de la Herrería [00首页信息-1.md].",
+    "Fabrica un arma personalizada en la Herrería que cuente con al menos un modificador EX-MOD activo [00首页信息-1.md]."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo desbloqueo la pantalla de creación de personajes de Echoes of Aincrad?",
+    answer: "La suite de creación de personajes se desbloquea automáticamente después de completar el prólogo tutorial introductorio de la Beta de Sword Art Online."
+  },
+  {
+    question: "¿Puedo cambiar la apariencia de mi personaje más adelante en el juego?",
+    answer: "Sí, puedes personalizar los rasgos físicos de tu avatar y cambiar tus armas equipadas o Habilidades de Espada visitando tu habitación en la Posada."
+  },
+  {
+    question: "¿Mis elecciones de arma inicial me bloquean en una clase específica?",
+    answer: "No, las armas actúan como clases fluidas. Puedes cambiar tu tipo de arma en cualquier momento entre misiones para cambiar completamente tu estilo de juego."
+  },
+  {
+    question: "¿Cómo mejoro los atributos base de mi personaje personalizado?",
+    answer: "Subir de nivel otorga Puntos de Crecimiento. Debes gastar estos puntos en tu habitación en la Posada para aumentar estadísticas como Fuerza, Destreza o Vitalidad."
+  }
+]} />
+
+</Section>

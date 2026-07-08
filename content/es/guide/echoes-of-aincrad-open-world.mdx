@@ -1,0 +1,150 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Mundo abierto de Echoes of Aincrad: Guía de exploración del mapa y supervivencia",
+  description: "Domina las mecánicas del mundo abierto de Echoes of Aincrad. Aprende la progresión de pisos, encuentra puntos de control ocultos, gestiona recursos y sobrevive al castillo flotante.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Open+World+Exploration",
+  date: "2026-07-09",
+  author: "Equipo de la Wiki de Echoes of Aincrad"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Mundo abierto de Echoes of Aincrad**: El juego cuenta con exploración en tiempo real piso por piso del enorme castillo flotante de Aincrad.
+- **Puntos de control**: Activar los puntos de control regionales es obligatorio para revelar mapas, cofres y atajos [00首页信息-1].
+- **Preparación para el combate**: Es necesario regresar al Pueblo de los Inicios antes de las peleas contra jefes; una vez dentro, no podrás escapar [00首页信息-1].
+- **Mecánicas de supervivencia**: La gestión de recursos de Resistencia (Stamina) y SP determina si vives o experimentas la eliminación permanente de tu personaje [00首页信息-1, 00首页信息-2].
+</Callout>
+
+<Section icon={Map} title="Conceptos básicos de exploración del mundo abierto de Echoes of Aincrad">
+
+Navegar por el enorme castillo flotante de Aincrad requiere un enfoque sistemático de exploración. El **mundo abierto de Echoes of Aincrad** está estructurado en torno a una progresión piso por piso, donde cada piso funciona como una vasta zona llena de campos interconectados, mazmorras laberínticas y secretos ocultos [00基础信息.md, 00首页信息-1]. A diferencia de los RPG de mundo abierto estándar, la exploración aquí afecta directamente a tu preparación para el combate y a tu supervivencia [00首页信息-1].
+
+Para progresar, los jugadores deben interactuar con los puntos de control regionales [00首页信息-1]. Estos monolitos digitales sirven para múltiples propósitos que te ayudan a mapear el territorio desconocido [00首页信息-1].
+
+| Característica | Función principal | Beneficio de exploración |
+| --- | --- | --- |
+| **Puntos de control** | Revelar detalles del mapa regional | Expone puntos de interés cercanos [00首页信息-1] |
+| **Atajos sellados** | Conectar caminos distantes | Reduce el tiempo de retroceso en las mazmorras [00首页信息-1] |
+| **Zonas seguras** | Reabastecer cristales de curación | Proporciona zonas seguras para gestionar el inventario [00首页信息-1] |
+
+<Callout type="tip" title="Estrategia de exploración">
+Nunca corras directamente hacia el marcador de la misión principal. Activar los puntos de control temprano revela rutas ocultas y cofres del tesoro que contienen materiales de artesanía esenciales [00首页信息-1].
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Sistemas de supervivencia y gestión de recursos">
+
+El mundo abierto es sumamente peligroso, especialmente si decides jugar en el modo de alto riesgo Juego de la Muerte (Death Game Mode) [00首页信息-2]. Sobrevivir a los encuentros con monstruos y guardianes de piso requiere vigilar de cerca tus reservas de recursos fundamentales [00首页信息-1]. 
+
+Cada acción física en el campo consume recursos, lo que significa que esprintar imprudentemente o spamear ataques te llevará rápidamente a la derrota [00首页信息-1].
+
+| Recurso | Acción que lo consume | Método de recuperación |
+| --- | --- | --- |
+| **Resistencia (Stamina)** | Atacar, esquivar, defenderse | Se regenera automáticamente con el tiempo [00首页信息-1] |
+| **SP** | Desatar poderosas habilidades de espada (Sword Skills) | Ataques normales, pociones específicas [00首页信息-1, 00首页信息-2] |
+| **Puntos de salud (HP)** | Recibir daño de los enemigos | Cristales de curación, pociones fabricadas [00首页信息-1] |
+
+<CardGrid cols={3}>
+  <Card title="Gestión de resistencia">
+    - **Controla las acciones básicas** [00首页信息-1]
+    - Quedarse sin ella limita el movimiento
+    - Crucial para bloquear con escudo [00首页信息-1]
+  </Card>
+  <Card title="Conservación de SP">
+    - **Potencia las habilidades de espada (Sword Skills)** [00首页信息-1]
+    - Se agota rápidamente si se spamea [00首页信息-1]
+    - Es mejor guardarlo para ventanas de aturdimiento
+  </Card>
+  <Card title="Restauración de HP">
+    - **Sin autorregeneración**
+    - Los cristales se rellenan en zonas seguras [00首页信息-1]
+    - Abastécete de pociones en el Pueblo de los Inicios [00首页信息-1]
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Advertencia de resistencia">
+Si agotas tu resistencia por completo mientras te defiendes con un escudo, tu guardia se romperá, dejándote aturdido y expuesto a golpes críticos [00首页信息-1].
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía de progresión de pisos paso a paso">
+
+Progresar a través de los pisos de Aincrad requiere un bucle de juego claro. Sigue esta secuencia estructurada para desbloquear de forma segura nuevas áreas y preparar a tu personaje para los desafíos que se avecinan [00首页信息-1].
+
+<Steps>
+  <Step num="1" title="Inicializar y prepararse en el pueblo">
+    Antes de salir, visita el Pueblo de los Inicios [00首页信息-1]. Gasta tus Puntos de Crecimiento en la Posada, mejora tu equipo en la Herrería y abastécete de cristales de curación y minas de utilidad [00首页信息-1].
+  </Step>
+  <Step num="2" title="Seleccionar un compañero compatible">
+    Elige un personaje compañero cuya arma y habilidades de apoyo complementen tu build [00首页信息-2]. Por ejemplo, combina una build pesada de espada a dos manos con un compañero defensivo como Wyzeman [00首页信息-2].
+  </Step>
+  <Step num="3" title="Localizar y activar puntos de control">
+    Entra al campo y concéntrate en encontrar puntos de control [00首页信息-1]. Esto revela el mapa local, marcando cofres del tesoro ocultos, peligros ambientales y puertas de atajo [00首页信息-1].
+  </Step>
+  <Step num="4" title="Aumentar el Rango Cardinal">
+    Completa misiones locales y derrota monstruos de campo para aumentar tu Rango Cardinal [00首页信息-1]. Un rango más alto mejora los inventarios de los comerciantes y las tasas de caída de los monstruos, pero también escala la dificultad de los enemigos [00首页信息-1].
+  </Step>
+  <Step num="5" title="Conquistar el laberinto y al jefe">
+    Localiza el laberinto del piso y llega a la sala del jefe [00首页信息-1]. Asegúrate de tener el inventario completamente lleno, ya que entrar a la arena del jefe te encierra hasta que tú o el jefe sean derrotados [00首页信息-1].
+  </Step>
+</Steps>
+
+<Callout type="success" title="Consejo de progresión">
+Asigna siempre tus Puntos de Crecimiento en la Posada antes de desafiar al jefe de un piso [00首页信息-1]. Distribuir los puntos al azar perjudica el rendimiento; concéntrate en las estadísticas que escalan con tu arma equipada [00首页信息-1].
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Hitos y lista de verificación del mundo abierto">
+
+Lleva un registro de tus objetivos de exploración para asegurarte de que tu personaje tenga el nivel y el equipo adecuados para los pisos superiores [00首页信息-1].
+
+<Checklist
+  id="aincrad-exploration-milestones"
+  title="Lista de verificación de exploración de Aincrad:"
+  items={[
+    "Activar todos los puntos de control regionales en el piso actual [00首页信息-1]",
+    "Desbloquear todos los atajos sellados para establecer rutas de tránsito seguras [00首页信息-1]",
+    "Localizar y abrir todos los cofres del tesoro ocultos para obtener planos raros [00首页信息-1]",
+    "Aumentar tu Rango Cardinal para desbloquear recetas de artesanía avanzadas [00首页信息-1]",
+    "Mejorar tu arma principal y equipar hasta tres habilidades de espada (Sword Skills) activas [00首页信息-1]"
+  ]}
+/>
+
+<Callout type="info" title="Mejoras de la herrería">
+Usa armas duplicadas encontradas durante la exploración en la Herrería para fusionar efectos EX-MOD [00首页信息-1]. Esto añade bonificaciones únicas como costes de resistencia reducidos o ataques básicos mejorados [00首页信息-1].
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Es Echoes of Aincrad un mundo abierto completamente continuo?",
+    answer: "No, el mundo abierto de Echoes of Aincrad está estructurado piso por piso. Cada piso es una zona enorme e independiente con sus propios campos, mazmorras y áreas seguras que desbloqueas secuencialmente [00基础信息.md, 00首页信息-1]."
+  },
+  {
+    question: "¿Puedo escapar de una pelea contra un jefe si estoy a punto de morir?",
+    answer: "No. Una vez que cruzas el umbral hacia la sala de un jefe, todas las rutas de escape quedan bloqueadas. Debes derrotar al jefe o enfrentarte a la derrota, lo cual es especialmente castigador en el modo Juego de la Muerte (Death Game Mode), donde se borra tu partida guardada [00首页信息-1, 00首页信息-2]."
+  },
+  {
+    question: "¿Cuál es el beneficio de activar los puntos de control?",
+    answer: "Activar los puntos de control revela detalles del mapa circundante, mostrando las ubicaciones de cofres del tesoro, mecanismos especiales, rutas ocultas y atajos sellados [00首页信息-1]."
+  },
+  {
+    question: "¿Cómo afecta el Rango Cardinal a la exploración?",
+    answer: "Aumentar tu Rango Cardinal mejora la calidad de los drops de los monstruos y desbloquea mejor equipo en el Pueblo de los Inicios, pero también aumenta la dificultad de los enemigos en el campo [00首页信息-1]."
+  }
+]} />
+
+</Section>

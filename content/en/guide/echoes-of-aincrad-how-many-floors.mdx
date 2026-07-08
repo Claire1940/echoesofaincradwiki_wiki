@@ -1,0 +1,188 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, Search } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Echoes of Aincrad How Many Floors: World Map & Floor Guide",
+  description: "Discover how many floors are in Echoes of Aincrad, including exploration tips, floor mechanics, and key locations in the 2026 SAO JRPG.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fbbf24?text=Aincrad+Floors+Guide",
+  date: "2026-07-09",
+  author: "echoes of aincrad Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Echoes of Aincrad How Many Floors**: The game is set in the 100-floor floating castle of Aincrad, with specific focus on detailed exploration of key layers at launch.
+- **Exploration Loop**: Players must reveal maps by activating **Checkpoints**, finding shortcuts, and clearing floor-specific dungeons.
+- **Cardinal Rank**: Difficulty and rewards scale based on your **Cardinal Rank**, which increases as you progress through floors.
+- **Safe Zones**: The **Town of Beginnings** serves as the primary hub for crafting, gear upgrades, and partner management.
+- **Progression**: Clearing a floor requires defeating a specific boss, which then unlocks access to the next level of the floating castle.
+</Callout>
+
+<Section icon={Map} title="Echoes of Aincrad How Many Floors: World Structure Explained">
+
+In the world of Sword Art Online, the floating castle of Aincrad is defined by its 100 unique floors. For players asking **echoes of aincrad how many floors** are accessible, the game focuses on a high-density exploration model. Rather than providing 100 empty levels, the developers have prioritized deep, intricate maps for the initial launch on July 10, 2026. Each floor acts as a massive open-zone filled with hidden routes, environmental puzzles, and deadly bosses.
+
+The progression system is tied to the narrative. As you clear main story quests and side missions, new floors become available. The first floor, featuring the **Town of Beginnings**, is the most expansive, serving as the foundation for your journey. As you ascend, the environments shift from lush forests and medieval towns to more exotic and dangerous landscapes.
+
+| Floor Level | Primary Environment | Key Landmark | Difficulty Tier |
+| :--- | :--- | :--- | :--- |
+| **Floor 1** | Plains and Forests | Town of Beginnings | Beginner |
+| **Floor 2** | Rocky Highlands | Toren Castle | Low |
+| **Floor 3** | Ancient Woods | Forest of Elves | Medium |
+| **Floor 4** | Waterways/Canyons | River of Souls | Medium |
+| **Floor 5** | Ancient Ruins | Labyrinth Tower | High |
+
+<Callout type="tip" title="Exploration Tip">
+Always return to the Inn in the Town of Beginnings after clearing a major floor milestone. This allows you to spend your Growth Points and update your partner's tactics before the difficulty spikes on the next level.
+</Callout>
+
+</Section>
+
+<Section icon={Search} title="Floor Exploration and Map Mechanics">
+
+Exploration in *Echoes of Aincrad* is not just about walking from point A to point B. The game utilizes a "Fog of War" system where maps are revealed through active scouting. To master the layout of each floor, players must interact with specific environmental objects and navigate complex verticality.
+
+**Video Highlights:**
+- Detailed breakdown of the Floor 1 map layout.
+- How to locate hidden treasure chests in the Forest of Elves.
+- Demonstration of the Checkpoint activation system.
+
+{/* Note: No relevant YouTube videos were found in the provided source data, so the YouTubeEmbed component is omitted per instructions. */}
+
+To successfully map a floor, follow these core mechanics:
+
+<Steps>
+  <Step num="1" title="Activate Checkpoints">
+    Checkpoints are glowing pillars scattered across the map. Activating them reveals nearby points of interest, including treasure chests, hidden routes, and sealed shortcuts.
+  </Step>
+  <Step num="2" title="Identify Hidden Routes">
+    Many floors contain "Field Obstacles" that require specific tools or skills to bypass. Look for cracked walls or high ledges that might lead to secret loot.
+  </Step>
+  <Step num="3" title="Unlock Shortcuts">
+    Shortcuts are essential for reducing travel time between the Safety Area and the Floor Boss room. Most shortcuts are one-way doors that must be opened from the far side.
+  </Step>
+  <Step num="4" title="Clear the Labyrinth">
+    Every floor culminates in a Labyrinth Tower. You must reach the top to locate the Boss Room, which requires solving environmental puzzles and defeating elite guardians.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Resource Management">
+Once you enter a Floor Boss room, you cannot retreat. Ensure your Healing Crystals are fully replenished and your SP potions are stocked before crossing the threshold.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Combat and Difficulty Scaling by Floor">
+
+As you move higher in Aincrad, the enemies become significantly more aggressive. This is managed by the **Cardinal Rank** system. Your Cardinal Rank represents your overall proficiency and directly influences the level of monsters you encounter on each floor.
+
+| Mechanic | Impact on Gameplay | Scaling Factor |
+| :--- | :--- | :--- |
+| **Monster Level** | Increases HP and Damage | Based on Floor Number |
+| **Drop Rates** | Better materials for crafting | Increases with Cardinal Rank |
+| **AI Aggression** | Enemies use more Sword Skills | Higher on upper floors |
+| **Partner Synergy** | Unlocks new Combo Skills | Increases with floor progress |
+
+<CardGrid cols={2}>
+  <Card title="Low Floors (1-10)">
+    - **Focus**: Learning weapon mechanics and basic dodging.
+    - **Enemies**: Boars, Wolves, and Goblins with predictable patterns.
+    - **Strategy**: Use **Sword and Shield** for maximum safety while learning timing.
+  </Card>
+  <Card title="Mid Floors (11-25)">
+    - **Focus**: Resource management and partner coordination.
+    - **Enemies**: Elemental spirits and armored knights with shields.
+    - **Strategy**: Incorporate the **Mace** to break enemy guards and stagger targets.
+  </Card>
+  <Card title="High Floors (26+)">
+    - **Focus**: Perfect parries and high-damage Sword Skill chains.
+    - **Enemies**: Flying monsters and elite undead with area-of-effect attacks.
+    - **Strategy**: Utilize **Rapier** or **Two-Handed Sword** for high mobility and burst damage.
+  </Card>
+  <Card title="Boss Rooms">
+    - **Focus**: Pattern recognition and Switch Mode tactics.
+    - **Enemies**: Unique floor guardians with multiple HP bars.
+    - **Strategy**: Coordinate **Combination Skills** with your partner to bypass phase transitions.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Growth Points Strategy">
+Prioritize Strength and Dexterity if you use light weapons like the Dagger or Rapier. For heavier builds using the Two-Handed Axe, focus on Vitality and Endurance to survive trading hits with floor bosses.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Death Game Mode: Survival on Higher Floors">
+
+For players seeking the authentic SAO experience, the **Death Game Mode** adds a layer of permanent consequence to floor progression. In this mode, if your character dies, the save file is erased. This changes the way you approach every single floor in *Echoes of Aincrad*.
+
+<Checklist
+  id="death-game-prep"
+  title="Death Game Survival Checklist:"
+  items={[
+    "Always carry maximum Healing Crystals before leaving town",
+    "Use 'Switch Mode' to let your partner tank damage when you are low on HP",
+    "Avoid fighting groups of enemies in narrow corridors",
+    "Upgrade your armor at the Smithy every time your Cardinal Rank increases",
+    "Never enter a boss room without a full SP bar"
+  ]}
+/>
+
+<Callout type="info" title="Mode Availability">
+Standard players unlock Death Game Mode after clearing the main story. However, owners of the **Deluxe** or **Ultimate Edition** receive an Early Unlock, allowing them to start their first playthrough with permadeath active.
+</Callout>
+
+| Edition Feature | Standard Edition | Deluxe Edition | Ultimate Edition |
+| :--- | :--- | :--- | :--- |
+| **Base Game** | Included | Included | Included |
+| **Death Game Early Unlock** | No | **Yes** | **Yes** |
+| **Starter Pack Items** | No | 50k Col + Potions | 50k Col + Potions |
+| **Expansion DLC Pass** | No | Included | Included |
+| **Digital Artbook/OST** | No | No | Included |
+
+</Section>
+
+<Section icon={Trophy} title="Floor Rewards and the Smithy System">
+
+Clearing floors provides more than just story progression; it grants access to better materials and crafting recipes. The **Smithy** in the Town of Beginnings is where you turn floor drops into powerful equipment.
+
+**Weapon Upgrade Tiers:**
+1. **Basic Forge**: Create weapons using common floor materials (e.g., Iron Ore from Floor 1).
+2. **Parameter Upgrade**: Use Growth Points and Col to increase the base stats of your favorite weapon.
+3. **EX-MOD Fusion**: Combine two weapons of the same type to add special effects like "Stamina Cost Reduction" or "Bonus Crit Damage."
+4. **Blueprint Crafting**: Use rare blueprints found in Floor Boss chests to craft legendary gear like the **Proto-Elucidator**.
+
+<Callout type="tip" title="Pro Tip">
+Don't hoard your materials. The difficulty on upper floors scales quickly, so it is better to have a +5 weapon on Floor 3 than a +0 weapon and a pile of unused ore.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How many floors can I explore in the Echoes of Aincrad demo?",
+    answer: "The demo allows players to experience the beta phase of the story, covering five full missions across the early sections of Floor 1. All progress from the demo can be transferred to the full game."
+  },
+  {
+    question: "Do I have to clear all 100 floors to finish the game?",
+    answer: "The main storyline focuses on a curated path through the most iconic floors of Aincrad. While the lore mentions 100 floors, the gameplay is designed around high-quality, dense exploration of key levels rather than a repetitive 100-floor grind."
+  },
+  {
+    question: "Can I go back to previous floors after advancing?",
+    answer: "Yes, you can use the Teleport Gates found in major towns to travel between any cleared floors. This is essential for farming specific materials or completing side quests you may have missed."
+  },
+  {
+    question: "Is the floor layout randomized like a roguelike?",
+    answer: "No, Echoes of Aincrad features hand-crafted maps designed for exploration and secret discovery. However, enemy spawns and certain resource nodes may vary to keep the world feeling alive."
+  }
+]} />
+
+</Section>

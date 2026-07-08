@@ -1,0 +1,156 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Echoes of Aincrad Xbox: Series X|S Performance & Setup Guide",
+  description: "Master Echoes of Aincrad on Xbox Series X|S. Learn about performance features, preloads, edition differences, and essential survival steps.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Xbox+Series+X|S+Setup+Guide",
+  date: "2026-07-09",
+  author: "echoes of aincrad Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Xbox Platforms**: Optimized exclusively for **Xbox Series X|S** as a current-generation JRPG.
+- **Release Date**: Launches globally on **July 10, 2026**, with preload options available.
+- **Xbox Features**: Supports **4K Ultra HD**, 60 fps+, and cloud saves.
+- **Death Game Mode**: High-stakes permadeath mode available immediately in **Deluxe/Ultimate Editions**.
+</Callout>
+
+<Section icon={Shield} title="Echoes of Aincrad Xbox Capabilities & Performance">
+
+Echoes of Aincrad is built specifically for current-generation hardware, meaning it bypasses older consoles to deliver a high-fidelity visual experience inside the virtual prison of Sword Art Online. On Xbox Series X|S, the game utilizes the console's modern architecture to ensure smooth, reflex-based action combat during hectic floor boss encounters. 
+
+Understanding how the game runs and when you can play is essential before drawing your steel. Below is the official performance and platform breakdown for the Xbox release.
+
+| Feature | Xbox Series X | Xbox Series S | Detail |
+| :--- | :--- | :--- | :--- |
+| **Target Resolution** | **4K Ultra HD** | 1440p | High-fidelity digital environments |
+| **Target Framerate** | **60 fps+** | 60 fps | Fluid multi-weapon swordplay |
+| **Preload Support** | **Available** | **Available** | Started July 6, 2026, at 17:00 PDT |
+| **Cloud Saves** | **Supported** | **Supported** | Automatic progress backup |
+| **Achievements** | **Supported** | **Supported** | Full gamerscore tracking |
+
+<Callout type="success" title="Preload Timing">
+Xbox preload is officially live as of July 6, 2026, at 17:00 PDT (July 7 at 9:00 JST / 2:00 CEST). Make sure to download the game early to jump straight into the beta phase at launch!
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Xbox Edition Comparison and Pre-Order Bonuses">
+
+Choosing the right edition of Echoes of Aincrad on the Xbox Store depends on how quickly you want to tackle the high-stakes survival challenges. While the Standard Edition offers the complete base game, the Deluxe and Ultimate Editions provide early access to the brutal permadeath mechanics.
+
+**Xbox Store Editions Breakdown:**
+
+| Feature | Standard Edition | Deluxe Edition | Ultimate Edition |
+| :--- | :--- | :--- | :--- |
+| **Base Game** | **Included** | **Included** | **Included** |
+| **Xbox Store Price** | **$69.99** | **$89.99** | **$109.99** |
+| **Pre-Order Bonus** | Proto-Elucidator Pack | Proto-Elucidator Pack | Proto-Elucidator Pack |
+| **DLC Expansion Pass** | Not included | **Included** (by Dec 31, 2026) | **Included** (by Dec 31, 2026) |
+| **Starter Pack** | Not included | **Col & Potions** | **Col & Potions** |
+| **Death Game Unlock** | Post-game only | **Immediate Access** | **Immediate Access** |
+| **Digital Artbook & OST**| Not included | Not included | **Included** (640-page book) |
+
+<CardGrid cols={3}>
+  <Card title="Standard Edition">
+    - **Best for casual JRPG fans**
+    - Standard price of $69.99
+    - Unlock Death Game Mode after story
+  </Card>
+  <Card title="Deluxe Edition">
+    - **Best for hardcore SAO fans**
+    - Immediate Death Game Mode
+    - Includes future Expansion DLC
+  </Card>
+  <Card title="Ultimate Edition">
+    - **The complete package**
+    - Includes 141-track Soundtrack
+    - Exclusive Flutter Armor Set
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Proto-Elucidator Weapon Pack">
+Pre-ordering any edition on Xbox grants the Proto-Elucidator Series Weapon Pack, which provides six weapon types, a shield, and matching blueprints to give you an early advantage.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Xbox Setup & Demo Progress Transfer">
+
+If you played the free demo version on Xbox Series X|S, you can carry your progress over to the full retail release. Follow these exact steps to ensure your save data transfers correctly without any loss of progression.
+
+<Steps>
+  <Step num="1" title="Keep the Demo Installed">
+    Do not delete the Echoes of Aincrad demo save files from your Xbox storage before initiating the transfer. The full version needs to detect the local save database.
+  </Step>
+  <Step num="2" title="Update the Full Game">
+    Launch the full version of Echoes of Aincrad on your Xbox. Ensure your console is connected to the network and has downloaded the latest day-one patch.
+  </Step>
+  <Step num="3" title="Accept the Agreements">
+    Proceed through the initial boot screens and accept the user agreements. The game will automatically scan your Xbox storage for demo data.
+  </Step>
+  <Step num="4" title="Confirm the Import Prompt">
+    When the "Carry over" prompt appears on your screen, press and hold the **Confirm** button. Once the success message displays, select **Close** and choose **Game Start** to load your transferred save.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Death Game Mode Save Restriction">
+Save data carried over from the Xbox demo cannot be converted into Death Game Mode. If you wish to play the permadeath mode, you must create a fresh save file.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Xbox Beginner Survival Checklist">
+
+Surviving Aincrad requires a solid understanding of the game's core resource loops. Unlike traditional JRPGs, managing your stamina and partner synergy on the field is just as important as upgrading your weapons.
+
+Use this checklist to ensure your custom hero is prepared before heading past the safe zones.
+
+<Checklist
+  id="xbox-survival"
+  title="Aincrad Exploration Checklist:"
+  items={[
+    "Choose a starting weapon class like Sword & Shield for balanced defense.",
+    "Spend accumulated Growth Points at the Inn to scale your primary stats.",
+    "Activate field checkpoints to reveal surrounding map details and shortcuts.",
+    "Equip up to three active Sword Skills and manage your SP gauge carefully.",
+    "Utilize Switch Mode during combat to let your partner draw enemy focus."
+  ]}
+/>
+
+<Callout type="tip" title="Blacksmith Upgrades">
+You cannot change your equipment or upgrade your companion's gear while exploring dungeons. Always return to the Town of Beginnings to fuse weapons and alter EX-MODs at the Smithy before starting a new mission.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Echoes of Aincrad Xbox FAQ">
+
+<FAQ items={[
+  {
+    question: "Is Echoes of Aincrad available on Xbox One?",
+    answer: "No. Echoes of Aincrad is a current-generation exclusive and is only available on Xbox Series X|S, PlayStation 5, and PC via Steam."
+  },
+  {
+    question: "Can I play multiplayer on Xbox Live?",
+    answer: "No. Echoes of Aincrad is entirely a single-player action JRPG. The other party members you encounter and fight alongside are tactical NPCs."
+  },
+  {
+    question: "What happens if I die in Death Game Mode?",
+    answer: "If your character is defeated in Death Game Mode, your save data is permanently deleted. However, normal exits or unexpected power loss will not delete your progress."
+  },
+  {
+    question: "Does the Xbox version support 60 frames per second?",
+    answer: "Yes. Both Xbox Series X and Xbox Series S are optimized to run the game at 60 fps+ for smooth real-time combat."
+  }
+]} />
+
+</Section>

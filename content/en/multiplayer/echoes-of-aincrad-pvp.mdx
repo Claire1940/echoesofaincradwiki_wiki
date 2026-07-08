@@ -1,0 +1,147 @@
+import { Swords, Shield, Trophy, Target, Map, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Echoes of Aincrad PvP: Combat Mechanics & Player Killing Rules",
+  description: "Master the competitive and high-stakes combat systems of Echoes of Aincrad. Learn about the Hostile Mark, Orange status, and PvP combat mechanics.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Echoes+of+Aincrad+PvP",
+  date: "2026-07-09",
+  author: "echoes of aincrad Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Single-Player Focus**: Echoes of Aincrad is a single-player JRPG, meaning PvP mechanics are simulated through dark, narrative-driven Player Killer (PK) encounters.
+- **Orange Status**: Attacking friendly NPCs or dropping your green indicator triggers a **Hostile Mark**, turning you into an Orange Player.
+- **Combat Balance**: Winning simulated duels requires mastering real-time Stamina, SP management, and weapon-specific Sword Skills.
+- **Death Game Stakes**: In Death Game Mode, getting defeated in any encounter—including hostile player duels—will permanently erase your save file.
+</Callout>
+
+<Section icon={Swords} title="Echoes of Aincrad PvP: System Overview">
+
+In Bandai Namco's *Echoes of Aincrad*, players experience the dark and high-stakes atmosphere of the original Sword Art Online death game. While the game is built as a single-player action JRPG rather than a traditional MMORPG, it simulates the tense, competitive environment of Aincrad through scripted Player Killer (PK) duels, hostile NPC encounters, and narrative-driven PvP battles.
+
+Understanding how the game handles criminal indicators, hostile marks, and competitive combat is essential to surviving your journey through the floating castle.
+
+| PvP System Element | Indicator Color | Penalty / Threat Level | Safe Zone Protection |
+| :--- | :--- | :--- | :--- |
+| **Lawful Player** | Green | None (Standard Status) | Full protection from hostile attacks |
+| **Orange Player** | Orange | Marked as criminal; town guards attack | Suspended; open to attack by green players |
+| **Red Player (PK)** | Red | Permanent hostile mark; extreme threat | Completely banned from entering main towns |
+
+<Callout type="warning" title="Death Game Mode Warning">
+If you are playing in **Death Game Mode**, losing a simulated PvP or PK battle carries the ultimate penalty: your character save data is permanently erased. Always prepare your healing items and partner tactics before pursuing suspicious side quests.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="The Hostile Mark: Green, Orange, and Red Indicators">
+
+The original rules of Sword Art Online govern how player interactions work in *Echoes of Aincrad*. Every character in the world is assigned a cursor color that reflects their current moral alignment and criminal status.
+
+### Crime and Punishment in the Floating Castle
+When you explore areas outside the main settlements, you are subject to the indicator system. Dropping your guard or engaging in harmful actions will immediately shift your status.
+
+*   **Green Indicator**: The default status for players and friendly NPCs. Green players are fully protected within designated Safe Zones, such as the Town of Beginnings.
+*   **Orange Status (Hostile Mark)**: Triggered when a player attacks a green-designated target or accepts shady quests from untrustworthy characters. While orange, you are flagged as a criminal and will be attacked on sight by town guards.
+*   **Red Status (Player Killer)**: Reserved for members of assassin guilds. Red players have committed severe crimes and are permanently hunted by both NPCs and high-level bounty hunters.
+
+<CardGrid cols={3}>
+  <Card title="Green Status">
+    - **Safe in Towns**
+    - Standard merchant access
+    - Protected by guards
+  </Card>
+  <Card title="Orange Status">
+    - **Hostile Mark active**
+    - Hunted by town guards
+    - Restricted town access
+  </Card>
+  <Card title="Red Status">
+    - **Assassination Guild alignment**
+    - Permanent criminal flag
+    - Bounty hunters spawned
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Clearing Your Status">
+If you accidentally trigger an Orange Hostile Mark, retreat to a wilderness Safe Area and wait for the criminal timer to decay before trying to enter major quest hubs.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="How to Survive Simulated PvP Battles">
+
+Simulated PvP encounters in *Echoes of Aincrad* occur during specific story events and side quests, such as Argo the Rat's intelligence investigations. To survive these fast-paced duels, you must master the game's core combat systems.
+
+### Core Combat Mechanics for Duels
+
+| Mechanic | Impact on PvP | Strategic Recommendation |
+| :--- | :--- | :--- |
+| **Stamina** | Limits dodging, blocking, and running | Never let your Stamina hit zero; space out your attacks |
+| **SP (Skill Points)** | Powers your equipped Sword Skills | Save SP for punishing enemy recovery animations |
+| **Reversal Slash** | Counter-attack mechanic | Timed perfectly to parry heavy incoming strikes |
+
+<Steps>
+  <Step num="1" title="Watch the Enemy's Stance">
+    Hostile players use the same weapon classes as you. Watch their stance to predict whether they are charging a heavy Two-Handed Sword strike or preparing a fast Rapier lunge.
+  </Step>
+  <Step num="2" title="Bait and Parry">
+    Do not spam normal attacks blindly. Keep your shield raised or use quick dodges to bait out their high-commitment Sword Skills, then counter-attack while they are in recovery frames.
+  </Step>
+  <Step num="3" title="Coordinate with Your Partner">
+    Use **Switch Mode** to force the hostile NPC to target your companion, giving you a safe window to heal or charge a high-damage skill.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Partner Synergy">
+Choose a partner like **Iori** (Sword & Shield) for defensive support, or **Argo** (Dagger) to quickly apply pressure and interrupt the enemy's casting animations during tough duels.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="PvP Survival Checklist">
+
+Before accepting suspicious side quests or venturing deep into unmapped ruins like the Megalith Forest, ensure your build is fully optimized to survive sudden PK ambushes.
+
+<Checklist
+  id="pvp-readiness"
+  title="Pre-Quest Security Checklist:"
+  items={[
+    "Upgrade your primary weapon and shield at the Smithy to maximize block stability [1.1.2].",
+    "Stock up on High Healing Potions and High SP Potions from the Town of Beginnings.",
+    "Allocate your Growth Points into Vitality and Agility to boost maximum HP and dodge speed.",
+    "Set your partner's tactical behavior to Switch Mode for instant aggro control.",
+    "Activate the nearest regional Safe Area to establish a quick checkpoint."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Is there real-time online multiplayer PvP in Echoes of Aincrad?",
+    answer: "No. Echoes of Aincrad is a single-player action JRPG. All PvP, duels, and Player Killer (PK) encounters are simulated through scripted story events, side quests, and hostile NPC AI."
+  },
+  {
+    question: "What happens if I die during a simulated PvP duel?",
+    answer: "In standard mode, you will restart from your last saved checkpoint or Safe Area. However, if you are playing in Death Game Mode, any defeat will permanently delete your character save file."
+  },
+  {
+    question: "Can I become a Red Player in the game?",
+    answer: "While you can temporarily gain an Orange Hostile Mark by attacking friendly NPCs, the story focuses on your journey as a player trying to clear Aincrad, meaning you cannot join the PK guilds as a permanent Red Player."
+  },
+  {
+    question: "How do I clear the Orange criminal status?",
+    answer: "You can clear the Orange Hostile Mark by staying out of combat in wilderness zones and letting the criminal indicator timer run down. Avoid returning to major towns while the mark is active, as guards will attack you."
+  }
+]} />
+
+</Section>

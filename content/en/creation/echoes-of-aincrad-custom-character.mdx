@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, User, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "echoes of aincrad custom character: Setup Guide & Best Builds",
+  description: "Master the echoes of aincrad custom character system. Learn about avatar creation, stat distribution, weapon classes, and partner synergy for 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Custom+Character+Guide",
+  date: "2026-07-09",
+  author: "echoes of aincrad Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **echoes of aincrad custom character**: You play as an original protagonist rather than Kirito, allowing for deep personal progression.
+- **Creation Timing**: Detailed customization unlocks immediately after completing the initial Sword Art Online Beta prologue.
+- **Weapon System**: Your chosen weapon acts as your class, determining your Sword Skills and required stat investments.
+- **Stat Priority**: Focus on **Strength** and **Dexterity** for heavy hitters, or **Agility** and **Intelligence** for rapid-fire rapier builds.
+- **Death Game Mode**: Custom characters in this mode face permanent deletion upon defeat, making build optimization critical.
+</Callout>
+
+<Section icon={User} title="Core Avatar Creation and Customization">
+
+The **echoes of aincrad custom character** system is the heart of this JRPG experience. Unlike previous Sword Art Online titles that forced a Kirito-centric perspective, this 2026 release focuses on your personal journey through the 100 floors of Aincrad. The character creator is robust, offering a wide array of physical sliders and aesthetic choices that define your presence in the virtual world.
+
+You will encounter the full character creation suite after the "Beta Phase" tutorial missions. This allows you to test the basic mechanics before committing to a permanent look. The system includes pre-made templates for those who want to jump in quickly, but the real depth lies in the manual adjustments.
+
+| Feature | Customization Depth | Impact on Gameplay |
+| :--- | :--- | :--- |
+| **Body Type** | Height, weight, and limb proportions | Primarily aesthetic; does not affect hitboxes |
+| **Face & Eyes** | 40+ eye shapes, pupil styles, and facial markings | Defines your character's personality in cutscenes |
+| **Hair Styles** | 60+ styles with primary and secondary color channels | High visibility in social hubs like the Town of Beginnings |
+| **Voice Sets** | 10 distinct personality types for battle cries | Affects the tone of combat callouts and partner interactions |
+| **Skin Tone** | Full RGB spectrum for digital-realistic tones | Aesthetic only; matches various regional armor styles |
+
+<Callout type="tip" title="Aesthetic Tip">
+Your **echoes of aincrad custom character** will appear in all story cinematics. Take your time with the facial sliders, as these cannot be changed without a specific "Mirror of Reflection" item found later in the game.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Stats and Growth Points Management">
+
+Progression for your **echoes of aincrad custom character** is handled through Growth Points (GP). Every time you level up, you receive a set amount of GP that must be manually assigned while resting at the Inn in the Town of Beginnings. Understanding the relationship between stats and weapon performance is the difference between a struggling survivor and a front-line clearer.
+
+The seven core attributes influence everything from your raw damage to your ability to survive a boss's ultimate attack. Because you cannot easily reset stats in the early game, a focused build is highly recommended over a "jack-of-all-trades" approach.
+
+| Attribute | Primary Effect | Best For |
+| :--- | :--- | :--- |
+| **Strength (STR)** | Increases physical attack power and carry weight | Two-Handed Swords, Axes, and Maces |
+| **Dexterity (DEX)** | Improves critical hit rate and accuracy | Rapiers, Daggers, and Bows |
+| **Agility (AGI)** | Increases movement speed and dodge window | Light armor users and rapid-attack builds |
+| **Intelligence (INT)** | Boosts Sword Skill damage and SP recovery | Skill-spamming builds and support roles |
+| **Vitality (VIT)** | Increases maximum Health Points (HP) | Tanks and Death Game Mode survivors |
+| **Endurance (END)** | Improves Stamina recovery and Guard strength | Shield users (Sword & Shield, Mace) |
+| **Mind (MND)** | Enhances resistance to status effects | High-floor exploration and boss encounters |
+
+<Callout type="warning" title="Stat Distribution Warning">
+Do not ignore **Vitality** if you are playing in **Death Game Mode**. While high damage is tempting, a single mistimed dodge can lead to character deletion if your HP pool is too shallow.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Weapon Classes and Playstyles">
+
+In Echoes of Aincrad, your weapon is your class. Your **echoes of aincrad custom character** can master all six weapon types, but mastery takes time and dedicated Weapon Exp. Each weapon type unlocks unique Sword Skills that define your combat rhythm.
+
+<CardGrid cols={3}>
+  <Card title="The Vanguard (Sword & Shield)">
+    - **High Defense**: The safest choice for beginners.
+    - **Balanced Stats**: Scales well with STR and END.
+    - **Shield Access**: Allows for powerful parries and blocks.
+  </Card>
+  <Card title="The Striker (Two-Handed Sword)">
+    - **Massive Damage**: Focuses on heavy, charged hits.
+    - **High Risk**: No shield access and slower recovery.
+    - **STR Scaling**: Requires heavy investment in Strength.
+  </Card>
+  <Card title="The Infiltrator (Dagger)">
+    - **Extreme Mobility**: Fastest movement and attack speed.
+    - **Crit Focus**: Relies on DEX for massive critical chains.
+    - **Utility**: Often includes debuffs and status effects.
+  </Card>
+</CardGrid>
+
+Choosing the right weapon early on determines your early-game efficiency. While you can swap weapons at any time, your Sword Skills are tied to specific weapon levels.
+
+| Weapon Type | Shield Support | Mobility | Difficulty | Primary Stat |
+| :--- | :--- | :--- | :--- | :--- |
+| **Sword & Shield** | Yes | Medium | Low | STR / END |
+| **Rapier** | Yes | High | Medium | DEX / AGI |
+| **Mace** | Yes | Low | Medium | STR / VIT |
+| **Dagger** | No | Very High | High | DEX / AGI |
+| **2H Sword** | No | Medium | High | STR / INT |
+| **2H Axe** | No | Low | High | STR / VIT |
+
+<Callout type="success" title="Weapon Mastery Tip">
+Use the **Demo Version** to test all six weapon types. Your progress, including your customized avatar and weapon levels, will carry over to the full 2026 release, giving you a head start on the floors.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Character Setup Guide">
+
+Setting up your **echoes of aincrad custom character** for long-term success requires a plan. Follow these steps to ensure you don't waste Growth Points or resources during the first ten floors of Aincrad.
+
+<Steps>
+  <Step num="1" title="Complete the Beta Prologue">
+    Play through the initial missions as the default avatar. This teaches you the basics of Stamina management and SP usage. Pay attention to which weapon feels most natural to your playstyle.
+  </Step>
+  <Step num="2" title="Define Your Visual Identity">
+    Once the full creator unlocks, finalize your look. Remember that armor appearance can be toggled, but your base physical features are constant. Save your preset if you plan on making multiple characters.
+  </Step>
+  <Step num="3" title="Select Your Starting Weapon">
+    Visit the Town of Beginnings merchants. If you want safety, pick the Sword and Shield. If you want to clear groups quickly, the Two-Handed Axe is superior. Your choice here dictates your first 10 levels of stat growth.
+  </Step>
+  <Step num="4" title="Allocate Initial Growth Points">
+    Don't hoard your GP. Every 5 levels, return to the Inn and boost your primary damage stat (STR or DEX) and your survival stat (VIT). A 2:1 ratio is generally recommended for the first 20 floors.
+  </Step>
+  <Step num="5" title="Equip Your First Sword Skills">
+    As you gain Weapon Exp, you will unlock Sword Skills. Equip them in your action wheel immediately. Practice the timing for "Reversal Slashes" to maximize your damage output during enemy openings.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Shield} title="Partner Synergy and Tactical Modes">
+
+Your **echoes of aincrad custom character** does not fight alone. Partner characters like Iori, Wyzeman, and Argo provide essential support. The way you build your protagonist should complement your chosen partner's strengths.
+
+For example, if you play a glass-cannon Dagger build, pairing with Wyzeman (Mace & Shield) is ideal because he can draw aggro and provide defensive buffs. Conversely, if you are the tank, bringing a high-damage partner like Zash ensures fights don't drag on too long.
+
+<Checklist
+  id="partner-checklist"
+  title="Partner Preparation Checklist:"
+  items={[
+    "Select a partner whose weapon type covers your weaknesses",
+    "Equip Support Skills that heal or buff your specific stats",
+    "Set Tactical Mode to 'Switch' for boss aggro management",
+    "Unlock Combination Skills by completing partner-specific side quests",
+    "Upgrade your partner's gear at the Smithy alongside your own"
+  ]}
+/>
+
+<Callout type="info" title="Tactical Modes">
+Use **Switch Mode** when your Stamina is low to let your partner take the heat. Use **Free Mode** when an enemy is staggered to unleash a dual-assault for maximum damage.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Survival and FAQ">
+
+The ultimate challenge for any **echoes of aincrad custom character** is the Death Game Mode. In this mode, the stakes are as high as the original anime—death means your save file is erased. This requires a much more conservative approach to character building, emphasizing VIT and END over pure offensive stats.
+
+| Edition | Death Game Access | Bonus Items for Custom Characters |
+| :--- | :--- | :--- |
+| **Standard** | Post-game unlock | Proto-Elucidator Weapon Pack (Pre-order) |
+| **Deluxe** | Early Access unlock | Starter Pack (50k Col, High Potions, Crystals) |
+| **Ultimate** | Early Access unlock | Flutter Armor Set, Digital Artbook, Soundtrack |
+
+<FAQ items={[
+  {
+    question: "Can I change my echoes of aincrad custom character's appearance later?",
+    answer: "Minor changes like hair and markings can be done at the Inn. Significant physical changes require a rare 'Mirror of Reflection' item or DLC vouchers."
+  },
+  {
+    question: "Is there a level cap for custom characters?",
+    answer: "The initial launch cap is Level 100, corresponding to the 100 floors of Aincrad, though expansion DLCs may increase this in late 2026."
+  },
+  {
+    question: "How do I reset my Growth Points (GP)?",
+    answer: "GP resets are available via the 'Amnesia Crystal' found in high-level dungeons or purchased from late-game merchants for a high Col price."
+  },
+  {
+    question: "Does the custom character's gender affect stats?",
+    answer: "No, gender and body type are purely cosmetic and have no impact on your base stats, weapon proficiency, or story progression."
+  }
+]} />
+
+</Section>

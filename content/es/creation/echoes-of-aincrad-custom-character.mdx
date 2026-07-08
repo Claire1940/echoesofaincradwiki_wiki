@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, User, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Personaje personalizado de echoes of aincrad: Guía de configuración y mejores builds",
+  description: "Domina el sistema de personaje personalizado de echoes of aincrad. Aprende sobre la creación de avatar, distribución de estadísticas, clases de armas y sinergia de compañeros para 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Custom+Character+Guide",
+  date: "2026-07-09",
+  author: "Equipo de Wiki de echoes of aincrad",
+  keywords: "echoes of aincrad, personaje personalizado, build, estadísticas, armas"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Personaje personalizado de echoes of aincrad**: Juegas como un protagonista original en lugar de Kirito, lo que permite una progresión personal profunda.
+- **Momento de creación**: La personalización detallada se desbloquea inmediatamente después de completar el prólogo inicial de la beta de Sword Art Online.
+- **Sistema de armas**: El arma que elijas actúa como tu clase, determinando tus Sword Skills (habilidades de espada) y las estadísticas necesarias en las que debes invertir.
+- **Prioridad de estadísticas**: Concéntrate en **Fuerza** y **Destreza** para personajes de golpes pesados, o en **Agilidad** e **Inteligencia** para builds de florete de ataque rápido.
+- **Modo Death Game (Juego de la muerte)**: Los personajes personalizados en este modo se enfrentan a la eliminación permanente al ser derrotados, por lo que optimizar la build es fundamental.
+</Callout>
+
+<Section icon={User} title="Creación y personalización del avatar principal">
+
+El sistema de **personaje personalizado de echoes of aincrad** es el núcleo de esta experiencia JRPG. A diferencia de los títulos anteriores de Sword Art Online que obligaban a tener una perspectiva centrada en Kirito, este lanzamiento de 2026 se enfoca en tu viaje personal a través de los 100 pisos de Aincrad. El creador de personajes es robusto y ofrece una amplia gama de controles deslizantes físicos y opciones estéticas que definen tu presencia en el mundo virtual.
+
+Te encontrarás con el conjunto completo de creación de personajes después de las misiones de tutorial de la \"Fase Beta\". Esto te permite probar las mecánicas básicas antes de comprometerte con un aspecto permanente. El sistema incluye plantillas preestablecidas para quienes deseen comenzar rápidamente, pero la verdadera profundidad reside en los ajustes manuales.
+
+| Característica | Profundidad de personalización | Impacto en el juego |
+| :--- | :--- | :--- |
+| **Tipo de cuerpo** | Altura, peso y proporciones de las extremidades | Principalmente estético; no afecta a las cajas de colisión (hitboxes) |
+| **Rostro y ojos** | Más de 40 formas de ojos, estilos de pupilas y marcas faciales | Define la personalidad de tu personaje en las escenas cinemáticas |
+| **Estilos de cabello** | Más de 60 estilos con canales de color primario y secundario | Alta visibilidad en centros sociales como el Pueblo de los Inicios |
+| **Conjuntos de voz** | 10 tipos de personalidad distintos para gritos de batalla | Afecta al tono de los avisos de combate y a las interacciones con los compañeros |
+| **Tono de piel** | Espectro RGB completo para tonos digitales realistas | Solo estético; combina con varios estilos de armadura regionales |
+
+<Callout type="tip" title="Consejo estético">
+Tu **personaje personalizado de echoes of aincrad** aparecerá en todas las cinemáticas de la historia. Tómate tu tiempo con los controles deslizantes faciales, ya que no se pueden cambiar sin un objeto especial llamado \"Espejo de reflexión\" que se encuentra más adelante en el juego.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Gestión de estadísticas y puntos de crecimiento">
+
+La progresión de tu **personaje personalizado de echoes of aincrad** se gestiona mediante Puntos de Crecimiento (GP). Cada vez que subes de nivel, recibes una cantidad fija de GP que debes asignar manualmente mientras descansas en la Posada del Pueblo de los Inicios. Comprender la relación entre las estadísticas y el rendimiento de las armas marca la diferencia entre ser un superviviente con dificultades y un líder de primera línea.
+
+Los siete atributos principales influyen en todo, desde tu daño bruto hasta tu capacidad para sobrevivir al ataque definitivo de un jefe. Dado que no puedes restablecer fácilmente las estadísticas al principio del juego, se recomienda encarecidamente una build enfocada en lugar de un enfoque de \"aprendiz de todo, maestro de nada\".
+
+| Atributo | Efecto principal | Ideal para |
+| :--- | :--- | :--- |
+| **Fuerza (STR)** | Incrementa el poder de ataque físico y el peso de carga | Espadas de dos manos, hachas y mazas |
+| **Destreza (DEX)** | Mejora la probabilidad de golpe crítico y la precisión | Floretes, dagas y arcos |
+| **Agilidad (AGI)** | Incrementa la velocidad de movimiento y la ventana de esquiva | Usuarios de armadura ligera y builds de ataque rápido |
+| **Inteligencia (INT)** | Potencia el daño de las Sword Skills y la recuperación de SP | Builds de spam de habilidades y roles de apoyo |
+| **Vitalidad (VIT)** | Incrementa los puntos de salud máximos (HP) | Tanques y supervivientes del modo Death Game |
+| **Aguante (END)** | Mejora la recuperación de resistencia y la fuerza de guardia | Usuarios de escudo (Espada y escudo, maza) |
+| **Mente (MND)** | Mejora la resistencia a los efectos de estado | Exploración de pisos altos y encuentros con jefes |
+
+<Callout type="warning" title="Advertencia sobre la distribución de estadísticas">
+No ignores la **Vitalidad** si estás jugando en el **modo Death Game**. Aunque un daño elevado es tentador, una sola esquiva mal calculada puede provocar la eliminación del personaje si tu reserva de HP es demasiado baja.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Clases de armas y estilos de juego">
+
+En Echoes of Aincrad, tu arma es tu clase. Tu **personaje personalizado de echoes of aincrad** puede dominar los seis tipos de armas, pero el dominio requiere tiempo y experiencia de arma (Weapon Exp) dedicada. Cada tipo de arma desbloquea Sword Skills únicas que definen tu ritmo de combate.
+
+<CardGrid cols={3}>
+  <Card title="La Vanguardia (Espada y Escudo)">
+    - **Alta defensa**: La opción más segura para principiantes.
+    - **Estadísticas equilibradas**: Escala bien con STR y END.
+    - **Acceso a escudo**: Permite realizar desvíos (parries) y bloqueos potentes.
+  </Card>
+  <Card title="El Agresor (Espada de dos manos)">
+    - **Daño masivo**: Se enfoca en golpes pesados y cargados.
+    - **Alto riesgo**: Sin acceso a escudo y con una recuperación más lenta.
+    - **Escalado de STR**: Requiere una gran inversión en Fuerza.
+  </Card>
+  <Card title="El Infiltrador (Daga)">
+    - **Movilidad extrema**: Velocidad de movimiento y de ataque más rápidas.
+    - **Enfoque en críticos**: Depende de la DEX para lograr cadenas de críticos masivas.
+    - **Utilidad**: A menudo incluye desventajas (debuffs) y efectos de estado.
+  </Card>
+</CardGrid>
+
+Elegir el arma adecuada desde el principio determina tu eficiencia en el juego temprano. Aunque puedes cambiar de arma en cualquier momento, tus Sword Skills están vinculadas a niveles de arma específicos.
+
+| Tipo de arma | Soporte de escudo | Movilidad | Dificultad | Estadística principal |
+| :--- | :--- | :--- | :--- | :--- |
+| **Espada y Escudo** | Sí | Media | Baja | STR / END |
+| **Florete** | Sí | Alta | Media | DEX / AGI |
+| **Maza** | Sí | Baja | Media | STR / VIT |
+| **Daga** | No | Muy alta | Alta | DEX / AGI |
+| **Espada de 2M** | No | Media | Alta | STR / INT |
+| **Hacha de 2M** | No | Baja | Alta | STR / VIT |
+
+<Callout type="success" title="Consejo para el dominio de armas">
+Utiliza la **versión demo** para probar los seis tipos de armas. Tu progreso, incluyendo tu avatar personalizado y los niveles de armas, se transferirá al lanzamiento completo de 2026, lo que te dará una ventaja inicial en los pisos.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía de configuración de personaje paso a paso">
+
+Configurar tu **personaje personalizado de echoes of aincrad** para tener éxito a largo plazo requiere un plan. Sigue estos pasos para asegurarte de no desperdiciar Puntos de Crecimiento ni recursos durante los primeros diez pisos de Aincrad.
+
+<Steps>
+  <Step num="1" title="Completa el prólogo de la beta">
+    Juega las misiones iniciales con el avatar predeterminado. Esto te enseñará los conceptos básicos de la gestión de resistencia (Stamina) y el uso de SP. Presta atención a qué arma se siente más natural para tu estilo de juego.
+  </Step>
+  <Step num="2" title="Define tu identidad visual">
+    Una vez que se desbloquee el creador completo, finaliza tu aspecto. Recuerda que la apariencia de la armadura se puede activar o desactivar, pero tus rasgos físicos base son constantes. Guarda tu preajuste si planeas crear varios personajes.
+  </Step>
+  <Step num="3" title="Selecciona tu arma inicial">
+    Visita a los mercaderes del Pueblo de los Inicios. Si buscas seguridad, elige la Espada y el Escudo. Si quieres despejar grupos de enemigos rápidamente, el Hacha de dos manos es superior. Tu elección aquí dictará el crecimiento de tus estadísticas durante los primeros 10 niveles.
+  </Step>
+  <Step num="4" title="Asigna los Puntos de Crecimiento iniciales">
+    No acumules tus GP. Cada 5 niveles, regresa a la Posada y potencia tu estadística de daño principal (STR o DEX) y tu estadística de supervivencia (VIT). Generalmente se recomienda una proporción de 2:1 para los primeros 20 pisos.
+  </Step>
+  <Step num="5" title="Equipa tus primeras Sword Skills">
+    A medida que ganes Weapon Exp, desbloquearás Sword Skills. Equípalas en tu rueda de acciones de inmediato. Practica el ritmo de los \"Cortes de reversión\" (Reversal Slashes) para maximizar tu daño durante las aperturas de los enemigos.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Shield} title="Sinergia de compañeros y modos tácticos">
+
+Tu **personaje personalizado de echoes of aincrad** no lucha solo. Personajes compañeros como Iori, Wyzeman y Argo brindan un apoyo esencial. La forma en que construyas a tu protagonista debe complementar las fortalezas de tu compañero elegido.
+
+Por ejemplo, si juegas con una build de daga de tipo \"cañón de cristal\", emparejarte con Wyzeman (Maza y Escudo) es ideal porque él puede atraer la atención de los enemigos (aggro) y proporcionar mejoras defensivas. Por el contrario, si tú eres el tanque, traer a un compañero de alto daño como Zash asegura que los combates no se prolonguen demasiado.
+
+<Checklist
+  id="partner-checklist"
+  title="Lista de preparación de compañeros:"
+  items={[
+    "Selecciona un compañero cuyo tipo de arma cubra tus debilidades",
+    "Equipa habilidades de apoyo que curen o mejoren tus estadísticas específicas",
+    "Configura el modo táctico en 'Switch' (Cambio) para la gestión del aggro de los jefes",
+    "Desbloquea habilidades combinadas completando misiones secundarias específicas de compañeros",
+    "Mejora el equipo de tu compañero en la herrería junto con el tuyo"
+  ]}
+/>
+
+<Callout type="info" title="Modos tácticos">
+Usa el **modo Switch** cuando tu resistencia sea baja para dejar que tu compañero reciba los golpes. Usa el **modo libre** cuando un enemigo esté aturdido para desatar un asalto dual y causar el máximo daño.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Supervivencia y preguntas frecuentes">
+
+El desafío definitivo para cualquier **personaje personalizado de echoes of aincrad** es el modo Death Game. En este modo, el riesgo es tan alto como en el anime original: la muerte significa que tu archivo de guardado se borra. Esto requiere un enfoque de construcción mucho más conservador, enfatizando la VIT y el END sobre las estadísticas puramente ofensivas.
+
+| Edición | Acceso al modo Death Game | Objetos de bonificación para personajes personalizados |
+| :--- | :--- | :--- |
+| **Estándar** | Desbloqueo tras completar el juego | Paquete de armas Proto-Elucidator (Reserva) |
+| **Deluxe** | Desbloqueo en acceso anticipado | Paquete de inicio (50 000 Col, pociones de alto nivel, cristales) |
+| **Ultimate** | Desbloqueo en acceso anticipado | Conjunto de armadura Flutter, libro de arte digital, banda sonora |
+
+<FAQ items={[
+  {
+    question: "¿Puedo cambiar la apariencia de mi personaje personalizado de echoes of aincrad más adelante?",
+    answer: "Los cambios menores como el cabello y las marcas se pueden realizar en la Posada. Los cambios físicos significativos requieren un objeto raro llamado 'Espejo de reflexión' o cupones de DLC."
+  },
+  {
+    question: "¿Existe un límite de nivel para los personajes personalizados?",
+    answer: "El límite de nivel inicial del lanzamiento es el nivel 100, correspondiente a los 100 pisos de Aincrad, aunque los DLC de expansión podrían aumentarlo a finales de 2026."
+  },
+  {
+    question: "¿Cómo restablezco mis Puntos de Crecimiento (GP)?",
+    answer: "Los restablecimientos de GP están disponibles a través del 'Cristal de amnesia' que se encuentra en mazmorras de alto nivel o se compra a mercaderes en las últimas fases del juego por un precio elevado de Col."
+  },
+  {
+    question: "¿El género del personaje personalizado afecta a las estadísticas?",
+    answer: "No, el género y el tipo de cuerpo son puramente cosméticos y no tienen ningún impacto en tus estadísticas base, competencia con las armas o progresión en la historia."
+  }
+]} />
+
+</Section>

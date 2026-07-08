@@ -1,0 +1,148 @@
+import { Swords, Shield, Trophy, Target, Map, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "PvP en Echoes of Aincrad: Mecánicas de Combate y Reglas de Player Killing",
+  description: "Domina los sistemas de combate competitivos y de alto riesgo de Echoes of Aincrad. Aprende sobre la Marca Hostil, el estado Naranja y las mecánicas de combate PvP.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Echoes+of+Aincrad+PvP",
+  date: "2026-07-09",
+  author: "Equipo de la Wiki de Echoes of Aincrad",
+  keywords: "PvP, Echoes of Aincrad, Player Killing, Marca Hostil, combate, guía"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Enfoque en un Solo Jugador**: Echoes of Aincrad es un JRPG para un solo jugador, lo que significa que las mecánicas de PvP se simulan a través de encuentros oscuros con Player Killers (PK) impulsados por la narrativa.
+- **Estado Naranja**: Atacar a NPCs amistosos o perder tu indicador verde activa una **Marca Hostil**, convirtiéndote en un Jugador Naranja.
+- **Equilibrio de Combate**: Ganar duelos simulados requiere dominar la Resistencia en tiempo real, la gestión de SP y las Sword Skills específicas de cada arma.
+- **Riesgos del Juego de la Muerte**: En el Modo Juego de la Muerte, ser derrotado en cualquier encuentro —incluyendo duelos contra jugadores hostiles— borrará permanentemente tu archivo de guardado.
+</Callout>
+
+<Section icon={Swords} title="PvP en Echoes of Aincrad: Resumen del Sistema">
+
+En *Echoes of Aincrad* de Bandai Namco, los jugadores experimentan la atmósfera oscura y de alto riesgo del juego de la muerte original de Sword Art Online. Aunque el juego está diseñado como un JRPG de acción para un solo jugador en lugar de un MMORPG tradicional, simula el entorno tenso y competitivo de Aincrad a través de duelos guionizados contra Player Killers (PK), encuentros con NPCs hostiles y batallas PvP impulsadas por la narrativa.
+
+Comprender cómo maneja el juego los indicadores criminales, las marcas hostiles y el combate competitivo es esencial para sobrevivir a tu viaje por el castillo flotante.
+
+| Elemento del Sistema PvP | Color del Indicador | Penalización / Nivel de Amenaza | Protección de Zona Segura |
+| :--- | :--- | :--- | :--- |
+| **Jugador Legal** | Verde | Ninguna (Estado Estándar) | Protección total contra ataques hostiles |
+| **Jugador Naranja** | Naranja | Marcado como criminal; los guardias atacan | Suspendida; vulnerable a ataques de jugadores verdes |
+| **Jugador Rojo (PK)** | Rojo | Marca hostil permanente; amenaza extrema | Prohibición total de entrada a ciudades principales |
+
+<Callout type="warning" title="Advertencia del Modo Juego de la Muerte">
+Si estás jugando en el **Modo Juego de la Muerte**, perder una batalla PvP o PK simulada conlleva la penalización definitiva: los datos de guardado de tu personaje se borran permanentemente. Prepara siempre tus objetos de curación y tácticas de compañero antes de realizar misiones secundarias sospechosas.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="La Marca Hostil: Indicadores Verde, Naranja y Rojo">
+
+Las reglas originales de Sword Art Online rigen cómo funcionan las interacciones entre jugadores en *Echoes of Aincrad*. A cada personaje en el mundo se le asigna un color de cursor que refleja su alineación moral actual y su estado criminal.
+
+### Crimen y Castigo en el Castillo Flotante
+Cuando exploras áreas fuera de los asentamientos principales, estás sujeto al sistema de indicadores. Bajar la guardia o realizar acciones dañinas cambiará inmediatamente tu estado.
+
+*   **Indicador Verde**: El estado por defecto para jugadores y NPCs amistosos. Los jugadores verdes están totalmente protegidos dentro de las Zonas Seguras designadas, como el Pueblo de los Inicios.
+*   **Estado Naranja (Marca Hostil)**: Se activa cuando un jugador ataca a un objetivo designado como verde o acepta misiones turbias de personajes poco fiables. Mientras seas naranja, se te marcará como criminal y los guardias de la ciudad te atacarán al verte.
+*   **Estado Rojo (Player Killer)**: Reservado para miembros de gremios de asesinos. Los jugadores rojos han cometido crímenes graves y son perseguidos permanentemente tanto por NPCs como por cazarrecompensas de alto nivel.
+
+<CardGrid cols={3}>
+  <Card title="Estado Verde">
+    - **Seguro en ciudades**
+    - Acceso estándar a mercaderes
+    - Protegido por guardias
+  </Card>
+  <Card title="Estado Naranja">
+    - **Marca Hostil activa**
+    - Perseguido por guardias
+    - Acceso restringido a ciudades
+  </Card>
+  <Card title="Estado Rojo">
+    - **Alineación con Gremio de Asesinos**
+    - Marca criminal permanente
+    - Aparición de cazarrecompensas
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Limpiar tu Estado">
+Si activas accidentalmente una Marca Hostil Naranja, retírate a un Área Segura en el desierto y espera a que el temporizador criminal disminuya antes de intentar entrar en los centros de misiones principales.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cómo Sobrevivir a Batallas PvP Simuladas">
+
+Los encuentros PvP simulados en *Echoes of Aincrad* ocurren durante eventos específicos de la historia y misiones secundarias, como las investigaciones de inteligencia de Argo la Rata. Para sobrevivir a estos duelos de ritmo rápido, debes dominar los sistemas de combate centrales del juego.
+
+### Mecánicas de Combate Principales para Duelos
+
+| Mecánica | Impacto en PvP | Recomendación Estratégica |
+| :--- | :--- | :--- |
+| **Resistencia** | Limita esquivar, bloquear y correr | Nunca dejes que tu Resistencia llegue a cero; espacia tus ataques |
+| **SP (Puntos de Habilidad)** | Potencia tus Sword Skills equipadas | Guarda SP para castigar las animaciones de recuperación del enemigo |
+| **Tajo de Inversión** | Mecánica de contraataque | Sincronizado perfectamente para desviar ataques pesados |
+
+<Steps>
+  <Step num="1" title="Observa la Postura del Enemigo">
+    Los jugadores hostiles usan las mismas clases de armas que tú. Observa su postura para predecir si están cargando un golpe pesado de Espadón a dos manos o preparando una estocada rápida de Estoque.
+  </Step>
+  <Step num="2" title="Provoca y Para">
+    No lances ataques normales a ciegas. Mantén tu escudo en alto o usa esquivas rápidas para provocar sus Sword Skills de alto compromiso, luego contraataca mientras están en sus fotogramas de recuperación.
+  </Step>
+  <Step num="3" title="Coordínate con tu Compañero">
+    Usa el **Modo Switch** para obligar al NPC hostil a fijar como objetivo a tu compañero, dándote una ventana segura para curarte o cargar una habilidad de gran daño.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Sinergia con el Compañero">
+Elige a un compañero como **Iori** (Espada y Escudo) para apoyo defensivo, o a **Argo** (Daga) para aplicar presión rápidamente e interrumpir las animaciones de lanzamiento del enemigo durante duelos difíciles.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación de Supervivencia PvP">
+
+Antes de aceptar misiones secundarias sospechosas o aventurarte en las profundidades de ruinas no mapeadas como el Bosque Megalito, asegúrate de que tu build esté totalmente optimizada para sobrevivir a emboscadas repentinas de PK.
+
+<Checklist
+  id="pvp-readiness"
+  title="Lista de Seguridad Previa a la Misión:"
+  items={[
+    "Mejora tu arma principal y escudo en la Herrería para maximizar la estabilidad de bloqueo [1.1.2].",
+    "Abastécete de Pociones de Curación Superior y Pociones de SP Superior en el Pueblo de los Inicios.",
+    "Asigna tus Puntos de Crecimiento en Vitalidad y Agilidad para aumentar el HP máximo y la velocidad de esquiva.",
+    "Configura el comportamiento táctico de tu compañero en Modo Switch para un control de aggro instantáneo.",
+    "Activa el Área Segura regional más cercana para establecer un punto de control rápido."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Hay multijugador PvP en línea en tiempo real en Echoes of Aincrad?",
+    answer: "No. Echoes of Aincrad es un JRPG de acción para un solo jugador. Todos los PvP, duelos y encuentros con Player Killers (PK) se simulan a través de eventos de historia guionizados, misiones secundarias e IA de NPCs hostiles."
+  },
+  {
+    question: "¿Qué pasa si muero durante un duelo PvP simulado?",
+    answer: "En el modo estándar, reiniciarás desde tu último punto de control guardado o Área Segura. Sin embargo, si estás jugando en el Modo Juego de la Muerte, cualquier derrota borrará permanentemente el archivo de guardado de tu personaje."
+  },
+  {
+    question: "¿Puedo convertirme en un Jugador Rojo en el juego?",
+    answer: "Aunque puedes obtener temporalmente una Marca Hostil Naranja al atacar a NPCs amistosos, la historia se centra en tu viaje como jugador que intenta completar Aincrad, lo que significa que no puedes unirte a los gremios de PK como un Jugador Rojo permanente."
+  },
+  {
+    question: "¿Cómo elimino el estado criminal Naranja?",
+    answer: "Puedes limpiar la Marca Hostil Naranja permaneciendo fuera de combate en zonas salvajes y dejando que el temporizador del indicador criminal se agote. Evita regresar a las ciudades principales mientras la marca esté activa, ya que los guardias te atacarán."
+  }
+]} />
+
+</Section>

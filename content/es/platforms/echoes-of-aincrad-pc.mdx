@@ -1,0 +1,203 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Echoes of Aincrad PC: Requisitos del Sistema y Guía de Configuración de Steam",
+  description: "Prepárate para Echoes of Aincrad PC. Consulta las especificaciones mínimas y recomendadas del sistema, los horarios de lanzamiento en Steam, la disponibilidad de la predescarga y la compatibilidad con Steam Deck.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Echoes+of+Aincrad+PC+Guide",
+  date: "2026-07-09",
+  author: "Equipo de la Wiki de Echoes of Aincrad",
+  keywords: "echoes of aincrad pc, requisitos del sistema, steam, guía de configuración, sword art online"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Enfoque Principal**: Optimización completa y detalles de configuración para **echoes of aincrad pc** en Steam.
+- **Lanzamiento Oficial**: Programado globalmente para el 10 de julio de 2026, con desbloqueos regionales en Steam el 9 de julio de 2026.
+- **Estado de Steam Deck**: El soporte oficial no está disponible actualmente en el lanzamiento.
+- **Política de Predescarga**: La predescarga está disponible para las ediciones de consola, pero no para los usuarios de Steam.
+- **Mejor Arma**: Comienza con Espada y Escudo para una curva de aprendizaje más segura durante el progreso inicial.
+</Callout>
+
+<Section icon={Map} title="Fecha de Lanzamiento de Echoes of Aincrad PC y Horarios de Desbloqueo en Steam">
+
+El muy esperado JRPG de Sword Art Online, desarrollado por Game Studio Inc. y publicado por Bandai Namco, se lanza oficialmente el 10 de julio de 2026. Sin embargo, los jugadores de PC que accedan al juego a través de Steam experimentarán diferentes horarios de desbloqueo según su región geográfica. Debido a las diferencias de zona horaria, la página de la tienda de Steam indica la fecha de lanzamiento como el 9 de julio de 2026 para varios territorios occidentales.
+
+| Región | Zona Horaria Local | Hora de Desbloqueo en Steam | Fecha del Calendario |
+| :--- | :--- | :--- | :--- |
+| **Hora del Pacífico** | PDT | 15:00 (3:00 PM) | 9 de julio de 2026 |
+| **Hora del Este** | EDT | 18:00 (6:00 PM) | 9 de julio de 2026 |
+| **Hora Británica** | BST | 23:00 (11:00 PM) | 9 de julio de 2026 |
+| **Hora Estándar de China** | CST | 06:00 (6:00 AM) | 10 de julio de 2026 |
+| **Hora Estándar de Japón** | JST | 07:00 (7:00 AM) | 10 de julio de 2026 |
+
+<Callout type="warning" title="Aviso de Predescarga en Steam">
+Mientras que los jugadores de PlayStation 5 y Xbox Series X|S pueden predescargar el juego a partir del 7 u 8 de julio, el soporte de predescarga no está disponible para la versión de PC en Steam. Los jugadores de PC deberán descargar el cliente completo del juego cuando se habiliten los horarios de lanzamiento global en Steam.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Requisitos del Sistema para Echoes of Aincrad PC">
+
+Para ejecutar el juego sin problemas y navegar por el castillo flotante de Aincrad sin caídas de rendimiento, tu PC debe cumplir con estándares de hardware específicos. El combate de acción en tiempo real depende en gran medida de una sincronización precisa, por lo que es esencial mantener una tasa de fotogramas estable.
+
+| Componente de Hardware | Requisitos Mínimos (1080p / 30 FPS) | Requisitos Recomendados (1080p / 60 FPS) |
+| :--- | :--- | :--- |
+| **Sistema Operativo** | Windows 10 (64 bits) | Windows 10 / 11 (64 bits) |
+| **Procesador (CPU)** | Intel Core i5-6600 o AMD Ryzen 5 1400 | Intel Core i7-8700 o AMD Ryzen 5 3600 |
+| **Memoria (RAM)** | 8 GB de RAM | 16 GB de RAM |
+| **Tarjeta Gráfica (GPU)** | NVIDIA GeForce GTX 1060 o AMD Radeon RX 580 | NVIDIA GeForce RTX 2060 o AMD Radeon RX 5700 XT |
+| **Versión de DirectX** | Versión 12 | Versión 12 |
+| **Espacio de Almacenamiento** | 50 GB de espacio disponible (SSD recomendado) | 50 GB de espacio disponible (SSD requerido) |
+
+<Callout type="tip" title="Optimización del Rendimiento">
+Para obtener la mejor experiencia de combate en **echoes of aincrad pc**, instala el juego en una unidad de estado sólido (SSD). La carga dinámica de recursos durante las transiciones fluidas entre pisos puede causar tirones (stuttering) en los discos duros tradicionales (HDD).
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Configuración de Clases en PC: Guía de Selección de Armas">
+
+En Echoes of Aincrad, tu elección de arma define tu clase de combate. Hay seis tipos de armas distintos disponibles, cada uno con habilidades de espada (Sword Skills) únicas, niveles de movilidad y opciones defensivas. Revisa las clases de armas a continuación para planificar tu configuración inicial.
+
+<CardGrid cols={3}>
+  <Card title="Espada y Escudo (Tier S)">
+    - **Acceso a Escudo**: Sí
+    - **Movilidad**: Equilibrada
+    - **Estilo**: Mezcla de ataque y defensa
+    - **Ventajas**: El arma más segura para principiantes; muy permisiva para aprender los patrones de los jefes.
+  </Card>
+  <Card title="Estoque (Tier A)">
+    - **Acceso a Escudo**: Sí
+    - **Movilidad**: Alta
+    - **Estilo**: Cadenas fluidas y contraataques
+    - **Ventajas**: Gran alcance, ataques rápidos y seguridad defensiva con un escudo equipado.
+  </Card>
+  <Card title="Maza (Tier A)">
+    - **Acceso a Escudo**: Sí
+    - **Movilidad**: Media
+    - **Estilo**: Aturdimiento y ruptura de escudo
+    - **Ventajas**: Excelente para derribar enemigos y romper posturas de guardia.
+  </Card>
+</CardGrid>
+
+<CardGrid cols={3}>
+  <Card title="Daga (Tier B)">
+    - **Acceso a Escudo**: No
+    - **Movilidad**: Muy Alta
+    - **Estilo**: Golpes rápidos a corta distancia
+    - **Ventajas**: Alta velocidad y opciones de proyectiles, pero carece de bloqueo defensivo.
+  </Card>
+  <Card title="Espada a Dos Manos (Tier B)">
+    - **Acceso a Escudo**: No
+    - **Movilidad**: Baja a Media
+    - **Estilo**: Ataques pesados cargados
+    - **Ventajas**: Daño masivo, pero cambia los pasos de esquiva por una rodada más lenta.
+  </Card>
+  <Card title="Hacha a Dos Manos (Tier B)">
+    - **Acceso a Escudo**: No
+    - **Movilidad**: Baja
+    - **Estilo**: Movimientos lentos de área de efecto
+    - **Ventajas**: Alto poder bruto y ataques de barrido; requiere una gestión estricta de la resistencia.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Progresión de Armas">
+Usar un tipo de arma específico durante las misiones otorga Experiencia de Arma, lo que desbloquea Habilidades de Espada avanzadas. Puedes equipar hasta tres Habilidades de Espada activas en cualquier momento.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Pasos para la Transferencia de Datos de la Demo en PC">
+
+Los jugadores que probaron sus configuraciones en la demo de Steam Next Fest pueden transferir su progreso directamente a la versión completa en Steam. Sigue estos pasos para asegurar una transferencia de guardado exitosa.
+
+<Steps>
+  <Step num="1" title="Mantén los Archivos de Guardado de la Demo Intactos">
+    No elimines el cliente de la demo ni los archivos de guardado local de tu PC antes de completar el proceso de transferencia.
+  </Step>
+  <Step num="2" title="Actualiza el Juego Completo">
+    Inicia Steam, compra la versión completa y asegúrate de que el juego esté totalmente actualizado a la última versión de lanzamiento.
+  </Step>
+  <Step num="3" title="Inicializa el Juego">
+    Inicia el juego en PC. Acepta los términos de servicio iniciales y los acuerdos de red.
+  </Step>
+  <Step num="4" title="Activa el Aviso de Importación">
+    Cuando el sistema detecte tus datos de guardado de la demo, selecciona "Transferir" (Carry over) en el aviso de la pantalla.
+  </Step>
+  <Step num="5" title="Mantén Presionado para Confirmar">
+    Mantén presionado el botón de confirmación en pantalla. Una vez completada la transferencia, carga tu archivo de guardado desde el menú principal.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Limitación del Modo Death Game">
+Los datos de guardado transferidos desde la demo de PC no pueden convertirse al modo Death Game. Si deseas jugar con reglas de muerte permanente, debes comenzar un nuevo archivo de guardado.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Objetivos de Lanzamiento en Steam y Listas de Verificación para PC">
+
+Prepara tu personaje y tu sistema para un día de lanzamiento sin contratiempos. Usa esta lista para seguir tu optimización y los hitos de progreso en el juego temprano.
+
+<Checklist
+  id="pc-launch-goals"
+  title="Lista de Verificación para el Día de Lanzamiento en PC:"
+  items={[
+    "Verificar que los controladores de la tarjeta gráfica estén actualizados a las versiones de 2026",
+    "Confirmar que la ruta de instalación del juego esté en un SSD con 50 GB de espacio libre",
+    "Completar las cinco misiones de transferencia de la demo para asegurar equipo inicial",
+    "Llegar al Pueblo de los Inicios y desbloquear al Herrero para mejoras de armas",
+    "Gastar tus primeros Puntos de Crecimiento obtenidos en la Posada para potenciar las estadísticas de escalado de armas"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Comparación de Ediciones de Steam">
+
+Antes de comprar el juego en PC, compara las ediciones disponibles en Steam para determinar qué paquete se adapta mejor a tu estilo de juego y presupuesto.
+
+| Característica / Inclusión | Edición Estándar ($69.99) | Edición Deluxe ($89.99) | Edición Ultimate ($109.99) |
+| :--- | :--- | :--- | :--- |
+| **Juego Base** | Incluido | Incluido | Incluido |
+| **Bonus de Reserva** | Pack Proto-Elucidator | Pack Proto-Elucidator | Pack Proto-Elucidator |
+| **Pase de Expansión DLC** | No incluido | Incluido (antes del 31 dic 2026) | Incluido (antes del 31 dic 2026) |
+| **Desbloqueo Anticipado Death Game** | No incluido | Incluido | Incluido |
+| **Objetos del Pack de Inicio** | No incluido | 50k Col, Pociones, Cristales | 50k Col, Pociones, Cristales |
+| **Libro de Arte Digital y BSO** | No incluido | No incluido | Incluido (Libro de 640 págs, 141 pistas) |
+| **Conjunto de Armadura Flutter** | No incluido | No incluido | Incluido (Botas y Túnicas) |
+
+<Callout type="success" title="Valor de la Reserva">
+Todas las reservas de PC en Steam incluyen el Pack de Armas de la Serie Proto-Elucidator, que proporciona seis aspectos de armas, un aspecto de escudo y planos de fabricación para forjar copias adicionales en la Herrería.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes (FAQ) de Echoes of Aincrad PC">
+
+<FAQ items={[
+  {
+    question: "¿Es echoes of aincrad pc compatible con la Steam Deck?",
+    answer: "No, el juego oficialmente no es compatible con Steam Deck en su lanzamiento. Los jugadores de PC deben planear jugar en una computadora de escritorio o portátil con Windows 10 u 11."
+  },
+  {
+    question: "¿Cómo asigno Puntos de Crecimiento en PC?",
+    answer: "Después de subir de nivel, regresa a tu habitación en la Posada del Pueblo de los Inicios. Puedes gastar Puntos de Crecimiento para aumentar estadísticas como Fuerza, Destreza, Agilidad, Inteligencia, Vitalidad, Resistencia o Mente."
+  },
+  {
+    question: "¿Puedo transferir mi progreso de la demo de PS5 a PC?",
+    answer: "No. La transferencia de datos de guardado solo funciona dentro del mismo ecosistema de plataforma. Los guardados de la demo en PlayStation 5 solo pueden transferirse a la versión completa de PS5, y los de la demo de Steam solo a la versión completa de PC en Steam."
+  },
+  {
+    question: "¿Cuál es la penalización por morir en el modo Death Game?",
+    answer: "En el modo Death Game, si tu personaje muere, el archivo de guardado se elimina permanentemente. Este modo se puede jugar en cualquier nivel de dificultad y se desbloquea tras completar la historia principal, o inmediatamente si posees la Edición Deluxe o Ultimate."
+  }
+]} />
+
+</Section>
