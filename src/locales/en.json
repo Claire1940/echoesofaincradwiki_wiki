@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "Echoes of Aincrad Wiki - Demo, Builds & Release",
+      "description": "Echoes of Aincrad Wiki covers release date, demo guide, builds, weapons, characters, locations, Death Game Mode, editions, and PC requirements.",
+      "keywords": "Echoes of Aincrad, SAO, Steam, PS5, Xbox, demo, builds, weapons",
+      "ogTitle": "Echoes of Aincrad Wiki - Demo, Builds & Release",
+      "ogDescription": "Echoes of Aincrad Wiki covers release date, demo guide, builds, weapons, characters, locations, Death Game Mode, editions, and PC requirements.",
+      "twitterTitle": "Echoes of Aincrad Wiki - Demo, Builds & Release",
+      "twitterDescription": "Echoes of Aincrad Wiki covers release date, demo, builds, weapons, characters, Death Game Mode, and PC requirements for the SAO action JRPG."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
+    "badge": "Single-Player SAO Action JRPG",
+    "title": "Echoes of Aincrad Wiki",
+    "description": "Create your own hero, explore Aincrad, master weapons and Sword Skills, build partner synergy, clear quests, fight bosses, and survive the Death Game Mode.",
+    "getFreeCodesCTA": "View Demo Guide",
     "playOnSteamCTA": "Play on Steam",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "July 10, 2026",
+        "label": "Global Release"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "PS5 / Xbox / Steam",
+        "label": "Platforms"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "3.70/5",
+        "label": "PS Store Rating"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "Available",
+        "label": "Demo Version"
       }
     }
   },
@@ -785,26 +785,26 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
+    "title": "Ready to Enter Aincrad?",
+    "description": "Join the Echoes of Aincrad community on Discord for release news, demo guides, builds, and Death Game Mode tips.",
     "joinCommunity": "Join Discord",
     "joinGame": "Play on Steam"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Echoes of Aincrad Wiki",
+    "description": "Your complete resource hub for Echoes of Aincrad release, demo, builds, weapons, characters, locations, Death Game Mode, and PC requirements.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
     "discord": "Discord",
     "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
+    "reddit": "Reddit",
     "steamStore": "Steam Store",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 Echoes of Aincrad Wiki. Not affiliated with Bandai Namco Entertainment or the developers of Echoes of Aincrad.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
