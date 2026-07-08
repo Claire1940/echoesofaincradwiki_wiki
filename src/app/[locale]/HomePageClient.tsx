@@ -4,7 +4,7 @@ import { useState, Suspense, lazy } from "react";
 import {
   ArrowRight,
   Award,
-  Axe,
+  Swords,
   BookOpen,
   CalendarCheck,
   Check,
@@ -161,7 +161,7 @@ export default function HomePageClient({
     HandHeart,
     Sword,
     Hammer,
-    Axe,
+    Swords,
     Crosshair,
     HeartPulse,
     Flame,
