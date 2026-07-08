@@ -1,11 +1,11 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "Echoes of Aincrad Wiki - Demo, Builds & Release Guide",
+  "short_name": "Echoes of Aincrad",
+  "description": "Echoes of Aincrad Wiki covers release date, demo guide, builds, weapons, characters, locations, Death Game Mode, editions, and PC requirements for the SAO action JRPG.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
+  "theme_color": "#EFAA31",
   "background_color": "#0a0a0a",
   "icons": [
     {
