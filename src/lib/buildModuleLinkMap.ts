@@ -14,46 +14,30 @@ interface ArticleWithType extends ContentItem {
 
 // Module sub-field mapping: moduleKey -> { field, nameKey }
 const MODULE_FIELDS: Record<string, { field: string; nameKey: string }> = {
-  lucidBlocksBeginnerGuide: { field: 'steps', nameKey: 'title' },
-  lucidBlocksApotheosisCrafting: { field: 'cards', nameKey: 'name' },
-  lucidBlocksToolsAndWeapons: { field: 'items', nameKey: 'name' },
-  lucidBlocksStorageAndInventory: { field: 'solutions', nameKey: 'name' },
-  lucidBlocksQualiaAndBaseBuilding: { field: 'cards', nameKey: 'name' },
-  lucidBlocksWorldRegions: { field: 'regions', nameKey: 'name' },
-  lucidBlocksCreaturesAndEnemies: { field: 'creatures', nameKey: 'name' },
-  lucidBlocksMobilityGear: { field: 'items', nameKey: 'name' },
-  lucidBlocksFarmingAndGrowth: { field: 'sections', nameKey: 'name' },
-  lucidBlocksBestEarlyUnlocks: { field: 'priorities', nameKey: 'name' },
-  lucidBlocksAchievementTracker: { field: 'groups', nameKey: 'name' },
-  lucidBlocksSingleplayerAndPlatformFAQ: { field: 'faqs', nameKey: 'question' },
-  lucidBlocksSteamDeckAndController: { field: 'faqs', nameKey: 'question' },
-  lucidBlocksSettingsAndAccessibility: { field: 'settings', nameKey: 'name' },
-  lucidBlocksUpdatesAndPatchNotes: { field: 'entries', nameKey: 'title' },
-  lucidBlocksCrashFixAndTroubleshooting: { field: 'steps', nameKey: 'title' },
+  echoesReleaseDateAndPlatforms: { field: 'items', nameKey: 'label' },
+  echoesBeginnerGuide: { field: 'steps', nameKey: 'title' },
+  echoesWeaponsTierList: { field: 'tiers', nameKey: 'tier' },
+  echoesCombatAndBossGuide: { field: 'faqs', nameKey: 'question' },
+  echoesCharacterAndPartnerGuide: { field: 'cards', nameKey: 'title' },
+  echoesDeathGameModeGuide: { field: 'steps', nameKey: 'title' },
+  echoesDemoAndSaveTransferGuide: { field: 'steps', nameKey: 'title' },
+  echoesEditionsAndPreOrderBonus: { field: 'rows', nameKey: 'edition' },
 }
 
 // Extra semantic keywords per module to boost matching for h2 titles
 // These supplement the module title text when matching against articles
 const MODULE_EXTRA_KEYWORDS: Record<string, string[]> = {
-  lucidBlocksBeginnerGuide: ['guide', 'mastering', 'progression', 'crafting', 'starter'],
-  lucidBlocksApotheosisCrafting: ['apotheosis', 'fusion', 'essence'],
-  lucidBlocksToolsAndWeapons: ['crafting recipes', 'frost pick', 'osmium', 'azrael', 'faith wand'],
-  lucidBlocksStorageAndInventory: ['chest', 'cache cube', 'cabinet', 'storage'],
-  lucidBlocksQualiaAndBaseBuilding: ['qualia', 'clonaqualia', 'personal dimensions'],
-  lucidBlocksWorldRegions: ['tiamana', 'leyline', 'biomes', 'regions'],
-  lucidBlocksCreaturesAndEnemies: ['survival', 'combat', 'surreal creatures'],
-  lucidBlocksMobilityGear: ['bee glider', 'hookshot', 'glider', 'movement'],
-  lucidBlocksFarmingAndGrowth: ['seed', 'farming', 'growth', 'material', 'progression', 'crafting'],
-  lucidBlocksBestEarlyUnlocks: ['early', 'osmium', 'frost pick', 'starter', 'progression'],
-  lucidBlocksAchievementTracker: ['achievement', 'tiamana', 'leyline'],
-  lucidBlocksSingleplayerAndPlatformFAQ: ['multiplayer', 'platform', 'co op'],
-  lucidBlocksSteamDeckAndController: ['steam deck', 'controller', 'proton'],
-  lucidBlocksSettingsAndAccessibility: ['full screen', 'controls', 'display'],
-  lucidBlocksUpdatesAndPatchNotes: ['update', 'patch', 'fix'],
-  lucidBlocksCrashFixAndTroubleshooting: ['crash', 'vulkan', 'troubleshooting', 'full screen', 'controls', 'gameplay'],
+  echoesReleaseDateAndPlatforms: ['release date', 'platforms', 'preload', 'ps5', 'xbox', 'steam', 'july 2026'],
+  echoesBeginnerGuide: ['beginner', 'starter', 'growth points', 'cardinal rank', 'partner', 'first hours'],
+  echoesWeaponsTierList: ['weapons', 'tier list', 'sword and shield', 'rapier', 'mace', 'dagger', 'two-handed'],
+  echoesCombatAndBossGuide: ['combat', 'boss', 'stamina', 'sword skills', 'parry', 'dodge', 'healing'],
+  echoesCharacterAndPartnerGuide: ['character creation', 'partner', 'iori', 'wyzeman', 'zash', 'argo', 'support skills', 'combination skills', 'switch mode', 'free mode'],
+  echoesDeathGameModeGuide: ['death game mode', 'permadeath', 'save data', 'deluxe', 'ultimate', 'one-life'],
+  echoesDemoAndSaveTransferGuide: ['demo', 'save transfer', 'beta phase', 'steam next fest', 'carry over', 'missions'],
+  echoesEditionsAndPreOrderBonus: ['editions', 'pre-order', 'standard', 'deluxe', 'ultimate', 'dlc pass', 'starter pack', 'proto-elucidator', 'soundtrack', 'artbook'],
 }
 
-const FILLER_WORDS = ['lucid', 'blocks', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
+const FILLER_WORDS = ['echoes', 'of', 'aincrad', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
 
 function normalize(text: string): string {
   return text
@@ -77,9 +61,9 @@ function matchScore(queryText: string, article: ArticleWithType, extraKeywords?:
 
   let score = 0
 
-  // Exact phrase match in title (stripped of "Lucid Blocks")
-  const strippedQuery = normalizedQuery.replace(/lucid blocks?\s*/g, '').trim()
-  const strippedTitle = normalizedTitle.replace(/lucid blocks?\s*/g, '').trim()
+  // Exact phrase match in title (stripped of "Echoes of Aincrad")
+  const strippedQuery = normalizedQuery.replace(/echoes of aincrad\s*/g, '').trim()
+  const strippedTitle = normalizedTitle.replace(/echoes of aincrad\s*/g, '').trim()
   if (strippedQuery.length > 3 && strippedTitle.includes(strippedQuery)) {
     score += 100
   }

@@ -52,696 +52,545 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "Echoes of Aincrad Gameplay",
+    "description": "Create your own SAO hero, master six weapon types and Sword Skills, build partner synergy, and survive the Death Game Mode in this single-player action JRPG on PS5, Xbox, and Steam."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "title": "Echoes of Aincrad",
+    "titleHighlight": "Guides",
+    "subtitle": "Everything you need for release, demo, weapons, combat, characters, and Death Game Mode in Echoes of Aincrad.",
     "cards": [
+      {
+        "icon": "CalendarCheck",
+        "title": "Release Date & Platforms",
+        "description": "Launch date, PS5, Xbox, Steam, and preload info"
+      },
       {
         "icon": "BookOpen",
         "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
+        "description": "First hours checklist, stats, partners, and gear"
       },
       {
-        "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
+        "icon": "Swords",
+        "title": "Weapons Tier List",
+        "description": "All six weapon types ranked for beginners"
       },
       {
-        "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
+        "icon": "Zap",
+        "title": "Combat & Boss Guide",
+        "description": "Stamina, SP, Sword Skills, and boss prep"
       },
       {
-        "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
+        "icon": "Users",
+        "title": "Characters & Partners",
+        "description": "Avatar creation, partner skills, and tactics"
       },
       {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
+        "icon": "Skull",
+        "title": "Death Game Mode",
+        "description": "Permadeath rules, unlock, and survival tips"
       },
       {
-        "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
+        "icon": "Download",
+        "title": "Demo & Save Transfer",
+        "description": "Demo missions, weapons, and save carry-over"
       },
       {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
-      },
-      {
-        "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
-      },
-      {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
-      },
-      {
-        "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
-      },
-      {
-        "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "icon": "Crown",
+        "title": "Editions & Pre-Order",
+        "description": "Standard, Deluxe, Ultimate, and bonuses"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
-      "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
-      "steps": [
-        {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
-        },
-        {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
-        },
-        {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
-        },
-        {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
-        }
-      ],
-      "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
-      ]
-    },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
-      "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
-      "cards": [
-        {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
-        },
-        {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
-        },
-        {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
-        },
-        {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
-        }
-      ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
-      ]
-    },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
+    "echoesReleaseDateAndPlatforms": {
+      "title": "Echoes of Aincrad Release Date, Platforms, and Preload",
+      "eyebrow": "Release Info",
+      "intro": "Echoes of Aincrad is scheduled for a July 2026 launch across PlayStation 5, Xbox Series X|S, and Digital PC. Console and Steam release times vary by region, and preload support is different on each platform.",
       "items": [
         {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
+          "label": "Official release date",
+          "value": "July 10, 2026",
+          "detail": "Bandai Namco lists July 10, 2026 as the official launch date for Echoes of Aincrad across launch platforms."
         },
         {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
+          "label": "Steam release listing",
+          "value": "Jul 9, 2026",
+          "detail": "The Steam store page lists Jul 9, 2026 because PC unlock timing falls on July 9 in some regions, including PDT and EDT."
         },
         {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
+          "label": "Supported platforms",
+          "value": "PS5, Xbox Series X|S, PC",
+          "detail": "The game is available at launch on PlayStation 5, Xbox Series X|S, and Digital PC via Steam."
         },
         {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
+          "label": "Nintendo Switch support",
+          "value": "Not available",
+          "detail": "Echoes of Aincrad is not listed for Nintendo Switch or Switch 2 at launch."
         },
         {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
+          "label": "Console release examples",
+          "value": "Local midnight in many regions",
+          "detail": "Examples include 00:00 on July 10 in CEST, EDT, and BST, and 00:00 on July 9 in CST, JST, and KST."
         },
         {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
+          "label": "Steam release examples",
+          "value": "Region-based Steam unlock",
+          "detail": "Examples include 15:00 PDT on July 9, 18:00 EDT on July 9, 23:00 BST on July 9, 06:00 CST on July 10, and 07:00 JST/KST on July 10."
         },
         {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
+          "label": "PS5 preload",
+          "value": "Available",
+          "detail": "PS preload starts July 7 at 00:00 local in JP/Asia and July 8 at 00:00 local in EU/US."
         },
         {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
+          "label": "Xbox and Steam preload",
+          "value": "Xbox available, Steam unavailable",
+          "detail": "Xbox preload starts July 7 at 9:00 JST / 2:00 CEST / July 6 at 17:00 PDT. Steam preload is not available."
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
-        {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
-        },
-        {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
-        },
-        {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
-        },
-        {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
-        }
-      ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
-      "cards": [
-        {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
-        },
-        {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
-        },
-        {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
-        },
-        {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
-        }
-      ],
-      "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
-        },
-        {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
-        },
-        {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
-      "creatures": [
-        {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
-        },
-        {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
-        },
-        {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
-        },
-        {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
-        },
-        {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
-        },
-        {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
-      "items": [
-        {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
-        },
-        {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
-        }
-      ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
-        {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
-        },
-        {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
-        },
-        {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
-        },
-        {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
-        {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
-        },
-        {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
-        },
-        {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
-        },
-        {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
-        },
-        {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
-        },
-        {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
-        }
-      ]
-    },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
-      "groups": [
-        {
-          "name": "Exploration",
-          "achievements": [
-            {
-              "title": "Angel α",
-              "description": "Enter a qualia."
-            },
-            {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
-            },
-            {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
-            }
-          ]
-        },
-        {
-          "name": "Crafting and Summoning",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
-            }
-          ]
-        },
-        {
-          "name": "Mobility and Utility",
-          "achievements": [
-            {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
-            },
-            {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
-            },
-            {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
-            }
-          ]
-        },
-        {
-          "name": "Combat and Creatures",
-          "achievements": [
-            {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
-            },
-            {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
-          ]
-        },
-        {
-          "name": "Growth and Farming",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
-            }
-          ]
-        }
-      ]
-    },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
-      "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
-      "faqs": [
-        {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
-        },
-        {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
-        },
-        {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
-        },
-        {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
-        },
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
-        },
-        {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
-        },
-        {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
-        },
-        {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
-        {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
-        },
-        {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
-        },
-        {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
-        },
-        {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
-      "entries": [
-        {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
-        },
-        {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
-        },
-        {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
-      "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
+    "echoesBeginnerGuide": {
+      "title": "Echoes of Aincrad Beginner Guide: First Hours Checklist",
+      "eyebrow": "Beginner Guide",
+      "intro": "Echoes of Aincrad starts with survival, exploration, and real-time combat inside the floating castle. Your early progress comes from understanding weapons, Sword Skills, Growth Points, Cardinal Rank, partners, items, and dungeon preparation.",
       "steps": [
         {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
+          "step": 1,
+          "title": "Create your avatar and enter Aincrad",
+          "description": "Start by setting up your player character with customization options such as hairstyle, skin tone, and body type. The game is built around playing as your own hero rather than only controlling established Sword Art Online characters.",
+          "tip": "Treat your avatar as your long-term build base because gear, stats, weapons, and partner synergy all grow around your character."
         },
         {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
+          "step": 2,
+          "title": "Use weapons as your class",
+          "description": "There are six weapon types: Sword and Shield, Two-Handed Axe, Dagger, Rapier, Two-Handed Sword, and Mace. Using a weapon earns Weapon Exp, unlocks Sword Skills, and lets you equip up to three Sword Skills at a time.",
+          "tip": "Start with Sword and Shield for the safest learning curve, then test faster or heavier weapons between quests."
         },
         {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
+          "step": 3,
+          "title": "Spend Growth Points on the right stats",
+          "description": "Leveling up gives Growth Points that can be used in your room at the Inn. Strength, Dexterity, Agility, and Intelligence affect weapon-skill damage, while Vitality, Endurance, and Mind improve Health Points, Stamina Points, and SP-related effectiveness.",
+          "tip": "Raise the stats that match your equipped weapon instead of spreading points randomly."
         },
         {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
+          "step": 4,
+          "title": "Raise Cardinal Rank carefully",
+          "description": "Cardinal Rank shows your overall proficiency and affects what you can buy from merchants or forge at the Smithy. It also raises monster difficulty to a degree, improves monster drops, and increases partner abilities.",
+          "tip": "Whenever Cardinal Rank rises, upgrade weapons and spend Growth Points before taking on the next quest."
         },
         {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
+          "step": 5,
+          "title": "Explore maps, checkpoints, and dungeons",
+          "description": "Each new quest or dungeon requires exploration to reveal the map. Checkpoints expose nearby points of interest, including treasure chests, hidden routes, sealed shortcuts, and special mechanisms.",
+          "tip": "Activate checkpoints early so you can find treasures and shortcuts before committing to dangerous fights."
+        },
+        {
+          "step": 6,
+          "title": "Prepare items before leaving town",
+          "description": "The Town of Beginnings includes merchants and crafting options. You can buy items with Col, craft healing potions, use materials from the field, and prepare special tools such as mines for combat or environmental interactions.",
+          "tip": "Stock healing items before long quests because boss fights can lock you in once they begin."
+        },
+        {
+          "step": 7,
+          "title": "Choose a partner for each quest",
+          "description": "Partners join you during quests and bring their own fighting style, Support Skills, and Combination Skills. Partners can heal, buff, hinder enemies, or join you in powerful combo attacks.",
+          "tip": "Use Switch Mode when you need breathing room and Free Mode when you want to focus enemies down together."
+        },
+        {
+          "step": 8,
+          "title": "Upgrade and customize gear at the Smithy",
+          "description": "The Smithy can craft weapons and armor from recipes, upgrade weapon parameters, and combine same-type weapons to build EX-MOD effects. EX-MODs can provide advantages such as reduced Stamina cost or improved normal attack damage.",
+          "tip": "Keep improving your main weapon type, but save useful EX-MODs for future builds."
+        }
+      ]
+    },
+    "echoesWeaponsTierList": {
+      "title": "Echoes of Aincrad Best Weapons Tier List",
+      "eyebrow": "Weapon Tier List",
+      "intro": "Weapons act like classes in Echoes of Aincrad. Each type has a different attack style, Sword Skill feel, shield access, and risk level, so the best weapon depends on whether you want safety, speed, stagger, or heavy damage.",
+      "tiers": [
+        {
+          "tier": "S Tier",
+          "summary": "Best beginner safety and most forgiving first choice.",
+          "weapons": [
+            {
+              "name": "Sword and Shield",
+              "role": "Balanced starter weapon",
+              "shieldAccess": "Yes",
+              "mobility": "Balanced",
+              "damageStyle": "Offense and defense mix",
+              "bossUsefulness": "High",
+              "reason": "This is the tutorial starting weapon and the safest early pick because it gives both offensive and defensive options. Players can keep the shield equipped for protection or remove it for faster, riskier movement."
+            }
+          ]
+        },
+        {
+          "tier": "A Tier",
+          "summary": "Strong choices with clear combat roles and good long-term value.",
+          "weapons": [
+            {
+              "name": "Rapier",
+              "role": "Fast reach and chain attacks",
+              "shieldAccess": "Yes",
+              "mobility": "High",
+              "damageStyle": "Flowing attacks, chains, and counters",
+              "bossUsefulness": "High",
+              "reason": "Rapier is a light weapon with long reach and a flowing style. It can chain attacks, counter enemies, and still be used with a shield, making it strong for players who want speed without giving up defense."
+            },
+            {
+              "name": "Mace",
+              "role": "Stagger and defense breaker",
+              "shieldAccess": "Yes",
+              "mobility": "Medium",
+              "damageStyle": "Heavy hits, defense breaking, stagger, and knockdown",
+              "bossUsefulness": "High",
+              "reason": "Mace is valuable against harder enemies because it specializes in breaking defenses, staggering targets, and knocking enemies down. Shield access also gives it better safety than most heavy options."
+            }
+          ]
+        },
+        {
+          "tier": "B Tier",
+          "summary": "Powerful but less forgiving; better after learning enemy timing.",
+          "weapons": [
+            {
+              "name": "Dagger",
+              "role": "Quick close-range pressure",
+              "shieldAccess": "No",
+              "mobility": "Very high",
+              "damageStyle": "Fast hits, short range, lower average damage, throwing options through certain Sword Skills",
+              "bossUsefulness": "Medium",
+              "reason": "Dagger is light and fast, but its shorter range and no-shield setup make positioning more important. It works well for players who like speed and constant pressure."
+            },
+            {
+              "name": "Two-Handed Sword",
+              "role": "Charged heavy damage",
+              "shieldAccess": "No",
+              "mobility": "Low to medium",
+              "damageStyle": "High damage charged attacks",
+              "bossUsefulness": "Medium to high",
+              "reason": "Two-Handed Sword can charge attacks for greater damage, but it cannot use a shield and changes dodge movement into a roll. It rewards timing but is less forgiving for new players."
+            },
+            {
+              "name": "Two-Handed Axe",
+              "role": "Aggressive area damage",
+              "shieldAccess": "No",
+              "mobility": "Low",
+              "damageStyle": "Slower attacks, long reach, and area-of-effect pressure",
+              "bossUsefulness": "Medium",
+              "reason": "Two-Handed Axe is built for powerful offense and area attacks, but mistimed swings can leave the player open. It is better after learning enemy reach, boss windows, and Stamina control."
+            }
+          ]
+        }
+      ]
+    },
+    "echoesCombatAndBossGuide": {
+      "title": "Echoes of Aincrad Combat and Boss Guide",
+      "eyebrow": "Combat Guide",
+      "intro": "Combat in Echoes of Aincrad is built around resource management, weapon choice, partner coordination, and preparation before dangerous encounters. Boss battles are especially important because once a boss fight begins, you cannot retreat.",
+      "faqs": [
+        {
+          "question": "How do Stamina and SP work in Echoes of Aincrad?",
+          "answer": "Attacking, dodging, and guarding with a shield consume Stamina. Sword Skills unleash powerful attacks but rapidly drain SP, so using them at the wrong time can leave you vulnerable.",
+          "highlights": [
+            "Stamina controls basic actions",
+            "SP powers Sword Skills",
+            "Running out limits your options in combat"
+          ]
+        },
+        {
+          "question": "Which defensive tools should beginners use in Echoes of Aincrad?",
+          "answer": "Beginners should learn dodging, guarding, and parries before relying on damage alone. Sword and Shield is the safest learning weapon because it gives a balanced mix of attack and defense.",
+          "highlights": [
+            "Guard with shield-capable weapons",
+            "Dodge to avoid heavy attacks",
+            "Use parries when enemy timing becomes clear"
+          ]
+        },
+        {
+          "question": "How should Sword Skills be used in Echoes of Aincrad?",
+          "answer": "Sword Skills are strong attacks tied to your weapon type, but they drain SP quickly. Equip up to three Sword Skills and use them when enemies are open rather than spamming them at the start of every fight.",
+          "highlights": [
+            "Each weapon earns Weapon Exp",
+            "Weapon Exp unlocks Sword Skills",
+            "Up to three Sword Skills can be equipped"
+          ]
+        },
+        {
+          "question": "How do healing and support items work in Echoes of Aincrad?",
+          "answer": "Healing Crystals restore health and can be replenished at Safety Areas. Healing potions and other consumables can also support longer fights, while mines, explosive stones, and debuff items can create openings when timed well.",
+          "highlights": [
+            "Use Healing Crystals for recovery",
+            "Carry potions before long quests",
+            "Use mines and debuffs for difficult enemies"
+          ]
+        },
+        {
+          "question": "How do partners help in Echoes of Aincrad combat?",
+          "answer": "Each quest lets you choose a partner with distinct Support Skills and Combination Skills. Switch Mode splits a hard enemy's attention between you and your partner, while Free Mode helps focus down one target or clear multiple enemies one by one.",
+          "highlights": [
+            "Support Skills can heal, buff, or weaken enemies",
+            "Combination Skills are powerful joint attacks",
+            "Switch Mode and Free Mode can be changed in real time"
+          ]
+        },
+        {
+          "question": "What should you do before entering a boss room in Echoes of Aincrad?",
+          "answer": "Return to base before major boss fights, restock items, upgrade gear, spend Growth Points, and choose the right partner. Once a boss battle begins, it does not end until either you or the boss is defeated.",
+          "highlights": [
+            "Boss fights block retreat",
+            "Bring restoratives before entering",
+            "Use parries, dodges, and Reversal Slash"
+          ]
+        },
+        {
+          "question": "Why is map exploration important before combat in Echoes of Aincrad?",
+          "answer": "Activating checkpoints reveals the surrounding map and marks useful points of interest such as treasure chests, special mechanisms, hidden routes, and shortcuts. Better map knowledge reduces wasted fights and helps you prepare before dangerous areas.",
+          "highlights": [
+            "Checkpoints reveal map details",
+            "Treasure chests can contain useful rewards",
+            "Shortcuts and hidden paths support safer progression"
+          ]
+        },
+        {
+          "question": "How do you keep your build ready for harder enemies in Echoes of Aincrad?",
+          "answer": "Use Growth Points to strengthen stats, buy or craft items with Col and gathered materials, and upgrade, fuse, or craft weapons at the blacksmith. EX-MODs can add special effects and help shape your preferred combat style.",
+          "highlights": [
+            "Stats influence weapon attack power",
+            "Blacksmith upgrades improve weapons",
+            "EX-MODs support custom builds"
+          ]
+        }
+      ]
+    },
+    "echoesCharacterAndPartnerGuide": {
+      "title": "Echoes of Aincrad Character Creation and Partner Guide",
+      "eyebrow": "Characters & Partners",
+      "intro": "Echoes of Aincrad lets players enter Sword Art Online as an original customizable protagonist. Partners are not just story companions: they bring different weapons, support options, combo attacks, and tactical behavior that directly affect survival in quests and boss preparation.",
+      "cards": [
+        {
+          "title": "Customizable Protagonist",
+          "category": "Avatar Creation",
+          "description": "Players create their own hero instead of playing only as an existing SAO character. Character creation opens at the end of the Sword Art Online Beta section and includes pre-made templates plus sliders for detailed avatar customization.",
+          "bestFor": "Players who want a personal self-insert SAO adventure."
+        },
+        {
+          "title": "Partner Selection",
+          "category": "Party Setup",
+          "description": "At the start of each quest, players choose one partner character to fight alongside them. Partner weapons and skills can be adjusted from the player's room in an Inn located in town.",
+          "bestFor": "Preparing a quest setup before entering dungeons or major encounters."
+        },
+        {
+          "title": "Iori",
+          "category": "Partner",
+          "weaponType": "Sword & Shield",
+          "description": "Iori is a sword-wielding solo player who taught the protagonist the basics of Sword Art Online during the beta test.",
+          "bestFor": "Balanced sword-and-shield support."
+        },
+        {
+          "title": "Wyzeman",
+          "category": "Partner",
+          "weaponType": "Mace & Shield",
+          "description": "Wyzeman has been a party member since the beta test and is described as a lore enthusiast eager to clear the Sword Art Online death game.",
+          "bestFor": "Players who want shield-based mace support."
+        },
+        {
+          "title": "Zash",
+          "category": "Partner",
+          "weaponType": "Two-handed Sword",
+          "description": "Zash is a two-handed sword user who cares for his allies and meets the party while they are looking for a new raid member.",
+          "bestFor": "Players who want heavy two-handed sword pressure."
+        },
+        {
+          "title": "Argo",
+          "category": "Partner",
+          "weaponType": "Dagger",
+          "description": "Argo is a versatile info broker with a sharp eye for money. She met the protagonist during the beta test and fights with a dagger.",
+          "bestFor": "Fast dagger-based partner play."
+        },
+        {
+          "title": "Support Skills",
+          "category": "Combat System",
+          "description": "Partners can use Support Skills when called from the action wheel. These skills can include healing, defensive buffs, offensive buffs, and other support effects, and they can be previewed before starting a quest.",
+          "bestFor": "Staying alive during longer quests and difficult fights."
+        },
+        {
+          "title": "Combination Skills",
+          "category": "Combat System",
+          "description": "Combination Skills are powerful attacks performed together with a partner after enough damage has been dealt to enemies. Most partners have one or two Combination Skills that can be assigned to the action wheel.",
+          "bestFor": "Turning the tide during hard enemy encounters."
+        },
+        {
+          "title": "Switch Mode",
+          "category": "Tactical Mode",
+          "description": "Switch Mode lets the partner draw enemy focus, giving the player breathing room for timed attacks or safer repositioning.",
+          "bestFor": "Managing dangerous single targets and reducing pressure."
+        },
+        {
+          "title": "Free Mode",
+          "category": "Tactical Mode",
+          "description": "Free Mode helps the player and partner focus down one enemy together or clear multiple enemies one by one.",
+          "bestFor": "Finishing targets quickly or cleaning up groups efficiently."
+        }
+      ]
+    },
+    "echoesDeathGameModeGuide": {
+      "title": "Echoes of Aincrad Death Game Mode Guide",
+      "eyebrow": "High-Stakes Mode",
+      "intro": "Death Game Mode changes the meaning of every fight. It can be played at any difficulty, but if the player dies in this mode, that character save is erased and cannot be reused, so weapon choice, partner setup, and tactical commands matter much more.",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Understand the Core Rule",
+          "description": "Death Game Mode adds permanent consequences to defeat. If the adventure ends in this mode, the character save data is erased.",
+          "tip": "Treat every dungeon, stat choice, weapon selection, and partner command as part of survival planning."
+        },
+        {
+          "step": 2,
+          "title": "Know What Does Not Delete Data",
+          "description": "Save data is safe when exiting the game normally, intentionally returning to the title screen, or experiencing unexpected interruptions such as power loss.",
+          "tip": "The mode is built around in-game defeat, not punishing normal exits or technical interruptions."
+        },
+        {
+          "step": 3,
+          "title": "Use Partner Tactics Carefully",
+          "description": "The partner stays by the player's side, but poor partner skills, weapon setup, or tactical mode management can leave the player exposed when the fight becomes dangerous.",
+          "tip": "Pair Support Skills, Combination Skills, Switch Mode, and Free Mode with the encounter type."
+        },
+        {
+          "step": 4,
+          "title": "Unlock It After Clearing the Game",
+          "description": "For most players, Death Game Mode becomes available after completing the game's story mode.",
+          "tip": "This path is suited for players who want to learn normal systems before starting a one-life run."
+        },
+        {
+          "step": 5,
+          "title": "Start Early with Deluxe or Ultimate Edition",
+          "description": "Deluxe Edition and Ultimate Edition include Death Game Mode Early Unlock, allowing players to begin in Death Game Mode from the first playthrough.",
+          "tip": "Choose this route only when you want the high-risk version from day one."
+        },
+        {
+          "step": 6,
+          "title": "Separate It from Demo Save Transfer",
+          "description": "Save data carried over from the demo cannot be switched into Death Game Mode. If Death Game Mode is unlocked, it can be selected when creating a second or later save file.",
+          "tip": "Plan a fresh save file for Death Game Mode instead of converting demo progress."
+        }
+      ]
+    },
+    "echoesDemoAndSaveTransferGuide": {
+      "title": "Echoes of Aincrad Demo and Save Transfer Guide",
+      "eyebrow": "Demo & Progress",
+      "intro": "The Echoes of Aincrad demo gives players access to the beta phase of the story, five full missions, and every weapon type. Demo save data can transfer into the full release when the main game is updated and launched on the same platform.",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Download the Demo",
+          "description": "The demo is available on PC via Steam, PlayStation 5, and Xbox Series X|S.",
+          "detail": "The PC demo was released through Steam Next Fest, while console demo access covers PS5 and Xbox Series X|S."
+        },
+        {
+          "step": 2,
+          "title": "Play the Beta Phase",
+          "description": "The demo lets players experience the beta phase of the story with five full missions.",
+          "detail": "This gives players an early look at Aincrad's environments, quest flow, and combat structure."
+        },
+        {
+          "step": 3,
+          "title": "Test Every Weapon Type",
+          "description": "Every weapon type can be tried in the demo.",
+          "detail": "Players can use the demo to compare weapon feel before choosing a main playstyle in the full game."
+        },
+        {
+          "step": 4,
+          "title": "Update the Full Game",
+          "description": "To transfer demo save data, the full game must be updated to the latest version.",
+          "detail": "Connect to the network and install the latest update before starting the transfer process."
+        },
+        {
+          "step": 5,
+          "title": "Launch the Full Version",
+          "description": "Start the full game and confirm the required agreements.",
+          "detail": "When demo save data is detected, choose Carry over from the prompt."
+        },
+        {
+          "step": 6,
+          "title": "Confirm the Transfer",
+          "description": "On the transfer confirmation screen, press and hold Confirm. After the transfer succeeds, select Close, then choose Game Start from the title screen.",
+          "detail": "All demo save data slots will be transferred."
+        },
+        {
+          "step": 7,
+          "title": "Load the Transferred Save",
+          "description": "After transfer, load the demo save data from the save data selection screen.",
+          "detail": "Transfer works only between the same platform, and demo save data should not be deleted from the device before transfer."
+        },
+        {
+          "step": 8,
+          "title": "Know the Death Game Limitation",
+          "description": "Save data carried over from the demo cannot be switched to Death Game Mode.",
+          "detail": "If Death Game Mode is unlocked, it can be selected when creating a second or later save file."
+        }
+      ]
+    },
+    "echoesEditionsAndPreOrderBonus": {
+      "title": "Echoes of Aincrad Editions and Pre Order Bonus",
+      "eyebrow": "Editions & Bonuses",
+      "intro": "Echoes of Aincrad is sold in Standard, Deluxe, and Ultimate editions. All pre-orders include the Proto-Elucidator Series Weapon Pack, while Deluxe and Ultimate add the Expansion DLC Pass, Starter Pack, and Death Game Mode Early Unlock.",
+      "columns": {
+        "edition": "Edition",
+        "steamPriceUsd": "Steam Price",
+        "baseGame": "Base Game",
+        "expansionDlcPass": "Expansion DLC Pass",
+        "starterPack": "Starter Pack",
+        "deathGameModeEarlyUnlock": "Death Game Mode Early Unlock",
+        "bonusContentsApp": "Bonus Contents App",
+        "armorPack": "Armor Pack",
+        "preOrderBonus": "Pre-Order Bonus"
+      },
+      "rows": [
+        {
+          "edition": "Standard Edition",
+          "steamPriceUsd": "$69.99",
+          "baseGame": "Included",
+          "expansionDlcPass": "Not included",
+          "starterPack": "Not included",
+          "deathGameModeEarlyUnlock": "Not included",
+          "bonusContentsApp": "Not included",
+          "armorPack": "Not included",
+          "preOrderBonus": "Proto-Elucidator Series Weapon Pack"
+        },
+        {
+          "edition": "Deluxe Edition",
+          "steamPriceUsd": "$89.99",
+          "baseGame": "Included",
+          "expansionDlcPass": "Included; scheduled by December 31, 2026",
+          "starterPack": "Included; 50,000 Col, 10 High Healing Potions, 10 High SP Potions, and 10 Mystic Crystals",
+          "deathGameModeEarlyUnlock": "Included",
+          "bonusContentsApp": "Not included",
+          "armorPack": "Not included",
+          "preOrderBonus": "Proto-Elucidator Series Weapon Pack"
+        },
+        {
+          "edition": "Ultimate Edition",
+          "steamPriceUsd": "$109.99",
+          "baseGame": "Included",
+          "expansionDlcPass": "Included; scheduled by December 31, 2026",
+          "starterPack": "Included; 50,000 Col, 10 High Healing Potions, 10 High SP Potions, and 10 Mystic Crystals",
+          "deathGameModeEarlyUnlock": "Included",
+          "bonusContentsApp": "Included; Unanswered//butterfly Special Movie, 141-track Digital Soundtrack, and 640-page Digital Artbook",
+          "armorPack": "Included; Flutter Boots & Flutter Robes",
+          "preOrderBonus": "Proto-Elucidator Series Weapon Pack"
+        },
+        {
+          "edition": "Pre-Order Bonus",
+          "steamPriceUsd": "Included with pre-order",
+          "baseGame": "Requires any pre-ordered edition",
+          "expansionDlcPass": "Edition-dependent",
+          "starterPack": "Edition-dependent",
+          "deathGameModeEarlyUnlock": "Edition-dependent",
+          "bonusContentsApp": "Edition-dependent",
+          "armorPack": "Edition-dependent",
+          "preOrderBonus": "Includes six Proto-Elucidator weapon types, a shield, and matching blueprints for crafting additional copies"
         }
       ]
     }
@@ -749,31 +598,31 @@
   "faq": {
     "title": "Frequently Asked",
     "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "subtitle": "Everything you need to know about Echoes of Aincrad",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "What is Echoes of Aincrad?",
+        "answer": "Echoes of Aincrad is a single-player SAO action JRPG developed by Bandai Namco and Game Studio Inc., launching July 10, 2026 on PS5, Xbox Series X|S, and Steam."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "Is there an Echoes of Aincrad demo?",
+        "answer": "Yes. The Echoes of Aincrad demo covers the beta phase of the story with five full missions and every weapon type, available on PC, PS5, and Xbox Series X|S."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "Does Echoes of Aincrad demo save data carry over?",
+        "answer": "Yes. Demo save data in Echoes of Aincrad can transfer into the full game on the same platform after updating and launching the full version, but it cannot be switched into Death Game Mode."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "What is Death Game Mode in Echoes of Aincrad?",
+        "answer": "Death Game Mode is the optional high-stakes mode in Echoes of Aincrad where defeat erases the character save. Deluxe and Ultimate Edition owners can unlock it early for a one-life run from the first playthrough."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "Which weapons are in Echoes of Aincrad?",
+        "answer": "Echoes of Aincrad has six weapon types: Sword and Shield, Two-Handed Axe, Dagger, Rapier, Two-Handed Sword, and Mace. Sword and Shield is the safest beginner pick."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "Is Echoes of Aincrad on Steam Deck or Switch?",
+        "answer": "Echoes of Aincrad is not officially listed for Nintendo Switch. Steam Deck support is not confirmed by the official specs, so players should check the Steam store page before buying."
       }
     ]
   },
@@ -800,126 +649,5 @@
     "copyright": "© 2026 Echoes of Aincrad Wiki. Not affiliated with Bandai Namco Entertainment or the developers of Echoes of Aincrad.",
     "disclaimer": "Unofficial fan-made resource website."
   },
-  "pages": {
-    "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
-      "why": "Why read guides?",
-      "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Guides"
-    },
-    "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
-      "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
-    },
-    "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
-      "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Items"
-    },
-    "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
-      "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Biomes"
-    },
-    "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
-      "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Building Guides"
-    },
-    "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
-      "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Support Articles"
-    }
-  }
+  "pages": {}
 }
