@@ -1,11 +1,802 @@
 {
+  "seo": {
+    "home": {
+      "title": "Echoes of Aincrad Wiki - Demo, Builds y Lanzamiento",
+      "description": "Echoes of Aincrad Wiki cubre la fecha de lanzamiento, guía de la demo, builds, armas, personajes, ubicaciones, Death Game Mode, ediciones y requisitos de PC.",
+      "keywords": "Echoes of Aincrad, SAO, Steam, PS5, Xbox, demo, builds, armas",
+      "ogTitle": "Echoes of Aincrad Wiki - Demo, Builds y Lanzamiento",
+      "ogDescription": "Echoes of Aincrad Wiki cubre la fecha de lanzamiento, guía de la demo, builds, armas, personajes, ubicaciones, Death Game Mode, ediciones y requisitos de PC.",
+      "twitterTitle": "Echoes of Aincrad Wiki - Demo, Builds y Lanzamiento",
+      "twitterDescription": "Echoes of Aincrad Wiki cubre la fecha de lanzamiento, demo, builds, armas, personajes, Death Game Mode y requisitos de PC para el JRPG de acción de SAO."
+    }
+  },
   "nav": {
-    "release": "Release",
+    "release": "Lanzamiento",
     "demo": "Demo",
-    "guide": "Guide",
-    "platforms": "Platforms",
-    "creation": "Creation",
-    "multiplayer": "Multiplayer",
-    "weapons": "Weapons"
+    "guide": "Guía",
+    "platforms": "Plataformas",
+    "creation": "Creación",
+    "multiplayer": "Multijugador",
+    "weapons": "Armas"
+  },
+  "common": {
+    "home": "Inicio",
+    "more": "Más",
+    "playNow": "Jugar en Steam",
+    "switchLanguage": "Cambiar idioma",
+    "switchTheme": "Cambiar tema",
+    "lightMode": "Modo claro",
+    "darkMode": "Modo oscuro",
+    "notFound": "Página no encontrada",
+    "notFoundDescription": "La página que buscas no existe.",
+    "backToHome": "Volver al inicio",
+    "relatedArticles": "Artículos relacionados",
+    "readMore": "Leer más",
+    "articlesComingSoon": "Próximamente más artículos"
+  },
+  "hero": {
+    "badge": "JRPG de acción de SAO para un jugador",
+    "title": "Echoes of Aincrad Wiki",
+    "description": "Crea tu propio héroe, explora Aincrad, domina armas y Sword Skills, crea sinergia con tus compañeros, completa misiones, lucha contra jefes y sobrevive al Death Game Mode.",
+    "getFreeCodesCTA": "Ver guía de la demo",
+    "playOnSteamCTA": "Jugar en Steam",
+    "stats": {
+      "stat1": {
+        "value": "10 de julio de 2026",
+        "label": "Lanzamiento global"
+      },
+      "stat2": {
+        "value": "PS5 / Xbox / Steam",
+        "label": "Plataformas"
+      },
+      "stat3": {
+        "value": "3.70/5",
+        "label": "Calificación de PS Store"
+      },
+      "stat4": {
+        "value": "Disponible",
+        "label": "Versión demo"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Jugabilidad de Echoes of Aincrad",
+    "description": "Crea tu propio héroe de SAO, domina seis tipos de armas y Sword Skills, crea sinergia con tus compañeros y sobrevive al Death Game Mode en este JRPG de acción para un jugador en PS5, Xbox y Steam."
+  },
+  "tools": {
+    "title": "Echoes of Aincrad",
+    "titleHighlight": "Guías",
+    "subtitle": "Todo lo que necesitas para el lanzamiento, la demo, las armas, el combate, los personajes y el Death Game Mode en Echoes of Aincrad.",
+    "cards": [
+      {
+        "icon": "CalendarCheck",
+        "title": "Fecha de lanzamiento y plataformas",
+        "description": "Fecha de lanzamiento, PS5, Xbox, Steam e información de precarga"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Guía para principiantes",
+        "description": "Lista de tareas para las primeras horas, estadísticas, compañeros y equipo"
+      },
+      {
+        "icon": "Swords",
+        "title": "Tier List de armas",
+        "description": "Clasificación de los seis tipos de armas para principiantes"
+      },
+      {
+        "icon": "Zap",
+        "title": "Guía de combate y jefes",
+        "description": "Estamina, SP, Sword Skills y preparación para jefes"
+      },
+      {
+        "icon": "Users",
+        "title": "Personajes y compañeros",
+        "description": "Creación de avatar, habilidades de compañeros y tácticas"
+      },
+      {
+        "icon": "Skull",
+        "title": "Death Game Mode",
+        "description": "Reglas de muerte permanente, desbloqueo y consejos de supervivencia"
+      },
+      {
+        "icon": "Download",
+        "title": "Demo y transferencia de guardado",
+        "description": "Misiones de la demo, armas y transferencia de datos de guardado"
+      },
+      {
+        "icon": "Crown",
+        "title": "Ediciones y reserva",
+        "description": "Standard, Deluxe, Ultimate y bonificaciones"
+      }
+    ]
+  },
+  "modules": {
+    "echoesReleaseDateAndPlatforms": {
+      "title": "Fecha de lanzamiento, plataformas y precarga de Echoes of Aincrad",
+      "eyebrow": "Información de lanzamiento",
+      "intro": "Echoes of Aincrad está programado para lanzarse en julio de 2026 en PlayStation 5, Xbox Series X|S y PC digital. Las horas de lanzamiento en consolas y Steam varían según la región, y el soporte de precarga es diferente en cada plataforma.",
+      "items": [
+        {
+          "label": "Fecha de lanzamiento oficial",
+          "value": "10 de julio de 2026",
+          "detail": "Bandai Namco indica el 10 de julio de 2026 como la fecha de lanzamiento oficial de Echoes of Aincrad en todas las plataformas de lanzamiento."
+        },
+        {
+          "label": "Ficha de lanzamiento en Steam",
+          "value": "9 de jul. de 2026",
+          "detail": "La página de la tienda de Steam indica el 9 de jul. de 2026 porque la hora de desbloqueo en PC cae en el 9 de julio en algunas regiones, incluyendo PDT y EDT."
+        },
+        {
+          "label": "Plataformas compatibles",
+          "value": "PS5, Xbox Series X|S, PC",
+          "detail": "El juego estará disponible de lanzamiento en PlayStation 5, Xbox Series X|S y PC digital a través de Steam."
+        },
+        {
+          "label": "Soporte para Nintendo Switch",
+          "value": "No disponible",
+          "detail": "Echoes of Aincrad no está anunciado para Nintendo Switch o Switch 2 en su lanzamiento."
+        },
+        {
+          "label": "Ejemplos de lanzamiento en consolas",
+          "value": "Medianoche local en muchas regiones",
+          "detail": "Los ejemplos incluyen las 00:00 del 10 de julio en CEST, EDT y BST, y las 00:00 del 9 de julio en CST, JST y KST."
+        },
+        {
+          "label": "Ejemplos de lanzamiento en Steam",
+          "value": "Desbloqueo en Steam según la región",
+          "detail": "Los ejemplos incluyen las 15:00 PDT del 9 de julio, las 18:00 EDT del 9 de julio, las 23:00 BST del 9 de julio, las 06:00 CST del 10 de julio y las 07:00 JST/KST del 10 de julio."
+        },
+        {
+          "label": "Predescarga en PS5",
+          "value": "Disponible",
+          "detail": "La predescarga en PS comienza el 7 de julio a las 00:00 hora local en Japón/Asia y el 8 de julio a las 00:00 hora local en Europa/EE. UU."
+        },
+        {
+          "label": "Predescarga en Xbox y Steam",
+          "value": "Xbox disponible, Steam no disponible",
+          "detail": "La predescarga en Xbox comienza el 7 de julio a las 9:00 JST / 2:00 CEST / 6 de julio a las 17:00 PDT. La predescarga en Steam no está disponible."
+        }
+      ]
+    },
+    "echoesBeginnerGuide": {
+      "title": "Guía para principiantes de Echoes of Aincrad: Lista de tareas para las primeras horas",
+      "eyebrow": "Guía para principiantes",
+      "intro": "Echoes of Aincrad comienza con supervivencia, exploración y combate en tiempo real dentro del castillo flotante. Tu progreso inicial dependerá de comprender las armas, las Sword Skills, los Growth Points, el Cardinal Rank, los compañeros, los objetos y la preparación para las mazmorras.",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Crea tu avatar y entra en Aincrad",
+          "description": "Comienza configurando a tu personaje jugador con opciones de personalización como el peinado, el tono de piel y el tipo de cuerpo. El juego está diseñado para que juegues con tu propio héroe en lugar de controlar únicamente a los personajes establecidos de Sword Art Online.",
+          "tip": "Trata a tu avatar como la base de tu build a largo plazo, ya que el equipo, las estadísticas, las armas y la sinergia con tus compañeros se desarrollarán en torno a tu personaje."
+        },
+        {
+          "step": 2,
+          "title": "Usa las armas como tu clase",
+          "description": "Hay seis tipos de armas: Sword and Shield, Two-Handed Axe, Dagger, Rapier, Two-Handed Sword y Mace. Usar un arma te otorga Weapon Exp, desbloquea Sword Skills y te permite equipar hasta tres Sword Skills a la vez.",
+          "tip": "Comienza con Sword and Shield para tener una curva de aprendizaje más segura, y luego prueba armas más rápidas o pesadas entre misiones."
+        },
+        {
+          "step": 3,
+          "title": "Gasta los Growth Points en las estadísticas adecuadas",
+          "description": "Subir de nivel te otorga Growth Points que puedes usar en tu habitación de la posada. Strength, Dexterity, Agility e Intelligence afectan al daño de las habilidades de armas, mientras que Vitality, Endurance y Mind mejoran los Health Points, Stamina Points y la efectividad relacionada con los SP.",
+          "tip": "Sube las estadísticas que se adapten a tu arma equipada en lugar de distribuir los puntos al azar."
+        },
+        {
+          "step": 4,
+          "title": "Sube tu Cardinal Rank con cuidado",
+          "description": "El Cardinal Rank muestra tu competencia general y afecta a lo que puedes comprar a los mercaderes o forjar en la herrería. También aumenta hasta cierto punto la dificultad de los monstruos, mejora el botín que estos sueltan e incrementa las habilidades de tus compañeros.",
+          "tip": "Cada vez que suba tu Cardinal Rank, mejora tus armas y gasta tus Growth Points antes de emprender la siguiente misión."
+        },
+        {
+          "step": 5,
+          "title": "Explora mapas, puntos de control y mazmorras",
+          "description": "Cada nueva misión o mazmorra requiere exploración para revelar el mapa. Los puntos de control exponen los puntos de interés cercanos, incluidos cofres del tesoro, rutas ocultas, atajos sellados y mecanismos especiales.",
+          "tip": "Activa los puntos de control pronto para poder encontrar tesoros y atajos antes de enzarzarte en combates peligrosos."
+        },
+        {
+          "step": 6,
+          "title": "Prepara tus objetos antes de salir de la ciudad",
+          "description": "El Town of Beginnings incluye mercaderes y opciones de artesanía. Puedes comprar objetos con Col, fabricar pociones de curación, usar materiales del mapa y preparar herramientas especiales como minas para el combate o interacciones con el entorno.",
+          "tip": "Abastécete de objetos de curación antes de las misiones largas, ya que los combates contra jefes pueden impedirte salir una vez que comiencen."
+        },
+        {
+          "step": 7,
+          "title": "Elige un compañero para cada misión",
+          "description": "Los compañeros se unen a ti durante las misiones aportando su propio estilo de lucha, Support Skills y Combination Skills. Los compañeros pueden curar, otorgar mejoras, obstaculizar a los enemigos o unirse a ti en poderosos ataques combinados.",
+          "tip": "Usa el Switch Mode cuando necesites un respiro y el Free Mode cuando quieras concentrar los ataques en los enemigos junto a tu compañero."
+        },
+        {
+          "step": 8,
+          "title": "Mejora y personaliza el equipamiento en la Herrería",
+          "description": "La Herrería puede fabricar armas y armaduras a partir de recetas, mejorar los parámetros de las armas y combinar armas del mismo tipo para crear efectos EX-MOD. Los EX-MOD pueden proporcionar ventajas como un menor coste de resistencia o un mayor daño de los ataques normales.",
+          "tip": "Sigue mejorando tu tipo de arma principal, pero guarda los EX-MOD útiles para futuras builds."
+        }
+      ]
+    },
+    "echoesWeaponsTierList": {
+      "title": "Tier List de las mejores armas de Echoes of Aincrad",
+      "eyebrow": "Tier List de armas",
+      "intro": "Las armas actúan como clases en Echoes of Aincrad. Cada tipo tiene un estilo de ataque, manejo de las Sword Skills, acceso a escudo y nivel de riesgo diferentes, por lo que la mejor arma depende de si buscas seguridad, velocidad, aturdimiento o gran daño.",
+      "tiers": [
+        {
+          "tier": "Tier S",
+          "summary": "La opción más segura para principiantes y la primera elección más permisiva.",
+          "weapons": [
+            {
+              "name": "Espada y escudo",
+              "role": "Arma inicial equilibrada",
+              "shieldAccess": "Sí",
+              "mobility": "Equilibrado",
+              "damageStyle": "Mezcla de ofensiva y defensiva",
+              "bossUsefulness": "Alto",
+              "reason": "Esta es el arma inicial del tutorial y la elección más segura para el principio porque ofrece opciones tanto ofensivas como defensivas. Los jugadores pueden mantener el escudo equipado para protegerse o quitárselo para un movimiento más rápido y arriesgado."
+            }
+          ]
+        },
+        {
+          "tier": "Tier A",
+          "summary": "Opciones sólidas con roles de combate claros y un buen valor a largo plazo.",
+          "weapons": [
+            {
+              "name": "Estoque",
+              "role": "Alcance rápido y ataques en cadena",
+              "shieldAccess": "Sí",
+              "mobility": "Alto",
+              "damageStyle": "Ataques fluidos, cadenas y contraataques",
+              "bossUsefulness": "Alto",
+              "reason": "El estoque es un arma ligera con un gran alcance y un estilo fluido. Puede encadenar ataques, contraatacar a los enemigos y seguir usándose con un escudo, lo que la convierte en una opción sólida para los jugadores que buscan velocidad sin renunciar a la defensa."
+            },
+            {
+              "name": "Maza",
+              "role": "Aturdimiento y ruptura de defensa",
+              "shieldAccess": "Sí",
+              "mobility": "Medio",
+              "damageStyle": "Golpes pesados, ruptura de defensa, aturdimiento y derribo",
+              "bossUsefulness": "Alto",
+              "reason": "La maza es valiosa contra los enemigos más difíciles porque se especializa en romper defensas, aturdir a los objetivos y derribar a los enemigos. El acceso al escudo también le otorga una mayor seguridad que la mayoría de las opciones pesadas."
+            }
+          ]
+        },
+        {
+          "tier": "Tier B",
+          "summary": "Poderosas pero menos permisivas; mejores tras aprender los tiempos de los enemigos.",
+          "weapons": [
+            {
+              "name": "Daga",
+              "role": "Presión rápida a corta distancia",
+              "shieldAccess": "No",
+              "mobility": "Muy alto",
+              "damageStyle": "Golpes rápidos, corto alcance, menor daño promedio, opciones de lanzamiento mediante ciertas Sword Skills",
+              "bossUsefulness": "Medio",
+              "reason": "La daga es ligera y rápida, pero su menor alcance y la configuración sin escudo hacen que el posicionamiento sea más importante. Funciona bien para los jugadores a los que les gusta la velocidad y la presión constante."
+            },
+            {
+              "name": "Espada a dos manos",
+              "role": "Daño pesado cargado",
+              "shieldAccess": "No",
+              "mobility": "De bajo a medio",
+              "damageStyle": "Ataques cargados de gran daño",
+              "bossUsefulness": "De medio a alto",
+              "reason": "La Espada a dos manos puede cargar ataques para infligir mayor daño, pero no puede usar un escudo y cambia el movimiento de esquiva por una rodada. Recompensa la precisión, pero es menos permisiva con los jugadores nuevos."
+            },
+            {
+              "name": "Hacha a dos manos",
+              "role": "Daño de área agresivo",
+              "shieldAccess": "No",
+              "mobility": "Bajo",
+              "damageStyle": "Ataques más lentos, gran alcance y presión de área de efecto",
+              "bossUsefulness": "Medio",
+              "reason": "El Hacha a dos manos está diseñada para una ofensiva poderosa y ataques de área, pero los golpes mal calculados pueden dejar al jugador vulnerable. Es mejor usarla tras aprender el alcance del enemigo, las ventanas de oportunidad de los jefes y el control de la Resistencia."
+            }
+          ]
+        }
+      ]
+    },
+    "echoesCombatAndBossGuide": {
+      "title": "Guía de combate y jefes de Echoes of Aincrad",
+      "eyebrow": "Guía de combate",
+      "intro": "El combate en Echoes of Aincrad se basa en la gestión de recursos, la elección de armas, la coordinación con el compañero y la preparación antes de enfrentamientos peligrosos. Las batallas contra jefes son especialmente importantes porque, una vez que comienza una pelea contra un jefe, no puedes retirarte.",
+      "faqs": [
+        {
+          "question": "¿Cómo funcionan la Resistencia y los SP en Echoes of Aincrad?",
+          "answer": "Atacar, esquivar y defenderse con un escudo consumen Resistencia. Las Sword Skills desatan ataques poderosos pero agotan rápidamente los SP, por lo que usarlas en el momento equivocado puede dejarte vulnerable.",
+          "highlights": [
+            "La Resistencia controla las acciones básicas",
+            "Los SP potencian las Sword Skills",
+            "Quedarse sin ellos limita tus opciones en combate"
+          ]
+        },
+        {
+          "question": "¿Qué herramientas defensivas deberían usar los principiantes en Echoes of Aincrad?",
+          "answer": "Los principiantes deberían aprender a esquivar, defenderse y hacer paradas antes de confiar solo en el daño. La Espada y escudo es la arma de aprendizaje más segura porque ofrece una mezcla equilibrada de ataque y defensa.",
+          "highlights": [
+            "Defenderse con armas aptas para escudo",
+            "Esquivar para evitar ataques pesados",
+            "Usar paradas cuando el ritmo del enemigo sea claro"
+          ]
+        },
+        {
+          "question": "¿Cómo se deben usar las Sword Skills en Echoes of Aincrad?",
+          "answer": "Las Sword Skills son ataques fuertes vinculados a tu tipo de arma, pero agotan los SP rápidamente. Equipa hasta tres Sword Skills y úsalas cuando los enemigos estén vulnerables en lugar de usarlas repetidamente al comienzo de cada combate.",
+          "highlights": [
+            "Cada arma obtiene EXP de arma",
+            "La EXP de arma desbloquea Sword Skills",
+            "Se pueden equipar hasta tres Sword Skills"
+          ]
+        },
+        {
+          "question": "¿Cómo funcionan los objetos de curación y apoyo en Echoes of Aincrad?",
+          "answer": "Los Cristales de curación restauran la salud y se pueden reponer en las Safety Areas. Las pociones de curación y otros consumibles también pueden servir de apoyo en combates largos, mientras que las minas, las piedras explosivas y los objetos de debilitación pueden crear oportunidades si se usan en el momento adecuado.",
+          "highlights": [
+            "Usar Cristales de curación para recuperarse",
+            "Llevar pociones antes de misiones largas",
+            "Usar minas y efectos de debilitación contra enemigos difíciles"
+          ]
+        },
+        {
+          "question": "¿Cómo ayudan los compañeros en el combate de Echoes of Aincrad?",
+          "answer": "Cada misión te permite elegir un compañero con Support Skills y Combination Skills distintas. El Switch Mode divide la atención de un enemigo difícil entre tú y tu compañero, mientras que el Free Mode ayuda a concentrarse en un solo objetivo o a eliminar a varios enemigos uno a uno.",
+          "highlights": [
+            "Las Support Skills pueden curar, mejorar atributos o debilitar a los enemigos",
+            "Las Combination Skills son ataques conjuntos poderosos",
+            "El Switch Mode y el Free Mode se pueden cambiar en tiempo real"
+          ]
+        },
+        {
+          "question": "¿Qué deberías hacer antes de entrar en la sala de un jefe en Echoes of Aincrad?",
+          "answer": "Regresa a la base antes de los combates contra jefes importantes, reabastécete de objetos, mejora el equipo, gasta Growth Points y elige al compañero adecuado. Una vez que comienza una batalla contra un jefe, no termina hasta que tú o el jefe seáis derrotados.",
+          "highlights": [
+            "Las batallas contra jefes bloquean la retirada",
+            "Lleva objetos de recuperación antes de entrar",
+            "Usa parries, esquivas y Reversal Slash"
+          ]
+        },
+        {
+          "question": "¿Por qué es importante la exploración del mapa antes del combate en Echoes of Aincrad?",
+          "answer": "Activar los puntos de control revela el mapa circundante y marca puntos de interés útiles como cofres de tesoro, mecanismos especiales, rutas ocultas y atajos. Un mejor conocimiento del mapa reduce los combates innecesarios y te ayuda a prepararte antes de las zonas peligrosas.",
+          "highlights": [
+            "Los puntos de control revelan detalles del mapa",
+            "Los cofres de tesoro pueden contener recompensas útiles",
+            "Los atajos y los caminos ocultos favorecen una progresión más segura"
+          ]
+        },
+        {
+          "question": "¿Cómo mantienes tu build lista para los enemigos más difíciles en Echoes of Aincrad?",
+          "answer": "Usa Growth Points para fortalecer las estadísticas, compra o fabrica objetos con Col y materiales recolectados, y mejora, fusiona o fabrica armas en la herrería. Los EX-MODs pueden añadir efectos especiales y ayudar a dar forma a tu estilo de combate preferido.",
+          "highlights": [
+            "Las estadísticas influyen en el poder de ataque del arma",
+            "Las mejoras de la herrería perfeccionan las armas",
+            "Los EX-MODs permiten crear builds personalizadas"
+          ]
+        }
+      ]
+    },
+    "echoesCharacterAndPartnerGuide": {
+      "title": "Guía de creación de personajes y compañeros de Echoes of Aincrad",
+      "eyebrow": "Personajes y compañeros",
+      "intro": "Echoes of Aincrad permite a los jugadores entrar en Sword Art Online como un protagonista original personalizable. Los compañeros no son solo camaradas de historia: aportan diferentes armas, opciones de apoyo, ataques combinados y comportamientos tácticos que afectan directamente a la supervivencia en las misiones y a la preparación para los jefes.",
+      "cards": [
+        {
+          "title": "Protagonista personalizable",
+          "category": "Creación de avatar",
+          "description": "Los jugadores crean su propio héroe en lugar de jugar solo como un personaje de SAO existente. La creación de personajes se abre al final de la sección Beta de Sword Art Online e incluye plantillas predeterminadas además de controles deslizantes para una personalización detallada del avatar.",
+          "bestFor": "Jugadores que buscan una aventura de SAO personal."
+        },
+        {
+          "title": "Selección de compañeros",
+          "category": "Configuración del grupo",
+          "description": "Al comienzo de cada misión, los jugadores eligen a un compañero para luchar a su lado. Las armas y habilidades de los compañeros se pueden ajustar desde la habitación del jugador en una posada situada en la ciudad.",
+          "bestFor": "Preparar la configuración de la misión antes de entrar en mazmorras o encuentros importantes."
+        },
+        {
+          "title": "Iori",
+          "category": "Compañero",
+          "weaponType": "Espada y escudo",
+          "description": "Iori es una jugadora solitaria que empuña la espada y que enseñó al protagonista los conceptos básicos de Sword Art Online durante la prueba beta.",
+          "bestFor": "Apoyo equilibrado de espada y escudo."
+        },
+        {
+          "title": "Wyzeman",
+          "category": "Compañero",
+          "weaponType": "Maza y escudo",
+          "description": "Wyzeman ha sido miembro del grupo desde la prueba beta y se le describe como un entusiasta de la historia con ganas de completar el juego de la muerte Sword Art Online.",
+          "bestFor": "Jugadores que buscan un apoyo de maza basado en el escudo."
+        },
+        {
+          "title": "Zash",
+          "category": "Compañero",
+          "weaponType": "Espada a dos manos",
+          "description": "Zash es un usuario de espada a dos manos que se preocupa por sus aliados y se encuentra con el grupo mientras buscan a un nuevo miembro para la raid.",
+          "bestFor": "Jugadores que buscan la pesada presión de la espada a dos manos."
+        },
+        {
+          "title": "Argo",
+          "category": "Compañero",
+          "weaponType": "Daga",
+          "description": "Argo es una versátil informante con buen ojo para el dinero. Conoció al protagonista durante la beta y lucha con una daga.",
+          "bestFor": "Juego rápido con compañero basado en dagas."
+        },
+        {
+          "title": "Habilidades de apoyo",
+          "category": "Sistema de combate",
+          "description": "Los compañeros pueden usar Habilidades de apoyo cuando se les llama desde la rueda de acciones. Estas habilidades pueden incluir curación, mejoras defensivas, mejoras ofensivas y otros efectos de apoyo, y pueden previsualizarse antes de comenzar una misión.",
+          "bestFor": "Sobrevivir durante misiones largas y combates difíciles."
+        },
+        {
+          "title": "Habilidades combinadas",
+          "category": "Sistema de combate",
+          "description": "Las Habilidades combinadas son ataques poderosos realizados junto a un compañero tras infligir suficiente daño a los enemigos. La mayoría de los compañeros tienen una o dos Habilidades combinadas que pueden asignarse a la rueda de acciones.",
+          "bestFor": "Cambiar las tornas durante encuentros difíciles con enemigos."
+        },
+        {
+          "title": "Switch Mode",
+          "category": "Modo táctico",
+          "description": "El Switch Mode permite que el compañero atraiga la atención del enemigo, dándole al jugador un respiro para ataques precisos o un reposicionamiento más seguro.",
+          "bestFor": "Gestionar objetivos únicos peligrosos y reducir la presión."
+        },
+        {
+          "title": "Free Mode",
+          "category": "Modo táctico",
+          "description": "El Free Mode ayuda al jugador y al compañero a concentrarse en un enemigo juntos o a eliminar a varios enemigos uno a uno.",
+          "bestFor": "Acabar con los objetivos rápidamente o limpiar grupos de forma eficiente."
+        }
+      ]
+    },
+    "echoesDeathGameModeGuide": {
+      "title": "Guía del Death Game Mode de Echoes of Aincrad",
+      "eyebrow": "Modo de alto riesgo",
+      "intro": "El Death Game Mode cambia el significado de cada combate. Se puede jugar en cualquier dificultad, pero si el jugador muere en este modo, la partida guardada de ese personaje se borra y no se puede volver a usar, por lo que la elección de arma, la configuración del compañero y los comandos tácticos importan mucho más.",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Entiende la regla principal",
+          "description": "El Death Game Mode añade consecuencias permanentes a la derrota. Si la aventura termina en este modo, los datos de guardado del personaje se borran.",
+          "tip": "Trata cada mazmorra, elección de estadísticas, selección de armas y comando de compañero como parte de la planificación de supervivencia."
+        },
+        {
+          "step": 2,
+          "title": "Conoce qué no borra los datos",
+          "description": "Los datos de guardado están seguros al salir del juego normalmente, volver intencionadamente a la pantalla de título o experimentar interrupciones inesperadas como un corte de luz.",
+          "tip": "El modo está diseñado en torno a la derrota dentro del juego, no para castigar salidas normales o interrupciones técnicas."
+        },
+        {
+          "step": 3,
+          "title": "Usa las tácticas de compañero con cuidado",
+          "description": "El compañero permanece al lado del jugador, pero una mala configuración de habilidades, de armas o de la gestión del modo táctico puede dejar al jugador expuesto cuando el combate se vuelve peligroso.",
+          "tip": "Empareja las Habilidades de apoyo, Habilidades combinadas, Switch Mode y Free Mode con el tipo de encuentro."
+        },
+        {
+          "step": 4,
+          "title": "Desbloquéalo tras completar el juego",
+          "description": "Para la mayoría de los jugadores, el Death Game Mode está disponible tras completar el modo historia del juego.",
+          "tip": "Este camino es adecuado para jugadores que quieran aprender los sistemas normales antes de empezar una partida de una sola vida."
+        },
+        {
+          "step": 5,
+          "title": "Empieza antes con la Deluxe o Ultimate Edition",
+          "description": "La Deluxe Edition y la Ultimate Edition incluyen el Death Game Mode Early Unlock, lo que permite a los jugadores comenzar en el Death Game Mode desde la primera partida.",
+          "tip": "Elige esta ruta solo cuando quieras la versión de alto riesgo desde el primer día."
+        },
+        {
+          "step": 6,
+          "title": "Sepáralo de la transferencia de datos de guardado de la demo",
+          "description": "Los datos de guardado transferidos desde la demo no se pueden cambiar al Death Game Mode. Si el Death Game Mode está desbloqueado, se podrá seleccionar al crear un segundo archivo de guardado o posterior.",
+          "tip": "Planifica un nuevo archivo de guardado para el Death Game Mode en lugar de convertir el progreso de la demo."
+        }
+      ]
+    },
+    "echoesDemoAndSaveTransferGuide": {
+      "title": "Guía de la demo y transferencia de guardado de Echoes of Aincrad",
+      "eyebrow": "Demo y progreso",
+      "intro": "La demo de Echoes of Aincrad ofrece a los jugadores acceso a la fase beta de la historia, cinco misiones completas y todos los tipos de armas. Los datos de guardado de la demo se pueden transferir a la versión completa cuando el juego principal se actualice y se ejecute en la misma plataforma.",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Descarga la demo",
+          "description": "La demo está disponible en PC a través de Steam, PlayStation 5 y Xbox Series X|S.",
+          "detail": "La demo para PC se lanzó a través del Steam Next Fest, mientras que el acceso a la demo para consolas incluye PS5 y Xbox Series X|S."
+        },
+        {
+          "step": 2,
+          "title": "Juega la fase beta",
+          "description": "La demo permite a los jugadores experimentar la fase beta de la historia con cinco misiones completas.",
+          "detail": "Esto ofrece a los jugadores un vistazo anticipado a los entornos de Aincrad, el flujo de las misiones y la estructura del combate."
+        },
+        {
+          "step": 3,
+          "title": "Prueba todos los tipos de armas",
+          "description": "Se pueden probar todos los tipos de armas en la demo.",
+          "detail": "Los jugadores pueden usar la demo para comparar la sensación de cada arma antes de elegir un estilo de juego principal en el juego completo."
+        },
+        {
+          "step": 4,
+          "title": "Actualiza el juego completo",
+          "description": "Para transferir los datos de guardado de la demo, el juego completo debe actualizarse a la última versión.",
+          "detail": "Conéctate a la red e instala la última actualización antes de iniciar el proceso de transferencia."
+        },
+        {
+          "step": 5,
+          "title": "Inicia la versión completa",
+          "description": "Inicia el juego completo y confirma los acuerdos requeridos.",
+          "detail": "Cuando se detecten datos de guardado de la demo, elige \"Carry over\" en el aviso."
+        },
+        {
+          "step": 6,
+          "title": "Confirma la transferencia",
+          "description": "En la pantalla de confirmación de transferencia, mantén presionado Confirmar. Una vez completada la transferencia, selecciona Cerrar, luego elige Iniciar juego en la pantalla de título.",
+          "detail": "Se transferirán todas las ranuras de datos de guardado de la demo."
+        },
+        {
+          "step": 7,
+          "title": "Carga la partida guardada transferida",
+          "description": "Después de la transferencia, carga los datos de guardado de la demo desde la pantalla de selección de datos de guardado.",
+          "detail": "La transferencia solo funciona entre la misma plataforma, y los datos de guardado de la demo no deben eliminarse del dispositivo antes de la transferencia."
+        },
+        {
+          "step": 8,
+          "title": "Conoce la limitación del Death Game",
+          "description": "Los datos de guardado transferidos de la demo no se pueden cambiar al Death Game Mode.",
+          "detail": "Si el Death Game Mode está desbloqueado, se podrá seleccionar al crear un segundo archivo de guardado o posterior."
+        }
+      ]
+    },
+    "echoesEditionsAndPreOrderBonus": {
+      "title": "Ediciones y bonificaciones por reserva de Echoes of Aincrad",
+      "eyebrow": "Ediciones y bonificaciones",
+      "intro": "Echoes of Aincrad se vende en las ediciones Standard, Deluxe y Ultimate. Todas las reservas incluyen el Proto-Elucidator Series Weapon Pack, mientras que las ediciones Deluxe y Ultimate añaden el Expansion DLC Pass, el Starter Pack y el Death Game Mode Early Unlock.",
+      "columns": {
+        "edition": "Edición",
+        "steamPriceUsd": "Precio en Steam",
+        "baseGame": "Juego base",
+        "expansionDlcPass": "Expansion DLC Pass",
+        "starterPack": "Starter Pack",
+        "deathGameModeEarlyUnlock": "Desbloqueo anticipado del modo Death Game",
+        "bonusContentsApp": "Aplicación de contenido adicional",
+        "armorPack": "Pack de armaduras",
+        "preOrderBonus": "Bonificación por reserva"
+      },
+      "rows": [
+        {
+          "edition": "Edición estándar",
+          "steamPriceUsd": "$69.99",
+          "baseGame": "Incluido",
+          "expansionDlcPass": "No incluido",
+          "starterPack": "No incluido",
+          "deathGameModeEarlyUnlock": "No incluido",
+          "bonusContentsApp": "No incluido",
+          "armorPack": "No incluido",
+          "preOrderBonus": "Pack de armas de la serie Proto-Elucidator"
+        },
+        {
+          "edition": "Edición Deluxe",
+          "steamPriceUsd": "$89.99",
+          "baseGame": "Incluido",
+          "expansionDlcPass": "Incluido; programado para el 31 de diciembre de 2026",
+          "starterPack": "Incluido; 50 000 Col, 10 pociones de curación alta, 10 pociones de SP alta y 10 cristales místicos",
+          "deathGameModeEarlyUnlock": "Incluido",
+          "bonusContentsApp": "No incluido",
+          "armorPack": "No incluido",
+          "preOrderBonus": "Pack de armas de la serie Proto-Elucidator"
+        },
+        {
+          "edition": "Edición Ultimate",
+          "steamPriceUsd": "$109.99",
+          "baseGame": "Incluido",
+          "expansionDlcPass": "Incluido; programado para el 31 de diciembre de 2026",
+          "starterPack": "Incluido; 50 000 Col, 10 pociones de curación alta, 10 pociones de SP alta y 10 cristales místicos",
+          "deathGameModeEarlyUnlock": "Incluido",
+          "bonusContentsApp": "Incluido; vídeo especial Unanswered//butterfly, banda sonora digital de 141 pistas y libro de ilustraciones digital de 640 páginas",
+          "armorPack": "Incluido; Botas Flutter y Túnicas Flutter",
+          "preOrderBonus": "Pack de armas de la serie Proto-Elucidator"
+        },
+        {
+          "edition": "Bonificación por reserva",
+          "steamPriceUsd": "Incluido con la reserva",
+          "baseGame": "Requiere cualquier edición reservada",
+          "expansionDlcPass": "Depende de la edición",
+          "starterPack": "Depende de la edición",
+          "deathGameModeEarlyUnlock": "Depende de la edición",
+          "bonusContentsApp": "Depende de la edición",
+          "armorPack": "Depende de la edición",
+          "preOrderBonus": "Incluye seis tipos de armas Proto-Elucidator, un escudo y los planos correspondientes para fabricar copias adicionales"
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Preguntas",
+    "titleHighlight": "frecuentes",
+    "subtitle": "Todo lo que necesitas saber sobre Echoes of Aincrad",
+    "questions": [
+      {
+        "question": "¿Qué es Echoes of Aincrad?",
+        "answer": "Echoes of Aincrad es un JRPG de acción de SAO para un solo jugador desarrollado por Bandai Namco y Game Studio Inc., que se lanzará el 10 de julio de 2026 en PS5, Xbox Series X|S y Steam."
+      },
+      {
+        "question": "¿Hay una demo de Echoes of Aincrad?",
+        "answer": "Sí. La demo de Echoes of Aincrad cubre la fase beta de la historia con cinco misiones completas y todos los tipos de armas, disponible en PC, PS5 y Xbox Series X|S."
+      },
+      {
+        "question": "¿Se transfieren los datos de guardado de la demo de Echoes of Aincrad?",
+        "answer": "Sí. Los datos de guardado de la demo de Echoes of Aincrad se pueden transferir al juego completo en la misma plataforma tras actualizar e iniciar la versión completa, pero no se pueden cambiar al Death Game Mode."
+      },
+      {
+        "question": "¿Qué es el Death Game Mode en Echoes of Aincrad?",
+        "answer": "El Death Game Mode es el modo opcional de alto riesgo en Echoes of Aincrad donde la derrota borra el archivo de guardado del personaje. Los propietarios de la Deluxe y Ultimate Edition pueden desbloquearlo anticipadamente para una partida de una sola vida desde el primer recorrido."
+      },
+      {
+        "question": "¿Qué armas hay en Echoes of Aincrad?",
+        "answer": "Echoes of Aincrad tiene seis tipos de armas: Espada y escudo, Hacha a dos manos, Daga, Estoque, Espada a dos manos y Maza. Espada y escudo es la opción más segura para principiantes."
+      },
+      {
+        "question": "¿Está Echoes of Aincrad en Steam Deck o Switch?",
+        "answer": "Echoes of Aincrad no figura oficialmente para Nintendo Switch. El soporte para Steam Deck no está confirmado por las especificaciones oficiales, por lo que los jugadores deben consultar la página de la tienda de Steam antes de comprar."
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para entrar en Aincrad?",
+    "description": "Únete a la comunidad de Echoes of Aincrad en Discord para noticias sobre el lanzamiento, guías de la demo, builds y consejos para el Death Game Mode.",
+    "joinCommunity": "Unirse a Discord",
+    "joinGame": "Jugar en Steam"
+  },
+  "footer": {
+    "title": "Wiki de Echoes of Aincrad",
+    "description": "Tu centro de recursos completo para el lanzamiento, demo, builds, armas, personajes, ubicaciones, Death Game Mode y requisitos de PC de Echoes of Aincrad.",
+    "resources": "Recursos",
+    "community": "Comunidad",
+    "legal": "Legal",
+    "discord": "Discord",
+    "twitter": "X / Twitter",
+    "reddit": "Reddit",
+    "steamStore": "Tienda de Steam",
+    "about": "Acerca de",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Echoes of Aincrad Wiki. No está afiliado a Bandai Namco Entertainment ni a los desarrolladores de Echoes of Aincrad.",
+    "disclaimer": "Sitio web de recursos no oficial creado por fans."
+  },
+  "pages": {
+    "release": {
+      "title": "Lanzamiento de Echoes of Aincrad",
+      "description": "Sigue la fecha de lanzamiento de Echoes of Aincrad, los horarios de lanzamiento global, la disponibilidad de plataformas, las ediciones y el calendario de precarga para este JRPG de acción de SAO.",
+      "metaTitle": "Lanzamiento de Echoes of Aincrad: fecha de lanzamiento, plataformas y ediciones",
+      "metaDescription": "Obtén la fecha oficial de lanzamiento de Echoes of Aincrad, los horarios de lanzamiento global, las plataformas compatibles, las ediciones y la información de precarga para este JRPG de acción de SAO.",
+      "categoryLabel": "LANZAMIENTO",
+      "whatIs": "¿Qué es el lanzamiento de Echoes of Aincrad?",
+      "whatIsDescription": "Echoes of Aincrad es un JRPG de acción de SAO para un jugador que se lanzará a nivel mundial el 10 de julio de 2026 para PS5, Xbox Series X|S y Steam. Esta sección cubre la fecha de lanzamiento oficial, las horas de desbloqueo regional, las ediciones disponibles y los periodos de precarga para que sepas exactamente cuándo y dónde empezar a jugar.",
+      "why": "¿Por qué consultar la guía de lanzamiento?",
+      "whySteps": {
+        "step1Title": "Fecha de lanzamiento confirmada",
+        "step1Description": "Asegura la fecha de lanzamiento global del 10 de julio de 2026 y las horas de desbloqueo regional para que puedas empezar a jugar en el momento en que el juego esté disponible.",
+        "step2Title": "Disponibilidad de plataformas",
+        "step2Description": "Mira qué plataformas son compatibles con Echoes of Aincrad, incluyendo PS5, Xbox Series X|S y Steam, y elige la adecuada para tu equipo.",
+        "step3Title": "Ediciones y precarga",
+        "step3Description": "Compara las ediciones y los horarios de precarga para asegurar las bonificaciones e instalar el juego antes del lanzamiento."
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todos los artículos de lanzamiento"
+    },
+    "demo": {
+      "title": "Demo de Echoes of Aincrad",
+      "description": "Descarga la demo de Echoes of Aincrad, conoce los límites de contenido de la prueba, los pasos para la transferencia de datos guardados y las plataformas compatibles antes del lanzamiento completo.",
+      "metaTitle": "Demo de Echoes of Aincrad: guía de descarga, transferencia de datos guardados y prueba",
+      "metaDescription": "Juega a la demo de Echoes of Aincrad en PS5, Xbox y Steam. Conoce el contenido de la prueba, la duración de la demo, la transferencia de datos guardados y qué se transfiere al juego completo.",
+      "categoryLabel": "DEMO",
+      "whatIs": "¿Qué es la demo de Echoes of Aincrad?",
+      "whatIsDescription": "La demo de Echoes of Aincrad es una prueba jugable gratuita que te permite experimentar el inicio del JRPG de acción de SAO antes del lanzamiento. Está disponible en PS5, Xbox Series X|S y Steam, y es compatible con la transferencia de datos guardados para que el progreso realizado en la demo se pueda trasladar al juego completo.",
+      "why": "¿Por qué jugar a la demo?",
+      "whySteps": {
+        "step1Title": "Pruébalo antes del lanzamiento",
+        "step1Description": "Experimenta los primeros pisos, el combate y las Sword Skills de primera mano para decidir si el juego completo es de tu agrado.",
+        "step2Title": "Transfiere tu progreso",
+        "step2Description": "Transfiere los datos guardados de tu demo a la versión completa para mantener tus niveles, objetos y progreso de la historia desde el primer día.",
+        "step3Title": "Planifica tu build",
+        "step3Description": "Prueba los tipos de armas y la sinergia con tu compañero desde el principio para empezar con buen pie en cuanto se desbloquee el juego completo."
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todos los artículos de la demo"
+    },
+    "guide": {
+      "title": "Guía de Echoes of Aincrad",
+      "description": "Domina Echoes of Aincrad con guías sobre la jugabilidad, los pisos, la exploración del mapa, el progreso de la historia, los sistemas de guardado y el tiempo necesario para completar este JRPG de SAO.",
+      "metaTitle": "Guía de Echoes of Aincrad: recorrido, pisos, mapa e historia",
+      "metaDescription": "Guía completa de Echoes of Aincrad que cubre la jugabilidad, los pisos de Aincrad, la exploración del mapa, la historia, los sistemas de guardado y el tiempo necesario para completar este JRPG de SAO.",
+      "categoryLabel": "GUÍA",
+      "whatIs": "¿Qué es la guía de Echoes of Aincrad?",
+      "whatIsDescription": "La guía de Echoes of Aincrad cubre los sistemas de juego principales, el progreso por los pisos de Aincrad, la exploración del mapa, los puntos clave de la historia y mecánicas esenciales como guardar la partida y cerrar sesión. Te ayuda a navegar por el castillo flotante, completar misiones y sobrevivir al Death Game Mode.",
+      "why": "¿Por qué usar la guía?",
+      "whySteps": {
+        "step1Title": "Progreso por los pisos",
+        "step1Description": "Descubre cómo funcionan los pisos de Aincrad, cuántos hay y la mejor ruta para ascender de manera eficiente.",
+        "step2Title": "Mapa y exploración",
+        "step2Description": "Encuentra ciudades, mazmorras y puntos de interés ocultos en cada piso sin tener que volver sobre tus pasos.",
+        "step3Title": "Sistemas principales",
+        "step3Description": "Comprende el guardado, el cierre de sesión y otras mecánicas esenciales para no perder nunca tu progreso."
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todos los artículos de la guía"
+    },
+    "platforms": {
+      "title": "Plataformas de Echoes of Aincrad",
+      "description": "Consulta la compatibilidad de Echoes of Aincrad para PS5, Xbox Series X|S, Steam, requisitos de PC, estado en Steam Deck y rendimiento en consolas.",
+      "metaTitle": "Plataformas de Echoes of Aincrad: PS5, Xbox, Steam y requisitos de PC",
+      "metaDescription": "Mira qué plataformas son compatibles con Echoes of Aincrad, incluyendo PS5, Xbox Series X|S, Steam, requisitos del sistema para PC y compatibilidad con Steam Deck.",
+      "categoryLabel": "PLATAFORMAS",
+      "whatIs": "¿En qué plataformas está disponible Echoes of Aincrad?",
+      "whatIsDescription": "Echoes of Aincrad está disponible en PS5, Xbox Series X|S y Steam (PC). Esta sección detalla la compatibilidad de plataformas, requisitos del sistema para PC, estado en Steam Deck y rendimiento en consolas para que elijas la mejor forma de jugar este JRPG de acción de SAO.",
+      "why": "¿Por qué consultar la información de las plataformas?",
+      "whySteps": {
+        "step1Title": "Elige tu plataforma",
+        "step1Description": "Compara las versiones de PS5, Xbox Series X|S y Steam para elegir la plataforma que mejor se adapte a tu hardware y hábitos.",
+        "step2Title": "Requisitos de PC",
+        "step2Description": "Verifica las especificaciones mínimas y recomendadas para PC para que el juego funcione con fluidez en tu equipo.",
+        "step3Title": "Estado en consolas portátiles",
+        "step3Description": "Consulta la compatibilidad con Steam Deck y Switch antes de planificar tus sesiones de juego portátiles."
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todos los artículos de plataformas"
+    },
+    "creation": {
+      "title": "Creación de personajes en Echoes of Aincrad",
+      "description": "Crea a tu héroe en Echoes of Aincrad con opciones de creación de personajes, personalización de apariencia, elección de género y cómo cambiar de aspecto más adelante.",
+      "metaTitle": "Creación de personajes de Echoes of Aincrad: Héroe personalizado y apariencia",
+      "metaDescription": "Aprende sobre la creación de personajes en Echoes of Aincrad: opciones de héroe personalizado, personalización de apariencia, jugar como mujer y cambiar tu aspecto más adelante en este JRPG de SAO.",
+      "categoryLabel": "CREACIÓN",
+      "whatIs": "¿Qué es la creación de personajes de Echoes of Aincrad?",
+      "whatIsDescription": "Echoes of Aincrad te permite crear tu propio héroe con apariencia, género y aspecto inicial personalizables. Esta sección cubre todas las opciones de creación, si puedes jugar como mujer y cómo cambiar tu apariencia después de que comience la historia.",
+      "why": "¿Por qué planificar tu personaje?",
+      "whySteps": {
+        "step1Title": "Héroe personalizado",
+        "step1Description": "Diseña un protagonista que se ajuste a tu visión con opciones de apariencia, género y estilo al inicio.",
+        "step2Title": "Control de apariencia",
+        "step2Description": "Conoce exactamente qué rasgos puedes ajustar y si puedes cambiarlos más adelante.",
+        "step3Title": "Ajuste de rol",
+        "step3Description": "Adapta el aspecto de tu héroe a tu configuración y estilo de juego para una experiencia más inmersiva en Aincrad."
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todos los artículos de creación"
+    },
+    "multiplayer": {
+      "title": "Multijugador de Echoes of Aincrad",
+      "description": "Descubre si Echoes of Aincrad tiene multijugador, cooperativo, funciones en línea, juego cruzado o PvP, y cómo este JRPG de SAO para un solo jugador gestiona las funciones online.",
+      "metaTitle": "Multijugador de Echoes of Aincrad: Cooperativo, Online, Juego cruzado y PvP",
+      "metaDescription": "¿Tiene Echoes of Aincrad multijugador? Infórmate sobre el cooperativo, los modos en línea, el juego cruzado y el soporte de PvP en este JRPG de acción de SAO para un solo jugador.",
+      "categoryLabel": "MULTIJUGADOR",
+      "whatIs": "¿Es Echoes of Aincrad multijugador?",
+      "whatIsDescription": "Echoes of Aincrad es un JRPG de acción de SAO para un solo jugador, por lo que no cuenta con modos multijugador completo, cooperativo o PvP. Esta sección aclara qué funciones en línea existen, si se admite el juego cruzado y cómo los personajes acompañantes llenan el rol del grupo dentro de la campaña en solitario.",
+      "why": "¿Por qué consultar la información de multijugador?",
+      "whySteps": {
+        "step1Title": "Enfoque en un solo jugador",
+        "step1Description": "Confirma que Echoes of Aincrad está diseñado como una experiencia JRPG en solitario para que sepas qué esperar antes de comprarlo.",
+        "step2Title": "Funciones en línea",
+        "step2Description": "Comprende qué funciones en línea están disponibles y cómo afectan a tu partida.",
+        "step3Title": "Sistema de acompañantes",
+        "step3Description": "Descubre cómo los personajes acompañantes de la IA llenan el rol del grupo en lugar de compañeros de juego cooperativo humanos."
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todos los artículos de multijugador"
+    },
+    "weapons": {
+      "title": "Armas de Echoes of Aincrad",
+      "description": "Domina cada tipo de arma en Echoes of Aincrad, incluyendo Sword Skills, rutas de mejora y las mejores armas para cada build en este JRPG de SAO.",
+      "metaTitle": "Armas de Echoes of Aincrad - Tipos de armas, habilidades y mejoras",
+      "metaDescription": "Explora todos los tipos de armas de Echoes of Aincrad, sus Sword Skills, rutas de mejora y las mejores armas para cada build en este JRPG de acción de SAO.",
+      "categoryLabel": "ARMAS",
+      "whatIs": "¿Qué son las armas de Echoes of Aincrad?",
+      "whatIsDescription": "Echoes of Aincrad cuenta con múltiples tipos de armas, cada uno con sus propios Sword Skills, patrones de ataque y rutas de mejora. Esta sección detalla cada categoría de armas para que puedas elegir el arsenal adecuado para tu build y dominar el combate de Aincrad.",
+      "why": "¿Por qué estudiar las armas?",
+      "whySteps": {
+        "step1Title": "Tipos de armas",
+        "step1Description": "Compara el conjunto de movimientos y Sword Skills de cada tipo de arma para encontrar el que se adapte a tu estilo de juego.",
+        "step2Title": "Rutas de mejora",
+        "step2Description": "Descubre en qué armas invertir y cómo mejorarlas de manera eficiente a medida que asciendes por Aincrad.",
+        "step3Title": "Sinergia de build",
+        "step3Description": "Combina el arma adecuada con tus estadísticas y tu acompañante para infligir el máximo daño en los combates contra jefes."
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todos los artículos de armas"
+    }
   }
 }

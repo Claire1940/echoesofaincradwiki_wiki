@@ -7,28 +7,26 @@ export const dynamic = 'force-static'
 
 const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.echoesofaincradwiki.wiki'
 
-// 内容类型优先级配置
+// 内容类型优先级配置（与 navigation.ts CONTENT_TYPES 一致：release/demo/guide/platforms/creation/multiplayer/weapons）
 const contentTypePriority: Record<string, number> = {
-	'guides': 0.9,
-	'crafting': 0.9,
-	'biomes': 0.8,
-	'creatures': 0.8,
-	'items': 0.8,
-	'achievements': 0.7,
-	'lore': 0.7,
-	'support': 0.6,
+	'release': 0.9,
+	'demo': 0.9,
+	'guide': 0.8,
+	'platforms': 0.8,
+	'creation': 0.7,
+	'multiplayer': 0.7,
+	'weapons': 0.8,
 }
 
 // 内容更新频率配置
 const contentTypeChangeFrequency: Record<string, 'daily' | 'weekly' | 'monthly'> = {
-	'guides': 'weekly',
-	'crafting': 'weekly',
-	'biomes': 'weekly',
-	'creatures': 'weekly',
-	'items': 'weekly',
-	'achievements': 'monthly',
-	'lore': 'monthly',
-	'support': 'monthly',
+	'release': 'daily',
+	'demo': 'daily',
+	'guide': 'weekly',
+	'platforms': 'monthly',
+	'creation': 'monthly',
+	'multiplayer': 'monthly',
+	'weapons': 'weekly',
 }
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {

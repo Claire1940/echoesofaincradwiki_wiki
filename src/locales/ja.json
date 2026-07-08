@@ -1,11 +1,802 @@
 {
+  "seo": {
+    "home": {
+      "title": "Echoes of Aincrad Wiki - 体験版、ビルド＆リリース",
+      "description": "Echoes of Aincrad Wikiでは、発売日、体験版ガイド、ビルド、武器、キャラクター、ロケーション、デスゲームモード、各エディション、およびPC動作環境について紹介しています。",
+      "keywords": "Echoes of Aincrad, SAO, Steam, PS5, Xbox, 体験版, ビルド, 武器",
+      "ogTitle": "Echoes of Aincrad Wiki - 体験版、ビルド＆リリース",
+      "ogDescription": "Echoes of Aincrad Wikiでは、発売日、体験版ガイド、ビルド、武器、キャラクター、ロケーション、デスゲームモード、各エディション、およびPC動作環境について紹介しています。",
+      "twitterTitle": "Echoes of Aincrad Wiki - 体験版、ビルド＆リリース",
+      "twitterDescription": "Echoes of Aincrad Wikiでは、このSAOアクションJRPGの発売日、体験版、ビルド、武器、キャラクター、デスゲームモード、およびPC動作環境について紹介しています。"
+    }
+  },
   "nav": {
-    "release": "Release",
-    "demo": "Demo",
-    "guide": "Guide",
-    "platforms": "Platforms",
-    "creation": "Creation",
-    "multiplayer": "Multiplayer",
-    "weapons": "Weapons"
+    "release": "リリース",
+    "demo": "体験版",
+    "guide": "ガイド",
+    "platforms": "プラットフォーム",
+    "creation": "作成",
+    "multiplayer": "マルチプレイ",
+    "weapons": "武器"
+  },
+  "common": {
+    "home": "ホーム",
+    "more": "その他",
+    "playNow": "Steamでプレイ",
+    "switchLanguage": "言語を切り替える",
+    "switchTheme": "テーマを切り替える",
+    "lightMode": "ライトモード",
+    "darkMode": "ダークモード",
+    "notFound": "ページが見つかりません",
+    "notFoundDescription": "お探しのページは存在しません。",
+    "backToHome": "ホームに戻る",
+    "relatedArticles": "関連記事",
+    "readMore": "続きを読む",
+    "articlesComingSoon": "記事は近日公開予定"
+  },
+  "hero": {
+    "badge": "シングルプレイSAOアクションJRPG",
+    "title": "Echoes of Aincrad Wiki",
+    "description": "自分だけの主人公を作成し、アインクラッドを探索し、武器とソードスキルを極め、パートナーとのシナジーを築き、クエストをクリアし、ボスと戦い、デスゲームモードを生き残れ。",
+    "getFreeCodesCTA": "体験版ガイドを見る",
+    "playOnSteamCTA": "Steamでプレイ",
+    "stats": {
+      "stat1": {
+        "value": "2026年7月10日",
+        "label": "世界同時発売"
+      },
+      "stat2": {
+        "value": "PS5 / Xbox / Steam",
+        "label": "プラットフォーム"
+      },
+      "stat3": {
+        "value": "3.70/5",
+        "label": "PS Store 評価"
+      },
+      "stat4": {
+        "value": "配信中",
+        "label": "体験版"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Echoes of Aincrad ゲームプレイ",
+    "description": "自分だけのSAOヒーローを作成し、6種類の武器種とソードスキルを極め、パートナーとのシナジーを築き、PS5、Xbox、Steamで展開されるこのシングルプレイのアクションJRPGでデスゲームモードを生き残れ。"
+  },
+  "tools": {
+    "title": "Echoes of Aincrad",
+    "titleHighlight": "ガイド",
+    "subtitle": "Echoes of Aincradのリリース、体験版、武器、戦闘、キャラクター、そしてデスゲームモードに関する必要な情報のすべて。",
+    "cards": [
+      {
+        "icon": "CalendarCheck",
+        "title": "発売日＆対応プラットフォーム",
+        "description": "発売日、PS5、Xbox、Steam、およびプリロード情報"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "初心者ガイド",
+        "description": "序盤のチェックリスト、ステータス、パートナー、および装備"
+      },
+      {
+        "icon": "Swords",
+        "title": "武器ティアリスト",
+        "description": "初心者向けに全6種類の武器種をランク付け"
+      },
+      {
+        "icon": "Zap",
+        "title": "戦闘＆ボスガイド",
+        "description": "スタミナ、SP、ソードスキル、およびボス攻略の準備"
+      },
+      {
+        "icon": "Users",
+        "title": "キャラクター＆パートナー",
+        "description": "アバター作成、パートナースキル、および戦術"
+      },
+      {
+        "icon": "Skull",
+        "title": "デスゲームモード",
+        "description": "永久死（パーマデス）のルール、解放条件、および生存のコツ"
+      },
+      {
+        "icon": "Download",
+        "title": "体験版＆セーブデータ引き継ぎ",
+        "description": "体験版ミッション、武器、およびセーブデータの引き継ぎ"
+      },
+      {
+        "icon": "Crown",
+        "title": "エディション＆予約特典",
+        "description": "スタンダード、デラックス、アルティメット、および特典"
+      }
+    ]
+  },
+  "modules": {
+    "echoesReleaseDateAndPlatforms": {
+      "title": "Echoes of Aincrad 発売日、プラットフォーム、およびプリロード",
+      "eyebrow": "リリース情報",
+      "intro": "Echoes of Aincradは、2026年7月にPlayStation 5、Xbox Series X|S、およびPC向けに発売予定です。コンソール版とSteam版のリリース時間は地域によって異なり、プリロードへの対応もプラットフォームごとに異なります。",
+      "items": [
+        {
+          "label": "公式発売日",
+          "value": "2026年7月10日",
+          "detail": "バンダイナムコは、Echoes of Aincradの全対応プラットフォームにおける公式発売日を2026年7月10日としています。"
+        },
+        {
+          "label": "Steam版のリリース表記",
+          "value": "2026年7月9日",
+          "detail": "Steamストアページに2026年7月9日と記載されているのは、PDT（太平洋夏時間）やEDT（東部夏時間）を含む一部の地域で、PC版の解禁時間が7月9日にあたるためです。"
+        },
+        {
+          "label": "対応プラットフォーム",
+          "value": "PS5, Xbox Series X|S, PC",
+          "detail": "本作は発売時にPlayStation 5、Xbox Series X|S、およびSteam経由のPC（デジタル版）で利用可能です。"
+        },
+        {
+          "label": "Nintendo Switchへの対応",
+          "value": "非対応",
+          "detail": "『Echoes of Aincrad』は、発売時点ではNintendo SwitchおよびSwitch 2でのリリース予定はありません。"
+        },
+        {
+          "label": "コンソール版リリースの例",
+          "value": "多くの地域で現地時間の深夜0時",
+          "detail": "例：CEST、EDT、BSTでは7月10日00:00、CST、JST、KSTでは7月9日00:00。"
+        },
+        {
+          "label": "Steam版リリースの例",
+          "value": "地域ごとのSteam解禁時間",
+          "detail": "例：PDT 7月9日15:00、EDT 7月9日18:00、BST 7月9日23:00、CST 7月10日06:00、JST/KST 7月10日07:00。"
+        },
+        {
+          "label": "PS5のプリロード",
+          "value": "利用可能",
+          "detail": "PS版のプリロードは、日本・アジア地域では現地時間7月7日00:00、欧州・米国地域では現地時間7月8日00:00に開始されます。"
+        },
+        {
+          "label": "XboxおよびSteamのプリロード",
+          "value": "Xboxは利用可能、Steamは利用不可",
+          "detail": "Xboxのプリロードは、JST 7月7日09:00 / CEST 2:00 / PDT 7月6日17:00に開始されます。Steamのプリロードは利用できません。"
+        }
+      ]
+    },
+    "echoesBeginnerGuide": {
+      "title": "『Echoes of Aincrad』初心者ガイド：序盤のチェックリスト",
+      "eyebrow": "初心者ガイド",
+      "intro": "『Echoes of Aincrad』は、浮遊城内でのサバイバル、探索、そしてリアルタイム戦闘から始まります。序盤をスムーズに進めるには、武器、Sword Skills、Growth Points、Cardinal Rank、パートナー、アイテム、そしてダンジョンへの準備を理解することが重要です。",
+      "steps": [
+        {
+          "step": 1,
+          "title": "アバターを作成してAincradへ",
+          "description": "まずは髪型、肌の色、体型などのカスタマイズオプションでプレイヤーキャラクターを設定しましょう。本作は、既存のSword Art Onlineキャラクターを操作するだけでなく、自分自身のヒーローとしてプレイすることを中心に構築されています。",
+          "tip": "装備、ステータス、武器、そしてパートナーとのシナジーはすべてキャラクターを中心に成長するため、アバターを長期的なビルドのベースとして考えましょう。"
+        },
+        {
+          "step": 2,
+          "title": "武器をクラスとして活用する",
+          "description": "武器タイプは、Sword and Shield、Two-Handed Axe、Dagger、Rapier、Two-Handed Sword、Maceの6種類です。武器を使用するとWeapon Expを獲得し、Sword Skillsが解放され、一度に最大3つのSword Skillsを装備できます。",
+          "tip": "最初は最も安定感のあるSword and Shieldで操作に慣れ、クエストの合間に素早い武器や重量級の武器を試してみるのがおすすめです。"
+        },
+        {
+          "step": 3,
+          "title": "Growth Pointsを適切なステータスに振り分ける",
+          "description": "レベルアップで獲得できるGrowth Pointsは、宿屋の自室で使用可能です。Strength、Dexterity、Agility、Intelligenceは武器スキルのダメージに影響し、Vitality、Endurance、MindはHealth Points、Stamina Points、SP関連の性能を向上させます。",
+          "tip": "ポイントをランダムに振り分けるのではなく、装備している武器に合ったステータスを上げましょう。"
+        },
+        {
+          "step": 4,
+          "title": "Cardinal Rankを慎重に上げる",
+          "description": "Cardinal Rankは総合的な習熟度を示し、商人から購入できるものや鍛冶屋で作成できるものに影響します。また、モンスターの難易度がある程度上昇する代わりに、ドロップアイテムが良くなり、パートナーの能力も向上します。",
+          "tip": "Cardinal Rankが上がったら、次のクエストに挑む前に武器を強化し、Growth Pointsを消費しておきましょう。"
+        },
+        {
+          "step": 5,
+          "title": "マップ、チェックポイント、ダンジョンの探索",
+          "description": "新しいクエストやダンジョンでは、探索によってマップを明らかにする必要があります。チェックポイントを起動すると、宝箱、隠しルート、封印されたショートカット、特殊なギミックなど、周囲の注目ポイントが表示されます。",
+          "tip": "危険な戦闘に挑む前に、早めにチェックポイントを起動して宝箱やショートカットを見つけておきましょう。"
+        },
+        {
+          "step": 6,
+          "title": "街を出る前にアイテムを準備する",
+          "description": "Town of Beginningsには商人や製作施設があります。Colでアイテムを購入したり、回復ポーションを製作したり、フィールドの素材を使用したり、戦闘や環境干渉に使える地雷などの特殊な道具を準備したりできます。",
+          "tip": "ボス戦が始まるとエリアから出られなくなることがあるため、長いクエストの前には回復アイテムを補充しておきましょう。"
+        },
+        {
+          "step": 7,
+          "title": "クエストごとにパートナーを選択する",
+          "description": "パートナーはクエスト中に同行し、独自の戦闘スタイル、Support Skills、Combination Skillsを駆使します。パートナーは回復、バフ、敵の妨害を行ったり、強力な連携攻撃に参加したりしてくれます。",
+          "tip": "体勢を立て直したいときはSwitch Mode、一気に敵を倒したいときはFree Modeを活用しましょう。"
+        },
+        {
+          "step": 8,
+          "title": "鍛冶屋で装備を強化・カスタマイズする",
+          "description": "鍛冶屋では、レシピから武器や防具を作成したり、武器パラメータを強化したり、同系統の武器を合成してEX-MOD効果を構築したりできます。EX-MODは、スタミナ消費の軽減や通常攻撃ダメージの向上といったメリットをもたらします。",
+          "tip": "メインの武器種を強化し続けつつ、有用なEX-MODは将来のビルドのために取っておきましょう。"
+        }
+      ]
+    },
+    "echoesWeaponsTierList": {
+      "title": "Echoes of Aincrad 最強武器ティアリスト",
+      "eyebrow": "武器ティアリスト",
+      "intro": "Echoes of Aincradにおいて、武器はクラス（職業）のような役割を果たします。武器種ごとに攻撃スタイル、ソードスキルの使用感、盾の有無、リスクの高さが異なるため、安全性、スピード、怯み、高火力のどれを重視するかによって最適な武器が決まります。",
+      "tiers": [
+        {
+          "tier": "Sティア",
+          "summary": "初心者にとって最高の安全性と、最も扱いやすい最初の選択肢。",
+          "weapons": [
+            {
+              "name": "片手剣と盾",
+              "role": "バランスの取れた初期武器",
+              "shieldAccess": "あり",
+              "mobility": "バランス",
+              "damageStyle": "攻守のバランス",
+              "bossUsefulness": "高い",
+              "reason": "チュートリアルでの初期武器であり、攻撃と防御の両方の選択肢があるため、序盤で最も安全な選択です。盾を装備して身を守ることも、盾を外してリスクはあるものの素早い動きをすることも可能です。"
+            }
+          ]
+        },
+        {
+          "tier": "Aティア",
+          "summary": "明確な戦闘役割と、長期的な価値を持つ強力な選択肢。",
+          "weapons": [
+            {
+              "name": "細剣",
+              "role": "素早いリーチと連続攻撃",
+              "shieldAccess": "あり",
+              "mobility": "高い",
+              "damageStyle": "流れるような攻撃、チェイン、カウンター",
+              "bossUsefulness": "高い",
+              "reason": "細剣は長いリーチと流れるようなスタイルを持つ軽量武器です。連続攻撃やカウンターが可能で、盾を併用することもできるため、防御を捨てずにスピードを求めるプレイヤーにとって強力な武器となります。"
+            },
+            {
+              "name": "片手棍",
+              "role": "怯みとガード崩し",
+              "shieldAccess": "あり",
+              "mobility": "中",
+              "damageStyle": "重い一撃、ガード崩し、怯み、ノックダウン",
+              "bossUsefulness": "高い",
+              "reason": "片手棍はガードを崩し、標的を怯ませ、ノックダウンさせることに特化しているため、強敵に対して真価を発揮します。盾を装備できることで、他の重量系武器よりも安全性が高いのも特徴です。"
+            }
+          ]
+        },
+        {
+          "tier": "Bティア",
+          "summary": "強力だが扱いが難しく、敵のタイミングを覚えてから真価を発揮する。",
+          "weapons": [
+            {
+              "name": "短剣",
+              "role": "素早い近接攻撃によるプレッシャー",
+              "shieldAccess": "なし",
+              "mobility": "非常に高い",
+              "damageStyle": "素早い攻撃、短いリーチ、平均ダメージは低め、特定のソードスキルによる投擲が可能",
+              "bossUsefulness": "中",
+              "reason": "短剣は軽量で高速ですが、リーチが短く盾を装備できないため、立ち回りが重要になります。スピードと絶え間ない攻勢を好むプレイヤーに適しています。"
+            },
+            {
+              "name": "両手剣",
+              "role": "チャージによる大ダメージ",
+              "shieldAccess": "なし",
+              "mobility": "低～中",
+              "damageStyle": "高威力のチャージ攻撃",
+              "bossUsefulness": "中～高",
+              "reason": "両手剣は攻撃をチャージしてより大きなダメージを与えることができますが、盾を使用できず、回避行動がローリングに変化します。タイミングの取り方は報われますが、初心者にはやや扱いづらい武器です。"
+            },
+            {
+              "name": "両手斧",
+              "role": "攻撃的な範囲ダメージ",
+              "shieldAccess": "なし",
+              "mobility": "低",
+              "damageStyle": "遅めの攻撃、長いリーチ、および範囲攻撃によるプレッシャー",
+              "bossUsefulness": "中",
+              "reason": "両手斧は強力な攻撃と範囲攻撃に特化していますが、スイングのタイミングを誤ると隙が生じてしまいます。敵のリーチ、ボスの攻撃の隙、スタミナ管理を把握してから使用するのが望ましいでしょう。"
+            }
+          ]
+        }
+      ]
+    },
+    "echoesCombatAndBossGuide": {
+      "title": "Echoes of Aincrad 戦闘＆ボスガイド",
+      "eyebrow": "戦闘ガイド",
+      "intro": "Echoes of Aincradにおける戦闘は、リソース管理、武器の選択、パートナーとの連携、そして危険な遭遇に備えた準備を中心に構成されています。特にボス戦は、一度戦闘が始まると撤退できないため非常に重要です。",
+      "faqs": [
+        {
+          "question": "Echoes of AincradにおけるスタミナとSPの仕組みは？",
+          "answer": "攻撃、回避、盾でのガードはスタミナを消費します。ソードスキルは強力な攻撃を繰り出しますが、SPを急速に消費するため、タイミングを誤ると無防備な状態になってしまいます。",
+          "highlights": [
+            "スタミナは基本アクションを制御する",
+            "SPはソードスキルを発動させる",
+            "枯渇すると戦闘中の選択肢が制限される"
+          ]
+        },
+        {
+          "question": "Echoes of Aincradで初心者が使用すべき防御手段は？",
+          "answer": "初心者はダメージを与えることだけに頼るのではなく、まずは回避、ガード、パリィを覚えるべきです。「片手剣と盾」は攻撃と防御のバランスが良いため、基本を学ぶのに最も安全な武器です。",
+          "highlights": [
+            "盾を装備可能な武器でガードする",
+            "回避で強力な攻撃を避ける",
+            "敵の攻撃タイミングを見極めてパリィを使用する"
+          ]
+        },
+        {
+          "question": "Echoes of Aincradでソードスキルはどのように使用すべきか？",
+          "answer": "ソードスキルは武器種に紐づいた強力な攻撃ですが、SPを素早く消費します。最大3つのソードスキルを装備し、戦闘開始時に連発するのではなく、敵に隙ができたときに使用しましょう。",
+          "highlights": [
+            "各武器で武器経験値を獲得できる",
+            "武器経験値によってソードスキルが解放される",
+            "最大3つのソードスキルを装備可能"
+          ]
+        },
+        {
+          "question": "Echoes of Aincradにおける回復・サポートアイテムの仕組みは？",
+          "answer": "回復結晶は体力を回復し、セーフティエリアで補充できます。回復ポーションやその他の消耗品も長期戦をサポートするほか、地雷、爆発石、デバフアイテムはタイミングよく使用することで隙を作り出すことができます。",
+          "highlights": [
+            "回復結晶を使用して回復する",
+            "長いクエストに出発する前にポーションを携帯する",
+            "厄介な敵には地雷やデバフを使用する"
+          ]
+        },
+        {
+          "question": "Echoes of Aincradの戦闘において、パートナーはどのように貢献しますか？",
+          "answer": "各クエストでは、異なるサポートスキルとコンビネーションスキルを持つパートナーを選択できます。スイッチモードは強敵の注意をプレイヤーとパートナーの間で分散させ、フリーモードは1体のターゲットに集中攻撃したり、複数の敵を1体ずつ処理したりするのに役立ちます。",
+          "highlights": [
+            "サポートスキルは回復、バフ、または敵の弱体化を行える",
+            "コンビネーションスキルは強力な連携攻撃です",
+            "スイッチモードとフリーモードはリアルタイムで切り替え可能です"
+          ]
+        },
+        {
+          "question": "Echoes of Aincradでボスルームに入る前に何をすべきですか？",
+          "answer": "強力なボス戦の前には拠点に戻り、アイテムの補充、装備の強化、グロウポイントの消費、そして適切なパートナーの選択を行いましょう。ボス戦が始まると、プレイヤーかボスのどちらかが倒されるまで終わりません。",
+          "highlights": [
+            "ボス戦では撤退できません",
+            "入る前に回復アイテムを持ち込みましょう",
+            "パリィ、回避、そしてリバーサルスラッシュを駆使しましょう"
+          ]
+        },
+        {
+          "question": "Echoes of Aincradにおいて、戦闘前のマップ探索が重要なのはなぜですか？",
+          "answer": "チェックポイントを起動すると周囲のマップが解放され、宝箱、特殊なギミック、隠しルート、ショートカットなどの役立つポイントが表示されます。マップを把握することで無駄な戦闘を減らし、危険なエリアに備えることができます。",
+          "highlights": [
+            "チェックポイントでマップの詳細が判明します",
+            "宝箱には役立つ報酬が入っていることがあります",
+            "ショートカットや隠し通路は安全な進行を助けます"
+          ]
+        },
+        {
+          "question": "Echoes of Aincradで強敵に備えてビルドを整えるにはどうすればよいですか？",
+          "answer": "グロウポイントでステータスを強化し、コルと集めた素材でアイテムを購入または作成しましょう。鍛冶屋では武器の強化、合成、作成が可能です。EX-MODは特殊効果を付与し、好みの戦闘スタイルを構築するのに役立ちます。",
+          "highlights": [
+            "ステータスは武器の攻撃力に影響します",
+            "鍛冶屋の強化で武器が向上します",
+            "EX-MODはカスタムビルドをサポートします"
+          ]
+        }
+      ]
+    },
+    "echoesCharacterAndPartnerGuide": {
+      "title": "Echoes of Aincrad キャラクター作成＆パートナーガイド",
+      "eyebrow": "キャラクター＆パートナー",
+      "intro": "Echoes of Aincradでは、プレイヤーはカスタマイズ可能なオリジナル主人公としてSword Art Onlineの世界に入ることができます。パートナーは単なる物語の仲間ではありません。異なる武器、サポートオプション、コンボ攻撃、戦術的な行動を持ち、クエストでの生存やボスへの準備に直接影響を与えます。",
+      "cards": [
+        {
+          "title": "カスタマイズ可能な主人公",
+          "category": "アバター作成",
+          "description": "プレイヤーは既存のSAOキャラクターとしてだけでなく、自分自身のヒーローを作成できます。キャラクター作成はSword Art Onlineのベータセクション終了時に解放され、プリセットのテンプレートに加えて、スライダーによる詳細なアバターカスタマイズが可能です。",
+          "bestFor": "自分自身を投影してSAOのアドベンチャーを楽しみたいプレイヤー向け。"
+        },
+        {
+          "title": "パートナー選択",
+          "category": "パーティ編成",
+          "description": "各クエストの開始時に、プレイヤーは共に戦うパートナーを1人選択します。パートナーの武器やスキルは、街にある宿屋の自室で調整できます。",
+          "bestFor": "ダンジョンや重要な遭遇戦に入る前にクエストの準備を整える。"
+        },
+        {
+          "title": "イオリ",
+          "category": "パートナー",
+          "weaponType": "片手剣＆盾",
+          "description": "イオリはベータテスト中に主人公にSword Art Onlineの基礎を教えた、片手剣使いのソロプレイヤーです。",
+          "bestFor": "バランスの取れた片手剣と盾によるサポート。"
+        },
+        {
+          "title": "ワイズマン",
+          "category": "パートナー",
+          "weaponType": "メイス＆盾",
+          "description": "ワイズマンはベータテスト時からのパーティメンバーであり、Sword Art Onlineのデスゲーム攻略に意欲を燃やす世界観（ロア）愛好家として描かれています。",
+          "bestFor": "盾を用いたメイスのサポートを求めるプレイヤー向け。"
+        },
+        {
+          "title": "ザッシュ",
+          "category": "パートナー",
+          "weaponType": "両手剣",
+          "description": "ザッシュは仲間想いの両手剣使いで、新たなレイドメンバーを探していたパーティーと出会う。",
+          "bestFor": "両手剣による重厚なプレッシャーを求めるプレイヤー。"
+        },
+        {
+          "title": "アルゴ",
+          "category": "パートナー",
+          "weaponType": "短剣",
+          "description": "アルゴは、お金に目がない優秀な情報屋。ベータテスト中に主人公と出会い、短剣で戦う。",
+          "bestFor": "短剣による素早いパートナープレイ。"
+        },
+        {
+          "title": "サポートスキル",
+          "category": "バトルシステム",
+          "description": "パートナーはアクションホイールから呼び出すことで、サポートスキルを使用できます。これらのスキルには回復、防御バフ、攻撃バフ、その他のサポート効果があり、クエスト開始前にプレビューすることができます。",
+          "bestFor": "長期戦のクエストや高難度の戦闘で生き残るため。"
+        },
+        {
+          "title": "コンビネーションスキル",
+          "category": "バトルシステム",
+          "description": "コンビネーションスキルは、敵に十分なダメージを与えた後にパートナーと協力して繰り出す強力な攻撃です。ほとんどのパートナーは、アクションホイールに設定できるコンビネーションスキルを1つか2つ持っています。",
+          "bestFor": "強敵との戦闘で戦況を覆すため。"
+        },
+        {
+          "title": "スイッチモード",
+          "category": "タクティカルモード",
+          "description": "スイッチモードではパートナーが敵の注意を引きつけるため、プレイヤーはタイミングを合わせた攻撃や、より安全な位置取りを行う余裕が得られます。",
+          "bestFor": "危険な単一ターゲットに対処し、プレッシャーを軽減する。"
+        },
+        {
+          "title": "フリーモード",
+          "category": "タクティカルモード",
+          "description": "フリーモードは、プレイヤーとパートナーが協力して1体の敵を集中攻撃したり、複数の敵を1体ずつ撃破したりするのに役立ちます。",
+          "bestFor": "ターゲットを素早く仕留める、または敵の集団を効率的に一掃する。"
+        }
+      ]
+    },
+    "echoesDeathGameModeGuide": {
+      "title": "Echoes of Aincrad デスゲームモード ガイド",
+      "eyebrow": "ハイリスクモード",
+      "intro": "デスゲームモードは、すべての戦闘の意味を一変させます。どの難易度でもプレイ可能ですが、このモードでプレイヤーが死亡すると、そのキャラクターのセーブデータは消去され、再利用できなくなります。そのため、武器の選択、パートナーの編成、タクティカルコマンドの重要性が大幅に増します。",
+      "steps": [
+        {
+          "step": 1,
+          "title": "基本ルールの理解",
+          "description": "デスゲームモードでは、敗北に対して永続的な代償が伴います。このモードで冒険が終わると、キャラクターのセーブデータは消去されます。",
+          "tip": "すべてのダンジョン、ステータス選択、武器の選定、パートナーへのコマンドを、生存への計画の一部として慎重に扱いましょう。"
+        },
+        {
+          "step": 2,
+          "title": "データが削除されない条件を知る",
+          "description": "ゲームを正常に終了した場合、意図的にタイトル画面に戻った場合、または停電などの予期せぬ中断が発生した場合、セーブデータは保護されます。",
+          "tip": "このモードはゲーム内での敗北を前提として設計されており、通常の終了や技術的なトラブルによる中断に対してペナルティを与えるものではありません。"
+        },
+        {
+          "step": 3,
+          "title": "パートナー戦術を慎重に活用する",
+          "description": "パートナーは常にプレイヤーの傍にいてくれますが、不適切なパートナースキル、武器編成、またはタクティカルモードの管理は、戦闘が危険な状態に陥った際にプレイヤーを無防備にする恐れがあります。",
+          "tip": "サポートスキル、コンビネーションスキル、スイッチモード、フリーモードを、エンカウントのタイプに合わせて組み合わせましょう。"
+        },
+        {
+          "step": 4,
+          "title": "ゲームクリア後にアンロックする",
+          "description": "ほとんどのプレイヤーにとって、デスゲームモードはゲームのストーリーモードをクリアした後に解放されます。",
+          "tip": "このルートは、ワンライフのプレイを始める前に、通常のシステムを理解しておきたいプレイヤーに適しています。"
+        },
+        {
+          "step": 5,
+          "title": "デラックスエディションまたはアルティメットエディションで早期開始する",
+          "description": "Deluxe EditionおよびUltimate Editionには「Death Game Mode 早期解放」が含まれており、1周目のプレイからDeath Game Modeで開始することが可能です。",
+          "tip": "初日からハイリスクなバージョンでプレイしたい場合のみ、このルートを選択してください。"
+        },
+        {
+          "step": 6,
+          "title": "体験版セーブデータ引き継ぎとの区別",
+          "description": "体験版から引き継いだセーブデータは、Death Game Modeに切り替えることはできません。Death Game Modeが解放されている場合、2つ目以降のセーブファイル作成時に選択可能になります。",
+          "tip": "体験版の進行度を引き継ぐのではなく、Death Game Mode用に新しいセーブファイルを作成することを検討してください。"
+        }
+      ]
+    },
+    "echoesDemoAndSaveTransferGuide": {
+      "title": "Echoes of Aincrad 体験版およびセーブデータ引き継ぎガイド",
+      "eyebrow": "体験版と進行度",
+      "intro": "Echoes of Aincradの体験版では、ストーリーのベータフェーズ、5つのフルミッション、およびすべての武器種を体験できます。体験版のセーブデータは、本編を最新版にアップデートし、同じプラットフォームで起動することで製品版へ引き継ぐことが可能です。",
+      "steps": [
+        {
+          "step": 1,
+          "title": "体験版をダウンロード",
+          "description": "体験版はPC（Steam）、PlayStation 5、Xbox Series X|Sでご利用いただけます。",
+          "detail": "PC版体験版はSteam Nextフェスを通じて配信され、コンソール版はPS5およびXbox Series X|Sでプレイ可能です。"
+        },
+        {
+          "step": 2,
+          "title": "ベータフェーズをプレイ",
+          "description": "体験版では、5つのフルミッションを含むストーリーのベータフェーズを体験できます。",
+          "detail": "これにより、アインクラッドの環境、クエストの流れ、戦闘システムをいち早く確認できます。"
+        },
+        {
+          "step": 3,
+          "title": "すべての武器種を試す",
+          "description": "体験版では、すべての武器種を試用できます。",
+          "detail": "製品版でメインのプレイスタイルを決める前に、体験版で武器の使用感を比較することができます。"
+        },
+        {
+          "step": 4,
+          "title": "製品版をアップデートする",
+          "description": "体験版のセーブデータを引き継ぐには、製品版を最新バージョンにアップデートする必要があります。",
+          "detail": "引き継ぎ作業を開始する前に、ネットワークに接続して最新のアップデートをインストールしてください。"
+        },
+        {
+          "step": 5,
+          "title": "製品版を起動する",
+          "description": "製品版を起動し、必要な利用規約等に同意してください。",
+          "detail": "体験版のセーブデータが検出されたら、プロンプトから「引き継ぐ」を選択してください。"
+        },
+        {
+          "step": 6,
+          "title": "引き継ぎの確認",
+          "description": "引き継ぎ確認画面で「決定」を長押しします。引き継ぎ成功後、「閉じる」を選択し、タイトル画面から「Game Start」を選んでください。",
+          "detail": "体験版のすべてのセーブデータスロットが引き継がれます。"
+        },
+        {
+          "step": 7,
+          "title": "引き継いだセーブデータをロードする",
+          "description": "引き継ぎ完了後、セーブデータ選択画面から体験版のデータをロードしてください。",
+          "detail": "引き継ぎは同一プラットフォーム間でのみ可能であり、引き継ぎ前にデバイスから体験版のセーブデータを削除しないでください。"
+        },
+        {
+          "step": 8,
+          "title": "Death Game Modeに関する制限事項",
+          "description": "体験版から引き継いだセーブデータは、Death Game Modeに切り替えることはできません。",
+          "detail": "Death Game Modeが解放されている場合、2つ目以降のセーブファイル作成時に選択可能になります。"
+        }
+      ]
+    },
+    "echoesEditionsAndPreOrderBonus": {
+      "title": "Echoes of Aincradのエディションと予約特典",
+      "eyebrow": "エディションと特典",
+      "intro": "Echoes of Aincradは、Standard、Deluxe、Ultimateの各エディションで販売されます。すべての予約特典には「試作型エリュシデータ・シリーズ 武器パック」が含まれ、DeluxeおよびUltimateには「拡張DLCパス」、「スターターパック」、「Death Game Mode 早期解放」が追加されます。",
+      "columns": {
+        "edition": "エディション",
+        "steamPriceUsd": "Steam価格",
+        "baseGame": "ゲーム本編",
+        "expansionDlcPass": "拡張DLCパス",
+        "starterPack": "スターターパック",
+        "deathGameModeEarlyUnlock": "デスゲームモード 早期解放",
+        "bonusContentsApp": "特典コンテンツアプリ",
+        "armorPack": "アーマーパック",
+        "preOrderBonus": "予約特典"
+      },
+      "rows": [
+        {
+          "edition": "通常版",
+          "steamPriceUsd": "$69.99",
+          "baseGame": "同梱",
+          "expansionDlcPass": "なし",
+          "starterPack": "なし",
+          "deathGameModeEarlyUnlock": "なし",
+          "bonusContentsApp": "なし",
+          "armorPack": "なし",
+          "preOrderBonus": "試作型エリュシデータ シリーズ武器パック"
+        },
+        {
+          "edition": "デラックスエディション",
+          "steamPriceUsd": "$89.99",
+          "baseGame": "同梱",
+          "expansionDlcPass": "同梱（2026年12月31日までに配信予定）",
+          "starterPack": "同梱（50,000コル、ハイ・ヒーリングポーション×10、ハイ・SPポーション×10、神秘の結晶×10）",
+          "deathGameModeEarlyUnlock": "同梱",
+          "bonusContentsApp": "なし",
+          "armorPack": "なし",
+          "preOrderBonus": "試作型エリュシデータ シリーズ武器パック"
+        },
+        {
+          "edition": "アルティメットエディション",
+          "steamPriceUsd": "$109.99",
+          "baseGame": "同梱",
+          "expansionDlcPass": "同梱（2026年12月31日までに配信予定）",
+          "starterPack": "同梱（50,000コル、ハイ・ヒーリングポーション×10、ハイ・SPポーション×10、神秘の結晶×10）",
+          "deathGameModeEarlyUnlock": "同梱",
+          "bonusContentsApp": "同梱（「Unanswered//butterfly」スペシャルムービー、デジタルサウンドトラック（全141曲）、デジタルアートブック（全640ページ））",
+          "armorPack": "同梱（フラタリーブーツ＆フラタリーローブ）",
+          "preOrderBonus": "試作型エリュシデータ シリーズ武器パック"
+        },
+        {
+          "edition": "予約特典",
+          "steamPriceUsd": "予約特典として同梱",
+          "baseGame": "いずれかのエディションの予約購入が必要です",
+          "expansionDlcPass": "エディションにより異なります",
+          "starterPack": "エディションにより異なります",
+          "deathGameModeEarlyUnlock": "エディションにより異なります",
+          "bonusContentsApp": "エディションにより異なります",
+          "armorPack": "エディションにより異なります",
+          "preOrderBonus": "試作型エリュシデータ武器6種、盾、および追加製作のための設計図が含まれます"
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "よくある質問",
+    "titleHighlight": "質問",
+    "subtitle": "Echoes of Aincradについて知っておくべきすべてのこと",
+    "questions": [
+      {
+        "question": "Echoes of Aincradとは？",
+        "answer": "Echoes of Aincradは、バンダイナムコエンターテインメントとゲームスタジオが開発したシングルプレイヤー向けSAOアクションJRPGです。2026年7月10日にPS5、Xbox Series X|S、Steamで発売されます。"
+      },
+      {
+        "question": "Echoes of Aincradの体験版はありますか？",
+        "answer": "はい。Echoes of Aincradの体験版では、ストーリーのベータフェーズをカバーしており、5つのフルミッションとすべての武器タイプをPC、PS5、Xbox Series X|Sでプレイできます。"
+      },
+      {
+        "question": "Echoes of Aincradの体験版セーブデータは引き継げますか？",
+        "answer": "はい。Echoes of Aincradの体験版セーブデータは、製品版をアップデートして起動することで、同一プラットフォーム上の製品版へ引き継ぐことができます。ただし、Death Game Modeへ引き継ぐことはできません。"
+      },
+      {
+        "question": "Echoes of AincradのDeath Game Modeとは？",
+        "answer": "Death Game Modeは、Echoes of Aincradにおけるオプションのハイステークスモードです。敗北するとキャラクターのセーブデータが消去されます。Deluxe EditionおよびUltimate Editionの所有者は、初回プレイからワンライフ・ランに早期アクセスできます。"
+      },
+      {
+        "question": "Echoes of Aincradにはどんな武器がありますか？",
+        "answer": "Echoes of Aincradには、片手剣＆盾、両手斧、短剣、細剣（レイピア）、両手剣、メイスの6種類の武器タイプがあります。片手剣＆盾は初心者にとって最も安全な選択肢です。"
+      },
+      {
+        "question": "Echoes of AincradはSteam DeckやSwitchで遊べますか？",
+        "answer": "Echoes of AincradはNintendo Switch版の発売予定はありません。Steam Deckへの対応は公式スペックで確認されていないため、購入前にSteamストアページをご確認ください。"
+      }
+    ]
+  },
+  "cta": {
+    "title": "アインクラッドへ突入する準備はいいですか？",
+    "description": "Echoes of AincradのDiscordコミュニティに参加して、リリース情報、体験版ガイド、ビルド、Death Game Modeの攻略情報を手に入れましょう。",
+    "joinCommunity": "Discordに参加する",
+    "joinGame": "Steamでプレイする"
+  },
+  "footer": {
+    "title": "Echoes of Aincrad Wiki",
+    "description": "Echoes of Aincradのリリース情報、体験版、ビルド、武器、キャラクター、ロケーション、Death Game Mode、PC動作環境に関する完全リソースハブです。",
+    "resources": "リソース",
+    "community": "コミュニティ",
+    "legal": "法的情報",
+    "discord": "Discord",
+    "twitter": "X / Twitter",
+    "reddit": "Reddit",
+    "steamStore": "Steamストア",
+    "about": "概要",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "copyrightNotice": "著作権",
+    "copyright": "© 2026 Echoes of Aincrad Wiki. バンダイナムコエンターテインメントおよびEchoes of Aincradの開発元とは一切関係ありません。",
+    "disclaimer": "非公式のファンメイドリソースサイトです。"
+  },
+  "pages": {
+    "release": {
+      "title": "Echoes of Aincrad リリース情報",
+      "description": "SAOアクションJRPG「Echoes of Aincrad」の発売日、世界同時発売時刻、プラットフォーム、エディション、事前ダウンロードスケジュールを追跡します。",
+      "metaTitle": "Echoes of Aincrad リリース情報 - 発売日、プラットフォーム、エディション",
+      "metaDescription": "SAOアクションJRPG「Echoes of Aincrad」の公式発売日、世界同時発売時刻、対応プラットフォーム、エディション、事前ダウンロード情報をご確認ください。",
+      "categoryLabel": "リリース",
+      "whatIs": "Echoes of Aincradのリリースとは？",
+      "whatIsDescription": "Echoes of Aincradは、2026年7月10日にPS5、Xbox Series X|S、Steam向けに世界同時発売されるシングルプレイ専用のSAOアクションJRPGです。このセクションでは、公式発売日、地域ごとのアンロック時間、利用可能なエディション、プリロード期間について解説しており、いつ、どのプラットフォームでプレイを始めればよいかが正確に把握できます。",
+      "why": "リリースガイドをチェックする理由は？",
+      "whySteps": {
+        "step1Title": "確定した発売日",
+        "step1Description": "2026年7月10日の世界同時発売日と地域ごとのアンロック時間を確認し、ゲームがリリースされた瞬間にプレイを開始できるようにしましょう。",
+        "step2Title": "対応プラットフォーム",
+        "step2Description": "PS5、Xbox Series X|S、Steamを含め、どのプラットフォームがEchoes of Aincradに対応しているかを確認し、お使いの環境に最適なものを選びましょう。",
+        "step3Title": "エディションとプリロード",
+        "step3Description": "各エディションとプリロード日程を比較して、特典を確実に手に入れ、発売前にゲームをインストールしておきましょう。"
+      },
+      "featured": "おすすめ＆重要",
+      "all": "リリース記事一覧"
+    },
+    "demo": {
+      "title": "Echoes of Aincrad 体験版",
+      "description": "製品版の発売前に、Echoes of Aincradの体験版をダウンロードし、プレイ可能なコンテンツの制限、セーブデータの引き継ぎ手順、対応プラットフォームについて確認しておきましょう。",
+      "metaTitle": "Echoes of Aincrad 体験版 - ダウンロード、セーブデータ引き継ぎ＆試遊ガイド",
+      "metaDescription": "PS5、Xbox、SteamでEchoes of Aincradの体験版をプレイしましょう。体験版のコンテンツ、プレイボリューム、セーブデータの引き継ぎ、そして製品版に何が引き継がれるかについて解説します。",
+      "categoryLabel": "体験版",
+      "whatIs": "Echoes of Aincradの体験版とは？",
+      "whatIsDescription": "Echoes of Aincradの体験版は、発売前にこのSAOアクションJRPGの序盤を体験できる無料の試遊版です。PS5、Xbox Series X|S、Steamで配信されており、セーブデータの引き継ぎに対応しているため、体験版での進行状況を製品版にそのまま持ち越すことができます。",
+      "why": "体験版をプレイする理由は？",
+      "whySteps": {
+        "step1Title": "発売前に体験する",
+        "step1Description": "序盤の階層、戦闘、そしてソードスキルを実際に体験し、製品版が自分の好みに合うかどうかを確かめましょう。",
+        "step2Title": "進行状況の引き継ぎ",
+        "step2Description": "体験版のセーブデータを製品版に引き継ぐことで、発売初日からレベル、アイテム、ストーリーの進行状況をそのまま維持できます。",
+        "step3Title": "ビルドの計画",
+        "step3Description": "武器種やパートナーとの相性（シナジー）をいち早くテストし、製品版がアンロックされたらすぐに好スタートを切れるように準備しましょう。"
+      },
+      "featured": "おすすめ＆重要",
+      "all": "体験版記事一覧"
+    },
+    "guide": {
+      "title": "Echoes of Aincrad 攻略ガイド",
+      "description": "ゲームプレイ、階層、マップ探索、ストーリーの進行、セーブシステム、そしてこのSAO JRPGのクリア想定時間に関するガイドで、Echoes of Aincradを極めましょう。",
+      "metaTitle": "Echoes of Aincrad 攻略ガイド - 攻略チャート、階層、マップ＆ストーリー",
+      "metaDescription": "ゲームプレイ、アインクラッドの階層、マップ探索、ストーリー、セーブシステム、およびSAO JRPGのクリア想定時間を網羅した、Echoes of Aincradの完全攻略チャートです。",
+      "categoryLabel": "ガイド",
+      "whatIs": "Echoes of Aincradの攻略ガイドとは？",
+      "whatIsDescription": "Echoes of Aincradの攻略ガイドでは、ゲームプレイの基本システム、アインクラッドの階層攻略、マップ探索、ストーリーの要所、およびセーブやログアウトといった必須の仕組みについて解説しています。浮遊城の探索、クエストのクリア、そしてデスゲームモードを生き抜くための手助けとなります。",
+      "why": "ガイドを利用する理由は？",
+      "whySteps": {
+        "step1Title": "階層の進行",
+        "step1Description": "アインクラッドの階層の仕組み、全階層数、そして効率よく登るための最適なルートを学びましょう。",
+        "step2Title": "マップと探索",
+        "step2Description": "各階層を後戻りすることなく、街、ダンジョン、隠された探索ポイントを見つけ出しましょう。",
+        "step3Title": "基本システム",
+        "step3Description": "セーブやログアウトなどの必須となる仕組みを理解し、進行状況を失わないようにしましょう。"
+      },
+      "featured": "おすすめ＆必須情報",
+      "all": "すべてのガイド記事"
+    },
+    "platforms": {
+      "title": "Echoes of Aincradの対応プラットフォーム",
+      "description": "PS5、Xbox Series X|S、SteamにおけるEchoes of Aincradの対応状況、PC動作環境、Steam Deckのステータス、コンソール版のパフォーマンスを確認しましょう。",
+      "metaTitle": "Echoes of Aincradの対応プラットフォーム - PS5、Xbox、Steam、PC動作環境",
+      "metaDescription": "PS5、Xbox Series X|S、Steamを含むEchoes of Aincradの対応プラットフォーム、PCシステム要件、Steam Deckの互換性について。",
+      "categoryLabel": "プラットフォーム",
+      "whatIs": "Echoes of Aincradの対応プラットフォームは？",
+      "whatIsDescription": "Echoes of AincradはPS5、Xbox Series X|S、Steam（PC）でプレイ可能です。このセクションでは、このSAOアクションJRPGを最適な環境で楽しむために、プラットフォームの対応状況、PCシステム要件、Steam Deckのステータス、コンソール版のパフォーマンスについて詳しく解説します。",
+      "why": "なぜプラットフォーム情報を確認するのか？",
+      "whySteps": {
+        "step1Title": "プラットフォームを選ぶ",
+        "step1Description": "PS5、Xbox Series X|S、Steam版を比較して、自分のハードウェアやプレイスタイルに合ったプラットフォームを選びましょう。",
+        "step2Title": "PC動作環境",
+        "step2Description": "お使いのPCでゲームがスムーズに動作するよう、最小および推奨スペックを確認してください。",
+        "step3Title": "携帯機での対応状況",
+        "step3Description": "携帯モードでのプレイを計画する前に、Steam DeckやSwitchの互換性を確認しましょう。"
+      },
+      "featured": "おすすめ＆必須情報",
+      "all": "すべてのプラットフォーム関連記事"
+    },
+    "creation": {
+      "title": "Echoes of Aincradのキャラクタークリエイション",
+      "description": "Echoes of Aincradでキャラクター作成オプション、外見のカスタマイズ、性別の選択、そして後から見た目を変更する方法を確認して、自分だけのヒーローを作り上げましょう。",
+      "metaTitle": "Echoes of Aincradのキャラクタークリエイション - カスタムヒーローと外見",
+      "metaDescription": "SAO JRPGである本作のキャラクタークリエイション（カスタムヒーローのオプション、外見のカスタマイズ、女性キャラクターでのプレイ、後からの見た目変更）について学びましょう。",
+      "categoryLabel": "キャラクタークリエイション",
+      "whatIs": "Echoes of Aincradのキャラクタークリエイションとは？",
+      "whatIsDescription": "Echoes of Aincradでは、外見、性別、初期の見た目をカスタマイズして自分だけのヒーローを作成できます。このセクションでは、すべての作成オプション、女性キャラクターでのプレイの可否、物語開始後の外見変更方法について解説します。",
+      "why": "なぜキャラクターの計画を立てるのか？",
+      "whySteps": {
+        "step1Title": "カスタムヒーロー",
+        "step1Description": "開始時に、外見、性別、スタイルのオプションを組み合わせて、理想の主人公をデザインしましょう。",
+        "step2Title": "外見の管理",
+        "step2Description": "どの特徴を調整できるのか、また後で変更できるのかを正確に把握しておきましょう。",
+        "step3Title": "ロールプレイへの適合",
+        "step3Description": "ヒーローの見た目をビルドやプレイスタイルに合わせて、より没入感のあるアインクラッド攻略を楽しみましょう。"
+      },
+      "featured": "おすすめ＆必須情報",
+      "all": "すべてのキャラクタークリエイション記事"
+    },
+    "multiplayer": {
+      "title": "Echoes of Aincradのマルチプレイ",
+      "description": "シングルプレイヤーSAO JRPGである本作に、マルチプレイ、協力プレイ（Co-op）、オンライン、クロスプレイ、PvPがあるのか、またオンライン機能がどのように扱われているかを確認しましょう。",
+      "metaTitle": "Echoes of Aincradのマルチプレイ - 協力プレイ、オンライン、クロスプレイ、PvP",
+      "metaDescription": "Echoes of Aincradにマルチプレイはありますか？このシングルプレイヤーSAOアクションJRPGにおける協力プレイ、オンラインモード、クロスプレイ、PvPの対応状況について学びましょう。",
+      "categoryLabel": "マルチプレイ",
+      "whatIs": "Echoes of Aincradはマルチプレイに対応していますか？",
+      "whatIsDescription": "Echoes of Aincradはシングルプレイ専用のSAOアクションJRPGであるため、フルマルチプレイ、協力プレイ、PvPモードは搭載されていません。このセクションでは、どのようなオンライン機能があるか、クロスプレイに対応しているか、そしてソロキャンペーンにおいてパートナーキャラクターがどのようにパーティの役割を果たすかについて解説します。",
+      "why": "なぜマルチプレイ情報を確認するのか？",
+      "whySteps": {
+        "step1Title": "シングルプレイ重視",
+        "step1Description": "購入前に期待通りの内容か確認できるよう、Echoes of AincradがソロJRPG体験として構築されていることを確認してください。",
+        "step2Title": "オンライン機能",
+        "step2Description": "どのオンライン機能が利用可能で、それがプレイにどのように影響するかを把握しましょう。",
+        "step3Title": "パートナーシステム",
+        "step3Description": "人間の協力プレイ仲間の代わりに、AIパートナーキャラクターがどのようにパーティの役割を果たすか学びましょう。"
+      },
+      "featured": "おすすめ＆必須情報",
+      "all": "すべてのマルチプレイ記事"
+    },
+    "weapons": {
+      "title": "Echoes of Aincradの武器",
+      "description": "SAO JRPGにおけるソードスキル、強化ルート、各ビルドに最適な武器など、Echoes of Aincradのあらゆる武器種を極めましょう。",
+      "metaTitle": "Echoes of Aincradの武器 - 武器種、スキル、強化",
+      "metaDescription": "SAOアクションJRPGにおけるEchoes of Aincradの全武器種、ソードスキル、強化ルート、そして各ビルドに最適な武器を探索しましょう。",
+      "categoryLabel": "武器",
+      "whatIs": "Echoes of Aincradの武器とは？",
+      "whatIsDescription": "Echoes of Aincradには複数の武器種が登場し、それぞれに独自のソードスキル、攻撃パターン、強化ルートがあります。このセクションでは、ビルドに適した兵装を選択し、アインクラッドの戦闘をマスターできるよう、すべての武器カテゴリーを詳しく解説します。",
+      "why": "なぜ武器について学ぶのか？",
+      "whySteps": {
+        "step1Title": "武器種",
+        "step1Description": "各武器種のモーションやソードスキルを比較して、自分のプレイスタイルに合ったものを見つけましょう。",
+        "step2Title": "強化ルート",
+        "step2Description": "アインクラッドを攻略する際、どの武器に投資すべきか、そして効率的に強化する方法を確認しましょう。",
+        "step3Title": "ビルドの相性",
+        "step3Description": "ボス戦で最大のダメージを与えるために、ステータスやパートナーに合った適切な武器を組み合わせましょう。"
+      },
+      "featured": "おすすめ＆必須情報",
+      "all": "すべての武器記事"
+    }
   }
 }
