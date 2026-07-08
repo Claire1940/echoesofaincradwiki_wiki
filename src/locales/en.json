@@ -10,14 +10,7 @@
       "twitterDescription": "Echoes of Aincrad Wiki covers release date, demo, builds, weapons, characters, Death Game Mode, and PC requirements for the SAO action JRPG."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
