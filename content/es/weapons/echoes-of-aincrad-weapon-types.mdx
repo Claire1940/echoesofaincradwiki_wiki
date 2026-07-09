@@ -1,0 +1,193 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Tipos de armas de echoes of aincrad: Clasificación de clases de combate de 2026",
+  description: "Domina todos los tipos de armas de echoes of aincrad con nuestra guía sobre habilidades de espada, maestría y estadísticas para dominar el mundo VRMMORPG de Aincrad.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Weapon+Types+Guide",
+  date: "2026-07-09",
+  author: "Equipo de la Wiki de echoes of aincrad"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Palabra clave principal**: Comprender la variedad de los **tipos de armas de echoes of aincrad** es esencial para dominar el sistema sin clases del juego.
+- **Maestría de armas**: El uso de armas específicas otorga EXP de arma, lo que desbloquea poderosas **habilidades de espada** (hasta 3 equipadas).
+- **Sinergia de estadísticas**: Las diferentes armas escalan con estadísticas como **Fuerza, Destreza y Agilidad**, lo que requiere una asignación cuidadosa de los puntos de crecimiento.
+- **Rango Cardinal**: Tu maestría general determina el inventario de los mercaderes, los objetos fabricables y la dificultad del mundo.
+- **Estrategia de equipamiento**: Las armas solo se pueden cambiar en el **Pueblo de los Inicios**, por lo que tu elección antes de las misiones es crítica.
+</Callout>
+
+<Section icon={Swords} title="Comprender los tipos de armas de echoes of aincrad">
+
+En el peligroso mundo de Aincrad, las clases de rol tradicionales como magos o sacerdotes no existen. Tu papel en el campo de batalla se define por completo mediante los **tipos de armas de echoes of aincrad** que decidas empuñar. Este sistema de \"las armas son tu clase\" permite un estilo de juego fluido donde tu efectividad está determinada por tu maestría de armas y las habilidades de espada específicas que desbloqueas a través de la experiencia de combate.
+
+Cada vez que derrotas a un enemigo con un arma específica, obtienes EXP de arma. Esta experiencia contribuye a tu nivel de maestría, otorgando eventualmente acceso a técnicas especializadas conocidas como habilidades de espada. Aunque puedes acumular numerosas habilidades para cada arma, estás limitado a equipar solo 3 a la vez, lo que te obliga a tomar decisiones estratégicas basadas en el enfrentamiento que tienes por delante.
+
+| Tipo de Arma | Estilo de Combate | Soporte de Escudo | Beneficio Principal |
+| :--- | :--- | :--- | :--- |
+| **Espada y Escudo** | Equilibrado / Defensivo | Sí (Opcional) | Versatilidad y entrada segura en el tutorial |
+| **Hacha de Dos Manos** | Pesado / Agresivo | No | Alto daño de área (AOE) y poder bruto |
+| **Daga** | Rápido / A Distancia | No | Alta tasa de acierto y opciones de proyectiles |
+| **Estooc (Rapier)** | Elegante / Técnico | Sí | Gran alcance y cadenas de contraataque |
+| **Espada de Dos Manos** | Cargado / Pesado | No | Daño masivo mediante golpes cargados |
+| **Maza** | Impacto / Control de Masas | Sí | Romper defensas y desestabilizar enemigos |
+
+<Callout type="tip" title="Consejo Pro: El dilema del escudo">
+Para armas como la espada o el estoque, puedes optar por desequipar tu escudo. Aunque esto reduce tus capacidades defensivas, a menudo incrementa tu velocidad de movimiento y proporciona acceso a animaciones de ataque más rápidas y de mayor riesgo.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Análisis detallado de las clases de armas">
+
+Elegir entre los diversos **tipos de armas de echoes of aincrad** requiere comprender sus mecánicas únicas y cómo interactúan con el sistema de resistencia (SP) del juego. Cada acción, desde los ataques ligeros hasta los desvíos, consume SP, lo que convierte la elección del arma en una cuestión de gestión de recursos tanto como de infligir daño.
+
+<CardGrid cols={3}>
+  <Card title="Espada y Escudo">
+    - **Rendimiento equilibrado**: Ideal para principiantes que están aprendiendo los tiempos de desvío (parry).
+    - **Personalizable**: Se puede usar como una configuración de \"solo espada\" para obtener más velocidad.
+    - **Confiable**: Ofrece las opciones defensivas más consistentes de la demo.
+  </Card>
+  <Card title="Hacha de Dos Manos">
+    - **Control de área**: La mejor opción para limpiar grupos en laberintos infestados de monstruos.
+    - **Alto riesgo**: Las velocidades de oscilación más lentas te dejan vulnerable a los contraataques.
+    - **Sin escudo**: Requiere dominar el posicionamiento por encima del bloqueo.
+  </Card>
+  <Card title="Daga">
+    - **Alta movilidad**: Permite un reposicionamiento rápido durante los combates contra jefes.
+    - **Utilidad a distancia**: Se pueden lanzar hojas para atraer a los enemigos desde la distancia.
+    - **Eficiente en SP**: El bajo coste de SP por golpe permite realizar combos largos.
+  </Card>
+  <Card title="Estoque">
+    - **Precisión**: Se centra en estocadas rápidas y en mantener la distancia.
+    - **Maestría del contraataque**: Habilidades especializadas para castigar los fallos del enemigo.
+    - **Compatible con escudo**: Proporciona seguridad sin sacrificar el alcance.
+  </Card>
+  <Card title="Espada de Dos Manos">
+    - **Poder cargado**: Mantén pulsados los ataques para desatar golpes devastadores.
+    - **Cambio de movimiento**: Tu esquiva se convierte en una rodada pesada con esta arma equipada.
+    - **Alto impacto**: Puede interrumpir fácilmente los patrones de ataque estándar de los enemigos.
+  </Card>
+  <Card title="Maza">
+    - **Rompedor de defensa**: Diseñada específicamente para saltarse las posturas de guardia.
+    - **Potencial de desestabilización**: Alta probabilidad de derribar enemigos para tus compañeros de equipo.
+    - **Rol de tanque**: Combina perfectamente con un escudo para jugar en la línea del frente.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Restricción de cambio de arma">
+Recuerda que no puedes cambiar tu tipo de arma a mitad de una mazmorra. Todos los ajustes de equipamiento deben realizarse en la posada dentro del **Pueblo de los Inicios** antes de embarcarse en una misión.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Progresión de armas y la herrería">
+
+Para mantener la efectividad de tus **tipos de armas de echoes of aincrad** a medida que avanzas por los pisos superiores, debes utilizar la herrería. Mejorar un arma es un proceso multifacético que implica tanto subir de nivel los parámetros base como gestionar los EX-Mods.
+
+La herrería te permite gastar materiales específicos o \"sacrificar\" armas no deseadas para aumentar el daño base de un arma. Esto es independiente de tu maestría de armas personal. Mientras que la maestría desbloquea habilidades, la herrería incrementa los números brutos detrás de tu producción de daño.
+
+| Tipo de Mejora | Recurso Requerido | Efecto Principal |
+| :--- | :--- | :--- |
+| **Nivelación de Parámetros** | Materiales / Otras armas | Aumenta el daño base y la durabilidad |
+| **Combinación de EX-Mods** | EX-Mods de armas | Añade efectos especiales o bonificaciones de estadísticas |
+| **Nueva Fabricación** | Recetas / Botines raros | Crea modelos de armas base de nivel superior |
+| **Forja de Armadura** | Minerales / Partes de monstruos | Mejora la supervivencia y las resistencias |
+
+<Steps>
+  <Step num="1" title="Asegura una habitación en la posada">
+    Antes de que la herrería esté disponible en el Pueblo de los Inicios, primero debes reservar tu habitación en la posada local para establecer tu base de operaciones.
+  </Step>
+  <Step num="2" title="Reúne recetas y materiales">
+    Explora mazmorras y completa misiones para encontrar planos. A menudo se requieren **rangos cardinales** más altos para ver recetas avanzadas en el mercader.
+  </Step>
+  <Step num="3" title="Visita al herrero">
+    Acércate a la herrería para combinar EX-Mods. Aquí es donde puedes adaptar tu arma a tu configuración específica, como añadir agilidad a una daga.
+  </Step>
+  <Step num="4" title="Prueba en el campo">
+    Lleva tu equipo mejorado a una mazmorra. Monitorea tu consumo de SP, ya que las armas de mayor daño a veces pueden tener requisitos de resistencia diferentes.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Gestión de materiales">
+No descartes las armas \"débiles\" al principio. Es mejor usarlas como material de sacrificio en la herrería para subir de nivel los parámetros de tu arma principal sin gastar minerales de fabricación raros.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Estadísticas, puntos de crecimiento y Rango Cardinal">
+
+La efectividad de tu personaje con los diversos **tipos de armas de echoes of aincrad** está fuertemente influenciada por cómo gastas los puntos de crecimiento. Estos puntos se obtienen cada vez que subes de nivel al derrotar monstruos. A diferencia de muchos juegos donde las estadísticas aumentan automáticamente, Aincrad requiere que apliques los puntos manualmente mientras descansas en la posada.
+
+| Nombre de Estadística | Influencia Principal | Recomendado Para |
+| :--- | :--- | :--- |
+| **Fuerza (STR)** | Daño físico / Peso de carga | Espadas de dos manos, hachas, mazas |
+| **Destreza (DEX)** | Precisión de habilidad / Probabilidad de crítico | Estoques, dagas, espadas |
+| **Agilidad (AGI)** | Velocidad de ataque / Evasión | Dagas, estoques |
+| **Inteligencia (INT)** | Efectividad de habilidad | Habilidades de armas especiales |
+| **Vitalidad (VIT)** | Puntos de salud totales (HP) | Todos (enfoque en primera línea) |
+| **Aguante (END)** | Puntos de resistencia (SP) | Usuarios de armas pesadas |
+
+Más allá de las estadísticas individuales, tu **Rango Cardinal** sirve como un indicador global de tu progreso. Este rango dicta la calidad de los objetos disponibles para comprar y la dificultad de los monstruos que encuentres.
+
+<Callout type="success" title="El beneficio del Rango Cardinal">
+Aunque un Rango Cardinal más alto hace que los monstruos sean más difíciles, también incrementa significativamente la tasa de obtención de materiales raros y EX-Mods de alta calidad, lo que lo convierte en la métrica más importante para la progresión a largo plazo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Tácticas de combate y sinergia con compañeros">
+
+El combate en Aincrad nunca es un esfuerzo en solitario a menos que tú lo decidas. Al enfrentarte a los **laberintos infestados de monstruos**, a menudo estarás acompañado por personajes compañeros. Cada compañero tiene un estilo de lucha distinto que debería complementar los **tipos de armas de echoes of aincrad** que hayas elegido.
+
+Por ejemplo, si estás usando una hacha de dos manos lenta, un compañero que pueda atraer la atención de los enemigos (aggro) o proporcionar distracciones rápidas es invaluable. Puedes controlar estas interacciones usando opciones tácticas:
+
+- **Modo de relevo (Switch)**: Tu compañero atrae el foco del enemigo, dándote espacio para cargar un ataque pesado o recuperar SP.
+- **Modo libre**: Tú y tu compañero actuáis de forma independiente, lo cual es ideal para limpiar rápidamente grandes cantidades de enemigos más débiles.
+
+<Checklist
+  id="combat-readiness"
+  title="Lista de verificación de combate antes de la misión:"
+  items={[
+    "Equipa 3 habilidades de espada compatibles con tu arma",
+    "Asigna todos los puntos de crecimiento pendientes en la posada",
+    "Comprueba la durabilidad del arma y mejórala en la herrería",
+    "Establece el modo táctico del compañero (Relevo o Libre)",
+    "Fabrica suficientes pociones de curación y objetos de utilidad como minas"
+  ]}
+/>
+
+<Callout type="tip" title="Habilidades de combinación">
+Cada compañero tiene habilidades de combinación únicas. Asígnalas a tu rueda de acción para activar ataques cinematográficos de alto daño que pueden cambiar el rumbo de una batalla contra un jefe.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Preguntas frecuentes de echoes of aincrad">
+
+<FAQ items={[
+  {
+    question: "¿Cómo desbloqueo más tipos de armas de echoes of aincrad?",
+    answer: "Los seis tipos de armas básicos (espada, hacha, daga, estoque, espada de 2 manos, maza) están disponibles desde el principio. Puedes fabricarlos, comprarlos o encontrarlos como botín en las mazmorras."
+  },
+  {
+    question: "¿Puedo usar magia en Aincrad?",
+    answer: "No, los lanzadores de conjuros y los poderes mágicos no existen en el mundo de Aincrad. Debes confiar en tus armas, habilidades de espada y objetos tácticos como minas fabricadas."
+  },
+  {
+    question: "¿Cuál es la diferencia entre la maestría de arma y el nivel de arma?",
+    answer: "La maestría de arma está ligada a tu personaje y desbloquea habilidades de espada. El nivel de arma está ligado al objeto específico y se incrementa en la herrería para aumentar el daño base."
+  },
+  {
+    question: "¿Afecta el Rango Cardinal a la dificultad multijugador?",
+    answer: "Sí, el mundo y sus monstruos responden a tu Rango Cardinal aumentando la dificultad. Sin embargo, esto también escala la calidad del botín que recibes."
+  }
+]} />
+
+</Section>

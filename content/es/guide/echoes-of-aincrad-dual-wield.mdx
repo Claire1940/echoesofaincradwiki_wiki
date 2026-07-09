@@ -1,0 +1,187 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "echoes of aincrad dual wield: Guía de Mecánicas y Disponibilidad",
+  description: "Descubre la verdad sobre las mecánicas de doble empuñadura (dual wield) en Echoes of Aincrad. Conoce por qué esta habilidad única está restringida y explora alternativas de combate viables.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Dual+Wield+Mechanics",
+  date: "2026-07-09",
+  author: "Equipo de la Wiki de echoes of aincrad",
+  keywords: "echoes of aincrad, dual wield, doble empuñadura, espada de una mano, sao, guía"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **echoes of aincrad dual wield** actualmente **no es una función jugable** para los personajes estándar de los jugadores en el juego base.
+- **Restricciones de Lore**: Siguiendo la historia original de SAO, las Espadas Dobles (Dual Blades) son una habilidad única reservada exclusivamente para el personaje con el tiempo de reacción más rápido.
+- **Limitaciones Técnicas**: Los desarrolladores han declarado que implementar la doble empuñadura requiere animaciones únicas y más de 10 Artes de Espada (Sword Arts) específicas.
+- **Mejor Alternativa**: Los jugadores deben enfocarse en **Espadas de una Mano con Escudo** o **Espadas de dos Manos** para configuraciones de DPS de alto nivel.
+- **Próximas Actualizaciones**: Aunque no está disponible en el lanzamiento, existen especulaciones sobre posibles DLC o actualizaciones de habilidades únicas en pisos superiores.
+</Callout>
+
+<Section icon={Swords} title="La realidad de echoes of aincrad dual wield">
+
+La duda sobre la disponibilidad de **echoes of aincrad dual wield** ha sido una de las principales inquietudes de la comunidad desde el anuncio del juego. Al ser una recreación fiel de los primeros pisos de Aincrad, el juego se adhiere estrictamente a la lógica narrativa establecida por Reki Kawahara. En las etapas iniciales del juego de la muerte, ningún jugador —incluido Kirito— tenía acceso a la capacidad de empuñar dos armas. Esta decisión de diseño garantiza que el equilibrio de poder se mantenga realista durante el progreso por los primeros pisos.
+
+**Aspectos destacados del video:**
+- Explicación de por qué la doble empuñadura está ausente en el primer y segundo piso.
+- Declaraciones del productor Yosuke Futami sobre la distribución de habilidades únicas.
+- Debate sobre la posibilidad de futuros DLC o expansiones.
+
+<YouTubeEmbed videoId="oOEBryPv_I0" title="Echoes of Aincrad (Sword Art Online) - No Dual Wielding?! Why?!" />
+
+El equipo de producción, liderado por Yosuke Futami, ha aclarado que la doble empuñadura se considera una \"Habilidad Única\" que solo se manifiesta bajo condiciones extremas en un individuo específico. Para los jugadores que buscan replicar la experiencia del \"Starburst Stream\", la versión actual del juego se centra en dominar los tipos de armas fundamentales.
+
+| Característica | Estado | Razón de Lore |
+| :--- | :--- | :--- |
+| **Doble Empuñadura** | **No disponible** | Habilidad única reservada para el tiempo de reacción más rápido |
+| **Espada 1H + Escudo** | **Disponible** | Configuración híbrida estándar de tanque/DPS para todos los jugadores |
+| **Espadones 2H** | **Disponible** | Alternativa de alto daño para configuraciones basadas en fuerza |
+| **Dagas/Garras** | **Disponible** | Armas de alta velocidad de una mano o basadas en conjuntos |
+
+<Callout type="warning" title="Impacto en el Juego">
+El sistema de interfaz (UI) no permite equipar dos armas de una mano individuales de forma simultánea. Incluso si se simulara, el motor del juego bloquearía todas las Artes de Espada, lo que haría que el personaje fuera significativamente más débil que con una configuración estándar.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Restricciones Técnicas y Narrativas">
+
+La ausencia de **echoes of aincrad dual wield** no es solo una elección narrativa; también representa un obstáculo técnico importante. Los desarrolladores han señalado que cada categoría de armas en el juego cuenta con un sólido conjunto de 10 o más Artes de Espada únicas. Añadir la doble empuñadura requeriría una biblioteca completamente nueva de animaciones de ataque, cajas de colisión (hitboxes) y árboles de habilidades que solo una fracción de la base de jugadores llegaría a utilizar.
+
+<CardGrid cols={2}>
+  <Card title="Precisión Narrativa">
+    El juego se centra en los **primeros pisos (1-2)** donde la doble empuñadura era completamente desconocida para la población general de SAO.
+  </Card>
+  <Card title="Asignación de Recursos">
+    Se priorizaron los recursos de desarrollo para **armas de asta y hachas**, garantizando una variedad de estilos viables para todos los jugadores.
+  </Card>
+  <Card title="Problemas de Equilibrio">
+    Las habilidades únicas como Espadas Dobles o Espada Santa crearían una **brecha insalvable** de poder entre los jugadores en un entorno multijugador.
+  </Card>
+  <Card title="Sobrecarga Técnica">
+    Implementar dos ranuras de armas activas requiere una **compleja combinación de animaciones** para asegurar que las Artes de Espada se vean fluidas e impactantes.
+  </Card>
+</CardGrid>
+
+| Tipo de Restricción | Detalle | Impacto en el Jugador |
+| :--- | :--- | :--- |
+| **Animación** | Requiere más de 10 artes únicas con captura de movimiento | Mayor tiempo y costo de desarrollo |
+| **Lore** | Kirito es el único portador de la habilidad | Mantiene la identidad de \"Jugador Individual\" |
+| **Mecánica** | Las Artes de Espada están ligadas a etiquetas de armas específicas | Evita combinaciones de armas \"ilegales\" |
+
+<Callout type="tip" title="Consejo Pro">
+Si prefieres un combate de alta velocidad que imite la sensación de la doble empuñadura, enfócate en los árboles de habilidades de **Daga** o **Garra**. Estas armas ofrecen la mayor frecuencia de ataque en el juego.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cómo Optimizar las Configuraciones de Espada Disponibles">
+
+Dado que **echoes of aincrad dual wield** no es una opción por el momento, los jugadores deben dominar los arquetipos disponibles para destacar en las incursiones de jefes y en la conquista de pisos. La forma más efectiva de conseguir esa sensación de \"personaje principal\" es mediante configuraciones de Espada de una Mano con alta destreza o configuraciones de Espada de dos Manos de gran potencia.
+
+<Steps>
+  <Step num="1" title="Selecciona tu Arma Base">
+    Elige entre la **Espada Recta de 1H** para mayor versatilidad o el **Estooc (Rapier)** para golpes críticos basados en la precisión.
+  </Step>
+  <Step num="2" title="Domina el Sistema de Desvío (Parry)">
+    Sin la cobertura defensiva de dos hojas, calcular el tiempo de tus **desvíos con escudo** o **bloqueos con el arma** es fundamental para sobrevivir.
+  </Step>
+  <Step num="3" title="Invierte en Agilidad (AGI)">
+    Una estadística alta de AGI reduce el tiempo de recarga de las Artes de Espada, lo que te permite encadenar habilidades más rápido, simulando el ritmo acelerado del combate con doble espada.
+  </Step>
+  <Step num="4" title="Desbloquea Artes de Espada Secretas">
+    Completa desafíos específicos de cada piso para desbloquear habilidades de alto nivel como **Vertical Square** o **Savage Fulcrum**.
+  </Step>
+</Steps>
+
+| Tipo de Configuración | Estadística Principal | Ideal Para | Habilidad Clave |
+| :--- | :--- | :--- | :--- |
+| **Espada y Escudo** | STR / VIT | Supervivencia en Solitario | Shield Bash |
+| **DPS Puro de 1H** | AGI / DEX | Velocidad y Críticos | Sonic Leap |
+| **Poder de 2H** | STR | Daño en Área (AoE) | Cyclone |
+
+<Callout type="success" title="Recomendación de Configuración">
+Para obtener la experiencia más cercana a la doble empuñadura, utiliza una **configuración de Espada de 1H con alta AGI** sin escudo. Esto incrementará tu velocidad de movimiento y la frecuencia de activación de habilidades, aunque recibirás más daño.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Alternativas y Especulación Futura">
+
+Aunque el consenso actual sobre **echoes of aincrad dual wield** es negativo, la historia de los videojuegos de SAO sugiere que los desarrolladores suelen escuchar las peticiones de los fanáticos. Títulos anteriores como *SAO: Integral Factor* eventualmente permitieron a los jugadores experimentar con mecánicas de doble empuñadura mediante \"Habilidades Extra\" específicas o eventos de tiempo limitado.
+
+<CardGrid cols={3}>
+  <Card title="Futuros DLC">
+    Las expansiones que abarquen los pisos 50 en adelante podrían introducir **misiones de Habilidad Única** para los jugadores con mejor rendimiento.
+  </Card>
+  <Card title="Habilidades Extra">
+    El juego podría implementar \"Habilidades Extra\" (como las 8 habilidades únicas desconocidas) que ofrezcan **variaciones de doble empuñadura diferentes**, como dagas dobles.
+  </Card>
+  <Card title="Comunidad de Mods">
+    En las versiones de PC, la comunidad podría desarrollar **mods visuales** que cambien el aspecto de las espadas de 2H por espadas dobles con fines estéticos.
+  </Card>
+</CardGrid>
+
+| Actualización Potencial | Probabilidad | Plazo Estimado |
+| :--- | :--- | :--- |
+| **Dagas Dobles** | Alta | Cuarto Trimestre de 2026 |
+| **Espadas Dobles de 1H** | Baja | Expansión de 2027 |
+| **Misión de Habilidad Única** | Media | Actualizaciones de Pisos Superiores |
+
+<Callout type="info" title="Perspectiva de la Comunidad">
+Muchos jugadores están optando por **Hachas de dos Manos** o **Armas de asta** para destacar en el meta actual, ya que estas armas ofrecen un alcance único y un control de masas que las espadas no poseen.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación para Dominar el Combate">
+
+Para prepararse ante cualquier actualización futura relacionada con **echoes of aincrad dual wield**, los jugadores deben aspirar a dominar las mecánicas fundamentales del sistema de combate de Aincrad. Lograr una alta competencia con las armas estándar suele ser un requisito previo para desbloquear habilidades avanzadas o únicas en los RPG basados en SAO.
+
+<Checklist
+  id="combat-mastery"
+  title="Hitos de Progreso:"
+  items={[
+    "Alcanzar el nivel 50 de dominio en Espada de una Mano",
+    "Desbloquear al menos 5 Artes de Espada de Rango 2",
+    "Realizar con éxito 100 Desvíos Perfectos (Perfect Parries) en batallas contra jefes",
+    "Completar la misión secundaria 'Hidden Blade' en el Piso 2",
+    "Obtener un arma refinada de grado Raro de nivel +5"
+  ]}
+/>
+
+<Callout type="tip" title="Veredicto Final">
+Dominar el estilo de **Espada Única** ahora te convertirá en un jugador mucho más eficaz si la mecánica de doble empuñadura llega a introducirse en el futuro como una recompensa de alto nivel.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Existe alguna forma secreta de desbloquear la doble empuñadura en Echoes of Aincrad?",
+    answer: "A partir de la versión actual de julio de 2026, no existe ningún desbloqueo secreto ni mecánica oculta para habilitar la doble empuñadura para los jugadores. Es estrictamente una habilidad bloqueada por el lore."
+  },
+  {
+    question: "¿Puedo al menos llevar dos espadas por estética?",
+    answer: "No, el sistema de equipamiento solo permite un arma principal y un objeto para la mano secundaria (como un escudo o una antorcha). No puedes equipar una espada en la ranura de la mano secundaria."
+  },
+  {
+    question: "¿Por qué los juegos anteriores de SAO permitían la doble empuñadura pero este no?",
+    answer: "Echoes of Aincrad prioriza una experiencia realista de los 'Pisos 1-2' y mecánicas multijugador equilibradas, mientras que los títulos anteriores solían ser simuladores de Kirito enfocados en un solo jugador."
+  },
+  {
+    question: "¿Se añadirá la doble empuñadura en alguna actualización futura en 2026?",
+    answer: "Aunque no está confirmado oficialmente, los desarrolladores han reconocido la alta demanda. Si se añade, lo más probable es que forme parte de una gran expansión que incluya pisos posteriores."
+  }
+]} />
+
+</Section>
