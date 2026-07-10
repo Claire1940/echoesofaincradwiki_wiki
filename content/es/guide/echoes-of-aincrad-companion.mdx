@@ -1,0 +1,193 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Acompañantes de Echoes of Aincrad: Guía de mejores habilidades y sinergia",
+  description: "Domina el sistema de acompañantes de Echoes of Aincrad. Conoce a los mejores aliados, las mecánicas de gremio y la sinergia de combate para el meta de 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Companion+Synergy+Guide",
+  date: "2026-07-10",
+  author: "Equipo de la Wiki de Echoes of Aincrad"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Acompañantes de Echoes of Aincrad**: Los aliados son tu salvavidas, proporcionando habilidades únicas y una sinergia de combate esencial.
+- **Compañeros de primer nivel**: Rostros icónicos como **Kirito** y **Asuna** ofrecen el mayor daño y flexibilidad táctica.
+- **Mecánicas de Gremio**: Formar grupos como la **Orden de la Flor de Cerezo** desbloquea mejoras compartidas y misiones avanzadas.
+- **Progresión**: Desbloquear los movimientos más poderosos de un acompañante requiere construir un vínculo constante a través de la misión **Espadachín de la Salvación**.
+- **Modo Juego de la Muerte**: En los modos de alto riesgo, tu elección de acompañante determina la supervivencia durante las extenuantes batallas contra guardianes.
+</Callout>
+
+<Section icon={Map} title="Comprendiendo la sinergia de acompañantes en Aincrad">
+
+En el peligroso mundo de Sword Art Online, el sistema de **acompañantes de Echoes of Aincrad** está diseñado para ser mucho más que una simple ayuda de un NPC. Estos personajes aportan tácticas únicas, habilidades especializadas y profundidad narrativa a tu viaje. Ya sea que te enfrentes a los pisos finales o explores los primeros santuarios, tu elección de aliado afecta desde tu velocidad de movimiento hasta tus cadenas de ataques definitivos.
+
+**Puntos destacados del video:**
+- **Batalla contra White Morrigan**: Estrategias para derrotar al jefe final utilizando ataques coordinados con tu acompañante.
+- **Orden de la Flor de Cerezo**: La historia detrás de la formación del gremio más resistente del juego.
+- **Trasfondo de Rio Psyche**: Entendiendo el papel de la cantante viral y su camino para convertirse en una aliada clave.
+- **Mecánicas de los Santuarios**: Cómo cambian los guardianes a medida que avanzas más profundamente en los pisos de Aincrad.
+
+<YouTubeEmbed videoId="fjlYfbOnl_8" title="Echoes of Aincrad Sword Art Online - Final Boss White Morrigan & Ending" />
+
+La sinergia entre los jugadores y sus acompañantes se basa en la confianza y la experiencia de combate compartida. A medida que despejes áreas, notarás que las mecánicas de teletransporte y los guardianes de los santuarios se vuelven cada vez más difíciles. Tener un compañero confiable como **Stina** o **Sash** asegura que un paso en falso no resulte en un "Fin del juego" permanente, especialmente al jugar en el **Modo Juego de la Muerte** de 2026.
+
+| Tipo de Acompañante | Enfoque de Combate | Ideal Para |
+| :--- | :--- | :--- |
+| **Striker** | Alto Daño de Ráfaga | Transiciones de Fase de Jefes |
+| **Defender** | Manejo de Amenaza (Aggro) | Santuarios de Alto Daño |
+| **Support** | Mejoras y Curación | Misiones de Larga Resistencia |
+| **Tactician** | Control de Masas | Navegación de Obstáculos de Campo |
+
+<Callout type="tip" title="Consejo de Sinergia">
+Empareja siempre a un acompañante **Striker** con uno de **Support** durante la misión **Espadachín de la Salvación** para asegurar suficiente sostenibilidad en combates contra jefes de múltiples fases.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Acompañantes de primer nivel y clasificación de personajes">
+
+Elegir al **acompañante de Echoes of Aincrad** adecuado depende en gran medida de tu estilo de juego personal. El meta de 2026 favorece a las unidades de alta movilidad que pueden explotar los puntos débiles de los enemigos. Aunque los héroes originales ofrecen una perspectiva fresca de la historia, rostros icónicos de SAO como **Kirito** y **Asuna** siguen siendo el estándar de oro para la eficiencia de combate pura.
+
+<CardGrid cols={3}>
+  <Card title="Kirito (El Espadachín Negro)">
+    - **Maestría de Doble Empuñadura**: Proporciona ataques rápidos y sucesivos.
+    - **Sinergia de Habilidades**: Excelente para romper las defensas de los jefes.
+    - **Rol**: Atacante Principal (Daño).
+  </Card>
+  <Card title="Asuna (El Destello)">
+    - **Precisión de Estoque**: Alta probabilidad de golpe crítico en puntos débiles.
+    - **Velocidad Táctica**: Mejora la velocidad de movimiento del jugador.
+    - **Rol**: Atacante de Precisión.
+  </Card>
+  <Card title="Rio Psyche (Eeyori)">
+    - **Mejoras Vocales**: Utiliza \"Reach for the Rainbow\" para aumentar las estadísticas del grupo.
+    - **Soporte Emocional**: Alta tasa de crecimiento de vínculo.
+    - **Rol**: Soporte de Primer Nivel.
+  </Card>
+</CardGrid>
+
+Más allá del elenco principal, personajes como **Sash**, **Stina** y **Muso** ofrecen roles especializados que son vitales para el contenido a nivel de gremio. Por ejemplo, a menudo se prefiere a **Stina** por su capacidad para gestionar nombres de gremio complejos y tareas administrativas dentro de la **Orden de la Flor de Cerezo (OCB)**, mientras que **Muso** proporciona la defensa pesada necesaria cuando las terminales de teletransporte no logran activarse.
+
+| Personaje | Clase de Arma | Rasgo Único | Nivel de Sinergia |
+| :--- | :--- | :--- | :--- |
+| **Kirito** | Espadas Dobles | Starburst Stream | ★★★★★ |
+| **Asuna** | Estoque | Linear Strike | ★★★★★ |
+| **Rio Psyche** | Soporte/Canto | Viral Inspiration | ★★★★☆ |
+| **Sash** | Espadón | Rompeescudos | ★★★★☆ |
+| **Stina** | Daga | Evasión Veloz | ★★★☆☆ |
+
+<Callout type="warning" title="Advertencia del Juego de la Muerte">
+En el **Modo Juego de la Muerte**, perder a un acompañante suele ser permanente. Prioriza la sinergia defensiva sobre el daño bruto para asegurar que tu equipo sobreviva en los pisos superiores.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cómo optimizar la progresión de tu acompañante">
+
+Desarrollar un poderoso **acompañante de Echoes of Aincrad** es un proceso de varios pasos que implica más que solo subir de nivel. Debes participar en sus historias personales, completar obstáculos de campo específicos y dominar la cadena de misiones del \"Espadachín de la Salvación\". La progresión se mide no solo en estadísticas, sino en la profundidad del vínculo representado por objetos como el **Broche Legendario**.
+
+<Steps>
+  <Step num="1" title="Iniciar el Vínculo">
+    Reúnete con el aliado que elijas en los santuarios iniciales. Para personajes originales como Rio Psyche, esto implica comprender su historia con la \"Orden de la Salvación\" y sus razones para quedarse en Aincrad.
+  </Step>
+  <Step num="2" title="Equipar el Broche">
+    El broche es un objeto central en el sistema de acompañantes. Equipar y mejorar este accesorio permite un enfriamiento de habilidades más rápido y desbloquea mejoras de equipo especializadas para la \"Orden de la Flor de Cerezo\".
+  </Step>
+  <Step num="3" title="Dominar Obstáculos de Campo">
+    Lleva a tu acompañante al campo para superar obstáculos. Esto genera \"Sinergia de Combate\", necesaria para desbloquea sus movimientos definitivos más poderosos y ataques combinados dobles.
+  </Step>
+  <Step num="4" title="Completar la Misión de Salvación">
+    La misión del **Espadachín de la Salvación** es la prueba definitiva para cualquier dúo. Terminar con éxito esta línea de misiones consolida el estatus de tu acompañante y desbloquea su último nivel de equipamiento.
+  </Step>
+</Steps>
+
+| Etapa de Progresión | Nivel de Vínculo Requerido | Recompensa Clave |
+| :--- | :--- | :--- |
+| **Conocido** | Nivel 1-10 | Ataques de Asistencia Básicos |
+| **Compañero de Batalla** | Nivel 11-30 | Desbloqueo de Habilidades Únicas |
+| **Miembro del Gremio** | Nivel 31-50 | Movimiento Definitivo de Sinergia |
+| **Vínculo de Alma** | Nivel 50+ | Equipo Legendario y Final |
+
+<Callout type="success" title="Consejo Pro">
+Si jugaste a la demo, asegúrate de transferir tus datos de guardado al juego completo. Esto te permite conservar el progreso temprano de vínculo con tu **acompañante de Echoes of Aincrad** favorito.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Objetivos diarios y listas de tareas del acompañante">
+
+Para mantenerte a la vanguardia en el meta de 2026, los jugadores deben seguir una rutina diaria estructurada con sus acompañantes. La constancia es clave para desbloquear los finales ocultos y asegurar que tu gremio, la **Orden de la Flor de Cerezo**, se mantenga en lo más alto de la clasificación.
+
+<Checklist
+  id="companion-daily"
+  title="Tareas Diarias del Acompañante:"
+  items={[
+    "Completa 3 obstáculos de campo con tu aliado principal",
+    "Regala un objeto único para aumentar la EXP de vínculo",
+    "Completa un santuario de alto nivel para probar la sinergia de combate",
+    "Avanza una etapa en la misión del Espadachín de la Salvación",
+    "Actualiza el estado de tu gremio en la Orden de la Flor de Cerezo"
+  ]}
+/>
+
+| Actividad | Tiempo Invertido | Recompensa de Sinergia |
+| :--- | :--- | :--- |
+| **Incursión en Santuario** | 15-20 Minutos | Alta EXP de Combate |
+| **Diálogo de Historia** | 5 Minutos | Alta EXP de Vínculo |
+| **Práctica contra Jefes** | 30 Minutos | Maestría de Habilidades |
+| **Reunión de Gremio** | 10 Minutos | Mejoras Compartidas |
+
+<Callout type="info" title="Nota de Historia">
+La **Orden de la Flor de Cerezo (OCB)** fue nombrada por Rio Psyche como un símbolo de esperanza y renacimiento. Participar en las actividades del gremio aumenta significativamente la moral y el rendimiento de todos los miembros.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Tácticas avanzadas para el Modo Juego de la Muerte">
+
+El **Modo Juego de la Muerte** en Echoes of Aincrad es el desafío definitivo para cualquier jugador. En este modo, cada batalla podría ser la última. Tu **acompañante de Echoes of Aincrad** sirve como tu defensa principal contra los \"terroríficos\" guardianes que bloquean el camino hacia las terminales de teletransporte.
+
+Al luchar contra jefes como **White Morrigan**, el posicionamiento lo es todo. Debes coordinar tus ataques de modo que mientras esquivas, tu acompañante te proporcione fuego de cobertura o atraiga la atención del enemigo. Las mecánicas cambian a medida que avanzas, lo que significa que una estrategia que funcionó en el Piso 10 podría llevar a la derrota total en el Piso 75.
+
+| Tipo de Guardián | Acompañante Recomendado | Estrategia Clave |
+| :--- | :--- | :--- |
+| **No muerto/Fantasma** | Rio Psyche | Usa mejoras vocales de elemento Luz |
+| **Armadura Pesada** | Sash | Concéntrate en el impacto de Espadón |
+| **Alta Velocidad** | Asuna | Iguala la velocidad con paradas de Estoque |
+| **Magia/Energía** | Kirito | Usa Espadas Dobles para una interrupción rápida |
+
+<Callout type="warning" title="Consejo Crítico">
+Nunca entres a un nuevo santuario sin revisar el equipamiento de tu acompañante. Un solo accesorio desactualizado puede ser la diferencia entre una victoria ajustada y la derrota total del grupo.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas frecuentes: Sistema de acompañantes de Echoes of Aincrad">
+
+<FAQ items={[
+  {
+    question: "¿Cómo desbloqueo a Rio Psyche como acompañante?",
+    answer: "Rio Psyche se desbloquea tras completar el evento de canto viral y las etapas iniciales de la misión del Espadachín de la Salvación. Debes encontrarla en el santuario de la flor de cerezo."
+  },
+  {
+    question: "¿Cuál es el mejor acompañante de Echoes of Aincrad para jugadores en solitario?",
+    answer: "Para jugadores en solitario, se recomienda a Kirito o Asuna debido a su alta autosuficiencia y daño. Sin embargo, Rio Psyche es esencial si necesitas curación constante y mejoras."
+  },
+  {
+    question: "¿Puedo cambiar el nombre de mi gremio de la Orden de la Flor de Cerezo?",
+    answer: "El nombre del gremio está ligado a la progresión narrativa de la historia de la OCB. Aunque puedes formar otros gremios, la Orden de la Flor de Cerezo es el enfoque principal de la historia de los acompañantes."
+  },
+  {
+    question: "¿Cómo transfiero los datos de guardado desde la demo de Echoes of Aincrad?",
+    answer: "Puedes transferir tus datos de guardado a través de la opción 'Transferir Guardado' en el menú principal. Esto asegura que todos los vínculos de acompañantes y objetos como el broche se transfieran al juego completo."
+  }
+]} />
+
+</Section>

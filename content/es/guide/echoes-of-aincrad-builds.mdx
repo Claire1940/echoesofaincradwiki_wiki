@@ -1,0 +1,188 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Builds de Echoes of Aincrad: Clasificación de Armas Meta y Equipamientos 2026",
+  description: "Domina las mejores builds de Echoes of Aincrad con nuestra guía completa sobre niveles de armas, modificadores ocultos y estrategias de artesanía para el juego temprano en 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Echoes+of+Aincrad+Builds",
+  date: "2026-07-10",
+  author: "Equipo de la Wiki de Echoes of Aincrad",
+  keywords: "builds de echoes of aincrad, meta de armas, guía de combate, artesanía de espada de bronce"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Palabra clave principal**: Lograr el DPS más alto en las **builds de Echoes of Aincrad** actualmente depende de modificadores específicos basados en el movimiento.
+- **Arma Meta**: La **Espada de Bronce** es la elección indiscutible de nivel S debido a su bonificación del 100% de poder de ataque en ataques con salto y carrera.
+- **Advertencia de error**: Evita la Hoja Recocida; su potenciador de acumulación no funciona actualmente y restablece el daño a los valores base.
+- **Consejo de progresión**: Salta el tutorial con un segundo personaje para recibir materiales iniciales superiores y acceso inmediato a la herrería.
+- **Enfoque de estadísticas**: Prioriza la Fuerza para Espadas de 1 mano y la Agilidad para Dagas, aunque la mayoría de los modificadores de daño plano están limitados a 99.
+</Callout>
+
+<Section icon={Swords} title="El Meta de la Espada de Bronce: Base de las Mejores Builds">
+
+Optimizar a tu personaje en Aincrad requiere más que solo equipo de alto nivel; entender las matemáticas subyacentes de las **builds de Echoes of Aincrad** es la diferencia entre sufrir en el Piso 1 y dominar el juego de la muerte. A pesar de su nombre, la Espada de Bronce supera a casi todas las armas de mitad de juego debido a una interacción única con los ataques de salto y carrera que esencialmente duplica tu producción de daño.
+
+**Puntos Destacados del Video:**
+- **Mecánicas de Doble Daño**: Explicación de cómo se activan los números de daño azul para un 100% de daño adicional.
+- **El Bloqueo de Aturdimiento**: Uso de ataques pesados con salto para agotar la estamina del jefe y forzar un estado de derribo.
+- **Armas con Errores**: Evidencia que muestra por qué la Hoja Recocida no acumula el daño correctamente.
+- **Artesanía Temprana**: Cómo saltar el tutorial para obtener cuero suave y oro para la fabricación inmediata.
+
+<YouTubeEmbed videoId="HxPs9PxmK8Q" title="Echoes of Aincrad: La MEJOR Arma del Juego y CÓMO Conseguirla Temprano" />
+
+El meta actual favorece los estilos de juego de alta movilidad. Debido a que la Espada de Bronce otorga daño adicional basado en tu poder de ataque total tanto a los ataques de salto como de carrera, los jugadores pueden evitar eficazmente la duración estándar del combo de ataque. Esto es crítico para las peleas contra jefes donde las ventanas de oportunidad son cortas. Un ataque pesado en carrera con una espada de una mano actúa como un doble impacto, cuadruplicando efectivamente tu daño potencial en un solo movimiento.
+
+| Tipo de Ataque | Multiplicador Espada de Bronce | Multiplicador Arma Estándar | Efecto |
+| :--- | :--- | :--- | :--- |
+| **Giro Normal** | 1.0x | 1.0x | DPS Estándar |
+| **Pesado con Salto** | 2.0x | 1.0x | Gran Aturdimiento, Doble Daño |
+| **Pesado en Carrera** | 4.0x (Doble Impacto) | 1.0x | DPS de Ráfaga, Alta Movilidad |
+| **Habilidad de Espada** | 1.2x | 1.2x | Alto Coste de SP |
+
+<Callout type="tip" title="Consejo Pro">
+Enfoca tu rotación de combate en ataques pesados con salto. No solo activan el modificador de daño de la Espada de Bronce, sino que también aumentan la velocidad a la que derribas a los jefes, dejándolos vulnerables a tu combo completo.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Lista de Niveles de Armas y Escalamiento de Estadísticas">
+
+Seleccionar el tipo de arma adecuado es el primer paso para crear **builds de Echoes of Aincrad** efectivas. Mientras que las Espadas de 1 mano dominan actualmente el meta, otras armas ofrecen beneficios específicos para estilos de juego particulares, como la gestión de estamina del Estoque o la velocidad de ataque de la Daga. Sin embargo, muchas armas sufren del síndrome de "Plano 10", donde sus modificadores únicos solo proporcionan un aumento de daño plano de 10 en lugar de un escalamiento basado en porcentajes.
+
+<CardGrid cols={3}>
+  <Card title="Nivel S: Espadas de 1H">
+    - **Mejor Arma**: Espada de Bronce
+    - **Mod Clave**: Daño por Salto/Carrera
+    - **Rol**: Alto DPS / Aturdimiento de Jefe
+  </Card>
+  <Card title="Nivel A: Estoques">
+    - **Mejor Arma**: Estoque de Acero
+    - **Mod Clave**: Recuperación de Estamina
+    - **Rol**: Combos infinitos / Modo Difícil
+  </Card>
+  <Card title="Nivel C: Hachas de 2H">
+    - **Mejor Arma**: Hacha de Bronce
+    - **Mod Clave**: Aumento de tasa de derribo
+    - **Rol**: Lento, bajo escalamiento de DPS
+  </Card>
+</CardGrid>
+
+La siguiente tabla desglosa el rendimiento actual de las categorías de armas basándose en sus modificadores internos y potencial de escalamiento.
+
+| Categoría de Arma | Recomendación Principal | Estadística de Escalamiento | Utilidad de la Build |
+| :--- | :--- | :--- | :--- |
+| **Espada de 1H** | Espada de Bronce | Fuerza (B) | DPS y Aturdimiento de nivel Dios |
+| **Estoque** | Estoque de Acero | Agilidad (A) | Estamina infinita para peleas largas |
+| **Daga** | Diente de Hierro | Agilidad (S) | Alta velocidad, pocos cuadros de guardia |
+| **Maza/Hacha** | Hacha de Bronce | Fuerza (B) | Tasas de derribo decepcionantes |
+| **Espada de 2H** | Mandoble de Acero | Fuerza (A) | Animaciones lentas, malos modificadores |
+
+<Callout type="warning" title="Evita Estas Armas">
+La Hoja Recocida y la mayoría de las dagas de nivel "Acero" están rindiendo por debajo de lo esperado. El potenciador de la Hoja Recocida se reinicia al segundo golpe, y el escalamiento de agilidad del Cuchillo de Acero está limitado a un daño plano de 99, lo que las hace inútiles en escenarios de juego tardío.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Progresión del Juego Temprano: Creando tu Build Inicial">
+
+Para sacar el máximo provecho de tus **builds de Echoes of Aincrad** desde el principio, debes optimizar tu recolección inicial de recursos. La ruta estándar del tutorial es en realidad menos eficiente que saltársela. Al saltar el tutorial con tu segundo personaje, el juego proporciona un paquete de botín preestablecido que incluye suficiente Cuero Suave y moneda para fabricar la Espada de Bronce inmediatamente al llegar a la primera ciudad.
+
+<Steps>
+  <Step num="1" title="Creación Inicial de Personaje">
+    Completa el tutorial una vez para desbloquear la función de salto. Este es un requisito único para marcar tu cuenta con el estado de "Veterano".
+  </Step>
+  <Step num="2" title="La Estrategia de Salto">
+    Crea un nuevo avatar y selecciona "Saltar Tutorial". Aparecerás en el Pueblo de los Inicios con un inventario inicial superior en comparación con el saqueo manual.
+  </Step>
+  <Step num="3" title="Visita la Herrería">
+    Dirígete al herrero local. Usa tu Cuero Suave inicial y oro para fabricar la Espada de Bronce. No dependas de los botines aleatorios de los enemigos.
+  </Step>
+  <Step num="4" title="Prioridad de Mejora">
+    Enfoca todos tus materiales de mejora tempranos en la Espada de Bronce. Sus modificadores basados en porcentajes aseguran que siga siendo viable hasta el final del segundo piso.
+  </Step>
+</Steps>
+
+| Recurso | Ruta del Tutorial | Ruta de Salto | Diferencia |
+| :--- | :--- | :--- | :--- |
+| **Cuero Suave** | 0-2 (Aleatorio) | 5 (Garantizado) | Listo para Fabricar |
+| **Oro Inicial** | ~200 | 1000 | Alta |
+| **Tiempo a la Ciudad** | 15 Minutos | 1 Minuto | Eficiente |
+
+<Callout type="success" title="Fabricación vs Botín">
+Fabrica siempre tus armas principales. El equipo fabricado tiene una mayor probabilidad de obtener "X-Mods" superiores a medida que aumenta el nivel de tu personaje, proporcionando un mejor crecimiento de estadísticas que los botines estándar del mundo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mecánicas de Combate y Optimización de Defensa">
+
+Si bien el daño es el rey en las **builds de Echoes of Aincrad**, la supervivencia en dificultades más altas como el Modo Juego de la Muerte requiere comprender los cuadros defensivos. El juego utiliza un sistema preciso de esquiva y parry. Para los jugadores que tienen dificultades con el tiempo, la Flor de Lis de Viento (Estoque) ofrece una ligera ventaja al aumentar la ventana de invencibilidad durante las esquivas en aproximadamente 3 a 5 cuadros a 60 FPS.
+
+**Tácticas Defensivas Clave:**
+- **Cancelación de Animación**: Usa tu escudo para cancelar los cuadros de recuperación de los ataques normales, permitiendo golpes posteriores más rápidos.
+- **Gestión de SP**: El SP se restaura al realizar parries con éxito o al infligir daño. Evita las armas que solo ofrecen restauración de "SP Plano", ya que son redundantes.
+- **Gestión de Estamina**: Los estoques son las únicas armas que permiten bucles de estamina infinita. Para todas las demás builds, debes retroceder una vez que la barra de estamina se agote.
+
+| Tipo de Defensa | Ventana de Cuadros | Beneficio | Riesgo |
+| :--- | :--- | :--- | :--- |
+| **Esquiva Perfecta** | ~6-10 Cuadros | Ralentiza el tiempo/Golpe gratis | Alta demanda de precisión |
+| **Parry** | ~8-12 Cuadros | Ganancia masiva de SP | Requiere Escudo |
+| **Bloqueo Estándar** | Continuo | Reduce el daño | Agota la Estamina |
+
+<Callout type="info" title="Efecto de Estado Miedo">
+Ten cuidado con los enemigos que infligen "Miedo". Este estado te impide atacar, aunque aún puedes esquivar. La mayoría de las armas que ofrecen "Resistencia al Miedo" son actualmente ineficaces; es mejor esquivar el grito inicial que induce miedo que confiar en la resistencia del equipo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación para Completar la Build">
+
+Antes de dirigirte a la sala del jefe del Piso 1, asegúrate de que tu build cumpla con estos criterios específicos para maximizar tus posibilidades de supervivencia y eficiencia.
+
+<Checklist
+  id="build-check"
+  title="Verificación Final de la Build:"
+  items={[
+    "Espada de Bronce fabricada y mejorada al menos a +3",
+    "Estadística primaria de Fuerza o Agilidad alcanzando 50+",
+    "Escudo equipado para la cancelación de animaciones",
+    "Al menos tres Habilidades de Espada equipadas para ventanas de ráfaga",
+    "Reserva de Cuero Suave mantenida para reparaciones a mitad de piso"
+  ]}
+/>
+
+<Callout type="tip" title="Cambio de Arma">
+Mantén un Estoque de Acero en tu ranura secundaria. Si un jefe tiene una barra de salud masiva y te quedas sin estamina, cambiar al Estoque te permite mantener la presión mientras tu barra de estamina principal se recupera.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuáles son las mejores builds de Echoes of Aincrad para jugadores en solitario?",
+    answer: "El meta actual para solitario es la build de Espada de Bronce de 1H. Proporciona el mejor equilibrio entre potencial de aturdimiento y daño, permitiendo a los jugadores en solitario bloquear a los jefes y evitar recibir daño por completo."
+  },
+  {
+    question: "¿Es la Hoja Recocida mejor que la Espada de Bronce?",
+    answer: "No. La Hoja Recocida tiene errores actualmente. Sus acumulaciones de daño se reinician prematuramente, lo que a menudo resulta en un DPS más bajo que una espada estándar sin mejorar. Quédate con la Espada de Bronce por sus modificadores de ataque con salto."
+  },
+  {
+    question: "¿Cómo obtengo materiales de artesanía para la Espada de Bronce temprano?",
+    answer: "La forma más eficiente es saltar el tutorial con un nuevo personaje. Esto te otorga un conjunto fijo de materiales, incluyendo el Cuero Suave necesario para fabricar la espada de inmediato."
+  },
+  {
+    question: "¿Afecta la Agilidad a mi velocidad de movimiento en estas builds?",
+    answer: "La Agilidad afecta principalmente a tu tasa de críticos y al escalamiento de daño de armas específicas. La velocidad de movimiento es mayormente fija, aunque algunas dagas ofrecen un aumento insignificante del 5% en la velocidad de carrera después de usar una habilidad."
+  }
+]} />
+
+</Section>
