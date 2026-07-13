@@ -1,0 +1,182 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Misiones de la Demo de Echoes of Aincrad: Guía Completa y Combate",
+  description: "Domina las misiones de la demo de Echoes of Aincrad con nuestra guía completa sobre armas, Rangos Cardinales y estrategias de mazmorras para el lanzamiento de la beta en 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Demo+Quest+Mastery",
+  date: "2026-07-13",
+  author: "Equipo de la Wiki de Echoes of Aincrad",
+  keywords: "misiones, demo, guía, combate, rango cardinal, armas"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Las misiones de la demo de Echoes of Aincrad** se centran en una incursión en una mazmorra de alta dificultad con enemigos tipo araña y encuentros con jefes en equipo.
+- **La Maestría de Armas** es la mecánica central de progresión; no hay clases de magia, por lo que tu rol se define por las armas que equipes.
+- **El Rango Cardinal** escala todo el mundo, influyendo en la dificultad de los monstruos, el inventario de las tiendas y la fuerza de la IA de tus compañeros.
+- **Las Tácticas de Compañeros** como el Modo Switch y el Modo Libre son esenciales para sobrevivir en los segmentos finales del laberinto inexplorado.
+- **Los Puntos de Crecimiento** deben asignarse en la Posada para mejorar estadísticas como Fuerza, Agilidad y Vitalidad según el arma elegida.
+</Callout>
+
+<Section icon={Map} title="Navegando por las misiones de la demo de Echoes of Aincrad">
+
+Las **misiones de la demo de Echoes of Aincrad** sumergen a los jugadores en un entorno beta de alto riesgo donde la supervivencia es el objetivo principal. A medida que te adentras en la mazmorra inexplorada, descubrirás que el laberinto está infestado de varios tipos de monstruos, especialmente arañas de alto nivel que requieren una sincronización precisa para ser derrotadas. La demo enfatiza la transición del juego en solitario a los esfuerzos coordinados en equipo, culminando en una incursión final que pone a prueba tu dominio de las mecánicas principales del juego.
+
+**Puntos destacados del video:**
+- Demostración de la incursión en la mazmorra "Última Misión" en PS5.
+- Estrategias efectivas para eliminar grupos de arañas y saquear cofres del tesoro ocultos.
+- Técnicas de coordinación con los compañeros de IA Wolf y Cal durante encuentros de alta dificultad.
+- Navegación por zonas seguras y preparación para la transición a la sala del jefe final.
+
+<YouTubeEmbed videoId="A8gLYnR8utY" title="Echoes of Aincrad DEMO (PS5) - Beta Test - Last Quest" />
+
+Para tener éxito en estas misiones, debes priorizar la exploración. Descubrir puntos de control revela lugares de interés en tu mapa, como tesoros ocultos y atajos sellados. Estos atajos a menudo están bloqueados tras Arcas, que requieren derrotar a mini-jefes específicos para proceder. Mantente siempre atento a los botines raros, ya que la demo recompensa la exploración exhaustiva con materiales necesarios para la artesanía de alto nivel en la Herrería.
+
+<Callout type="tip" title="Consejo de Exploración">
+Antes de entrar en la sala del jefe final, utiliza siempre las Zonas Seguras designadas. Estas ubicaciones permiten que tu grupo recupere SP y salud, asegurando que estés en tu máximo rendimiento para el encuentro final de la demo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Clases de Armas y Habilidades de Espada">
+
+En el mundo de Aincrad, tu identidad se define por tu acero. La demo presenta seis tipos de armas distintos, cada uno con un estilo de juego único y un conjunto de **Habilidades de Espada** desbloqueables. A diferencia de los RPG tradicionales, no seleccionas una clase al crear el personaje; en su lugar, ganas EXP de Arma al derrotar enemigos con armas específicas. Puedes equipar hasta tres Habilidades de Espada en cualquier momento, lo que permite una personalización significativa en tu enfoque del combate.
+
+| Tipo de Arma | Estilo de Combate | Opción Defensiva | Beneficio Principal |
+| :--- | :--- | :--- | :--- |
+| **Espada y Escudo** | Equilibrado | Bloqueo con Escudo | Versátil para principiantes / juego en solitario |
+| **Hacha de Dos Manos** | Agresivo | Ninguna | Alto daño de área / Control de masas |
+| **Daga** | Rápido/Ágil | Lanzamiento a Distancia | Golpes rápidos y alta movilidad |
+| **Estoque** | Elegante | Compatible con Escudo | Excelente para ataques en cadena / contraataques |
+| **Espada de Dos Manos** | Golpe Pesado | Rodar para Esquivar | Gran producción de daño cargado |
+| **Maza** | Impacto | Compatible con Escudo | Gran aturdimiento / Ruptura de defensas |
+
+Dominar estas armas requiere comprender su consumo de estamina (SP). Cada acción, desde ataques ligeros hasta paradas, consume tu SP. Gestionar este recurso marca la diferencia entre una misión exitosa y una salida prematura de la mazmorra. Cuando llegues al Pueblo de los Inicios, visita la Herrería para mejorar los parámetros de tu arma, lo cual es independiente de tu nivel de maestría.
+
+<Callout type="info" title="Gestión de Armas">
+Solo puedes cambiar tu arma equipada mientras estés en la Posada del Pueblo de los Inicios. Asegúrate de tener el equipo correcto antes de embarcarte en una nueva misión, ya que estarás bloqueado en esa elección hasta que la misión termine.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Progresión del Personaje y Rango Cardinal">
+
+La progresión en las **misiones de la demo de Echoes of Aincrad** sigue una vía doble a través del nivel tradicional y el sistema único de Rango Cardinal. Mientras que los niveles de personaje otorgan Puntos de Crecimiento para la asignación de estadísticas, tu Rango Cardinal sirve como un indicador global de tu maestría. Este rango dicta la calidad de los objetos disponibles en los mercaderes y la dificultad de los monstruos que encuentras en el campo abierto.
+
+<Steps>
+  <Step num="1" title="Gana Puntos de Crecimiento">
+    Derrota monstruos en la mazmorra para aumentar tu nivel de personaje y recibir Puntos de Crecimiento.
+  </Step>
+  <Step num="2" title="Asigna Estadísticas en la Posada">
+    Regresa a tu habitación en la Posada para gastar puntos en Fuerza, Destreza, Agilidad, Inteligencia, Vitalidad, Resistencia o Mente.
+  </Step>
+  <Step num="3" title="Aumenta el Rango Cardinal">
+    Completa objetivos de la Misión Principal o descubre nuevos pueblos para subir tu rango, desbloqueando mejores recetas en la Herrería y objetos en las tiendas.
+  </Step>
+  <Step num="4" title="Mejora en la Herrería">
+    Usa materiales recolectados durante las misiones para subir el nivel de los parámetros de las armas y combinar EX-Mods para un mejor rendimiento.
+  </Step>
+</Steps>
+
+| Nombre de Estadística | Efecto Principal | Recomendado Para |
+| :--- | :--- | :--- |
+| **Fuerza** | Aumenta el daño físico bruto | Espadas de Dos Manos / Hachas |
+| **Agilidad** | Mejora la velocidad de ataque y evasión | Dagas / Estoques |
+| **Destreza** | Mejora la tasa de crítico y precisión | Estoques / Arcos (Futuro) |
+| **Vitalidad** | Aumenta los Puntos de Vida (PV) máximos | Todas las builds (Enfoque de Tanque) |
+| **Resistencia** | Aumenta los Puntos de Estamina (SP) máximos | Usuarios de armas pesadas |
+
+<Callout type="warning" title="Dificultad Escalonada">
+A medida que tu Rango Cardinal aumenta, los monstruos se volverán significativamente más fuertes. Si no mejoras tus armas en la Herrería regularmente, podrías encontrarte en desventaja incluso si tu nivel de personaje es alto.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Tácticas de Combate y Sinergia con Compañeros">
+
+La supervivencia en las misiones finales de la demo es casi imposible sin aprovechar a tus compañeros. Cada aliado de IA aporta un estilo de lucha específico y "Habilidades Combinadas" que pueden activarse a través de la rueda de acciones. Entender cómo comandar a tus compañeros es vital para gestionar grandes grupos de enemigos o concentrarse en un solo jefe de gran amenaza.
+
+<CardGrid cols={2}>
+  <Card title="Modo Switch">
+    - **Enfoque**: Distracción defensiva.
+    - **Efecto**: Tu compañero atrae la atención (aggro) del enemigo.
+    - **Mejor uso**: Cuando necesitas espacio para cargar un ataque pesado o curarte.
+  </Card>
+  <Card title="Modo Libre">
+    - **Enfoque**: Coordinación ofensiva.
+    - **Efecto**: Los compañeros atacan de forma independiente o se centran en tu objetivo.
+    - **Mejor uso**: Eliminar eficientemente grandes grupos de enemigos de bajo nivel.
+  </Card>
+</CardGrid>
+
+El combate es una danza de gestión de SP. Debes aprender el alcance y los patrones de habilidad de cada nuevo enemigo. Por ejemplo, los enemigos tipo araña en la demo a menudo usan ataques sorpresa desde el techo. Usar una Maza para aturdirlos o una Daga para golpearlos a distancia son estrategias viables, siempre que coordines con las maniobras de "Switch" de tu equipo.
+
+<Callout type="success" title="Habilidades Combinadas">
+Asigna las Habilidades Combinadas de tu compañero a tu rueda de acceso rápido. Estos movimientos infligen un daño masivo y a menudo pueden interrumpir los ataques definitivos del enemigo, proporcionando una ventana crucial para una contraofensiva.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación de la Demo">
+
+Para experimentar plenamente todo lo que las **misiones de la demo de Echoes of Aincrad** tienen para ofrecer antes del lanzamiento oficial el 10 de julio de 2026, intenta completar los siguientes objetivos. Superar la mazmorra es solo el comienzo; dominar los sistemas de artesanía y sociales te dará una ventaja significativa en la versión completa.
+
+<Checklist
+  id="demo-achievements"
+  title="Objetivos Esenciales de la Demo:"
+  items={[
+    "Completar la incursión en la mazmorra 'Última Misión' con Cal y Wolf",
+    "Alcanzar el Rango Cardinal 5 para desbloquear recetas avanzadas de la Herrería",
+    "Desbloquear al menos tres Habilidades de Espada para tu arma principal",
+    "Realizar con éxito 10 maniobras de 'Switch' en una sola pelea contra un jefe",
+    "Fabricar una poción de curación de alto grado usando materiales recolectados",
+    "Descubrir todos los cofres del tesoro ocultos en el laberinto inexplorado"
+  ]}
+/>
+
+| Objetivo | Tipo de Recompensa | Importancia |
+| :--- | :--- | :--- |
+| **Mazmorra Completada** | Progresión de la Historia | Obligatorio |
+| **Rango Cardinal Máximo** | Acceso a Equipo | Alto |
+| **Caza de Tesoros** | Materiales Raros | Medio |
+| **Maestría de Habilidades** | Eficiencia en Combate | Alto |
+
+<Callout type="tip" title="Recompensa Final">
+Completar la mazmorra de la demo a menudo otorga un botín raro que podría transferirse o proporcionar un bono cosmético en la versión completa de Echoes of Aincrad. ¡No olvides revisar tu inventario después de la escena final!
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes de Echoes of Aincrad">
+
+<FAQ items={[
+  {
+    question: "¿Cómo desbloqueo nuevas Habilidades de Espada en la demo?",
+    answer: "Las Habilidades de Espada se desbloquean ganando Maestría de Armas. Simplemente usa tu tipo de arma elegida en combate para ganar EXP. Una vez que alcances hitos específicos de maestría, aparecerán nuevas habilidades en tu menú."
+  },
+  {
+    question: "¿Cuál es la mejor arma para las misiones de la demo de Echoes of Aincrad?",
+    answer: "Para los principiantes, la Espada y Escudo ofrece el mejor equilibrio entre seguridad y daño. Sin embargo, el Estoque es muy efectivo para los jugadores que disfrutan de un combate técnico y rápido basado en paradas."
+  },
+  {
+    question: "¿Puedo jugar las misiones de la demo en solitario?",
+    answer: "Aunque técnicamente puedes explorar solo, la demo está diseñada en torno a mecánicas de grupo. Los personajes compañeros como Cal y Yori brindan apoyo esencial y son necesarios para la incursión final en la mazmorra."
+  },
+  {
+    question: "¿Cómo afecta el Rango Cardinal a la jugabilidad?",
+    answer: "El Rango Cardinal actúa como una mecánica de escalado del mundo. Un rango más alto significa enemigos más difíciles, pero también mejores botines y acceso a equipo superior en la Herrería del Pueblo de los Inicios."
+  }
+]} />
+
+<Callout type="info" title="Recordatorio de Lanzamiento">
+El lanzamiento oficial de Echoes of Aincrad está programado para el 10 de julio de 2026 en PlayStation 5, Xbox Series S|X y PC. ¡Asegúrate de que tu progreso en la demo esté guardado para desbloquear potencialmente recompensas anticipadas!
+</Callout>
+
+</Section>
